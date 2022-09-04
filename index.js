@@ -105,6 +105,33 @@ function sendConfirmationMail(email, confirmToken, url) {
     );
 }
 
+function sendForgotMail(email, forgotToken, url) {
+    transporter.sendMail(
+        {
+            from: "support@qcmed.fr",
+            to: email,
+            subject: 'Mot de passe oublié',
+            text: `
+            Tu as oublié ton mot de passe malheureusement :(
+                Réinitialise le en allant
+                ${url}/forgot?email=${email}&forgot=${forgotToken}
+            `,
+            html: `
+            Tu as oublié ton mot de passe malheureusement :(
+            Réinitialise le en allant
+            <a href="${url}/forgot?email=${email}&forgot=${forgotToken}">ICI</a>
+            `
+        },
+        (err, info) => {
+            if (info !== null) {
+                console.log('sent forgot mail')
+            } else {
+                console.log('error sending forgot mail')
+            }
+        }
+    );
+}
+
 app.post('/api/contact', async (req, res) => {
     const email = req.body.email
     const object = req.body.object
@@ -143,6 +170,38 @@ app.post('/api/confirm', async (req, res) => {
                     res.send(false)
                 }
             })
+        } else {
+            res.send(false)
+        }
+    })
+})
+
+app.post('/api/forgot', async (req, res) => {
+    const email = req.body.email
+    const url = req.body.url
+    const forgot = req.body.forgot
+    const password = req.body.password
+
+    const sqlSelect = 'SELECT * FROM user_info WHERE email = (?)'
+    db.query(sqlSelect, [email], (err, result) => {
+        if (result.length > 0) {
+            if (forgot === undefined) {
+                const forgotToken = getRandomToken()
+                const sqlUpdate = 'UPDATE user_info SET forgot = (?) WHERE email = (?)'
+                db.query(sqlUpdate, [forgotToken, email], (err, result) => {
+                    sendForgotMail(email, forgotToken, url)
+                    res.send(true)
+                })
+            } else {
+                if (result[0].forgot === forgot && result[0].forgot != null) {
+                    const sqlUpdate = 'UPDATE user_info SET forgot = (?), password = (?) WHERE email = (?)'
+                    db.query(sqlUpdate, [null, hashPassword(password), email], (err, result) => {
+                        res.send(true)
+                    })
+                } else {
+                    res.send(false)
+                }
+            }
         } else {
             res.send(false)
         }

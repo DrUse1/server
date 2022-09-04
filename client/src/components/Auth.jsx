@@ -4,8 +4,11 @@ import * as utils from '../utils'
 import { staticConst, global, setGlobal, resetGlobal, showWarning, loading, setLoading } from '../globalInfo'
 
 import styles from '../styles/auth.module.scss'
+import { useNavigate } from "@solidjs/router"
 
 export default function Auth() {
+    const navigate = useNavigate()
+
     const [userForm, setUserForm] = createSignal({
         email: '',
         password: '',
@@ -210,7 +213,7 @@ export default function Auth() {
                                 </div>
                             </div>
                         </div>
-                        <a href="#" onClick={(e) => { e.preventDefault(); }}>Mot de passe oublié ?</a>
+                        <a href="#" onClick={(e) => { e.preventDefault(); navigate('/forgot')}}>Mot de passe oublié ?</a>
                     </span>
                     <div className={styles.authSubmit}>
                         <button type="submit">

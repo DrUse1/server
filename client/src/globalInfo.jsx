@@ -189,7 +189,8 @@ export default function SetupGlobal() {
                 }
             } else {
                 setGlobal('logged', false)
-                if (window.location.pathname !== '/auth') {
+                const toReload = ['/auth','/confirm','/forgot']
+                if (!toReload.includes(window.location.pathname)) {
                     window.location.replace('/auth')
                 }
             }

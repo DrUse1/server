@@ -19,6 +19,7 @@ import Success from './components/Success';
 import Contact from './components/Contact';
 import { WarningPopup } from './components/elements';
 import Confirm from './components/Confirm';
+import Forgot from './components/Forgot';
 
 function Index() {
   return (
