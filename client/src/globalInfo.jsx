@@ -38,7 +38,8 @@ export const [userInfo, setUserInfo] = createStore({
     cusId: '',
     subId: '',
     cancelWhenEnd: '',
-    history: ''
+    history: '',
+    token: ''
 })
 
 export const [subjects, setSubjects] = createStore(setupSubjects())
@@ -88,7 +89,7 @@ function setupSubjects() {
                 }
             }
         })
-        if(JSON.stringify(localSubs) !== JSON.stringify(dataSubs)){
+        if (JSON.stringify(localSubs) !== JSON.stringify(dataSubs)) {
             subjects = {}
             data.forEach(item => {
                 const matiere = item.matiere
@@ -189,7 +190,7 @@ export default function SetupGlobal() {
                 }
             } else {
                 setGlobal('logged', false)
-                const toReload = ['/auth','/confirm','/forgot']
+                const toReload = ['/auth', '/confirm', '/forgot']
                 if (!toReload.includes(window.location.pathname)) {
                     window.location.replace('/auth')
                 }

@@ -106,7 +106,7 @@ export default function Auth() {
                             }
                         })
                         if (loginWhenRegister()) {
-                            localStorage.setItem(staticConst.LOCAL_SESSION_KEY, token)
+                            localStorage.setItem(staticConst.LOCAL_SESSION_KEY, JSON.stringify(token))
                         }
                     } else {
                         showWarning('Un compte utilise déjà ce mail')
@@ -328,7 +328,7 @@ export default function Auth() {
                             </div>
                         }</For>
                     </div>
-                    <span className={styles.authItem}>
+                    <span className={styles.authItem} style={{'flex-direction':'row', 'gap':'8px'}}>
                         <input
                             type="checkbox"
                             checked={loginWhenRegister()}

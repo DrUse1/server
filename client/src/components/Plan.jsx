@@ -14,10 +14,17 @@ function handleClick(plan) {
     Axios.post(staticConst.url + "/create-checkout-session", {
         lookup_key: plan,
         email: userInfo.email,
-        url: window.location.origin
+        url: window.location.origin,
+        token: userInfo.token
     }).then((res) => {
-        window.location.replace(res.data)
         setLoading(a => a - 1)
+        if (res.data === 'confirm') {
+            showWarning('Tu dois confirmer ton mail si tu veux prendre ce plan. Tu viens de recevoir un mail de confirmation !')
+        } else if (res.data === false) {
+            window.location.reload()
+        } else {
+            window.location.replace(res.data)
+        }
     })
 }
 

@@ -246,7 +246,8 @@ app.get('/api/check', async (req, res) => {
             phone: data.phone,
             numPlays: data.numPlays,
             plan: data.plan,
-            history: data.history === null ? [] : JSON.parse(data.history)
+            history: data.history === null ? [] : JSON.parse(data.history),
+            token: token
         }
         res.send(info)
     } else {
@@ -556,27 +557,40 @@ app.post('/api/verify_plan', async (req, res) => {
 })
 
 app.post('/create-checkout-session', async (req, res) => {
-    const email = req.body.email
+    const token = req.body.token
     const url = req.body.url
-    const prices = await stripe.prices.list({
-        lookup_keys: [req.body.lookup_key],
-        expand: ['data.product'],
-    });
-    const session = await stripe.checkout.sessions.create({
-        billing_address_collection: 'auto',
-        customer_email: email,
-        line_items: [
-            {
-                price: prices.data[0].id,
-                quantity: 1,
-            },
-        ],
-        mode: 'subscription',
-        success_url: `${url}/success?success=true`,
-        cancel_url: `${url}/success?success=false`,
-    });
-    res.send(session.url)
-});
+
+    const data = await checkToken(token)
+    if (data !== false) {
+        if (data.confirm === 'confirmed') {
+            const prices = await stripe.prices.list({
+                lookup_keys: [req.body.lookup_key],
+                expand: ['data.product'],
+            });
+            const session = await stripe.checkout.sessions.create({
+                billing_address_collection: 'auto',
+                customer_email: data.email,
+                line_items: [
+                    {
+                        price: prices.data[0].id,
+                        quantity: 1,
+                    },
+                ],
+                mode: 'subscription',
+                success_url: `${url}/success?success=true`,
+                cancel_url: `${url}/success?success=false`,
+            });
+            res.send(session.url)
+        } else {
+            const confirm = getRandomToken()
+            sendConfirmationMail(data.email, confirm, req.body.url)
+            const sqlUpdate = 'UPDATE user_info SET confirm = (?) where token = (?)'
+            db.query(sqlUpdate, [confirm, token], (err, result) => {
+                res.send('confirm')
+            })
+        }
+    }
+})
 
 app.use(express.static(path.join(__dirname, 'client/dist')))
 
