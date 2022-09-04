@@ -149,20 +149,9 @@ app.post('/api/confirm', async (req, res) => {
     })
 })
 
-console.log(process.env.DB_PASSWORD)
-
 app.get('/api/get', (req, res) => {
     const sqlSelect = 'SELECT * FROM user_info'
     db.query(sqlSelect, (err, result) => {
-        result = {
-            host: process.env.DB_HOST,
-            user: process.env.DB_USER,
-            password: process.env.DB_PASSWORD,
-            /*host: 'localhost',
-            user: 'root',
-            password: 'password',*/
-            database: process.env.DB_NAME
-        }
         res.send(result)
     })
 })
