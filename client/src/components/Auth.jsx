@@ -51,7 +51,6 @@ export default function Auth() {
 
     function printDDB() {
         setLoading(a => a + 1)
-        console.log(staticConst.url + '/api/get')
         Axios.get(staticConst.url + '/api/get').then((res) => {
             console.log(res.data)
             setLoading(a => a - 1)
