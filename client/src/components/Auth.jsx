@@ -210,16 +210,12 @@ export default function Auth() {
                                 </div>
                             </div>
                         </div>
+                        <a href="#" onClick={(e) => { e.preventDefault(); }}>Mot de passe oublié ?</a>
                     </span>
                     <div className={styles.authSubmit}>
                         <button type="submit">
                             <div className={styles.authSubmitSpan}>
                                 <span>Je me connecte</span>
-                                <div className={styles.loader} style={{ display: (loading() > 0 ? 'block' : 'none'), width: '30px', height: '30px' }}>
-                                    <svg className={'circular-loader'} viewBox="25 25 50 50" >
-                                        <circle className={'loader-path'} style={{ stroke: 'var(--color-light-grey)' }} cx="50" cy="50" r="20" fill="none" stroke="#70c542" stroke-width="4" />
-                                    </svg>
-                                </div>
                             </div>
                         </button>
                     </div>
@@ -358,8 +354,8 @@ export default function Auth() {
 
     return (
         <>
-            <div className={styles.authPage}>
-                <div className={styles.authWrapper}>
+            <div className={styles.authPage} >
+                <div className={styles.authWrapper} style={{ transition: '.2s ease-in-out', filter: (loading() > 0 ? staticConst.blur : '') }}>
                     <Show when={global.state === 'register'} fallback={
                         <DisplayLogin />
                     }>

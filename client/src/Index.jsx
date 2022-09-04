@@ -25,7 +25,7 @@ function Index() {
     <>
       <div className={"overlay"} id="overlay"></div>
       <WarningPopup />
-      <Show when={loading() > 0 && window.location.pathname !== '/auth'}>
+      <Show when={loading() > 0}>
         <div style={{
           'z-index': '1000',
           display: 'flex',
@@ -45,6 +45,7 @@ function Index() {
       <Routes>
         <Route path="/auth" element={<Auth />} />
         <Route path="/confirm" element={<Confirm />} />
+        <Route path="/forgot" element={<Forgot />} />
         <Show when={global.logged}>
           <Route path="/" element={<Main />} />
           <Route path="plan" element={<Plan />} />

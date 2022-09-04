@@ -48,8 +48,6 @@ app.use(cors())
 app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.use(express.static(path.join(__dirname, "dist")))
-
 function getRandomInt(n) {
     return Math.floor(Math.random() * n)
 }
@@ -521,8 +519,10 @@ app.post('/create-checkout-session', async (req, res) => {
     res.send(session.url)
 });
 
+app.use(express.static(path.join(__dirname, "client/dist")))
+
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname + '/dist/index.html'));
+    res.sendFile(path.join(__dirname + '/client/dist/index.html'));
 });
 
 app.listen(8080, () => {

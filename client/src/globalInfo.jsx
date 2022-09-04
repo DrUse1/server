@@ -1,7 +1,7 @@
 import Axios from "axios";
 import { createStore } from "solid-js/store";
 
-import { createSignal } from "solid-js";
+import { createEffect, createSignal } from "solid-js";
 import data from './data/data.json';
 
 export const staticConst = {
