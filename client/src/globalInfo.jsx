@@ -8,7 +8,7 @@ export const staticConst = {
     LOCAL_SUBJECT_KEY: "subjects",
     LOCAL_HISTORY_KEY: "history",
     LOCAL_SESSION_KEY: "session",
-    url: window.location.origin.includes('localhost') || window.location.origin.includes('127.0.0.1') ? 'http://localhost:8080' : '',
+    url: window.location.origin.includes('localhost') || window.location.origin.includes('127.0.0.1') ? 'http://localhost:8080' : window.location.origin,
     blur: 'blur(4px)'
 }
 
