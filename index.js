@@ -1,4 +1,4 @@
-require('dotenv').config() //testee
+require('dotenv').config()
 const stripe = require('stripe')(process.env.STRIPE_KEY);
 const express = require('express')
 const bodyParser = require('body-parser')
@@ -114,8 +114,8 @@ app.post('/api/contact', async (req, res) => {
 
     transporter.sendMail(
         {
-            from: "support@qcmed.fr",
-            to: email + ", support@qcmed.fr",
+            from: process.env.MAIL_USER,
+            to: email + ", " + process.env.MAIL_USER,
             subject: object,
             text: msg,
             html: `${msg}`
@@ -139,15 +139,15 @@ app.post('/api/confirm', async (req, res) => {
         if (result[0]?.confirm === confirm) {
             const sqlUpdate = 'UPDATE user_info SET confirm = (?) WHERE email = (?)'
             db.query(sqlUpdate, ['confirmed', email], (err, result) => {
-                if(result !== undefined){
+                if (result !== undefined) {
                     res.send(true)
-                }else{
+                } else {
                     res.send(false)
                 }
             })
-            }else {
-                res.send(false)
-            }
+        } else {
+            res.send(false)
+        }
     })
 })
 
