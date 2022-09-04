@@ -1,0 +1,130 @@
+.headerWrapper {
+    z-index: 10;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid var(--color-lighter-grey);
+
+    .header {
+        display: flex;
+        padding: 16px 32px;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1024px;
+        margin: 0 auto;
+
+        .headerHome {
+            padding: 4px 8px;
+            border-radius: 20px;
+            transition: .2s ease-in-out;
+
+            button {
+                border: none;
+                background: none;
+                font-weight: 600;
+                font-size: 20px;
+            }
+
+            &:hover {
+                background-color: var(--color-lighter-grey);
+                transform: scale(1.025);
+            }
+        }
+
+        .headerAccountWrapper {
+            position: relative;
+
+            .headerAccountContent {
+                display: flex;
+                background: none;
+                border: none;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                transition: .2s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                .profilePic {
+                    display: flex;
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 12px;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: var(--color-dark-blue);
+
+                    span {
+                        font-weight: 500;
+                        color: white;
+                    }
+                }
+
+                h3 {
+                    font-size: 18px;
+                }
+            }
+
+            .headerAccountDropdown {
+                position: absolute;
+                background-color: #f9f9f9;
+                box-shadow: 0 20px 40px rgb(41 48 51 / 30%);
+                z-index: 1;
+                transition: .3s ease-in-out;
+                overflow: hidden;
+                border-radius: 20px;
+                opacity: 0;
+                transform: translateY(15%);
+                display: flex;
+                flex-direction: column;
+                right: -8px;
+                min-width: 220px;
+                padding: 8px 0;
+                pointer-events: none;
+                top: auto;
+                bottom: 50px;
+
+                button {
+                    background: none;
+                    border: none;
+                    font-weight: 900;
+                    font-size: 16px;
+                    text-align: left;
+                    padding: 12px 24px;
+                    width: 100%;
+                    transition: .2s ease-in-out;
+
+                    &:hover {
+                        background-color: var(--color-light-grey);
+                    }
+                }
+
+                &.active {
+                    opacity: 1;
+                    transform: translateY(0);
+                    pointer-events: all;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 804px) {
+
+    .headerWrapper {
+        border: none;
+        border-bottom: 1px solid var(--color-lighter-grey);
+        bottom: auto;
+
+        .header {
+            .headerAccountDropdown {
+                top: 50px !important;
+                bottom: auto !important;
+            }
+        }
+    }
+}

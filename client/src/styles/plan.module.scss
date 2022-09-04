@@ -1,0 +1,82 @@
+.planWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 32px 16px 81px 16px;
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+
+    .planContent {
+        display: flex;
+        width: 75%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 32px;
+ 
+        .item {
+            padding: 48px 48px 16px 48px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1 1 0px;
+            box-shadow: 0 4px 45px #d2d5d9;
+            border-radius: 4px;
+            min-width: 305px;
+            max-width: 416px;
+            transition: .2s ease-in-out;
+            cursor: pointer;
+
+            .title {
+                padding-bottom: 16px;
+                font-size: 20px;
+                font-weight: 800;
+
+                span:nth-child(2){
+                    font-style: italic;
+                    color: var(--color-grey);
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+
+            .description {
+                height: 100%;
+            }
+
+            .price {
+                display: flex;
+                span {
+                    &:nth-child(1) {
+                        align-self: center;
+                    }
+
+                    &:nth-child(2) {
+                        font-size: 50px;
+                        padding: 0 4px;
+                        font-weight: 800;
+                    }
+
+                    &:nth-child(3) {
+                        color: var(--color-grey);
+                        align-self: flex-end;
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+            
+            &:hover{
+                transform: scale(1.025);
+                background-color: var(--color-lighter-grey);
+            }
+        }
+    }
+}
+
+@media (min-width: 804px) {
+    .planWrapper {
+        padding-top: 81px;
+    }
+}

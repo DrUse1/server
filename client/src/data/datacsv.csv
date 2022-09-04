@@ -1,0 +1,27 @@
+matiere;chapitre;img;question;answer0;answer1;answer2;answer3;answer4;answer
+maths;integral;;what is 1+1;1;2;3;;;1
+maths;integral;;what is 2+2;2;3;4;6;;2
+maths;integral;;what is 5+7;12;13;14;5;4;0
+dofus;donjon;0;who is the boss;arakne;tournesol;;;;1
+maths;integral;;what is sqrt(16);2;4;-4;8;;1,2
+maths;integral;;what is 5+8;12;13;14;;;1
+maths;fonction;;what is 10+10;15;30;20;25;;2
+maths;fonction;;what is 5+9;12;13;14;4;4;2
+dofus;donjon;;who is healing class;cra;iop;eniripsa;sacrieur;;2
+dofus;donjon;;who is damage class;iop;cra ;sadidas;4;;0
+dofus;donjon;;who is range class;sram;cra ;eliotrope;huppermage;;2
+maths;fonction;;what is 10/2;5;20;;;;0
+maths;fonction;;what is 8-2;2;4;6;8;4;2
+maths;suites;;what is 6*7;42;43;44;;;0
+maths;suites;;what is 12-5;2;7;14;19;;1
+maths;suites;;what is 5+11;14;15;16;;;2
+maths;suites;;what is 5+13;15;18;3;;;1
+dofus;pvp;;who is the boss1;arakne1;tournesol1;;;;1
+dofus;pvp;;who is the boss2;0;tournesol2;5;;;0
+dofus;pvp;;who is the boss3;arakne3;tournesol3;boufton3;tofu3;;3
+dofus;pvp;;who is the boss4;arakne4;tournesol4;;;;1
+dofus;pvp;;who is the boss5;arakne5;tournesol5;6;;;1
+dofus;donjon;;who is the boss6;arakne6;tournesol6;bouftou6;;;0
+dofus;donjon;;who is the boss7;arakne7;tournesol7;6;7;8;1
+dofus;donjon;;who is the boss8;arakne8;tournesol8;;;;1
+dofus;donjon;;who is the boss8;arakne8;tournesol8;;;;1

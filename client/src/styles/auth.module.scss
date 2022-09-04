@@ -1,0 +1,175 @@
+.authWrapper {
+    padding: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .authTitle {
+
+        h2 {
+            font-weight: 900;
+        }
+    }
+
+    .authForm {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        width: 100%;
+
+        .authItem {
+            padding: 10px 0;
+
+            p {
+                margin-bottom: 6px;
+                font-weight: 500;
+            }
+
+            .authFieldWrapper {
+                display: flex;
+            }
+
+            .authPasswordFieldWrapper {
+                display: flex;
+                flex-direction: row;
+                position: relative;
+
+                .authPasswordIconWrapper {
+                    display: flex;
+                    align-items: center;
+                    position: absolute;
+                    top: 7px;
+                    right: 10px;
+                    width: 30px;
+                    height: 30px;
+
+                    .authPasswordButton {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 30px;
+                        height: 30px;
+                        border: none;
+                        background: none;
+                        cursor: pointer;
+
+                        .authPasswordIcon {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+
+            .authField {
+                border: 2px solid var(--color-light-grey);
+                border-radius: 10px;
+                width: 100%;
+                height: 40px;
+                transition: border-color .2s ease-in-out, color .2s ease-in-out;
+                padding: 0 15px;
+                margin: 2px;
+                font-size: inherit;
+
+                &:hover {
+                    border: 2px solid #ccc;
+                }
+
+                &:focus {
+                    outline: none;
+                    border: 2px solid var(--color-dark-blue);
+                }
+            }
+        }
+
+        .authRequires {
+            display: flex;
+            flex-wrap: wrap;
+
+            .authRequireItemWrapper {
+                margin: 0 8px 8px 0px;
+
+                .authRequireItem {
+                    padding: 0 8px;
+                    background-color: var(--color-lighter-grey);
+                    border-radius: 20px;
+                    display: flex;
+                    transition: 0.5s ease-in-out;
+
+                    &.valid {
+                        padding: 0 8px;
+                        background-color: var(--color-green);
+                        border-radius: 20px;
+                        display: flex;
+
+                        span {
+                            color: white;
+                        }
+                    }
+
+                    span {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+
+        .authSubmit {
+            margin-bottom: 10px;
+
+            button {
+                width: 100%;
+                background-color: var(--color-dark-blue);
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+                transition: .2s ease-in-out;
+
+                &:hover {
+                    width: 100%;
+                    background-color: var(--color-darker-blue);
+                    border: none;
+                    border-radius: 30px;
+                    cursor: pointer;
+                    transform: scale(1.025);
+                }
+
+                .authSubmitSpan {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 8px 16px;
+                    height: 40px;
+                    gap: 12px;
+
+                    span {
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: var(--color-light-grey);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 480px) {
+    .body {
+        background-color: var(--color-lighter-grey);
+    }
+
+    .authPage {
+        height: 100vh;
+        display: flex;
+    }
+
+    .authWrapper {
+        width: 100%;
+        max-width: 400px;
+        padding: 48px;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 0 60px 40px 0 rgb(0 0 0 / 8%);
+    }
+}

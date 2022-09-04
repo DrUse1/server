@@ -1,0 +1,51 @@
+.historyItem:hover {
+    transform: scale(1.025);
+}
+
+.historyItem[data-score='green'] {
+    background: var(--color-green) !important;
+}
+
+.historyItem[data-score='green'] .historyCheckIcon {
+    color: var(--color-green) !important;
+}
+
+.historyItem[data-score='green'] .historyCheckIconWrapper path {
+    color: var(--color-green) !important;
+}
+
+.historyItem[data-score='green']:hover {
+    background: var(--color-darker-green) !important;
+}
+
+.historyItem[data-score='green']:hover .historyCheckIcon {
+    color: var(--color-darker-green) !important;
+}
+
+.historyItem[data-score='green']:hover .historyCheckIconWrapper path {
+    color: var(--color-darker-green) !important;
+}
+
+.historyItem[data-score='red'] {
+    background: var(--color-red) !important;
+}
+
+.historyItem[data-score='red'] .historyCheckIcon {
+    color: var(--color-red) !important;
+}
+
+.historyItem[data-score='red'] .historyCheckIconWrapper path {
+    color: var(--color-red) !important;
+}
+
+.historyItem[data-score='red']:hover {
+    background: var(--color-darker-red) !important;
+}
+
+.historyItem[data-score='red']:hover .historyCheckIcon {
+    color: var(--color-darker-red) !important;
+}
+
+.historyItem[data-score='red']:hover .historyCheckIconWrapper path {
+    color: var(--color-darker-red) !important;
+}

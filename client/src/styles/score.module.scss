@@ -1,0 +1,230 @@
+.scoreWrapper {
+    padding: 16px;
+    padding-bottom: 81px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .scoreTitle {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .score {
+        width: 100%;
+        text-align: center;
+        font-size: 64px;
+        font-weight: 600;
+    }
+
+    .scoreSubjectsWrapper {
+        &>span {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .scoreSubjects {
+            margin-top: 8px;
+            padding: 16px;
+            background-color: var(--color-lighter-grey);
+            border-radius: 20px;
+
+            .scoreSubject {
+                &>span {
+                    font-weight: 600;
+                }
+
+                .scoreChapters {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+                    margin-left: 16px;
+                    padding: 8px 0;
+
+                    .scoreChapter {
+                        display: flex;
+
+                        svg {
+                            width: 20px;
+                            height: 20px;
+                            stroke: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .scoreHistoryWrapper {
+        .scoreHistoryChoice {
+            display: flex;
+            justify-content: space-around;
+            border: 2px solid var(--color-lighter-grey);
+            border-radius: 20px;
+            margin-bottom: 16px;
+
+            button {
+                border: none;
+                background: none;
+                width: 100%;
+                padding: 8px;
+                overflow: hidden;
+                transition: .2s ease-in-out;
+                font-size: 16px;
+                font-weight: 600;
+
+                &:hover,
+                &.active {
+                    background-color: var(--color-lighter-grey);
+                    transform: scale(1.025);
+                }
+
+                &:nth-child(1) {
+                    border-radius: 20px 0 0 20px;
+                }
+
+                &:nth-child(3) {
+                    border-radius: 0 20px 20px 0;
+                }
+            }
+        }
+
+        .scoreHistoryContent {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .scoreHistoryItemWrapper {
+                .scoreHistoryItemTitle {
+                    display: flex;
+                    align-items: center;
+                    padding: 32px;
+                    background-color: var(--color-lighter-grey);
+                    border-radius: 20px;
+                    cursor: pointer;
+                    transition: .2s ease-in-out;
+
+                    &:hover,
+                    &.active {
+                        background-color: var(--color-light-grey);
+                        transform: scale(1.025);
+                    }
+
+                    &>span {
+                        &:nth-child(1) {
+                            font-weight: 600;
+                            font-size: 20px;
+                            width: 100px;
+                            flex-shrink: 0;
+                        }
+
+                        &:nth-child(2) {
+                            margin-left: 32px;
+                            font-size: 16px;
+                            margin-right: auto;
+                        }
+                    }
+
+                    .scoreHistoryItemArrow {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        svg {
+                            width: 20px;
+                            height: 20px;
+                            transition: .5s ease-in-out;
+                            color: black;
+                        }
+                    }
+
+                    &.active {
+                        svg {
+                            transform: rotate(90deg);
+                        }
+                    }
+                }
+
+                .scoreHistoryItemContent {
+                    height: 0;
+                    overflow: hidden;
+                    transition: .5s ease-in-out;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    &.active {
+                        height: var(--data-height);
+                    }
+
+                    &>span {
+                        padding: 8px;
+                        margin: 8px 0;
+                        width: 100%;
+                        text-align: center;
+                        font-size: 20px;
+                        border-bottom: 1px solid var(--color-light-grey);
+                    }
+
+                    .scoreHistoryItemAnswers {
+                        padding-top: 8px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+                        width: 75%;
+
+                        &>span {
+                            padding: 8px 16px;
+                            width: 100%;
+                            border-radius: 20px;
+
+                            &.selected{
+                                transform: scale(1.025);
+                                border: 2px solid var(--color-blue);
+                            }
+
+                            &.white {
+                                border: 2px solid var(--color-light-grey);
+                            }
+
+                            &.green {
+                                color: white;
+                                background-color: var(--color-green);
+                            }
+
+                            &.red {
+                                color: white;
+                                background-color: var(--color-red);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .other {
+        background-color: var(--color-lighter-grey);
+        border: none;
+        padding: 8px;
+        border-radius: 20px;
+        font-size: 16px;
+        transition: .2s ease-in-out;
+
+        &:hover {
+            background-color: var(--color-light-grey);
+            transform: scale(1.025);
+        }
+    }
+}
+
+@media (min-width: 804px) {
+    .scoreWrapper {
+        padding: 16px;
+        padding-top: 81px;
+        max-width: 1024px;
+    }
+}
