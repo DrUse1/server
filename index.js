@@ -152,6 +152,7 @@ app.post('/api/confirm', async (req, res) => {
 app.get('/api/get', (req, res) => {
     const sqlSelect = 'SELECT * FROM user_info'
     db.query(sqlSelect, (err, result) => {
+        console.log('sent DB')
         res.send(result)
     })
 })
