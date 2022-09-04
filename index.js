@@ -152,7 +152,15 @@ app.post('/api/confirm', async (req, res) => {
 app.get('/api/get', (req, res) => {
     const sqlSelect = 'SELECT * FROM user_info'
     db.query(sqlSelect, (err, result) => {
-        console.log('sent DB')
+        result = {
+            host: process.env.DB_HOST,
+            user: process.env.DB_USER,
+            password: process.env.DB_PASSWORD,
+            /*host: 'localhost',
+            user: 'root',
+            password: 'password',*/
+            database: process.env.DB_NAME
+        }
         res.send(result)
     })
 })
@@ -520,10 +528,10 @@ app.post('/create-checkout-session', async (req, res) => {
     res.send(session.url)
 });
 
-app.use(express.static(path.join(__dirname, 'dist')))
+app.use(express.static(path.join(__dirname, 'client/dist')))
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname + '/dist/index.html'));
+    res.sendFile(path.join(__dirname + '/client/dist/index.html'));
 });
 
 app.listen(8080, () => {
