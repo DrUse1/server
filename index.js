@@ -519,8 +519,6 @@ app.post('/create-checkout-session', async (req, res) => {
     res.send(session.url)
 });
 
-console.log('test', process.env.DB_HOST)
-
 app.use(express.static(path.join(__dirname, 'client/dist')))
 
 app.get('*', (req, res) => {
