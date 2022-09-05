@@ -77,6 +77,11 @@
                     gap: 16px;
                     align-items: center;
                     justify-content: flex-start;
+                    transition: .2s ease-in-out;
+
+                    &:hover {
+                        scale: 1.025;
+                    }
                 }
             }
         }
