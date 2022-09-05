@@ -20,6 +20,7 @@ import Contact from './components/Contact';
 import { WarningPopup } from './components/elements';
 import Confirm from './components/Confirm';
 import Forgot from './components/Forgot';
+import Home from './components/Home';
 
 function Index() {
   return (
@@ -44,9 +45,10 @@ function Index() {
         </div>
       </Show>
       <Routes>
-        <Route path="/auth" element={<Auth />} />
-        <Route path="/confirm" element={<Confirm />} />
-        <Route path="/forgot" element={<Forgot />} />
+        <Route path="auth" element={<Auth />} />
+        <Route path="confirm" element={<Confirm />} />
+        <Route path="forgot" element={<Forgot />} />
+        <Route path="home" element={<Home />} />
         <Show when={global.logged}>
           <Route path="/" element={<Main />} />
           <Route path="plan" element={<Plan />} />
@@ -61,9 +63,11 @@ function Index() {
   )
 }
 
+const notLoad = ['/confirm', '/home']
+
 render(() => (
   <Router>
-    <Show when={window.location.pathname !== '/confirm'}>
+    <Show when={!notLoad.includes(window.location.pathname)}>
       <SetupGlobal />
     </Show>
     <Index />

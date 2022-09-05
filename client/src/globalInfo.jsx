@@ -190,9 +190,9 @@ export default function SetupGlobal() {
                 }
             } else {
                 setGlobal('logged', false)
-                const toReload = ['/auth', '/confirm', '/forgot']
-                if (!toReload.includes(window.location.pathname)) {
-                    window.location.replace('/auth')
+                const notReload = ['/auth', '/confirm', '/forgot', '/home']
+                if (!notReload.includes(window.location.pathname)) {
+                    window.location.replace('/home')
                 }
             }
             setLoading(a => a - 1)
