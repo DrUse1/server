@@ -38,7 +38,7 @@
                     background-color: var(--color-dark-blue);
                     padding: 4px 8px;
                     transition: .2s ease-in-out;
-                    animation: fadein 1s ease-out, opacity 1s linear forwards;
+                    animation: fadein 1s ease-out, opacity 1s linear;
                     animation-delay: .5s;
                     opacity: 0;
 
