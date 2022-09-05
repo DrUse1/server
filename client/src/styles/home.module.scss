@@ -29,11 +29,11 @@
                 .slogan {}
 
                 .start {
-                    margin-top: 16px;
+                    margin-top: 32px;
                     cursor: pointer;
                     border: none;
                     border-radius: 20px;
-                    background-color: var(--color-blue);
+                    background-color: var(--color-dark-blue);
                     padding: 4px 8px;
                     transition: .2s ease-in-out;
                     animation: fadein 1s ease-out, opacity 1s linear forwards;
@@ -41,11 +41,12 @@
                     animation-delay: 0.5s;
 
                     span {
+                        font-size: 16px;
                         color: white;
                     }
 
                     &:hover {
-                        background-color: var(--color-dark-blue);
+                        background-color: var(--color-darker-blue);
                         scale: 1.025;
                     }
                 }
