@@ -3,7 +3,6 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    --scrollPosition: 0;
 
     .section {
         &:nth-child(1) {
@@ -54,15 +53,17 @@
         }
 
         &:nth-child(2) {
-            display: flex;
             padding: 64px;
 
             .container {
                 display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
                 gap: 64px;
-                translate: calc(var(--scrollPosition) * -2px + 50vw);
+                height: 100%;
 
-                .content {
+                .box {
                     width: 400px;
                     box-shadow: 0 4px 45px #d2d5d9;
                     padding: 32px;
@@ -93,4 +94,16 @@
     }
 }
 
-@media (min-width: 804px) {}
+@media (min-width: 804px) {
+    .homeWrapper {
+        .section {
+            &:nth-child(2) {
+                .container {
+                    flex-direction: row;
+                    align-items: normal;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
