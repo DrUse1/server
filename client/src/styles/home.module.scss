@@ -2,16 +2,15 @@
     transition: .2s ease-in-out;
     height: 100%;
     position: relative;
-    min-width: 371px;
+    min-width: 380px;
 
     .section {
         &:nth-child(1) {
-            display: flex;
             background-color: var(--color-lighter-grey);
-            justify-content: center;
-            align-items: center;
             gap: 32px;
             height: 100vh;
+            display: flex;
+            align-items: center;
 
             .container {
                 animation: fadein 1s ease-out, opacity 1s linear;
@@ -20,10 +19,11 @@
                 align-items: center;
                 align-content: center;
                 gap: 16px;
+                width: 100%;
 
                 .title {
                     font-weight: 600;
-                    font-size: 36px;
+                    font-size: 34px;
                 }
 
                 .slogan {}
