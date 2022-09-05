@@ -64,15 +64,16 @@ p {
 
 .mainPage {
     width: 100%;
-    max-width: 1024px;
-    margin: auto;
+    height: 100vh;
+    margin-bottom: 0;
 }
 
 .mainWrapper {
+    margin: auto;
+    max-width: 1024px;
     transition: .2s ease-in-out;
     padding: 16px;
-    height: 100%;
-    min-height: 80vh;
+    min-height: 86%;
 }
 
 .progressBarWrapper {
@@ -658,6 +659,10 @@ p {
 }
 
 @media (min-width: 804px) {
+
+    .mainPage {
+        margin-bottom: 0;
+    }
 
     .mainWrapper {
         padding: 16px;
