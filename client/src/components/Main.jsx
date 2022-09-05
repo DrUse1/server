@@ -13,6 +13,7 @@ import arrowIcon from '../svg/arrow.svg'
 import anatomieIcon from '../svg/subjects/anatomieIcon.svg'
 import { useNavigate } from "@solidjs/router";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export default function Main() {
     const navigate = useNavigate();
@@ -371,6 +372,7 @@ export default function Main() {
                         </Show>
                     </div>
                 </div>
+                <Footer style='header'/>
             </div>
         </>
     )

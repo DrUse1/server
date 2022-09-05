@@ -6,13 +6,18 @@
     justify-content: center;
     align-items: center;
     gap: 16px;
+    width: 100%;
+    
+    &.header {
+        margin-bottom: 65px;
+    }
 
     .content {
         display: flex;
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        
+
         .section {
             &:nth-child(1) {
                 display: flex;
@@ -35,7 +40,7 @@
                 }
             }
 
-            &:nth-child(2){
+            &:nth-child(2) {
                 button {
                     background: none;
                     border: none;
@@ -63,5 +68,8 @@
 }
 
 @media (min-width: 804px) {
-
+    .footerWrapper {
+        position: absolute;
+        margin: 0;
+    }
 }
