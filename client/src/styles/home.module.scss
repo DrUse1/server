@@ -17,9 +17,10 @@
                 animation: fadein 1s ease-out, opacity 1s linear;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
                 align-items: center;
+                align-content: center;
                 gap: 16px;
+                padding: 16px;
 
                 .title {
                     font-weight: 600;
@@ -60,6 +61,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                align-content: center;
                 flex-wrap: wrap;
                 gap: 64px;
                 height: 100%;
