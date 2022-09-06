@@ -6,6 +6,7 @@ import { global, loading, setGlobal, setLoading, setUserInfo, showWarning, stati
 import { createStore } from "solid-js/store";
 import Axios from "axios";
 import { useNavigate } from "@solidjs/router";
+import Footer from "./Footer";
 
 export default function Account() {
     const navigate = useNavigate()
@@ -351,6 +352,7 @@ export default function Account() {
                     </Show>
                 </div>
             </div>
+            <Footer style='header' />
         </>
     )
 }

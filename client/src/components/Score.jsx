@@ -3,6 +3,7 @@ import Header from './Header'
 import styles from '../styles/score.module.scss'
 import { createSignal, Show } from 'solid-js'
 import { useNavigate } from '@solidjs/router'
+import Footer from './Footer'
 
 export default function Score() {
     const navigate = useNavigate()
@@ -134,6 +135,7 @@ export default function Score() {
                 </div>
                 <button className={styles.other} onClick={() => { window.location.replace('/') }}>Faire une autre série</button>
             </div>
+            <Footer style='header' />
         </>
     )
 }

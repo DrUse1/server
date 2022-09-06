@@ -5,6 +5,7 @@ import Header from "./Header";
 
 import styles from '../styles/contact.module.scss'
 import Axios from "axios";
+import Footer from "./Footer";
 
 export default function Contact() {
     const [contact, setContact] = createStore({
@@ -67,6 +68,7 @@ export default function Contact() {
                     <span>Envoyer</span>
                 </button>
             </div>
+            <Footer style='header' />
         </>
     )
 }

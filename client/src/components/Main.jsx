@@ -384,10 +384,10 @@ export default function Main() {
                             </Show>
                         </Show>
                     </div>
-                    <h2>Moyenne</h2>
+                    {/* <h2>Moyenne</h2>
                     <div className={"averageWrapper"}>
                         {Math.round(calculateAverage()*20*100)/100}/20
-                    </div>
+                    </div> */}
                 </div>
                 <Footer />
             </div>

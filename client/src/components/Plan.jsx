@@ -4,6 +4,7 @@ import Header from "./Header";
 import styles from "../styles/plan.module.scss"
 import { global, loading, setLoading, showWarning, staticConst, userInfo } from "../globalInfo";
 import Axios from "axios";
+import Footer from "./Footer";
 
 function handleClick(plan) {
     if (userInfo.plan === 'premium') {
@@ -76,9 +77,15 @@ export default function Plan() {
                             <span>5</span>
                             <span>/mois</span>
                         </div>
+                        <div className={styles.subPrice}>
+                            <span>
+                                Abonnement sans engagement !
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
+            <Footer style='header' />
         </>
     )
 }

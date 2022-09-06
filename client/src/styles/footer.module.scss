@@ -9,6 +9,10 @@
     width: 100%;
     margin-top: auto;
 
+    &.header {
+        margin-bottom: 65px;
+    }
+
     .content {
         display: flex;
         justify-content: space-around;
@@ -65,5 +69,7 @@
 }
 
 @media (min-width: 804px) {
-    
+    .footerWrapper.header{
+        margin-bottom: 0;
+    }
 }

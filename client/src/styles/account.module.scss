@@ -1,9 +1,9 @@
 .accountWrapper {
     padding: 16px;
-    padding-bottom: 81px;
     width: 100%;
     max-width: 1024px;
     margin: auto;
+    min-height: calc(100vh - 85px);
 
     .accountNav {
         width: 256px;

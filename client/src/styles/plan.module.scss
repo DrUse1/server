@@ -1,13 +1,13 @@
 .planWrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 50px;
     align-items: center;
-    padding: 32px 16px 81px 16px;
+    padding: 32px 16px 16px 16px;
     width: 100%;
     max-width: 1024px;
     margin: auto;
+    min-height: calc(100vh - 85px);
 
     .planContent {
         display: flex;
@@ -15,7 +15,7 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 32px;
- 
+
         .item {
             padding: 48px 48px 16px 48px;
             display: flex;
@@ -34,7 +34,7 @@
                 font-size: 20px;
                 font-weight: 800;
 
-                span:nth-child(2){
+                span:nth-child(2) {
                     font-style: italic;
                     color: var(--color-grey);
                     font-weight: 400;
@@ -48,6 +48,8 @@
 
             .price {
                 display: flex;
+                margin-bottom: 16px;
+
                 span {
                     &:nth-child(1) {
                         align-self: center;
@@ -66,10 +68,29 @@
                     }
                 }
             }
-            
-            &:hover{
+
+            &:hover {
                 transform: scale(1.025);
                 background-color: var(--color-lighter-grey);
+            }
+
+            &:nth-child(2) {
+                .price {
+                    margin-bottom: 0;
+                }
+                
+                .subPrice {
+                    height: 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    span {
+                        font-size: 12px;
+                        color: var(--color-grey);
+                        text-align: center;
+                    }
+                }
             }
         }
     }
