@@ -22,10 +22,6 @@ import Confirm from './components/Confirm';
 import Forgot from './components/Forgot';
 import Home from './components/Home';
 
-if (window.origin.includes('qcmed') && !window.origin.includes('www')) {
-  window.location.href = 'https://www.qcmed.fr' + window.location.pathname
-}
-
 function Index() {
   return (
     <>
@@ -69,11 +65,15 @@ function Index() {
 
 const notLoad = ['/confirm', '/home']
 
-render(() => (
-  <Router>
-    <Show when={!notLoad.includes(window.location.pathname)}>
-      <SetupGlobal />
-    </Show>
-    <Index />
-  </Router>
-), document.getElementById('root'));
+if (window.origin.includes('qcmed') && !window.origin.includes('www')) {
+  window.location.href = 'https://www.qcmed.fr' + window.location.pathname
+} else {
+  render(() => (
+    <Router>
+      <Show when={!notLoad.includes(window.location.pathname)}>
+        <SetupGlobal />
+      </Show>
+      <Index />
+    </Router>
+  ), document.getElementById('root'));
+}
