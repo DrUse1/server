@@ -70,7 +70,7 @@ if (window.origin.includes('qcmed') && !window.origin.includes('www')) {
   window.location.href = 'https://www.qcmed.fr' + window.location.pathname
 } else {
   if (!pages.includes(window.location.pathname)) {
-    window.location.href = 'home'
+    window.location.href = 'https://www.qcmed.fr/home'
   } else {
     render(() => (
       <Router>
