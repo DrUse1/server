@@ -57,7 +57,6 @@ function Index() {
           <Route path="app" element={<App />} />
           <Route path="score" element={<Score />} />
           <Route path="success" element={<Success />} />
-          <Route path="*" element={<>{window.location.replace('home')}</>} />
         </Show>
       </Routes>
     </>
@@ -65,16 +64,21 @@ function Index() {
 }
 
 const notLoad = ['/confirm', '/home']
+const pages = ['/auth', '/confirm', '/forgot', '/home', '/', '/plan', '/account', '/contact', '/app', '/score', '/success']
 
 if (window.origin.includes('qcmed') && !window.origin.includes('www')) {
   window.location.href = 'https://www.qcmed.fr' + window.location.pathname
 } else {
-  render(() => (
-    <Router>
-      <Show when={!notLoad.includes(window.location.pathname)}>
-        <SetupGlobal />
-      </Show>
-      <Index />
-    </Router>
-  ), document.getElementById('root'));
+  if (!pages.includes(window.location.pathname)) {
+    window.location.href = 'home'
+  } else {
+    render(() => (
+      <Router>
+        <Show when={!notLoad.includes(window.location.pathname)}>
+          <SetupGlobal />
+        </Show>
+        <Index />
+      </Router>
+    ), document.getElementById('root'));
+  }
 }
