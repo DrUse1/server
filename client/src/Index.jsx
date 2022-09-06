@@ -23,12 +23,11 @@ import Forgot from './components/Forgot';
 import Home from './components/Home';
 
 function Index() {
-  const navigate = useNavigate()
   return (
     <>
       <div className={"overlay"} id="overlay"></div>
       <WarningPopup />
-      <Show when={loading() > 0 && !window.location.pathname.includes('home')}>
+      <Show when={loading() > 0}>
         <div style={{
           'z-index': '1000',
           display: 'flex',
@@ -58,7 +57,7 @@ function Index() {
           <Route path="app" element={<App />} />
           <Route path="score" element={<Score />} />
           <Route path="success" element={<Success />} />
-          <Route path="*" element={<>{navigate('home')}</>} />
+          <Route path="*" element={<>{window.location.replace('home')}</>} />
         </Show>
       </Routes>
     </>
