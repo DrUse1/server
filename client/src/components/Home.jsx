@@ -4,11 +4,9 @@ import styles from '../styles/home.module.scss'
 import Footer from "./Footer";
 
 export default function Home() {
-    const navigate = useNavigate();
-
     return (
         <>
-            <div className={styles.homeWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
+            <div className={styles.homeWrapper}>
                 <div className={styles.section}>
                     <div className={styles.container}>
                         <div className={styles.title}>
