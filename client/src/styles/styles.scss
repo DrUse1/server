@@ -82,24 +82,24 @@ p {
             flex-direction: column;
             gap: 12px;
             padding: 24px 0;
-        
+
             .session {
                 background: var(--color-light-blue);
                 border: none;
                 border-radius: 20px;
                 padding: 12px 16px 12px 12px;
                 transition: 0.2s ease-in-out;
-        
+
                 &:hover {
                     background: var(--color-blue);
                     transform: scale(1.025);
                 }
-        
+
                 .sessionContent {
                     display: flex;
                     align-items: flex-start;
                     height: 100%;
-        
+
                     .sessionIconWrapper {
                         display: flex;
                         width: 56px;
@@ -110,19 +110,19 @@ p {
                         background-color: var(--color-dark-blue);
                         border-radius: 20px;
                         margin-right: 12px;
-        
+
                         .icon {
                             width: 20px;
                             height: 20px;
                         }
                     }
-        
+
                     .sessionLabel {
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
                         width: 100%;
-        
+
                         div {
                             .desktopSessionArrowIconWrapper {
                                 display: none;
@@ -131,25 +131,25 @@ p {
                                 justify-content: flex-end;
                                 align-items: center;
                                 flex-shrink: 0;
-        
+
                                 .sessionArrowIcon {
                                     width: 20px;
                                     height: 20px;
                                 }
                             }
-        
+
                             h2 {
                                 font-weight: 700;
                                 line-height: 1.6;
                             }
-        
+
                             p {
                                 font-size: 15px;
                                 font-weight: 400;
                             }
                         }
                     }
-        
+
                     .sessionArrowIconWrapper {
                         display: flex;
                         width: 20px;
@@ -168,11 +168,11 @@ p {
             gap: 12px;
             flex: 1;
             margin-top: 24px;
-        
+
             &>h2 {
                 font-size: 20px;
             }
-        
+
             .historyItem {
                 background: var(--color-lighter-grey);
                 border: none;
@@ -180,12 +180,12 @@ p {
                 padding: 8px 14px 8px 12px;
                 transition: 0.5s;
                 cursor: pointer;
-        
+
                 .historyContent {
                     display: flex;
                     align-items: center;
                     height: 100%;
-        
+
                     .historyCheckIconWrapper {
                         display: flex;
                         width: 48px;
@@ -196,7 +196,7 @@ p {
                         border-radius: 50%;
                         margin-right: 12px;
                         background-color: rgba(255, 255, 255, 0.25);
-        
+
                         .historyCheckIconContainer {
                             display: flex;
                             width: 24px;
@@ -206,7 +206,7 @@ p {
                             flex-shrink: 0;
                             border-radius: 50%;
                             background-color: white;
-        
+
                             .historyCheckIcon {
                                 width: 14px;
                                 height: 20px;
@@ -214,32 +214,32 @@ p {
                             }
                         }
                     }
-        
+
                     .historyLabel {
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
                         align-self: center;
                         width: 100%;
-        
-        
+
+
                         div {
                             display: flex;
                             align-items: center;
-        
+
                             h2 {
                                 font-size: 18px;
                                 font-weight: 700;
                                 line-height: 1.6;
                             }
-        
+
                             p {
                                 font-size: 16px;
                                 font-weight: 400;
                             }
                         }
                     }
-        
+
                     .historyArrowIconWrapper {
                         display: flex;
                         width: 56px;
@@ -248,39 +248,39 @@ p {
                         align-items: center;
                         flex-shrink: 0;
                     }
-        
+
                     .historyArrowIcon {
                         width: 20px;
                         height: 20px;
                     }
                 }
-        
+
                 &[data-color=colored] {
                     .historyLabel div {
-        
+
                         h2,
                         p {
                             color: white;
                         }
                     }
-        
+
                     .historyArrowIcon path {
                         color: white;
                     }
                 }
             }
-        
+
             .historySeeMore {
                 background: var(--color-lighter-grey);
                 border: none;
                 border-radius: 20px;
                 padding: 8px 0;
                 transition: .2s ease-in-out;
-        
+
                 &:hover {
                     background: var(--color-light-grey);
                 }
-        
+
                 span {
                     font-weight: 800;
                     font-size: 17px;
@@ -342,6 +342,8 @@ p {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    opacity: 0;
+    animation: appear 1s linear forwards;
 
     .subjectHeader {
         display: flex;
@@ -350,14 +352,14 @@ p {
         align-items: center;
         padding: 8px;
         border-bottom: 1px solid var(--color-light-grey);
-    
+
         .subjectTitle {
             padding-left: 16px;
         }
-    
+
         .closeButton {
             display: flex;
-    
+
             button {
                 background-color: white;
                 border: none;
@@ -368,7 +370,7 @@ p {
                 align-items: center;
                 cursor: default;
             }
-    
+
             img {
                 width: 20px;
                 height: 20px;
@@ -380,7 +382,7 @@ p {
     .subjectBody {
         padding: 24px;
         overflow-y: auto;
-    
+
         .subjectSelectAll {
             display: flex;
             margin-top: 16px;
@@ -388,16 +390,16 @@ p {
             align-items: center;
             margin-right: 5px;
             gap: 8px;
-        
+
             p {
                 margin-bottom: 4px;
             }
         }
-    
+
         .subjectList {
             display: flex;
             flex-direction: column;
-        
+
             .subject {
                 display: flex;
                 flex-direction: column;
@@ -405,32 +407,18 @@ p {
                 border-radius: 20px;
                 margin-top: 8px;
                 transition: .2s ease-in-out;
-            
+
                 &:hover {
                     transform: scale(1.025);
                 }
-        
+
                 .subjectContainer {
                     display: flex;
                     flex-direction: row;
                     align-items: center;
                     padding: 0 3px;
                     cursor: pointer;
-        
-                    .subjectIcon {
-                        display: flex;
-                        width: 40px;
-                        height: 40px;
-                        justify-content: center;
-                        align-items: center;
-                        flex-shrink: 0;
-                    
-                        img {
-                            width: 20px;
-                            height: 20px;
-                        }
-                    }
-                    
+
                     .subjectArrowIcon {
                         display: flex;
                         width: 40px;
@@ -439,31 +427,27 @@ p {
                         align-items: center;
                         flex-shrink: 0;
                         transition: .5s ease-in-out;
-                    
+
                         svg {
                             width: 20px;
                             height: 20px;
                         }
-                    
+
                         &.show {
                             transform: rotate(90deg);
                         }
                     }
-                    
-                    .subjectName {
-                        width: 100%;
-                    }
                 }
-        
+
                 .chapterContainer {
                     height: 0;
                     overflow: hidden;
                     transition: .5s ease-in-out;
-                
+
                     &.show {
                         height: calc(52px * var(--data-chapters));
                     }
-        
+
                     .chapter {
                         display: flex;
                         flex-direction: row;
@@ -476,11 +460,29 @@ p {
                         margin-left: 24px;
                         margin-right: 8px;
                         transition: .2s ease-in-out;
-                    
+
                         &:hover {
                             transform: scale(1.025);
                         }
                     }
+                }
+
+                .subjectIcon {
+                    display: flex;
+                    width: 40px;
+                    height: 40px;
+                    justify-content: center;
+                    align-items: center;
+                    flex-shrink: 0;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+
+                .subjectName {
+                    width: 100%;
                 }
             }
         }
@@ -628,6 +630,16 @@ p {
     }
 }
 
+@keyframes appear {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @media (min-width: 480px) {
     html {
         text-size-adjust: 100%;
@@ -681,58 +693,58 @@ p {
             .progressBarWrapper {
                 margin-top: 8px;
             }
-        }
-    }
 
-    .sessionWrapper {
-        flex-direction: row;
+            .sessionWrapper {
+                flex-direction: row;
 
-        .session {
-            flex: 1;
+                .session {
+                    flex: 1;
 
-            .sessionContent {
-                .sessionLabel div {
-                    display: flex;
-                    align-items: center;
+                    .sessionContent {
+                        .sessionLabel div {
+                            display: flex;
+                            align-items: center;
 
-                    .desktopSessionArrowIconWrapper {
-                        display: flex;
+                            .desktopSessionArrowIconWrapper {
+                                display: flex;
+                            }
+                        }
+
+                        .sessionArrowIconWrapper {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .historyWrapper {
+                .historyItem {
+                    .historyContent {
+                        .historyArrowIconWrapper {
+                            justify-content: center;
+                        }
                     }
                 }
 
-                .sessionArrowIconWrapper {
-                    display: none;
+                &::-webkit-scrollbar {
+                    width: 8px;
+                    padding: 4px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background: #dedede;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background: #b9b9b9;
+                    border-radius: 20px;
+                    transition: 0.2s ease-in-out;
+                }
+
+                &::-webkit-scrollbar-thumb:hover {
+                    background: #979797;
                 }
             }
-        }
-    }
-
-    .historyWrapper {
-        .historyItem {
-            .historyContent {
-                .historyArrowIconWrapper {
-                    justify-content: center;
-                }
-            }
-        }
-
-        &::-webkit-scrollbar {
-            width: 8px;
-            padding: 4px;
-        }
-
-        &::-webkit-scrollbar-track {
-            background: #dedede;
-        }
-
-        &::-webkit-scrollbar-thumb {
-            background: #b9b9b9;
-            border-radius: 20px;
-            transition: 0.2s ease-in-out;
-        }
-
-        &::-webkit-scrollbar-thumb:hover {
-            background: #979797;
         }
     }
 
@@ -748,26 +760,30 @@ p {
 }
 
 @media (min-width: 804px) and (max-width: 1071px) {
-    .sessionWrapper {
-        gap: 24px;
+    .mainPage {
+        .mainWrapper {
+            .sessionWrapper {
+                gap: 24px;
 
-        .session {
-            padding: 16px;
+                .session {
+                    padding: 16px;
 
-            .sessionContent {
-                flex-direction: column;
-                align-items: center;
+                    .sessionContent {
+                        flex-direction: column;
+                        align-items: center;
 
-                .sessionIconWrapper {
-                    margin: 0 0 12px 0;
-                }
+                        .sessionIconWrapper {
+                            margin: 0 0 12px 0;
+                        }
 
-                .sessionLabel {
-                    align-items: center;
-                    height: 100%;
+                        .sessionLabel {
+                            align-items: center;
+                            height: 100%;
 
-                    p {
-                        text-align: center;
+                            p {
+                                text-align: center;
+                            }
+                        }
                     }
                 }
             }
@@ -776,18 +792,22 @@ p {
 }
 
 @media (min-width: 1072px) {
-    .sessionWrapper {
-        gap: 32px;
-        min-width: 992px;
+    .mainPage {
+        .mainWrapper {
+            .sessionWrapper {
+                gap: 32px;
+                min-width: 992px;
 
-        .session {
-            padding: 24px;
+                .session {
+                    padding: 24px;
 
-            .sessionContent {
-                flex-direction: row;
+                    .sessionContent {
+                        flex-direction: row;
 
-                .sessionLabel div {
-                    text-align: left;
+                        .sessionLabel div {
+                            text-align: left;
+                        }
+                    }
                 }
             }
         }

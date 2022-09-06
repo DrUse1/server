@@ -130,7 +130,7 @@ export default function Main() {
                 onEnter={(el, done) => {
                     let a;
                     if (window.screen.width < 804) {
-                        a = el.animate([{ transform: 'translate(0%, 100%)' }, { transform: 'translate(0%, 0%)' }], {
+                        a = el.animate([{ transform: 'translate(0%, 100%)'}, { transform: 'translate(0%, 0%)'}], {
                             duration: 750,
                             easing: "cubic-bezier(.8,0,.2,1)"
                         });
