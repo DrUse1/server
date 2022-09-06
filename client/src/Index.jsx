@@ -22,6 +22,10 @@ import Confirm from './components/Confirm';
 import Forgot from './components/Forgot';
 import Home from './components/Home';
 
+if (window.origin.includes('qcmed') && !window.origin.includes('www')) {
+  window.location.href = 'https://www.qcmed.fr' + window.location.pathname
+}
+
 function Index() {
   return (
     <>
