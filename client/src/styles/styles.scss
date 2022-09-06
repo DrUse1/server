@@ -77,7 +77,6 @@ p {
     transition: .2s ease-in-out;
     padding: 16px;
     min-height: 86%;
-    margin-bottom: auto;
 }
 
 .progressBarWrapper {
@@ -365,135 +364,125 @@ p {
     flex-direction: column;
     gap: 12px;
     flex: 1;
-    margin-top: 24px;
+    margin: 24px 0;
 
-    &>h2{
+    &>h2 {
         font-size: 20px;
     }
-}
 
-.historyItem {
-    background: var(--color-lighter-grey);
-    border: none;
-    border-radius: 20px;
-    padding: 8px 14px 8px 12px;
-    transition: 0.5s;
-    cursor: pointer;
-}
+    .historyItem {
+        background: var(--color-lighter-grey);
+        border: none;
+        border-radius: 20px;
+        padding: 8px 14px 8px 12px;
+        transition: 0.5s;
+        cursor: pointer;
 
-.historyContent {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
+        .historyContent {
+            display: flex;
+            align-items: center;
+            height: 100%;
 
-.historyCheckIconWrapper {
-    display: flex;
-    width: 48px;
-    height: 48px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    border-radius: 50%;
-    margin-right: 12px;
-    background-color: rgba(255, 255, 255, 0.25);
+            .historyCheckIconWrapper {
+                display: flex;
+                width: 48px;
+                height: 48px;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border-radius: 50%;
+                margin-right: 12px;
+                background-color: rgba(255, 255, 255, 0.25);
 
-}
+                .historyCheckIconContainer {
+                    display: flex;
+                    width: 24px;
+                    height: 24px;
+                    justify-content: center;
+                    align-items: center;
+                    flex-shrink: 0;
+                    border-radius: 50%;
+                    background-color: white;
 
-.historyCheckIconContainer {
-    display: flex;
-    width: 24px;
-    height: 24px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    border-radius: 50%;
-    background-color: white;
-}
+                    .historyCheckIcon {
+                        width: 14px;
+                        height: 20px;
+                        transition: 0.5s;
+                    }
+                }
+            }
 
-.historyCheckIcon {
-    width: 14px;
-    height: 20px;
-    transition: 0.5s;
-}
+            .historyLabel {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                align-self: center;
+                width: 100%;
 
-.historyLabel {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-self: center;
-    width: 100%;
-}
 
-.historyLabel div {
-    display: flex;
-    align-items: center;
-}
+                div {
+                    display: flex;
+                    align-items: center;
 
-.historyLabel div h2 {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.6;
-}
+                    h2 {
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 1.6;
+                    }
 
-.historyLabel div p {
-    font-size: 16px;
-    font-weight: 400;
-}
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
 
-.historyItem[data-score=green] .historyLabel div h2 {
-    color: white;
-}
+            .historyArrowIconWrapper {
+                display: flex;
+                width: 56px;
+                height: 56px;
+                justify-content: flex-end;
+                align-items: center;
+                flex-shrink: 0;
+            }
 
-.historyItem[data-score=green] .historyLabel div p {
-    color: white;
-}
+            .historyArrowIcon {
+                width: 20px;
+                height: 20px;
+            }
+        }
 
-.historyItem[data-score=red] .historyLabel div h2 {
-    color: white;
-}
+        &[data-color=colored] {
+            .historyLabel div {
 
-.historyItem[data-score=red] .historyLabel div p {
-    color: white;
-}
+                h2,
+                p {
+                    color: white;
+                }
+            }
 
-.historyArrowIconWrapper {
-    display: flex;
-    width: 56px;
-    height: 56px;
-    justify-content: flex-end;
-    align-items: center;
-    flex-shrink: 0;
-}
+            .historyArrowIcon path {
+                color: white;
+            }
+        }
+    }
 
-.historyArrowIcon {
-    width: 20px;
-    height: 20px;
-}
+    .historySeeMore {
+        background: var(--color-lighter-grey);
+        border: none;
+        border-radius: 20px;
+        padding: 8px 0;
+        transition: .2s ease-in-out;
 
-.historyItem[data-score=green] .historyArrowIcon path {
-    color: white;
-}
+        &:hover {
+            background: var(--color-light-grey);
+        }
 
-.historyItem[data-score=red] .historyArrowIcon path {
-    color: white;
-}
-
-.historySeeMore {
-    background: var(--color-lighter-grey);
-    border: none;
-    border-radius: 20px;
-    padding: 8px 0;
-    transition: .2s ease-in-out;
-}
-
-.historySeeMore:hover {
-    background: var(--color-light-grey);
-}
-
-.historySeeMore span {
-    font-weight: 800;
-    font-size: 17px;
+        span {
+            font-weight: 800;
+            font-size: 17px;
+        }
+    }
 }
 
 .appWrapper {
@@ -644,21 +633,27 @@ p {
         text-size-adjust: 100%;
     }
 
-    .historyLabel {
-        flex-direction: row;
-        align-items: center;
-    }
+    .historyWrapper {
+        .historyItem {
+            .historyContent {
+                .historyLabel {
+                    flex-direction: row;
+                    align-items: center;
 
-    .historyLabel div:nth-child(1) {
-        margin-right: 16px;
-    }
+                    h2 {
+                        width: 55px;
+                    }
 
-    .historyLabel h2 {
-        width: 55px;
-    }
+                    div:nth-child(1) {
+                        margin-right: 16px;
+                    }
 
-    .historyLabel div:nth-child(2) {
-        width: 100%;
+                    div:nth-child(2) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
     }
 }
 

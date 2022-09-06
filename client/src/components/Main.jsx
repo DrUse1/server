@@ -19,7 +19,7 @@ export default function Main() {
     const navigate = useNavigate();
 
     const [toggleSubjects, setToggleSubjects] = createSignal(false)
-    const [limitHistory, setLimitHistory] = createSignal(3)
+    const [limitHistory, setLimitHistory] = createSignal(1)
 
     function handleClick(type) {
         if (getChapters('selected').length === 0) {
@@ -106,6 +106,16 @@ export default function Main() {
             return ''
         }
         return 'red'
+    }
+
+    function calculateAverage() {
+        let sum = 0
+        let len = 0
+        userInfo.history.forEach(each => {
+            sum += each.infos.score[0]/each.infos.score[1]
+            len++
+        })
+        return(sum/len)
     }
 
     document.getElementById('overlay').addEventListener('click', () => {
@@ -324,7 +334,10 @@ export default function Main() {
                         }>
                             <For each={userInfo.history}>{(h, i) =>
                                 <Show when={i() < limitHistory()}>
-                                    <button onClick={() => { localStorage.setItem(staticConst.LOCAL_HISTORY_KEY, i()); navigate('/score') }} className={"historyItem"} data-score={getScoreColor(h.infos)}>
+                                    <button onClick={() => { localStorage.setItem(staticConst.LOCAL_HISTORY_KEY, i()); navigate('/score') }}
+                                        className={"historyItem"}
+                                        data-score={getScoreColor(h.infos)}
+                                        data-color={['red', 'green'].includes(getScoreColor(h.infos)) ? 'colored' : ''}>
                                         <div className={"historyContent"}>
                                             <div className={"historyCheckIconWrapper"}>
                                                 <div className={"historyCheckIconContainer"}>
@@ -371,8 +384,12 @@ export default function Main() {
                             </Show>
                         </Show>
                     </div>
+                    <h2>Moyenne</h2>
+                    <div className={"averageWrapper"}>
+                        {Math.round(calculateAverage()*20*100)/100}/20
+                    </div>
                 </div>
-                <Footer style='header'/>
+                <Footer style='header' />
             </div>
         </>
     )
