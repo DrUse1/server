@@ -1,8 +1,8 @@
 import styles from '../styles/footer.module.scss'
 
-export default function Footer(props) {
+export default function Footer() {
     return (
-        <div className={styles.footerWrapper + ' '+styles[props.style]}>
+        <div className={styles.footerWrapper}>
             <div className={styles.content}>
                 <div className={styles.section}>
                     <button>

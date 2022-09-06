@@ -389,7 +389,7 @@ export default function Main() {
                         {Math.round(calculateAverage()*20*100)/100}/20
                     </div>
                 </div>
-                <Footer style='header' />
+                <Footer />
             </div>
         </>
     )

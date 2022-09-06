@@ -126,82 +126,84 @@ p {
     flex-direction: column;
     gap: 12px;
     padding: 24px 0;
-}
 
-.session {
-    background: var(--color-light-blue);
-    border: none;
-    border-radius: 20px;
-    padding: 12px 16px 12px 12px;
-    transition: 0.2s ease-in-out;
-}
+    .session {
+        background: var(--color-light-blue);
+        border: none;
+        border-radius: 20px;
+        padding: 12px 16px 12px 12px;
+        transition: 0.2s ease-in-out;
 
-.session:hover {
-    background: var(--color-blue);
-    transform: scale(1.025);
-}
+        &:hover {
+            background: var(--color-blue);
+            transform: scale(1.025);
+        }
 
-.sessionContent {
-    display: flex;
-    align-items: flex-start;
-    height: 100%;
-}
+        .sessionContent {
+            display: flex;
+            align-items: flex-start;
+            height: 100%;
 
-.sessionIconWrapper {
-    display: flex;
-    width: 56px;
-    height: 56px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    background-color: var(--color-dark-blue);
-    border-radius: 20px;
-    margin-right: 12px;
-}
+            .sessionIconWrapper {
+                display: flex;
+                width: 56px;
+                height: 56px;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                background-color: var(--color-dark-blue);
+                border-radius: 20px;
+                margin-right: 12px;
 
-.icon {
-    width: 20px;
-    height: 20px;
-}
+                .icon {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
 
-.sessionLabel {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-}
+            .sessionLabel {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
 
-.sessionLabel div h2 {
-    font-weight: 700;
-    line-height: 1.6;
-}
+                div {
+                    .desktopSessionArrowIconWrapper {
+                        display: none;
+                        width: 20px;
+                        height: 20px;
+                        justify-content: flex-end;
+                        align-items: center;
+                        flex-shrink: 0;
 
-.sessionLabel div p {
-    font-size: 15px;
-    font-weight: 400;
-}
+                        .sessionArrowIcon {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
 
-.desktopSessionArrowIconWrapper {
-    display: none;
-    width: 20px;
-    height: 20px;
-    justify-content: flex-end;
-    align-items: center;
-    flex-shrink: 0;
-}
+                    h2 {
+                        font-weight: 700;
+                        line-height: 1.6;
+                    }
 
-.sessionArrowIconWrapper {
-    display: flex;
-    width: 20px;
-    height: 56px;
-    justify-content: flex-end;
-    align-items: center;
-    flex-shrink: 0;
-}
+                    p {
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                }
+            }
 
-.sessionArrowIcon {
-    width: 20px;
-    height: 20px;
+            .sessionArrowIconWrapper {
+                display: flex;
+                width: 20px;
+                height: 56px;
+                justify-content: flex-end;
+                align-items: center;
+                flex-shrink: 0;
+            }
+        }
+    }
 }
 
 .subjectWrapper {
@@ -659,20 +661,6 @@ p {
 
 @media (min-width: 804px) {
 
-    .mainPage {
-        min-height: 100vh;
-        margin-bottom: 0;
-    }
-
-    .mainWrapper {
-        padding: 16px;
-        padding-top: 81px;
-    }
-
-    .progressBarWrapper {
-        margin-top: 8px;
-    }
-
     .subjectWrapper {
         z-index: 1001;
         width: 540px;
@@ -684,28 +672,52 @@ p {
         left: 50%;
     }
 
+    .mainPage {
+        min-height: 100vh;
+        margin-bottom: 0;
+
+        .mainWrapper {
+            padding: 16px;
+            padding-top: 81px;
+
+            .progressBarWrapper {
+                margin-top: 8px;
+            }
+        }
+    }
+
     .sessionWrapper {
         flex-direction: row;
-    }
 
-    .session {
-        flex: 1;
-    }
+        .session {
+            flex: 1;
 
-    .sessionLabel div {
-        display: flex;
-        align-items: center;
-    }
+            .sessionContent {
+                .sessionLabel div {
+                    display: flex;
+                    align-items: center;
 
-    .desktopSessionArrowIconWrapper {
-        display: flex;
-    }
+                    .desktopSessionArrowIconWrapper {
+                        display: flex;
+                    }
+                }
 
-    .sessionArrowIconWrapper {
-        display: none;
+                .sessionArrowIconWrapper {
+                    display: none;
+                }
+            }
+        }
     }
 
     .historyWrapper {
+        .historyItem {
+            .historyContent {
+                .historyArrowIconWrapper {
+                    justify-content: center;
+                }
+            }
+        }
+
         &::-webkit-scrollbar {
             width: 8px;
             padding: 4px;
@@ -726,14 +738,6 @@ p {
         }
     }
 
-    .historyLabel {
-        width: 100%;
-    }
-
-    .historyArrowIconWrapper {
-        justify-content: center;
-    }
-
     .appOtherWrapper {
         position: static;
 
@@ -751,28 +755,28 @@ p {
 @media (min-width: 804px) and (max-width: 1071px) {
     .sessionWrapper {
         gap: 24px;
-    }
 
-    .session {
-        padding: 16px;
-    }
+        .session {
+            padding: 16px;
 
-    .sessionContent {
-        flex-direction: column;
-        align-items: center;
-    }
+            .sessionContent {
+                flex-direction: column;
+                align-items: center;
 
-    .sessionIconWrapper {
-        margin: 0 0 12px 0;
-    }
+                .sessionIconWrapper {
+                    margin: 0 0 12px 0;
+                }
 
-    .sessionLabel {
-        align-items: center;
-        height: 100%;
-    }
+                .sessionLabel {
+                    align-items: center;
+                    height: 100%;
 
-    .sessionLabel p {
-        text-align: center;
+                    p {
+                        text-align: center;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -780,18 +784,18 @@ p {
     .sessionWrapper {
         gap: 32px;
         min-width: 992px;
-    }
 
-    .session {
-        padding: 24px;
-    }
+        .session {
+            padding: 24px;
 
-    .sessionContent {
-        flex-direction: row;
-    }
+            .sessionContent {
+                flex-direction: row;
 
-    .sessionLabel div {
-        text-align: left;
+                .sessionLabel div {
+                    text-align: left;
+                }
+            }
+        }
     }
 }
 
