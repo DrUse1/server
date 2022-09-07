@@ -20,15 +20,29 @@
             border-radius: 20px;
             transition: .2s ease-in-out;
 
-            button {
+            .headerLogo {
                 border: none;
                 background: none;
                 font-weight: 600;
-                font-size: 20px;
+
+                svg, path, g {
+                    width: 150px;
+                    height: auto;
+                    //color: var(--color-darker-blue);
+                    //fill: var(--color-darker-blue);
+                    color: black;
+                    fill: black;
+                }
+
+                g {
+                    ellipse {
+                        //stroke: var(--color-darker-blue);
+                        stroke: black;
+                    }
+                }
             }
 
             &:hover {
-                background-color: var(--color-lighter-grey);
                 transform: scale(1.025);
             }
         }

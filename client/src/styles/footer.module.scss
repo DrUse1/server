@@ -42,14 +42,27 @@
             }
 
             &:nth-child(2) {
-                button {
+                .logo {
                     background: none;
                     border: none;
                     transition: .2s ease-in-out;
 
-                    span {
-                        font-size: 24px;
-                        font-weight: 600;
+                    svg,
+                    path,
+                    g {
+                        width: 150px;
+                        height: auto;
+                        //color: var(--color-darker-blue);
+                        //fill: var(--color-darker-blue);
+                        color: black;
+                        fill: black;
+                    }
+
+                    g {
+                        ellipse {
+                            //stroke: var(--color-darker-blue);
+                            stroke: black;
+                        }
                     }
 
                     &:hover {
@@ -69,7 +82,7 @@
 }
 
 @media (min-width: 804px) {
-    .footerWrapper.header{
+    .footerWrapper.header {
         margin-bottom: 0;
     }
 }
