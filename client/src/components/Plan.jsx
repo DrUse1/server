@@ -9,7 +9,7 @@ import Footer from "./Footer";
 function handleClick(plan) {
     if (userInfo.plan === 'premium') {
         showWarning('Tu as déjà le plan premium')
-        return
+        //return
     }
     setLoading(a => a + 1)
     Axios.post(staticConst.url + "/create-checkout-session", {

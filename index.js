@@ -165,13 +165,17 @@ app.post('/api/confirm', async (req, res) => {
             const sqlUpdate = 'UPDATE user_info SET confirm = (?) WHERE email = (?)'
             db.query(sqlUpdate, ['confirmed', email], (err, result) => {
                 if (result !== undefined) {
-                    res.send(true)
+                    res.send('1')
                 } else {
-                    res.send(false)
+                    res.send('0')
                 }
             })
         } else {
-            res.send(false)
+            if (result[0]?.confirm === 'confirmed') {
+                res.send('2')
+            } else {
+                res.send('0')
+            }
         }
     })
 })
@@ -576,6 +580,7 @@ app.post('/create-checkout-session', async (req, res) => {
                         quantity: 1,
                     },
                 ],
+                allow_promotion_codes: true,
                 mode: 'subscription',
                 success_url: `${url}/success?success=true`,
                 cancel_url: `${url}/success?success=false`,

@@ -14,7 +14,7 @@ export default function Footer(props) {
                 </div>
                 <div className={styles.section}>
                     <button className={styles.logo}>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="14.899 54.147 488.437 96.065" width="488.437" height="96.065">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="14.899 54.147 488.437 96.065" width="488.437" height="96.065">
                             <g style="" transform="matrix(1.619772, 0, 0, 1.619772, -129.958328, -70.331741)">
                                 <g transform="matrix(0.011522, 0, 0, -0.011522, 80.373222, 135.477737)" fill="currentColor" stroke="none" style="">
                                     <g style="" transform="matrix(11.458947, -11.458947, -32.685356, -32.685356, 11297.347656, 7817.227539)">
