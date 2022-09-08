@@ -80,9 +80,11 @@
 
 @media (min-width: 804px) {
     .contactWrapper {
-        padding: 16px;
-        padding-top: 80px;
         max-width: 1024px;
         margin: auto;
+
+        &.header {
+            padding-top: 80px;
+        }
     }
 }

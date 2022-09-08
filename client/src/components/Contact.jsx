@@ -37,7 +37,7 @@ export default function Contact() {
             <Show when={userInfo.email !== ''}>
                 <Header />
             </Show>
-            <div className={styles.contactWrapper} style={{ 'padding-top': (userInfo.email !== '' ? '80px' : '16px'), filter: (loading() > 0 ? staticConst.blur : '') }}>
+            <div className={styles.contactWrapper + (userInfo.email !== '' ? ' ' + styles.header : '')} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
                 <div className={styles.contactTitle}>
                     <span>Contacter le support</span>
                 </div>
@@ -71,7 +71,7 @@ export default function Contact() {
                     <span>Envoyer</span>
                 </button>
             </div>
-            <Footer style='header' />
+            <Footer style={userInfo.email !== '' ? 'header' : ''} />
         </>
     )
 }
