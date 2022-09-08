@@ -1,4 +1,3 @@
-import { Template } from "./elements";
 import Header from "./Header";
 
 import styles from "../styles/plan.module.scss"
@@ -33,7 +32,7 @@ export default function Plan() {
     return (
         <>
             <Header />
-            <div className={styles.planWrapper} style={{ transition: '.2s ease-in-out', filter: (loading() > 0 ? staticConst.blur : '') }}>
+            <div className={styles.planWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
                 <div>
                     <h2>Rien de plus simple !</h2>
                 </div>

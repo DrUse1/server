@@ -267,10 +267,10 @@ export default function App() {
                 <div className={"appScoreWrapper"}>
                     <Score />
                 </div>
-                <div className={"appQuestionWrapper"} style={{ transition: '.2s ease-in-out', filter: (loading() > 0 ? staticConst.blur : '') }}>
+                <div className={"appQuestionWrapper"} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
                     <Question />
                 </div>
-                <div className={"appAnswersWrapper"} style={{ transition: '.2s ease-in-out', filter: (loading() > 0 ? staticConst.blur : '') }}>
+                <div className={"appAnswersWrapper"} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
                     <Answers />
                 </div>
                 <div className={"appOtherWrapper"}>

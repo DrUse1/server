@@ -66,8 +66,8 @@ p {
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: calc(100vh - 65px);
-    margin-bottom: 65px;
+    min-height: calc(100vh - 64px);
+    margin-bottom: 64px;
 
     .mainWrapper {
         margin: 0 auto;
@@ -521,6 +521,7 @@ p {
         padding: 24px 0;
         margin: 24px 0;
         width: 100%;
+        transition: .2s ease-in-out;
 
         h1 {
             padding: 0 16px;
@@ -536,6 +537,7 @@ p {
         padding-bottom: 24px;
         width: 100%;
         max-width: 1024px;
+        transition: .2s ease-in-out;
 
         .appAnswerItemWrapper {
             background: none;
@@ -688,7 +690,7 @@ p {
 
         .mainWrapper {
             padding: 16px;
-            padding-top: 81px;
+            padding-top: 80px;
 
             .progressBarWrapper {
                 margin-top: 8px;

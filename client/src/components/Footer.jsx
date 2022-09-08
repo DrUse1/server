@@ -1,11 +1,13 @@
+import { useNavigate } from '@solidjs/router'
 import styles from '../styles/footer.module.scss'
 
 export default function Footer(props) {
+    const navigate = useNavigate()
     return (
         <div className={styles.footerWrapper + (props.style === 'header' ? ' ' + styles.header : '')}>
             <div className={styles.content}>
                 <div className={styles.section}>
-                    <button>
+                    <button onClick={() => navigate('/contact')}>
                         <span>Nous contacter</span>
                     </button>
                     <button>

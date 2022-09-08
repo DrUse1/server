@@ -139,11 +139,50 @@ app.post('/api/contact', async (req, res) => {
 
     transporter.sendMail(
         {
-            from: process.env.MAIL_USER,
+            from: {
+                name: 'Support QCMED',
+                address: process.env.MAIL_USER
+            },
             to: email + ", " + process.env.MAIL_USER,
-            subject: object,
+            subject: 'Demande transmise - QCMED',
             text: msg,
-            html: `${msg}`
+            html: `<html>
+            <style>
+                .wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 400px;
+                }
+        
+                h3 {
+                    text-align: center;
+                }
+        
+                .mailContent {
+                    background-color: #f2f2f2;
+                    border: 2px solid gray;
+                    border-radius: 5px;
+                }
+        
+                p {
+                    margin: 4px;
+                } 
+            </style>
+            <body>
+                <div class="wrapper">
+                    <h3>Nous avons bien transmis votre demande.</h3>
+                    <div class="desc">
+                        Voici les détails : <br><br>
+        
+                        Objet : ${object} <br>
+                        Contenu du message :
+                    </div>
+                    <div class="mailContent">
+                        <p>${msg}</p>
+                    </div>
+                </div>
+            </body>
+        </html>`
         },
         (err, info) => {
             if (info !== null) {

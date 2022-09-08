@@ -49,11 +49,11 @@ function Index() {
         <Route path="confirm" element={<Confirm />} />
         <Route path="forgot" element={<Forgot />} />
         <Route path="home" element={<Home />} />
+        <Route path="contact" element={<Contact />} />
         <Show when={global.logged}>
           <Route path="/" element={<Main />} />
           <Route path="plan" element={<Plan />} />
           <Route path="account" element={<Account />} />
-          <Route path="contact" element={<Contact />} />
           <Route path="app" element={<App />} />
           <Route path="score" element={<Score />} />
           <Route path="success" element={<Success />} />

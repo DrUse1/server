@@ -54,7 +54,7 @@ export default function Score() {
     return (
         <>
             <Header />
-            <div className={styles.scoreWrapper} style={{ transition: '.2s ease-in-out', filter: (loading() > 0 ? staticConst.blur : '') }}>
+            <div className={styles.scoreWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
                 <div className={styles.scoreTitle}>
                     <span>Tu as obtenu</span>
                 </div>
