@@ -337,11 +337,11 @@ export default function Account() {
                                 <>
                                     <span className={styles.left}>Se termine le</span>
                                     <span className={styles.right}>{userInfo.endDate.replaceAll('-', '/')}</span>
-                                    <span className={styles.left}>Prélevement automatique</span>
-                                    <span className={styles.right}>{userInfo.cancelWhenEnd ? 'Désactivé' : 'Activé'}</span>
+                                    <span className={styles.left}>Renouvellement automatique</span>
+                                    <span className={styles.right}>{userInfo.cancelWhenEnd ? 'Non' : 'Oui'}</span>
                                     {userInfo.cancelWhenEnd ?
-                                        <button onClick={() => cancelAtEndPeriod(false)}>Activer le prélevement automatique</button> :
-                                        <button onClick={() => cancelAtEndPeriod(true)}>Désactiver le prélevement automatique</button>}
+                                        <button onClick={() => cancelAtEndPeriod(false)}>Activer le renouvellement automatique</button> :
+                                        <button onClick={() => cancelAtEndPeriod(true)}>Désactiver le renouvellement automatique</button>}
                                 </>
                             }>
                                 <button onClick={() => navigate('/plan')}>
