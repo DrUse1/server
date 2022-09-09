@@ -16,18 +16,17 @@
         margin: 0 auto;
 
         .headerHome {
-            padding: 4px 8px;
             border-radius: 20px;
             transition: .2s ease-in-out;
+            height: 32px;
 
             .headerLogo {
                 border: none;
                 background: none;
-                font-weight: 600;
 
                 svg, path, g {
-                    width: 150px;
-                    height: auto;
+                    height: 32px;
+                    width: auto;
                     //color: var(--color-darker-blue);
                     //fill: var(--color-darker-blue);
                     color: black;

@@ -9,7 +9,7 @@ import Footer from "./Footer";
 
 export default function Contact() {
     const [contact, setContact] = createStore({
-        email: userInfo.email,
+        email: '',
         object: '',
         message: ''
     })
@@ -30,10 +30,14 @@ export default function Contact() {
         })
     }
 
+    console.log(userInfo)
+
     return (
         <>
-            <Header />
-            <div className={styles.contactWrapper} style={{ transition: '.2s ease-in-out', filter: (loading() > 0 ? staticConst.blur : '') }}>
+            <Show when={userInfo.email !== ''}>
+                <Header />
+            </Show>
+            <div className={styles.contactWrapper + (userInfo.email !== '' ? ' ' + styles.header : '')} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
                 <div className={styles.contactTitle}>
                     <span>Contacter le support</span>
                 </div>
@@ -44,8 +48,7 @@ export default function Contact() {
                             type="text"
                             onChange={(e) => setContact('email', e.target.value)}
                             value={contact.email}
-                            required
-                            disabled />
+                            required />
                     </div>
                     <div className={styles.inputItem}>
                         <span>Objet</span>
@@ -68,7 +71,7 @@ export default function Contact() {
                     <span>Envoyer</span>
                 </button>
             </div>
-            <Footer style='header' />
+            <Footer style={userInfo.email !== '' ? 'header' : ''} />
         </>
     )
 }

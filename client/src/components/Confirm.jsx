@@ -40,13 +40,13 @@ export default function Confirm() {
                 </div>
                 <div className={styles.confirmWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
                     <Show when={state() === 0} >
-                        <div>Un problème est survenue. Réessayez plus tard ou contacter le support</div>
+                        <div>Un problème est survenu. Réessayes plus tard ou contactes le support</div>
                     </Show>
                     <Show when={state() === 1}>
-                        <div>Votre mail a bien été confirmé !</div>
+                        <div>Votre email a bien été confirmé !</div>
                     </Show>
                     <Show when={state() === 2}>
-                        <div>Votre mail a déjà été confirmé !</div>
+                        <div>Votre email a déjà été confirmé !</div>
                     </Show>
                 </div>
             </div>

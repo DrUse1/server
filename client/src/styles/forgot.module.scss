@@ -1,174 +1,205 @@
-.forgotWrapper {
-    padding: 16px;
-    background-color: white;
+.forgotPage {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    min-height: 100vh;
+    gap: 64px;
 
-    .forgotTitle {
-        span {
-            font-weight: 600;
-            font-size: 24px;
-        }
-    }
+    .logo {
+        margin-top: 64px;
 
-    .button {
-        align-self: flex-start;
-        border: none;
-        padding: 8px 12px;
-        background-color: var(--color-lighter-grey);
-        border-radius: 20px;
-        cursor: pointer;
-        transition: 0.2s ease-in-out;
-
-        &:hover {
-            background-color: var(--color-light-grey);
-            transform: scale(1.025);
-        }
-    }
-
-    .forgotResponse {
-        border-radius: 20px;
-        padding: 10px;
-        text-align: center;
-
-        span {
-            color: white;
+        svg,
+        path,
+        g {
+            width: 150px;
+            height: auto;
+            color: var(--color-darker-blue);
+            fill: var(--color-darker-blue);
+            //color: black;
+            //fill: black;
         }
 
-        &.green {
-            span {
-                color: var(--color-green);
+        g {
+            ellipse {
+                stroke: var(--color-darker-blue);
+                //stroke: black;
             }
-
-            border: 2px solid var(--color-green);
-        }
-
-        &.red {
-            span {
-                color: var(--color-red);
-            }
-
-            border: 2px solid var(--color-red);
         }
     }
 
-    .forgotForm {
-        width: 100%;
+    .forgotWrapper {
+        padding: 16px;
+        background-color: white;
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 16px;
-
-        .forgotItem {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-
+        width: 100%;
+    
+        .forgotTitle {
             span {
-                margin-left: 2px;
-            }
-
-            input {
-                border: 2px solid var(--color-light-grey);
-                border-radius: 10px;
-                width: 100%;
-                height: 40px;
-                transition: border-color .2s ease-in-out, color .2s ease-in-out;
-                padding: 0 15px;
+                font-weight: 600;
+                font-size: 24px;
             }
         }
-
-        .forgotPassFormItem {
+    
+        .button {
+            align-self: flex-start;
+            border: none;
+            padding: 8px 12px;
+            background-color: var(--color-lighter-grey);
+            border-radius: 20px;
+            cursor: pointer;
+            transition: 0.2s ease-in-out;
+    
+            &:hover {
+                background-color: var(--color-light-grey);
+                transform: scale(1.025);
+            }
+        }
+    
+        .forgotResponse {
+            border-radius: 20px;
+            padding: 10px;
+            text-align: center;
+    
+            span {
+                color: white;
+            }
+    
+            &.green {
+                span {
+                    color: var(--color-green);
+                }
+    
+                border: 2px solid var(--color-green);
+            }
+    
+            &.red {
+                span {
+                    color: var(--color-red);
+                }
+    
+                border: 2px solid var(--color-red);
+            }
+        }
+    
+        .forgotForm {
+            width: 100%;
             display: flex;
             flex-direction: column;
-            gap: 4px;
-
-            .passwordFieldWrapper {
+            gap: 16px;
+    
+            .forgotItem {
                 display: flex;
-                flex-direction: row;
-                position: relative;
-                justify-content: center;
-
-                input {
-                    border-radius: 20px;
-                    border: 2px solid var(--color-light-grey);
-                    padding: 0 16px;
-                    height: 40px;
-                    transition: .2s ease-in-out;
-                    outline: none;
-                    font-size: 16px;
-                    width: 100%;
-
-                    &:hover,
-                    &:focus {
-                        transform: scale(1.025);
-                    }
-
-                    &:hover {
-                        border: 2px solid rgb(172, 172, 172);
-                    }
-
-                    &:focus {
-                        border: 2px solid var(--color-blue);
-                    }
+                flex-direction: column;
+                gap: 4px;
+    
+                span {
+                    margin-left: 2px;
                 }
-
-                .passwordIconWrapper {
+    
+                input {
+                    border: 2px solid var(--color-light-grey);
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 40px;
+                    transition: border-color .2s ease-in-out, color .2s ease-in-out;
+                    padding: 0 15px;
+                }
+            }
+    
+            .forgotPassFormItem {
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+    
+                .passwordFieldWrapper {
                     display: flex;
-                    align-items: center;
-                    position: absolute;
-                    top: 5px;
-                    right: 10px;
-                    width: 30px;
-                    height: 30px;
-
-                    .passwordButton {
+                    flex-direction: row;
+                    position: relative;
+                    justify-content: center;
+    
+                    input {
+                        border-radius: 20px;
+                        border: 2px solid var(--color-light-grey);
+                        padding: 0 16px;
+                        height: 40px;
+                        transition: .2s ease-in-out;
+                        outline: none;
+                        font-size: 16px;
+                        width: 100%;
+    
+                        &:hover,
+                        &:focus {
+                            transform: scale(1.025);
+                        }
+    
+                        &:hover {
+                            border: 2px solid rgb(172, 172, 172);
+                        }
+    
+                        &:focus {
+                            border: 2px solid var(--color-blue);
+                        }
+                    }
+    
+                    .passwordIconWrapper {
                         display: flex;
                         align-items: center;
-                        justify-content: center;
+                        position: absolute;
+                        top: 5px;
+                        right: 10px;
                         width: 30px;
                         height: 30px;
-                        border: none;
-                        background: none;
-                        cursor: pointer;
-
-                        .passwordIcon {
-                            width: 20px;
-                            height: 20px;
+    
+                        .passwordButton {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 30px;
+                            height: 30px;
+                            border: none;
+                            background: none;
+                            cursor: pointer;
+    
+                            .passwordIcon {
+                                width: 20px;
+                                height: 20px;
+                            }
                         }
                     }
                 }
             }
-        }
-
-        .passRequires {
-            display: flex;
-            flex-wrap: wrap;
-
-            .passRequireItemWrapper {
-                margin: 0 8px 8px 0px;
-
-                .passRequireItem {
-                    padding: 0 8px;
-                    background-color: var(--color-lighter-grey);
-                    border-radius: 20px;
-                    display: flex;
-                    transition: 0.5s ease-in-out;
-
-                    &.valid {
+    
+            .passRequires {
+                display: flex;
+                flex-wrap: wrap;
+    
+                .passRequireItemWrapper {
+                    margin: 0 8px 8px 0px;
+    
+                    .passRequireItem {
                         padding: 0 8px;
-                        background-color: var(--color-green);
+                        background-color: var(--color-lighter-grey);
                         border-radius: 20px;
                         display: flex;
-
-                        span {
-                            color: white;
+                        transition: 0.5s ease-in-out;
+    
+                        &.valid {
+                            padding: 0 8px;
+                            background-color: var(--color-green);
+                            border-radius: 20px;
+                            display: flex;
+    
+                            span {
+                                color: white;
+                            }
                         }
-                    }
-
-                    span {
-                        font-size: 13px;
+    
+                        span {
+                            font-size: 13px;
+                        }
                     }
                 }
             }
@@ -184,12 +215,12 @@
     .forgotPage {
         min-height: 100vh;
         display: flex;
+        justify-content: center;
 
         .forgotWrapper {
-            width: 100%;
             max-width: 400px;
             padding: 48px;
-            margin: auto;
+            margin: 0 auto 64px auto;
             border-radius: 20px;
             box-shadow: 0 60px 40px 0 rgb(0 0 0 / 8%);
         }

@@ -5,6 +5,7 @@
     flex-direction: column;
     gap: 16px;
     min-height: calc(100vh - 85px);
+    transition: .2s ease-in-out;
 
     .scoreTitle {
         text-align: center;
@@ -224,7 +225,7 @@
 @media (min-width: 804px) {
     .scoreWrapper {
         padding: 16px;
-        padding-top: 81px;
+        padding-top: 80px;
         max-width: 1024px;
     }
 }

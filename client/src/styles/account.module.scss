@@ -85,6 +85,7 @@
     }
 
     .accountContent {
+        transition: .2s ease-in-out;
 
         .accountContentTitle {
             font-size: 20px;
@@ -183,6 +184,12 @@
                             flex-direction: row;
                             position: relative;
                             justify-content: center;
+                            transition: .2s ease-in-out;
+
+                            &:hover,
+                            &:focus {
+                                transform: scale(1.025);
+                            }
 
                             input {
                                 border-radius: 20px;
@@ -193,12 +200,7 @@
                                 outline: none;
                                 font-size: 16px;
                                 width: 100%;
-
-                                &:hover,
-                                &:focus {
-                                    transform: scale(1.025);
-                                }
-
+                                
                                 &:hover {
                                     border: 2px solid rgb(172, 172, 172);
                                 }
@@ -337,7 +339,7 @@
 
 @media (min-width: 804px) {
     .accountWrapper {
-        padding-top: 81px;
+        padding-top: 80px;
         display: flex;
 
         .accountNav {

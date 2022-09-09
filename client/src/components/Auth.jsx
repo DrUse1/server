@@ -128,7 +128,7 @@ export default function Auth() {
                     if (res.data[1] === false) {
                         showWarning('Mot de passe incorrect')
                     } else {
-                        const token = utils.getRandomToken()
+                        const token = res.data[2]//utils.getRandomToken()
                         setLoading(a => a + 1)
                         Axios.post(staticConst.url + '/api/update', {
                             prev_token: res.data[2],
@@ -374,7 +374,7 @@ export default function Auth() {
                         </g>
                     </svg>
                 </div>
-                <div className={styles.authWrapper} style={{ transition: '.2s ease-in-out', filter: (loading() > 0 ? staticConst.blur : '') }}>
+                <div className={styles.authWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
                     <Show when={global.state === 'register'} fallback={
                         <DisplayLogin />
                     }>
