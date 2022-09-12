@@ -251,13 +251,6 @@ app.post('/api/forgot', async (req, res) => {
     })
 })
 
-app.get('/api/get', (req, res) => {
-    const sqlSelect = 'SELECT * FROM user_info'
-    db.query(sqlSelect, (err, result) => {
-        res.send(result)
-    })
-})
-
 app.get('/api/verify', (req, res) => {
     const email = req.query.email
     const password = req.query.password
@@ -458,25 +451,6 @@ app.post('/api/updateplays', async (req, res) => {
     }
 })
 
-app.post('/api/clear', (req, res) => {
-
-    const sqlClear = 'DELETE FROM user_info WHERE id >= 0'
-    const sqlReset = 'ALTER TABLE user_info AUTO_INCREMENT = 1'
-    db.query(sqlClear, (err, result) => {
-        if (result !== undefined) {
-            db.query(sqlReset, (errReset, resultReset) => {
-                if (resultReset !== undefined) {
-                    res.send('good clear/reset')
-                } else {
-                    console.log('reset error ', errReset)
-                }
-            })
-        } else {
-            console.log('clear error ', err)
-        }
-    })
-})
-
 app.post('/api/stripe_data', async (req, res) => {
     function inverseDate(date) {
         return (date.slice(9 - 11) + date.slice(4, 8) + date.slice(0, 4))
@@ -645,3 +619,6 @@ app.get('*', (req, res) => {
 app.listen(8080, () => {
     console.log('Running on port 8080')
 })
+
+//const sqlClear = 'DELETE FROM user_info WHERE id >= 0'
+//const sqlReset = 'ALTER TABLE user_info AUTO_INCREMENT = 1'

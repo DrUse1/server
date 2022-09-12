@@ -52,14 +52,6 @@ export default function Auth() {
         }
     }
 
-    function printDDB() {
-        setLoading(a => a + 1)
-        Axios.get(staticConst.url + '/api/get').then((res) => {
-            console.log(res.data)
-            setLoading(a => a - 1)
-        })
-    }
-
     function verifyForm() {
         if (userForm().password !== userForm().confirmPassword) {
             showWarning('Les mots de passes sont différents')
@@ -149,14 +141,6 @@ export default function Auth() {
         }
     }
 
-    function clearDDB() {
-        setLoading(a => a + 1)
-        Axios.post(staticConst.url + '/api/clear',).then((res) => {
-            console.log(res.data)
-            setLoading(a => a - 1)
-        })
-    }
-
     function resetForm() {
         setUserForm({
             email: '',
@@ -225,10 +209,6 @@ export default function Auth() {
                 </form>
                 <p>Vous n'avez pas de compte ?</p>
                 <a href="#" onClick={(e) => { e.preventDefault(); resetForm(); setGlobal('state', 'register') }}>Inscrivez-vous !</a>
-                <br />
-                <button onClick={() => printDDB()}>Print database</button>
-                <br />
-                <button onClick={() => clearDDB()}>Clear database</button>
             </>
         )
     }
@@ -345,10 +325,6 @@ export default function Auth() {
                 </form>
                 <p>Vous avez déjà un compte ?</p>
                 <a href="#" onClick={(e) => { e.preventDefault(); resetForm(); setGlobal('state', 'login') }}>Connectez-vous !</a>
-                <br />
-                <button onClick={() => printDDB()}>Print database</button>
-                <br />
-                <button onClick={() => clearDDB()}>Clear database</button>
             </>
         )
     }
