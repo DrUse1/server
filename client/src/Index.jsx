@@ -21,6 +21,7 @@ import { WarningPopup } from './components/elements';
 import Confirm from './components/Confirm';
 import Forgot from './components/Forgot';
 import Home from './components/Home';
+import Terms from './components/Terms';
 
 function Index() {
   return (
@@ -50,6 +51,7 @@ function Index() {
         <Route path="forgot" element={<Forgot />} />
         <Route path="home" element={<Home />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="terms" element={<Terms />} />
         <Show when={global.logged}>
           <Route path="/" element={<Main />} />
           <Route path="plan" element={<Plan />} />
@@ -64,7 +66,7 @@ function Index() {
 }
 
 const notLoad = ['/confirm', '/home']
-const pages = ['/auth', '/confirm', '/forgot', '/home', '/', '/plan', '/account', '/contact', '/app', '/score', '/success']
+const pages = ['/auth', '/confirm', '/forgot', '/home', '/', '/plan', '/account', '/contact', '/app', '/score', '/success', '/terms']
 
 if (window.origin.includes('qcmed') && !window.origin.includes('www')) {
   window.location.href = 'https://www.qcmed.fr' + window.location.pathname

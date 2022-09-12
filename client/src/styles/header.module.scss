@@ -19,13 +19,17 @@
             border-radius: 20px;
             transition: .2s ease-in-out;
             height: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             .headerLogo {
                 border: none;
                 background: none;
+                height: 20px;
 
                 svg, path, g {
-                    height: 32px;
+                    height: 20px;
                     width: auto;
                     //color: var(--color-darker-blue);
                     //fill: var(--color-darker-blue);

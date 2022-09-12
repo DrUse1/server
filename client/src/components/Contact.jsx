@@ -30,8 +30,6 @@ export default function Contact() {
         })
     }
 
-    console.log(userInfo)
-
     return (
         <>
             <Show when={userInfo.email !== ''}>

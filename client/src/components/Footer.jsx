@@ -10,7 +10,7 @@ export default function Footer(props) {
                     <button onClick={() => navigate('/contact')}>
                         <span>Nous contacter</span>
                     </button>
-                    <button>
+                    <button onClick={() => navigate('/terms')}>
                         <span>CGU</span>
                     </button>
                 </div>

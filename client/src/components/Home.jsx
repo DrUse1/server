@@ -24,31 +24,38 @@ export default function Home() {
                     <div className={styles.container}>
                         <div className={styles.box}>
                             <div className={styles.title}>
-                                <span>Bienvenue sur QCMed !</span>
+                                <span>Nos services</span>
                             </div>
                             <div className={styles.text}>
                                 <span>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis harum ratione cum impedit accusamus dolor officiis atque iusto ipsam exercitationem.
+                                    Notre site permets à tous les étudiants de médecine de France
+                                    (et d'ailleurs) de s'entrainer à l'aide de QCM personnalisables
+                                    et recouvrant tout le programme de première année !
                                 </span>
                             </div>
                         </div>
                         <div className={styles.box}>
                             <div className={styles.title}>
-                                <span>Bienvenue sur QCMed !</span>
+                                <span>+ de 1000 questions !</span>
                             </div>
                             <div className={styles.text}>
                                 <span>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, labore? Iure aliquam, nisi voluptates nostrum, numquam necessitatibus, placeat soluta magni neque repellendus labore pariatur ullam reprehenderit aspernatur. Eius, voluptatibus enim?
+                                    Les questions sont continuellement mises à jour et de
+                                    nombreuses sont rajoutées chaque jour !
+                                    Elles sont rigoureusement choisies et vérifiées pour le
+                                    meilleur entraînement possible !
                                 </span>
                             </div>
                         </div>
                         <div className={styles.box}>
                             <div className={styles.title}>
-                                <span>Bienvenue sur QCMed !</span>
+                                <span>À venir !</span>
                             </div>
                             <div className={styles.text}>
                                 <span>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, obcaecati error expedita, animi cupiditate nemo quidem quae corrupti repellendus magnam dolore, eligendi unde nulla atque labore officia ipsa placeat nihil sequi quos consectetur est maxime dolorum odio. Hic, modi enim.
+                                    Le site est en constante évolution. De nombreuses
+                                    fonctionnalitées sont encore à venir donc n'hésites
+                                    pas à rejoindre dès maintenant !
                                 </span>
                             </div>
                         </div>
