@@ -647,23 +647,27 @@ p {
         text-size-adjust: 100%;
     }
 
-    .historyWrapper {
-        .historyItem {
-            .historyContent {
-                .historyLabel {
-                    flex-direction: row;
-                    align-items: center;
+    .mainPage {
+        .mainWrapper {
+            .historyWrapper {
+                .historyItem {
+                    .historyContent {
+                        .historyLabel {
+                            flex-direction: row;
+                            align-items: center;
 
-                    h2 {
-                        width: 55px;
-                    }
+                            h2 {
+                                width: 55px;
+                            }
 
-                    div:nth-child(1) {
-                        margin-right: 16px;
-                    }
+                            div:nth-child(1) {
+                                margin-right: 16px;
+                            }
 
-                    div:nth-child(2) {
-                        width: 100%;
+                            div:nth-child(2) {
+                                width: 100%;
+                            }
+                        }
                     }
                 }
             }
