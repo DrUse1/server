@@ -173,6 +173,7 @@ export default function Main() {
                             <div className={"subjectDescription"}>
                                 <p>Spécifies les chapitres sur lesquels tu veux tomber lors de tes séries !</p>
                                 <p>Cliques sur la matière pour spécifier les chapitres !</p>
+                                <p>(De nombreuses matières/chapitres sont encore à venir !)</p>
                             </div>
                             <div className={"subjectSelectAll"}>
                                 <p>Tout sélectionner</p>
