@@ -426,15 +426,17 @@ p {
                         justify-content: center;
                         align-items: center;
                         flex-shrink: 0;
-                        transition: .5s ease-in-out;
 
                         svg {
                             width: 20px;
                             height: 20px;
+                            transition: .5s ease-in-out;
                         }
 
                         &.show {
-                            transform: rotate(90deg);
+                            svg {
+                                transform: rotate(90deg);
+                            }
                         }
                     }
                 }
