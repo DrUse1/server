@@ -3,6 +3,9 @@ import { loading, staticConst } from "../globalInfo";
 import styles from '../styles/home.module.scss'
 import Footer from "./Footer";
 
+import Example1 from '../images/example1.png'
+import Example2 from '../images/example2.png'
+
 export default function Home() {
     return (
         <>
@@ -57,6 +60,20 @@ export default function Home() {
                                     fonctionnalitées sont encore à venir donc n'hésites
                                     pas à rejoindre dès maintenant !
                                 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.section}>
+                    <div className={styles.container}>
+                        <div className={styles.box}>
+                            <div className={styles.img}>
+                                <img src={Example1} alt="example 1" />
+                            </div>
+                        </div>
+                        <div className={styles.box}>
+                            <div className={styles.img}>
+                                <img src={Example2} alt="example 2" />
                             </div>
                         </div>
                     </div>

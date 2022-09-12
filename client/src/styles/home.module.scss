@@ -54,8 +54,13 @@
             }
         }
 
-        &:nth-child(2) {
+        &:nth-child(2), &:nth-child(3) {
             padding: 64px;
+
+            .sectionTitle {
+                font-size: 32px;
+                font-weight: 600;
+            }
 
             .container {
                 display: flex;
@@ -90,7 +95,14 @@
                         font-size: 22px;
                     }
 
-                    .text {
+                    .text {}
+
+                    .img {
+                        width: 100%;
+
+                        img {
+                            width: inherit;
+                        }
                     }
                 }
             }
@@ -135,7 +147,7 @@
 @media (min-width: 804px) {
     .homeWrapper {
         .section {
-            &:nth-child(2) {
+            &:nth-child(2),&:nth-child(3) {
                 .container {
                     flex-direction: row;
                     align-items: normal;
