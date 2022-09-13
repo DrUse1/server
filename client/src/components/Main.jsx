@@ -11,6 +11,7 @@ import neutralCheckIcon from '../svg/neutralCheck.svg'
 import arrowIcon from '../svg/arrow.svg'
 
 import anatomieIcon from '../svg/subjects/anatomieIcon.svg'
+import dna from '../svg/subjects/dna.png'
 import { useNavigate } from "@solidjs/router";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -198,7 +199,7 @@ export default function Main() {
                                                 }
                                             }}>
                                                 <div className={"subjectIcon"}>
-                                                    <img src={anatomieIcon} />
+                                                    <img src={dna} />
                                                 </div>
                                                 <div className={"subjectArrowIcon " + subject}>
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">

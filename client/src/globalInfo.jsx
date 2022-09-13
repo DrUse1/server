@@ -15,7 +15,8 @@ export const staticConst = {
 export const [global, setGlobal] = createStore({
     logged: false,
     state: '',
-    round: 3,
+    round: 0,
+    maxRound: 25,
     score: [0, 0],
     alreadyDone: [],
     showWarning: {

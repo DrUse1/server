@@ -257,6 +257,7 @@ app.get('/api/verify', (req, res) => {
 
     const sqlSelect = 'SELECT * FROM user_info WHERE email = (?)'
     db.query(sqlSelect, [email], (err, result) => {
+        if (err) { throw err }
         let isMail = result.length > 0
         let isPasswordValid = false
         let token;

@@ -30,6 +30,17 @@ export default function App() {
 
     let serieHistory = []
 
+    setupNumQuestions()
+    function setupNumQuestions() {
+        let count = 0;
+        data.forEach(each => {
+            if (subjects[each.matiere][each.chapitre]) {
+                count++
+            }
+        })
+        setGlobal('round', (count < global.maxRound ? count : global.maxRound))
+    }
+
     function getSelectedAnswers() {
         let list = []
         item.answers.forEach((e, i) => {
@@ -137,7 +148,7 @@ export default function App() {
                 let failed = false
                 item.answers.forEach((answer, i) => {
                     if (item.answer.toString().includes(i)) {
-                        if(answer.color === 'white'){
+                        if (answer.color === 'white') {
                             failed = true
                         }
                         setItem('answers', i, 'color', 'green')
