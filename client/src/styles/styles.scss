@@ -342,8 +342,14 @@ p {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    opacity: 0;
-    animation: appear 1s linear forwards;
+    transition: .75s cubic-bezier(.8,0,.2,1);
+    pointer-events: none;
+    translate: 0 100%;
+
+    &.active {
+        pointer-events: all;
+        translate: 0;
+    }
 
     .subjectHeader {
         display: flex;
@@ -634,16 +640,6 @@ p {
     }
 }
 
-@keyframes appear {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 @media (min-width: 480px) {
     html {
         text-size-adjust: 100%;
@@ -686,8 +682,19 @@ p {
         max-height: 75vh;
         border-radius: 20px;
         top: 50%;
-        transform: translate(-50%, -50%);
+        translate: -50% -50%;
         left: 50%;
+        transition: .5s cubic-bezier(.8,0,.2,1);
+        opacity: 0;
+        scale: 0.5;
+        rotate: 15deg;
+
+        &.active {
+            opacity: 1;
+            translate: -50% -50%;
+            scale: 1;
+            rotate: 0deg;
+        }
     }
 
     .mainPage {
