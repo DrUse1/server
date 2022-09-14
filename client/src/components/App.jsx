@@ -324,15 +324,15 @@ export default function App(props) {
 
         }
 
-        const inter = setInterval(() => {
-            if (loading() === 0 && window.location.pathname === '/app') {
-                handleClick('answer', 1)
-                submitAnswer()
-                nextQuestion()
-            }else{
-                clearInterval(inter)
-            }
-        }, 10);
+        // const inter = setInterval(() => {
+        //     if (loading() === 0 && window.location.pathname === '/app') {
+        //         handleClick('answer', 1)
+        //         submitAnswer()
+        //         nextQuestion()
+        //     }else{
+        //         clearInterval(inter)
+        //     }
+        // }, 10);
 
         return (
             <>
