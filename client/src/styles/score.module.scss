@@ -168,6 +168,45 @@
                         text-align: center;
                         font-size: 20px;
                         border-bottom: 1px solid var(--color-light-grey);
+
+                        .supsub {
+                            position: relative;
+                            text-align: center;
+                            vertical-align: middle;
+                            top: 2px;
+
+                            .sup,
+                            .sub {
+                                width: 100%;
+                                text-align: center;
+                                font-size: 14px;
+                                left: 0;
+                                vertical-align: middle;
+                            }
+
+                            .sup {
+                                top: -11px;
+                                position: relative;
+                            }
+
+                            .sub {
+                                top: 7px;
+                                position: absolute;
+
+                                &.alone {
+                                    top: 0;
+                                    position: relative;
+                                }
+                            }
+                        }
+
+                        .ion {
+                            font-size: 14px;
+                        }
+
+                        &>.sub {
+                            font-size: 14px;
+                        }
                     }
 
                     .scoreHistoryItemAnswers {
@@ -182,7 +221,46 @@
                             width: 100%;
                             border-radius: 20px;
 
-                            &.selected{
+                            .supsub {
+                                position: relative;
+                                text-align: center;
+                                vertical-align: middle;
+                                top: 2px;
+
+                                .sup,
+                                .sub {
+                                    width: 100%;
+                                    text-align: center;
+                                    font-size: 12px;
+                                    left: 0;
+                                    vertical-align: middle;
+                                }
+
+                                .sup {
+                                    top: -10px;
+                                    position: relative;
+                                }
+
+                                .sub {
+                                    top: 4px;
+                                    position: absolute;
+
+                                    &.alone {
+                                        top: 0;
+                                        position: relative;
+                                    }
+                                }
+                            }
+
+                            .ion {
+                                font-size: 12px;
+                            }
+
+                            &>.sub {
+                                font-size: 12px;
+                            }
+
+                            &.selected {
                                 transform: scale(1.025);
                                 border: 2px solid var(--color-blue);
                             }
@@ -192,11 +270,25 @@
                             }
 
                             &.green {
+
+                                sub,
+                                sup,
+                                span {
+                                    color: white;
+                                }
+
                                 color: white;
                                 background-color: var(--color-green);
                             }
 
                             &.red {
+
+                                sub,
+                                sup,
+                                span {
+                                    color: white;
+                                }
+
                                 color: white;
                                 background-color: var(--color-red);
                             }

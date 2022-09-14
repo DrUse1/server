@@ -110,18 +110,101 @@ export default function App() {
     }
 
     function Question() {
+        function FormatQuestion(props) {
+            let q = props.question
+            return (
+                <>
+                    <h1>
+                        <For each={q.split('//')}>{(atom, i) =>
+                            <Show when={i() % 2 === 0} fallback={
+                                <>
+                                    <span className="supsub">
+                                        <Show when={atom.split('/').length > 1} fallback={
+                                            <>
+                                                <span className="sub alone">{atom.split('/')[0]}</span>
+                                            </>
+                                        }>
+                                            <>
+                                                <span className="sup">{atom.split('/')[0]}</span>
+                                                <span className="sub">{atom.split('/')[1]}</span>
+                                            </>
+                                        </Show>
+                                    </span>
+                                </>
+                            }>
+                                <For each={atom.split('/*')}>{(ion, j) =>
+                                    <Show when={j() % 2 === 0} fallback={
+                                        <sup className="ion">{ion}</sup>
+                                    }>
+                                        <For each={ion.split('*/')}>{(sub, k) =>
+                                            <Show when={k() % 2 === 0} fallback={
+                                                <sub className="sub">{sub}</sub>
+                                            }>
+                                                {sub}
+                                            </Show>
+                                        }</For>
+                                    </Show>
+                                }</For>
+                            </Show>
+                        }</For>
+                    </h1>
+                </>
+            )
+        }
         return (
             <>
-                <Show when={item.img !== ''}>
-                    <img alt="question" src={`../images/${item.img}.png`} width="400" height="auto"></img>
-                </Show>
-                <h1>{item.question}</h1>
+                <For each={[item.question]}>{i =>
+                    <FormatQuestion question={i} />
+                }</For>
             </>
         )
     }
 
     function Answers() {
         const letters = 'ABCDEFGH'
+
+        function FormatAnswer(props) {
+            let q = props.answer
+            return (
+                <>
+                    <span>
+                        <For each={q.split('//')}>{(atom, i) =>
+                            <Show when={i() % 2 === 0} fallback={
+                                <>
+                                    <span className="supsub">
+                                        <Show when={atom.split('/').length > 1} fallback={
+                                            <>
+                                                <span className="sub alone">{atom.split('/')[0]}</span>
+                                            </>
+                                        }>
+                                            <>
+                                                <span className="sup">{atom.split('/')[0]}</span>
+                                                <span className="sub">{atom.split('/')[1]}</span>
+                                            </>
+                                        </Show>
+                                    </span>
+                                </>
+                            }>
+                                <For each={atom.split('/*')}>{(ion, j) =>
+                                    <Show when={j() % 2 === 0} fallback={
+                                        <sup className="ion">{ion}</sup>
+                                    }>
+                                        <For each={ion.split('*/')}>{(sub, k) =>
+                                            <Show when={k() % 2 === 0} fallback={
+                                                <sub className="sub">{sub}</sub>
+                                            }>
+                                                {sub}
+                                            </Show>
+                                        }</For>
+                                    </Show>
+                                }</For>
+                            </Show>
+                        }</For>
+                    </span>
+                </>
+            )
+        }
+
         return (
             <>
                 <For each={item.answers}>
@@ -130,9 +213,7 @@ export default function App() {
                             <h2>
                                 {letters[answer.id]}
                             </h2>
-                            <span>
-                                {answer.value}
-                            </span>
+                            <FormatAnswer answer={answer.value} />
                         </button>
                     }
                 </For>
@@ -184,15 +265,13 @@ export default function App() {
             }
 
             const itemToAdd = {
-                question: item.question,
-                answers: extractAnswers(),
+                id: item.id,
                 result: !failed,
                 num: questionNum(),
                 subject: item.matiere,
                 chapter: item.chapitre,
                 selected: selected()
             }
-
             serieHistory = [...serieHistory, itemToAdd]
         }
 
@@ -246,6 +325,16 @@ export default function App() {
             })
 
         }
+
+        const inter = setInterval(() => {
+            if (loading() === 0 && window.location.pathname === '/app') {
+                handleClick('answer', 1)
+                submitAnswer()
+                nextQuestion()
+            }else{
+                clearInterval(inter)
+            }
+        }, 10);
 
         return (
             <>

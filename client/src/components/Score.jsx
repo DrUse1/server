@@ -5,6 +5,8 @@ import { createSignal, Show } from 'solid-js'
 import { useNavigate } from '@solidjs/router'
 import Footer from './Footer'
 
+import data from '../data/data.json'
+
 export default function Score() {
     const navigate = useNavigate()
     const [displayHistory, setDisplayHistory] = createSignal('all')
@@ -49,6 +51,117 @@ export default function Score() {
             sum += Math.ceil(elements[i].offsetHeight + margin);
         }
         return sum
+    }
+
+    function getQuestion(ask, elem) {
+        let item = data.find(item => item.id === elem.id)
+        if (ask === 'question') {
+            return item.question
+        } else if (ask === 'answers') {
+            let list = []
+            for (let i = 0; i < 5; i++) {
+                if (item['answer' + i] !== '') {
+                    function getColor() {
+                        let color = 'white'
+                        if (elem.selected.includes(i)) {
+                            if (!item.answer.toString().includes(i)) {
+                                color = 'red'
+                            }
+                        }
+                        if (item.answer.toString().includes(i)) {
+                            color = 'green'
+                        }
+                        return color
+                    }
+                    list = [...list, { color: getColor(), value: item['answer' + i] }]
+                }
+            }
+            return list
+        }
+    }
+
+    function FormatAnswer(props) {
+        let q = props.answer
+        return (
+            <>
+                <span className={props.className}>
+                    <For each={q.split('//')}>{(atom, i) =>
+                        <Show when={i() % 2 === 0} fallback={
+                            <>
+                                <span className={styles.supsub}>
+                                    <Show when={atom.split('/').length > 1} fallback={
+                                        <>
+                                            <span className={styles.sub + ' ' + styles.alone}>{atom.split('/')[0]}</span>
+                                        </>
+                                    }>
+                                        <>
+                                            <span className={styles.sup}>{atom.split('/')[0]}</span>
+                                            <span className={styles.sub}>{atom.split('/')[1]}</span>
+                                        </>
+                                    </Show>
+                                </span>
+                            </>
+                        }>
+                            <For each={atom.split('/*')}>{(ion, j) =>
+                                <Show when={j() % 2 === 0} fallback={
+                                    <sup className={styles.ion}>{ion}</sup>
+                                }>
+                                    <For each={ion.split('*/')}>{(sub, k) =>
+                                        <Show when={k() % 2 === 0} fallback={
+                                            <sub className={styles.sub}>{sub}</sub>
+                                        }>
+                                            {sub}
+                                        </Show>
+                                    }</For>
+                                </Show>
+                            }</For>
+                        </Show>
+                    }</For>
+                </span>
+            </>
+        )
+    }
+
+    function FormatQuestion(props) {
+        let q = props.question
+        return (
+            <>
+                <span>
+                    <For each={q.split('//')}>{(atom, i) =>
+                        <Show when={i() % 2 === 0} fallback={
+                            <>
+                                <span className={styles.supsub}>
+                                    <Show when={atom.split('/').length > 1} fallback={
+                                        <>
+                                            <span className={styles.sub + ' ' + styles.alone}>{atom.split('/')[0]}</span>
+                                        </>
+                                    }>
+                                        <>
+                                            <span className={styles.sup}>{atom.split('/')[0]}</span>
+                                            <span className={styles.sub}>{atom.split('/')[1]}</span>
+                                        </>
+                                    </Show>
+                                </span>
+                            </>
+                        }>
+                            <For each={atom.split('/*')}>{(ion, j) =>
+                                <Show when={j() % 2 === 0} fallback={
+                                    <sup className={styles.ion}>{ion}</sup>
+                                }>
+                                    <For each={ion.split('*/')}>{(sub, k) =>
+                                        <Show when={k() % 2 === 0} fallback={
+                                            <sub className={styles.sub}>{sub}</sub>
+                                        }>
+                                            {sub}
+                                        </Show>
+                                    }</For>
+                                </Show>
+                            }</For>
+                        </Show>
+                    }</For>
+                </span>
+            </>
+        )
     }
 
     return (
@@ -112,20 +225,10 @@ export default function Score() {
                                     </div>
                                 </div>
                                 <div className={styles.scoreHistoryItemContent}>
-                                    <span>{each.question}</span>
+                                    <FormatQuestion question={getQuestion('question', each)} />
                                     <div className={styles.scoreHistoryItemAnswers}>
-                                        <For each={each.answers}>{(answer, i) =>
-                                            <>
-                                                <Show when={answer.color === 'green'}>
-                                                    <span className={styles.green + ' ' + (each.selected.includes(i()) ? styles.selected : '')}>{answer.value}</span>
-                                                </Show>
-                                                <Show when={answer.color === 'red'}>
-                                                    <span className={styles.red + ' ' + (each.selected.includes(i()) ? styles.selected : '')}>{answer.value}</span>
-                                                </Show>
-                                                <Show when={answer.color === 'white'}>
-                                                    <span className={styles.white + ' ' + (each.selected.includes(i()) ? styles.selected : '')}>{answer.value}</span>
-                                                </Show>
-                                            </>
+                                        <For each={getQuestion('answers', each)}>{(answer, i) =>
+                                            <FormatAnswer className={styles[answer.color] + ' ' + (each.selected.includes(i()) ? styles.selected : '')} answer={answer.value} />
                                         }</For>
                                     </div>
                                 </div>

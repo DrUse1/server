@@ -342,7 +342,7 @@ p {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    transition: .75s cubic-bezier(.8,0,.2,1);
+    transition: .75s cubic-bezier(.8, 0, .2, 1);
     pointer-events: none;
     translate: 0 100%;
 
@@ -534,6 +534,45 @@ p {
         h1 {
             padding: 0 16px;
             text-align: center;
+
+            .supsub {
+                position: relative;
+                text-align: center;
+                vertical-align: middle;
+                top: 2px;
+
+                .sup,
+                .sub {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 16px;
+                    left: 0;
+                    vertical-align: middle;
+                }
+
+                .sup {
+                    top: -15px;
+                    position: relative;
+                }
+
+                .sub {
+                    top: 11px;
+                    position: absolute;
+
+                    &.alone {
+                        top: 0;
+                        position: relative;
+                    }
+                }
+            }
+
+            .ion {
+                font-size: 20px;
+            }
+
+            &>.sub {
+                font-size: 20px;
+            }
         }
     }
 
@@ -563,8 +602,47 @@ p {
             }
 
             span {
-                text-align: left;
                 font-size: 16px;
+                text-align: left;
+
+                .supsub {
+                    position: relative;
+                    text-align: center;
+                    vertical-align: middle;
+                    top: 2px;
+
+                    .sup,
+                    .sub {
+                        width: 100%;
+                        text-align: center;
+                        font-size: 12px;
+                        left: 0;
+                        vertical-align: middle;
+                    }
+
+                    .sup {
+                        top: -10px;
+                        position: relative;
+                    }
+
+                    .sub {
+                        top: 4px;
+                        position: absolute;
+
+                        &.alone {
+                            top: 0;
+                            position: relative;
+                        }
+                    }
+                }
+
+                .ion {
+                    font-size: 12px;
+                }
+    
+                &>.sub {
+                    font-size: 12px;
+                }
             }
 
             &:hover {
@@ -572,7 +650,9 @@ p {
                 transform: scale(1.02);
 
                 h2,
-                span {
+                span,
+                sub,
+                sup {
                     color: var(--color-darker-blue);
                 }
             }
@@ -592,7 +672,7 @@ p {
             &.colored {
 
                 h2,
-                span {
+                span, sub, sup {
                     color: var(--color-lighter-grey);
                 }
             }
@@ -684,7 +764,7 @@ p {
         top: 50%;
         translate: -50% -50%;
         left: 50%;
-        transition: .5s cubic-bezier(.8,0,.2,1);
+        transition: .5s cubic-bezier(.8, 0, .2, 1);
         opacity: 0;
         scale: 0.5;
         rotate: 15deg;
