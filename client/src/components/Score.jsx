@@ -1,13 +1,11 @@
 import { staticConst, global, setGlobal, resetGlobal, loading, setLoading, userInfo, subjects } from '../globalInfo'
 import Header from './Header'
 import styles from '../styles/score.module.scss'
-import { createSignal, Show } from 'solid-js'
+import { createEffect, createSignal, Show } from 'solid-js'
 import { useNavigate } from '@solidjs/router'
 import Footer from './Footer'
 
-import data from '../data/data.json'
-
-export default function Score() {
+export default function Score(props) {
     const navigate = useNavigate()
     const [displayHistory, setDisplayHistory] = createSignal('all')
 
@@ -54,7 +52,7 @@ export default function Score() {
     }
 
     function getQuestion(ask, elem) {
-        let item = data.find(item => item.id === elem.id)
+        let item = props.data.find(item => item.id === elem.id)
         if (ask === 'question') {
             return item.question
         } else if (ask === 'answers') {

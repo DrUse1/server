@@ -159,11 +159,11 @@
     "id": 14,
     "matiere": "Chimie général",
     "chapitre": "Thermochimie",
-    "question": "Soit la réaction suivante : I2(g) + H2(g) 2 1 2 HI(g) Dans le sens 1 a 298 K et a P\u001e, on a : G\u001ereaction = -2, 72 kJ et H réaction = -9, 4 kJ. Cochez la(ou les) affirmation(s) exacte(s) :",
+    "question": "Soit la réaction suivante : I2(g) + H2(g) 2 1 2 HI(g) Dans le sens 1 a 298 K et a P , on a : G reaction = -2, 72 kJ et H réaction = -9, 4 kJ. Cochez la(ou les) affirmation(s) exacte(s) :",
     "answer0": "L’enthalpie libre de la réaction dans le sens 1, est égale a H réaction - S réaction.",
     "answer1": "La réaction est endothermique.",
     "answer2": "La réaction dans le sens 1, a 298 K, est non spontanée.",
-    "answer3": "A l’équilibre, a P\u001e= 1 atm, la pression partielle de H2 dans le mélange des gaz est de 0, 5 atm.",
+    "answer3": "A l’équilibre, a P = 1 atm, la pression partielle de H2 dans le mélange des gaz est de 0, 5 atm.",
     "answer4": "Aucune des propositions precedentes n’est exacte.",
     "answer": 4
   },
@@ -183,7 +183,7 @@
     "id": 16,
     "matiere": "Chimie général",
     "chapitre": "Thermochimie",
-    "question": "Soit la reaction de combustion totale d’une mole de glucose C6H12O6 ; H\u001e= -2810 kJ.mol-1.",
+    "question": "Soit la reaction de combustion totale d’une mole de glucose C6H12O6 ; H = -2810 kJ.mol-1.",
     "answer0": "Elle produit trois moles de dioxyde de carbone.",
     "answer1": "Elle produit 12 moles d’eau.",
     "answer2": "Elle necessite l’apport de 6 moles de dioxygene.",
@@ -488,7 +488,7 @@
     "answer1": "Les LDL sont plus denses que les chylomicrons.",
     "answer2": "Les apolipoprotéines sont des lipides spécifiques se fixant sur les protéines.",
     "answer3": "Dans le sang humain, le cholestérol est surtout sous forme estérifiée.",
-    "answer4": "Le ‘’bon cholestérol’’ est le cholestérol des lipoprotéines qui ont subi des oxydations.",
+    "answer4": "Le bon cholestérol est le cholestérol des lipoprotéines qui ont subi des oxydations.",
     "answer": "1,2,3,4"
   },
   {
@@ -536,7 +536,7 @@
     "answer1": "C’est un acide gras de la famille des oméga 3.",
     "answer2": "Sa solubilité dans l’eau est importante.",
     "answer3": "C’est le principal constituant de l’huile d’olive.",
-    "answer4": "Il est composé de trois acides gras saturés unis par des liaisons esters a une mol ‘écule de glycérol.",
+    "answer4": "Il est composé de trois acides gras saturés unis par des liaisons esters a une molécule de glycérol.",
     "answer": 4
   },
   {
@@ -639,7 +639,7 @@
     "id": 55,
     "matiere": "Biochimie",
     "chapitre": "Métabolise",
-    "question": "Parmi les compos ‘es suivants, quel(s) est(sont) ceux qui peu(ven)t alimenter la néoglucogenèse ?",
+    "question": "Parmi les compos'es suivants, quel(s) est(sont) ceux qui peu(ven)t alimenter la néoglucogenèse ?",
     "answer0": "SuccinylcoA.",
     "answer1": "Glycerol.",
     "answer2": "Lysine.",
@@ -737,8 +737,8 @@
     "chapitre": "ADN, genome et chromosomes",
     "question": "Concernant l’ADN nucléaire humain :",
     "answer0": "L’ADN B est caractérise par la présence de trois paires de bases par tour d’hélice.",
-    "answer1": "Dans une mol ‘écule d’ADN, la somme des nucléotides A + T est toujours égale a la somme des nucléotides G +",
-    "answer2": "Dans une mol ‘écule d’ADN, les liaisons phosphodiesters lient deux molécules de désoxyribose adjacentes.",
+    "answer1": "Dans une molécule d’ADN, la somme des nucléotides A + T est toujours égale a la somme des nucléotides G +",
+    "answer2": "Dans une molécule d’ADN, les liaisons phosphodiesters lient deux molécules de désoxyribose adjacentes.",
     "answer3": "La fibre de chromatine de 10 nm possède une structure avec 6 nucléosomes qui s’assemblent en une hélice stabilisée par l’histone H1.",
     "answer4": "Les chromosomes sont repartis au hasard a l’intérieur du noyau pendant l’interphase.",
     "answer": 2
@@ -869,7 +869,7 @@
     "chapitre": "Réparation, mutations",
     "question": "Cochez la (ou les) réponse(s) exacte(s).",
     "answer0": "Les mutations spontanées sont représentées uniquement par les erreurs de réplication.",
-    "answer1": "Après la survenue d’une erreur lors d’une réplication de l’ADN, une mol ‘écule d’ADN sur les deux produites lors de la réplication suivante aura fixe la mutation.",
+    "answer1": "Après la survenue d’une erreur lors d’une réplication de l’ADN, une molécule d’ADN sur les deux produites lors de la réplication suivante aura fixe la mutation.",
     "answer2": "La substitution d’une adénine par une guanine est une transition.",
     "answer3": "La substitution d’une thymine par une cytosine est une transversion.",
     "answer4": "Les microsatellites sont une source de polymorphisme de l’ADN dans l’espèce humaine.",
@@ -1604,7 +1604,7 @@
     "answer1": "Elles sont impliquees dans la production d’ATP qui doitetre permanente.",
     "answer2": "Elles participent, en cooperation avec le reticulum endoplasmique lisse, a la",
     "answer3": "synthese des hormones stero¨?des et a l’homeostasie du Ca2+.",
-    "answer4": "En conditions anaerobies (en absence d‘O2), les reactions de fermentation se deroulent dans le cytosol, pas dans les mitochondries.",
+    "answer4": "En conditions anaerobies (en absence d'O2), les reactions de fermentation se deroulent dans le cytosol, pas dans les mitochondries.",
     "answer": "1,2,3,4"
   },
   {
@@ -1928,7 +1928,7 @@
     "answer1": "L’elastine est riche en hydroxylysine.",
     "answer2": "L’elastine est riche en hydroxyproline.",
     "answer3": "L’elastine est hydrophobe.",
-    "answer4": "L‘elastine est glycosylee.",
+    "answer4": "L'elastine est glycosylee.",
     "answer": "0,3"
   },
   {
@@ -4516,7 +4516,7 @@
     "matiere": "Biophy-Physio",
     "chapitre": "Mecanique des fluides",
     "question": "L’empilement des globules rouges dans les vaisseaux est un phenomene :",
-    "answer0": "Physiologique dans l ‘ensemble du reseau vasculaire.",
+    "answer0": "Physiologique dans l'ensemble du reseau vasculaire.",
     "answer1": "Irreversible.",
     "answer2": "Survenant lorsque la vitesse d’ecoulement est faible.",
     "answer3": "Qui influence la viscosite sanguine.",

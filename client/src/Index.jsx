@@ -23,6 +23,8 @@ import Forgot from './components/Forgot';
 import Home from './components/Home';
 import Terms from './components/Terms';
 
+import data from './data/data.json'
+
 function Index() {
   return (
     <>
@@ -56,8 +58,8 @@ function Index() {
           <Route path="/" element={<Main />} />
           <Route path="plan" element={<Plan />} />
           <Route path="account" element={<Account />} />
-          <Route path="app" element={<App />} />
-          <Route path="score" element={<Score />} />
+          <Route path="app" element={<App data={data}/>} />
+          <Route path="score" element={<Score data={data}/>} />
           <Route path="success" element={<Success />} />
         </Show>
       </Routes>

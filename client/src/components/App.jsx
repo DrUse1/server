@@ -3,13 +3,12 @@ import { createStore } from "solid-js/store";
 
 import { staticConst, global, setGlobal, resetGlobal, subjects, setSubjects, updatePlays, userInfo, getChapters, loading, setLoading, setUserInfo } from '../globalInfo'
 
-import data from '../data/data.json'
 import * as utils from '../utils'
 import { useNavigate } from "@solidjs/router";
 import Axios from "axios";
 
 
-export default function App() {
+export default function App(props) {
     if (userInfo.numPlays >= 5) {
         if (userInfo.plan === 'basic') {
             window.location.replace('/')
@@ -33,7 +32,7 @@ export default function App() {
     setupNumQuestions()
     function setupNumQuestions() {
         let count = 0;
-        data.forEach(each => {
+        props.data.forEach(each => {
             if (subjects[each.matiere][each.chapitre]) {
                 count++
             }
@@ -53,13 +52,13 @@ export default function App() {
         let index;
         loop()
         function loop() {
-            index = utils.getRandomInt(data.length)
-            if (global.alreadyDone.includes(index) || getChapters('unselected').includes(data[index].chapitre.toString())) {
+            index = utils.getRandomInt(props.data.length)
+            if (global.alreadyDone.includes(index) || getChapters('unselected').includes(props.data[index].chapitre.toString())) {
                 loop()
             }
         }
         setGlobal('alreadyDone', [...global.alreadyDone, index])
-        return (formatItem(data[index]))
+        return (formatItem(props.data[index]))
     }
 
     function formatItem(it) {
@@ -316,9 +315,8 @@ export default function App() {
             }).then((res) => {
                 setLoading(a => a - 1)
                 if (res) {
-                    setUserInfo('history', res.data)
                     localStorage.setItem(staticConst.LOCAL_HISTORY_KEY, 0)
-                    navigate('/score')
+                    window.location.replace('score')
                 } else {
                     window.location.reload()
                 }
