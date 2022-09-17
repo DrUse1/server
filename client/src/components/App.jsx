@@ -113,7 +113,7 @@ export default function App(props) {
             let q = props.question
             return (
                 <>
-                    <h1>
+                    <span>
                         <For each={q.split('//')}>{(atom, i) =>
                             <Show when={i() % 2 === 0} fallback={
                                 <>
@@ -124,8 +124,17 @@ export default function App(props) {
                                             </>
                                         }>
                                             <>
-                                                <span className="sup">{atom.split('/')[0]}</span>
-                                                <span className="sub">{atom.split('/')[1]}</span>
+                                                <Show when={atom.split('/')[0].includes('+') || atom.split('/')[0].includes('-')} fallback={
+                                                    <>
+                                                        <span className={"sup"}>{atom.split('/')[0]}</span>
+                                                        <span className={"sub"}>{atom.split('/')[1]}</span>
+                                                    </>
+                                                }>
+                                                    <>
+                                                        <sup>{atom.split('/')[0]}</sup>
+                                                        <sub>{atom.split('/')[1]}</sub>
+                                                    </>
+                                                </Show>
                                             </>
                                         </Show>
                                     </span>
@@ -139,14 +148,28 @@ export default function App(props) {
                                             <Show when={k() % 2 === 0} fallback={
                                                 <sub className="sub">{sub}</sub>
                                             }>
-                                                {sub}
+                                                <Show when={sub.split('_b').length > 1} fallback={
+                                                    <>
+                                                        {sub}
+                                                    </>
+                                                }>
+                                                    {sub.split('_b')[0]}
+                                                    <For each={sub.split('_b')}>{(br, l) =>
+                                                        <>
+                                                            <Show when={l() > 0}>
+                                                                <br />
+                                                                {br}
+                                                            </Show>
+                                                        </>
+                                                    }</For>
+                                                </Show>
                                             </Show>
                                         }</For>
                                     </Show>
                                 }</For>
                             </Show>
                         }</For>
-                    </h1>
+                    </span>
                 </>
             )
         }
@@ -177,8 +200,17 @@ export default function App(props) {
                                             </>
                                         }>
                                             <>
-                                                <span className="sup">{atom.split('/')[0]}</span>
-                                                <span className="sub">{atom.split('/')[1]}</span>
+                                                <Show when={atom.split('/')[0].includes('+') || atom.split('/')[0].includes('-')} fallback={
+                                                    <>
+                                                        <span className={"sup"}>{atom.split('/')[0]}</span>
+                                                        <span className={"sub"}>{atom.split('/')[1]}</span>
+                                                    </>
+                                                }>
+                                                    <>
+                                                        <sup>{atom.split('/')[0]}</sup>
+                                                        <sub>{atom.split('/')[1]}</sub>
+                                                    </>
+                                                </Show>
                                             </>
                                         </Show>
                                     </span>
@@ -192,7 +224,21 @@ export default function App(props) {
                                             <Show when={k() % 2 === 0} fallback={
                                                 <sub className="sub">{sub}</sub>
                                             }>
-                                                {sub}
+                                                <Show when={sub.split('_b').length > 1} fallback={
+                                                    <>
+                                                        {sub}
+                                                    </>
+                                                }>
+                                                    {sub.split('_b')[0]}
+                                                    <For each={sub.split('_b')}>{(br, l) =>
+                                                        <>
+                                                            <Show when={l() > 0}>
+                                                                <br />
+                                                                {br}
+                                                            </Show>
+                                                        </>
+                                                    }</For>
+                                                </Show>
                                             </Show>
                                         }</For>
                                     </Show>
@@ -255,14 +301,6 @@ export default function App(props) {
         }
 
         function saveItem(failed) {
-            function extractAnswers() {
-                let answers = []
-                for (let i = 0; i < item.answers.length; i++) {
-                    answers.push(JSON.parse(JSON.stringify(item.answers[i])))
-                }
-                return answers
-            }
-
             const itemToAdd = {
                 id: item.id,
                 result: !failed,

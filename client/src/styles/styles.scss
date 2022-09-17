@@ -531,9 +531,11 @@ p {
         width: 100%;
         transition: .2s ease-in-out;
 
-        h1 {
+        &>span {
             padding: 0 16px;
             text-align: center;
+            font-size: 24px;
+            font-weight: 600;
 
             .supsub {
                 position: relative;
@@ -564,14 +566,25 @@ p {
                         position: relative;
                     }
                 }
+
+                sup,
+                sub {
+                    font-size: 16px;
+                }
+
+                sup {
+                    position: absolute;
+                    top: -3px;
+                    width: 100%;
+                }
             }
 
             .ion {
-                font-size: 20px;
+                font-size: 16px;
             }
 
             &>.sub {
-                font-size: 20px;
+                font-size: 16px;
             }
         }
     }
@@ -601,7 +614,7 @@ p {
                 margin-right: 16px;
             }
 
-            span {
+            &>span {
                 font-size: 16px;
                 text-align: left;
 
@@ -634,12 +647,23 @@ p {
                             position: relative;
                         }
                     }
+
+                    sup,
+                    sub {
+                        font-size: 12px;
+                    }
+
+                    sup {
+                        position: absolute;
+                        top: -3px;
+                        width: 100%;
+                    }
                 }
 
                 .ion {
                     font-size: 12px;
                 }
-    
+
                 &>.sub {
                     font-size: 12px;
                 }
@@ -672,7 +696,9 @@ p {
             &.colored {
 
                 h2,
-                span, sub, sup {
+                span,
+                sub,
+                sup {
                     color: var(--color-lighter-grey);
                 }
             }
@@ -683,10 +709,9 @@ p {
         position: fixed;
         bottom: 0;
         width: 100%;
-        border-top: 1px solid var(--color-lighter-grey);
+        border-top: 1px solid var(--color-light-grey);
         background-color: white;
         z-index: 10;
-        max-width: 1024px;
 
         .appOtherContent {
             display: flex;
@@ -694,6 +719,7 @@ p {
             align-items: center;
             gap: 12px;
             padding: 16px;
+            max-width: 1024px;
         }
 
         .appOtherContent button {
