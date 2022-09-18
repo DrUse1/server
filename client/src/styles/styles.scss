@@ -427,9 +427,9 @@ p {
 
                     .subjectArrowIcon {
                         display: flex;
-                        width: 40px;
+                        width: 30px;
                         height: 40px;
-                        justify-content: center;
+                        justify-content: flex-start;
                         align-items: center;
                         flex-shrink: 0;
 
@@ -536,6 +536,7 @@ p {
             text-align: center;
             font-size: 24px;
             font-weight: 600;
+            max-width: 1024px;
 
             .supsub {
                 position: relative;

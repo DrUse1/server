@@ -10,11 +10,10 @@ import crossIcon from '../svg/cross.svg'
 import neutralCheckIcon from '../svg/neutralCheck.svg'
 import arrowIcon from '../svg/arrow.svg'
 
-import anatomieIcon from '../svg/subjects/anatomieIcon.svg'
-import dna from '../svg/subjects/dna.png'
 import { useNavigate } from "@solidjs/router";
 import Header from "./Header";
 import Footer from "./Footer";
+import { SubjectIcon } from "./elements";
 
 export default function Main() {
     const navigate = useNavigate();
@@ -167,7 +166,7 @@ export default function Main() {
                                         }
                                     }}>
                                         <div className={"subjectIcon"}>
-                                            <img src={dna} />
+                                            <SubjectIcon subject={subject} />
                                         </div>
                                         <div className={"subjectArrowIcon " + subject}>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -188,13 +187,13 @@ export default function Main() {
                                         <For each={Object.keys(subjects[subject])}>
                                             {chapter =>
                                                 <div className="chapter">
-                                                    <div className={"subjectIcon"}>
+                                                    {/* <div className={"subjectIcon"}>
                                                         <img src={anatomieIcon} />
-                                                    </div>
-                                                    <div className={"subjectName"}>
+                                                    </div> */}
+                                                    <div className={"subjectName"} style={{'margin-left':'8px'}}>
                                                         <span>{chapter[0].toUpperCase() + chapter.slice(1)}</span>
                                                     </div>
-                                                    <div className={"subjectSwitch"} style={{ 'transform': 'scale(0.8)' }}>
+                                                    <div className={"subjectSwitch"} style={{ 'transform': 'scale(0.8)', 'position':'relative','right':'-6px'}}>
                                                         <label className="switch">
                                                             <input className={"toBeChecked " + subject} type="checkbox" checked={subjects[subject][chapter]} onChange={() => toggleChapter(chapter, subject)} />
                                                             <span className="slider round"></span>
