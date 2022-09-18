@@ -43,10 +43,12 @@ export default function Score(props) {
     function calculateHeight(elements) {
         let sum = 0
         for (let i = 0; i < elements.length; i++) {
-            var styles = window.getComputedStyle(elements[i]);
-            var margin = parseFloat(styles['marginTop']) +
-                parseFloat(styles['marginBottom']);
-            sum += Math.ceil(elements[i].offsetHeight + margin);
+            if (elements[i].localName !== 'svg') {
+                var styles = window.getComputedStyle(elements[i]);
+                var margin = parseFloat(styles['marginTop']) +
+                    parseFloat(styles['marginBottom']);
+                sum += Math.ceil(elements[i].offsetHeight + margin);
+            }
         }
         return sum
     }
@@ -79,7 +81,7 @@ export default function Score(props) {
     }
 
     function FormatAnswer(props) {
-        let q = props.answer
+        let q = props.answer.toString()
         return (
             <>
                 <span className={props.className}>
@@ -108,7 +110,21 @@ export default function Score(props) {
                                         <Show when={k() % 2 === 0} fallback={
                                             <sub className={styles.sub}>{sub}</sub>
                                         }>
-                                            {sub}
+                                            <Show when={sub.split('_b').length > 1} fallback={
+                                                    <>
+                                                        {sub}
+                                                    </>
+                                                }>
+                                                    {sub.split('_b')[0]}
+                                                    <For each={sub.split('_b')}>{(br, l) =>
+                                                        <>
+                                                            <Show when={l() > 0}>
+                                                                <br />
+                                                                {br}
+                                                            </Show>
+                                                        </>
+                                                    }</For>
+                                                </Show>
                                         </Show>
                                     }</For>
                                 </Show>
@@ -121,10 +137,10 @@ export default function Score(props) {
     }
 
     function FormatQuestion(props) {
-        let q = props.question
+        let q = props.question.toString()
         return (
             <>
-                <span>
+                <span className={props.className}>
                     <For each={q.split('//')}>{(atom, i) =>
                         <Show when={i() % 2 === 0} fallback={
                             <>
@@ -150,7 +166,21 @@ export default function Score(props) {
                                         <Show when={k() % 2 === 0} fallback={
                                             <sub className={styles.sub}>{sub}</sub>
                                         }>
-                                            {sub}
+                                            <Show when={sub.split('_b').length > 1} fallback={
+                                                    <>
+                                                        {sub}
+                                                    </>
+                                                }>
+                                                    {sub.split('_b')[0]}
+                                                    <For each={sub.split('_b')}>{(br, l) =>
+                                                        <>
+                                                            <Show when={l() > 0}>
+                                                                <br />
+                                                                {br}
+                                                            </Show>
+                                                        </>
+                                                    }</For>
+                                                </Show>
                                         </Show>
                                     }</For>
                                 </Show>
@@ -161,6 +191,18 @@ export default function Score(props) {
             </>
         )
     }
+
+    setTimeout(() => {
+        document.getElementsByClassName(styles.scoreSubjects)[0].addEventListener('click', (e) => {
+            if (document.getElementsByClassName(styles.scoreSubjects)[0].className.includes(styles.active)) {
+                document.getElementsByClassName(styles.scoreSubjects)[0].style.maxHeight = "144px"
+                document.getElementsByClassName(styles.scoreSubjects)[0].classList.remove(styles.active)
+            } else {
+                document.getElementsByClassName(styles.scoreSubjects)[0].style.maxHeight = calculateHeight(document.getElementsByClassName(styles.scoreSubjects)[0].children) + 32 + "px"
+                document.getElementsByClassName(styles.scoreSubjects)[0].classList.add(styles.active)
+            }
+        })
+    }, 1);
 
     return (
         <>
@@ -175,6 +217,10 @@ export default function Score(props) {
                 <div className={styles.scoreSubjectsWrapper}>
                     <span>Sur les matières suivantes :</span>
                     <div className={styles.scoreSubjects}>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <path fill="currentColor" d="M11.586 10L6.293 4.707a1 1 0 011.414-1.414l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L11.586 10z">
+                            </path>
+                        </svg>
                         <For each={Object.keys(run.infos.subjects)}>{(subject) =>
                             <div className={styles.scoreSubject}>
                                 <span>{subject[0].toUpperCase() + subject.slice(1)}</span>

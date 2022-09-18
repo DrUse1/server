@@ -110,7 +110,7 @@ export default function App(props) {
 
     function Question() {
         function FormatQuestion(props) {
-            let q = props.question
+            let q = props.question.toString()
             return (
                 <>
                     <span>
@@ -124,7 +124,7 @@ export default function App(props) {
                                             </>
                                         }>
                                             <>
-                                                <Show when={atom.split('/')[0].includes('+') || atom.split('/')[0].includes('-')} fallback={
+                                                <Show when={atom.split('/')[0].includes('+') || atom.split('/')[0].includes('-') || atom.split('/')[0].includes('*')} fallback={
                                                     <>
                                                         <span className={"sup"}>{atom.split('/')[0]}</span>
                                                         <span className={"sub"}>{atom.split('/')[1]}</span>
@@ -186,7 +186,7 @@ export default function App(props) {
         const letters = 'ABCDEFGH'
 
         function FormatAnswer(props) {
-            let q = props.answer
+            let q = props.answer.toString()
             return (
                 <>
                     <span>
@@ -200,7 +200,7 @@ export default function App(props) {
                                             </>
                                         }>
                                             <>
-                                                <Show when={atom.split('/')[0].includes('+') || atom.split('/')[0].includes('-')} fallback={
+                                                <Show when={atom.split('/')[0].includes('+') || atom.split('/')[0].includes('-') || atom.split('/')[0].includes('*')} fallback={
                                                     <>
                                                         <span className={"sup"}>{atom.split('/')[0]}</span>
                                                         <span className={"sub"}>{atom.split('/')[1]}</span>
@@ -362,19 +362,34 @@ export default function App(props) {
 
         }
 
-        // const inter = setInterval(() => {
-        //     if (loading() === 0 && window.location.pathname === '/app') {
-        //         handleClick('answer', 1)
-        //         submitAnswer()
-        //         nextQuestion()
-        //     }else{
-        //         clearInterval(inter)
-        //     }
-        // }, 10);
+        // let inter
+        // function launchInter() {
+        //     inter = setInterval(() => {
+        //         if (loading() === 0 && window.location.pathname === '/app') {
+        //             handleClick('answer', 1)
+        //             submitAnswer()
+        //             nextQuestion()
+        //             if(document.getElementsByClassName('appQuestionWrapper')[0].innerHTML.replaceAll('</','<').replaceAll('/>','>').includes('/')){
+        //                 console.log('stopped question')
+        //                 console.log(document.getElementsByClassName('appQuestionWrapper')[0].innerHTML)
+        //                 //clearInterval(inter)
+        //             }
+        //             if(document.getElementsByClassName('appAnswersWrapper')[0].innerHTML.replaceAll('</','<').replaceAll('/>','>').includes('/')){
+        //                 console.log('stopped answers')
+        //                 console.log(document.getElementsByClassName('appAnswersWrapper')[0].innerHTML.replaceAll('</','<').replaceAll('/>','>'))
+        //                 //clearInterval(inter)
+        //             }
+        //         }else{
+        //             clearInterval(inter)
+        //         }
+        //     }, 20);
+        // }
 
         return (
             <>
                 <div className="appOtherContent">
+                {/* <button onClick={() => launchInter()}>launch interval</button>
+                <button onClick={() => clearInterval(inter)}>stop interval</button> */}
                     <Show when={askConfirmation()[0]} fallback={
                         <>
                             <Show when={submitted()} fallback={

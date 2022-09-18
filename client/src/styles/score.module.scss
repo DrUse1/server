@@ -31,6 +31,27 @@
             padding: 16px;
             background-color: var(--color-lighter-grey);
             border-radius: 20px;
+            height: 100%;
+            max-height: 144px;
+            overflow: hidden;
+            transition: .5s ease-in-out;
+            position: relative;
+
+            &.active {
+                &>svg{
+                    rotate: 90deg;
+                }
+            }
+
+            &>svg{
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                translate: 0 -50%;
+                right: 32px;
+                top: 50%;
+                transition: .5s ease-in-out;
+            }
 
             .scoreSubject {
                 &>span {

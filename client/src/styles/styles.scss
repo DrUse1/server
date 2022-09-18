@@ -530,12 +530,14 @@ p {
         margin: 24px 0;
         width: 100%;
         transition: .2s ease-in-out;
+        overflow-wrap: break-word;
 
         &>span {
             padding: 0 16px;
             text-align: center;
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 600;
+            width: 100%;
             max-width: 1024px;
 
             .supsub {
@@ -548,18 +550,18 @@ p {
                 .sub {
                     width: 100%;
                     text-align: center;
-                    font-size: 16px;
+                    font-size: 14px;
                     left: 0;
                     vertical-align: middle;
                 }
 
                 .sup {
-                    top: -15px;
+                    top: -11px;
                     position: relative;
                 }
 
                 .sub {
-                    top: 11px;
+                    top: 8px;
                     position: absolute;
 
                     &.alone {
@@ -570,7 +572,7 @@ p {
 
                 sup,
                 sub {
-                    font-size: 16px;
+                    font-size: 14px;
                 }
 
                 sup {
@@ -581,11 +583,11 @@ p {
             }
 
             .ion {
-                font-size: 16px;
+                font-size: 14px;
             }
 
             &>.sub {
-                font-size: 16px;
+                font-size: 14px;
             }
         }
     }
