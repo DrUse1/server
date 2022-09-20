@@ -87,10 +87,6 @@ export default function Home() {
                                 </span>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className={styles.section}>
-                    <div className={styles.container}>
                         <div className={styles.box}>
                             <div className={styles.img}>
                                 <img src={Example1} alt="example 1" />
