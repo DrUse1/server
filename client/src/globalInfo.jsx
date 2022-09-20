@@ -16,7 +16,8 @@ export const [global, setGlobal] = createStore({
     logged: false,
     state: '',
     round: 0,
-    maxRound: 20,
+    maxRound: 10,
+    dailyLimit: 3,
     score: [0, 0],
     alreadyDone: [],
     showWarning: {

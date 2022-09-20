@@ -47,8 +47,8 @@ export default function Plan() {
                         <div className={styles.description}>
                             <span>
                                 Le plan de base qui te permet de prendre en main et
-                                tester l'application. Avec ce plan tu es limité à 5
-                                séries de QCM par jour.
+                                tester l'application. Avec ce plan tu es limité à 
+                                {global.dailyLimit} séries de QCM par jour.
                             </span>
                         </div>
                         <div className={styles.price}>
@@ -68,7 +68,7 @@ export default function Plan() {
                             <span>
                                 Ce plan contient autant de fontionnalité que le Basic,
                                 seulement le plus important change : tu n'es plus limité
-                                à 5 séries par jour mais à... bah tu n'es plus limité en fait !
+                                à {global.dailyLimit} séries par jour mais à... bah tu n'es plus limité en fait !
                             </span>
                         </div>
                         <div className={styles.price}>

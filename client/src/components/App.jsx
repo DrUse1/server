@@ -4,12 +4,11 @@ import { createStore } from "solid-js/store";
 import { staticConst, global, setGlobal, resetGlobal, subjects, setSubjects, updatePlays, userInfo, getChapters, loading, setLoading, setUserInfo } from '../globalInfo'
 
 import * as utils from '../utils'
-import { useNavigate } from "@solidjs/router";
 import Axios from "axios";
 
 
 export default function App(props) {
-    if (userInfo.numPlays >= 5) {
+    if (userInfo.numPlays >= global.dailyLimit) {
         if (userInfo.plan === 'basic') {
             window.location.replace('/')
             return
@@ -18,8 +17,6 @@ export default function App(props) {
     if (userInfo.plan === 'basic') {
         updatePlays()
     }
-    const navigate = useNavigate();
-
     const [item, setItem] = createStore(getItem())
     const [submitted, setSubmitted] = createSignal(false)
     const [questionNum, setQuestionNum] = createSignal(1)

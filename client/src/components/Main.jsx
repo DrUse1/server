@@ -25,7 +25,7 @@ export default function Main() {
         if (getChapters('selected').length === 0) {
             showWarning('Tu dois préciser au moins un chapitre !')
         } else {
-            if (userInfo.numPlays >= 5 && userInfo.plan === 'basic') {
+            if (userInfo.numPlays >= global.dailyLimit && userInfo.plan === 'basic') {
                 showWarning("Tu as atteint la limite de tes séries journalières")
             } else {
                 navigate('/app');
@@ -215,14 +215,14 @@ export default function Main() {
                     <Show when={userInfo.plan === 'basic'}>
                         <div className="progressBarWrapper">
                             <div className="progressBarHeader">
-                                <h3>Séries journalières {userInfo.numPlays}/5</h3>
+                                <h3>Séries journalières {userInfo.numPlays}/{global.dailyLimit}</h3>
                                 <button onClick={() => navigate('/plan')}>
                                     <span>Augmenter la limite</span>
                                 </button>
                             </div>
                             <div className="bgProgressBar">
                                 <div className="progressBar" style={{
-                                    'width': (userInfo.numPlays / 5 * 100) + '%',
+                                    'width': (userInfo.numPlays / global.dailyLimit * 100) + '%',
                                     'transition': '.5s ease-in-out'
                                 }} />
                             </div>
