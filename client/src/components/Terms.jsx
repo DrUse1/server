@@ -1,6 +1,6 @@
 import { Show } from "solid-js";
 import { createStore } from "solid-js/store";
-import { loading, setLoading, showWarning, staticConst, userInfo } from "../globalInfo";
+import { global, loading, setLoading, showWarning, staticConst, userInfo } from "../globalInfo";
 import Header from "./Header";
 
 import styles from '../styles/terms.module.scss'
@@ -78,7 +78,7 @@ export default function Terms() {
                                     </p>
                                     <p>
                                         Une fois inscrit(e), vous pourrez librement utiliser l'action dans sa version "limité". Cette version vous
-                                        limite à 5 séries de QCM par jour. Cette limite peut être retiré si vous prenez l'abonnement Premium.
+                                        limite à {global.dailyLimit} séries de QCM par jour. Cette limite peut être retiré si vous prenez l'abonnement Premium.
                                     </p>
                                 </span>
                             </div>
