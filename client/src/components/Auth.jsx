@@ -120,7 +120,7 @@ export default function Auth() {
                     if (res.data[1] === false) {
                         showWarning('Mot de passe incorrect')
                     } else {
-                        const token = res.data[2]//utils.getRandomToken()
+                        const token = /*res.data[2]*/utils.getRandomToken()
                         setLoading(a => a + 1)
                         Axios.post(staticConst.url + '/api/update', {
                             prev_token: res.data[2],
