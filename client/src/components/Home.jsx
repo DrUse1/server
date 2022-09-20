@@ -12,7 +12,7 @@ export default function Home() {
             if (entry.isIntersecting) {
                 entry.target.classList.add(styles.show)
             } else {
-                entry.target.classList.remove(styles.show)
+                //entry.target.classList.remove(styles.show)
             }
         })
     });
