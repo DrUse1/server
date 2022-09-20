@@ -1130,7 +1130,7 @@
   {
     "id": 95,
     "matiere": "Biologie Cellulaire",
-    "chapitre": "la cellule",
+    "chapitre": "La cellule",
     "question": "Concernant les bacteries :",
     "answer0": "La synthese proteique se produit dans un compartiment specialise appele reticulum endoplasmique.",
     "answer1": "La fermentation peutetre a la base de la machinerie energetique.",
@@ -1142,7 +1142,7 @@
   {
     "id": 96,
     "matiere": "Biologie Cellulaire",
-    "chapitre": "la cellule",
+    "chapitre": "La cellule",
     "question": "Indiquez les 2 caracteristiques universelles des cellules sur terre :",
     "answer0": "ADN comme support de l’information hereditaire.",
     "answer1": "Source d’énergie identique.",
@@ -1154,7 +1154,7 @@
   {
     "id": 97,
     "matiere": "Biologie Cellulaire",
-    "chapitre": "la cellule",
+    "chapitre": "La cellule",
     "question": "Cochez la (ou les) affirmation(s) exacte(s) :",
     "answer0": "La capacite d’auto-duplication est une propriete princeps du vivant.",
     "answer1": "Les virus ne sont pas des cellules parce qu’ils n’ont pas de noyau.",
@@ -1166,7 +1166,7 @@
   {
     "id": 98,
     "matiere": "Biologie Cellulaire",
-    "chapitre": "la cellule",
+    "chapitre": "La cellule",
     "question": "Concernant les différences entre une cellule eucaryote et un procaryote :",
     "answer0": "Une bacterie ne contient pas de mitochondrie.",
     "answer1": "Les coefficients de sedimentation des ribosomes eucaryotes et procaryotes sont identiques.",
@@ -1178,7 +1178,7 @@
   {
     "id": 99,
     "matiere": "Biologie Cellulaire",
-    "chapitre": "la cellule",
+    "chapitre": "La cellule",
     "question": "Concernant les cellules eucaryotes et procaryotes :",
     "answer0": "Les bacteries sont des cellules procaryotes.",
     "answer1": "Dans les cellules eucaryotes, la plus grande partie de l’ADN est contenue dans le noyau.",
@@ -1190,7 +1190,7 @@
   {
     "id": 100,
     "matiere": "Biologie Cellulaire",
-    "chapitre": "la cellule",
+    "chapitre": "La cellule",
     "question": "Concernant les archeobacteries ou archaebacteries :",
     "answer0": "Les archeobacteries n’ont pas de noyau.",
     "answer1": "Les archeobacteries ont des genes contenant des introns.",
@@ -1202,7 +1202,7 @@
   {
     "id": 101,
     "matiere": "Biologie Cellulaire",
-    "chapitre": "la cellule",
+    "chapitre": "La cellule",
     "question": "Concernant les bacteries :",
     "answer0": "Les bacteries sont des procaryotes.",
     "answer1": "L’ADN bacterien est un ADN lineaire bicatenaire.",
@@ -1214,7 +1214,7 @@
   {
     "id": 102,
     "matiere": "Biologie Cellulaire",
-    "chapitre": "la cellule",
+    "chapitre": "La cellule",
     "question": "Un virus et une cellule eucaryote tous les deux :",
     "answer0": "Ont une reproduction autonome.",
     "answer1": "Sont porteurs d’ADN ou d’ARN.",
@@ -1226,7 +1226,7 @@
   {
     "id": 103,
     "matiere": "Biologie Cellulaire",
-    "chapitre": "la cellule",
+    "chapitre": "La cellule",
     "question": "Concernant les cellules et l’organisation générale des cellules :",
     "answer0": "Les protistes sont des procaryotes.",
     "answer1": "Toutes les membranes biologiques comportent des lipides et des proteines.",
@@ -1238,7 +1238,7 @@
   {
     "id": 104,
     "matiere": "Biologie Cellulaire",
-    "chapitre": "la cellule",
+    "chapitre": "La cellule",
     "question": "Concernant les compartiments cellulaires :",
     "answer0": "Le reticulum endoplasmatique (RE) est un compartiment de biosynthese.",
     "answer1": "Le compartiment lysosomal est un compartiment de degradation.",
@@ -3614,7 +3614,7 @@
   {
     "id": 302,
     "matiere": "BioPhy-Physio",
-    "chapitre": "Généralité",
+    "chapitre": "Généralités",
     "question": "Cochez la (ou les) réponse(s) exacte(s).",
     "answer0": "Le Pascal est une unité de pression.",
     "answer1": "Le décibel est une unit e de pression",
@@ -3626,7 +3626,7 @@
   {
     "id": 303,
     "matiere": "BioPhy-Physio",
-    "chapitre": "Généralité",
+    "chapitre": "Généralités",
     "question": "Parmi les propositions suivantes, indiquez laquelle (ou lesquelles) corresponde(nt) à une grandeur physique :",
     "answer0": "Une grandeur physique correspond a toute propri et e physique mesurable.",
     "answer1": "Une grandeur dont on sait definir l’égalité",
@@ -3638,7 +3638,7 @@
   {
     "id": 304,
     "matiere": "BioPhy-Physio",
-    "chapitre": "généralité",
+    "chapitre": "Généralités",
     "question": "Parmi les propositions suivantes, indiquez laquelle (ou lesquelles) est (sont) une fonction du temps :",
     "answer0": "Acceleration.",
     "answer1": "Moment d’inertie",
@@ -3650,7 +3650,7 @@
   {
     "id": 305,
     "matiere": "BioPhy-Physio",
-    "chapitre": "généralité",
+    "chapitre": "Généralités",
     "question": "L’equation aux dimensions d’une puissance est :",
     "answer0": "L/*2/*MT/*2/*.",
     "answer1": "LMT/*3/*",
@@ -4934,7 +4934,7 @@
   {
     "id": 412,
     "matiere": "Anatomie",
-    "chapitre": "Tete et cou",
+    "chapitre": "Tête et cou",
     "question": "Concernant le squelette cranien :",
     "answer0": "Les condyles occipitaux reposent sur les masses laterales de l’atlas.",
     "answer1": "L’os frontal delimite tout le cadre orbitaire.",
@@ -4946,7 +4946,7 @@
   {
     "id": 413,
     "matiere": "Anatomie",
-    "chapitre": "Tete et cou",
+    "chapitre": "Tête et cou",
     "question": "Cochez la (les) proposition(s) exacte(s) :",
     "answer0": "L’ethmoïde fait partie de la fosse cranienne moyenne.",
     "answer1": "Les grandes ailes du sphenoïde delimitent, entre leurs racines, le canal optique.",
@@ -4958,7 +4958,7 @@
   {
     "id": 414,
     "matiere": "Anatomie",
-    "chapitre": "Tete et cou",
+    "chapitre": "Tête et cou",
     "question": "Concernant le crâne :",
     "answer0": "Le crâne est une cavite close.",
     "answer1": "L’os occipital est un os de la base du crâne.",
@@ -4970,7 +4970,7 @@
   {
     "id": 415,
     "matiere": "Anatomie",
-    "chapitre": "Tete et cou",
+    "chapitre": "Tête et cou",
     "question": "Concernant l’osteologie :",
     "answer0": "Les os frontal, parietal et temporal sont des os pairs du crâne.",
     "answer1": "Tous les os de la face sont soudes entre eux.",
@@ -4982,7 +4982,7 @@
   {
     "id": 416,
     "matiere": "Anatomie",
-    "chapitre": "Tete et cou",
+    "chapitre": "Tête et cou",
     "question": "Concernant le crâne :",
     "answer0": "Le troisieme nerf cranien traverse la fissure orbitaire superieure.",
     "answer1": "Le sixieme nerf cranien traverse la fissure orbitaire superieure.",
@@ -4994,7 +4994,7 @@
   {
     "id": 417,
     "matiere": "Anatomie",
-    "chapitre": "Tete et cou",
+    "chapitre": "Tête et cou",
     "question": "Concernant le crâne :",
     "answer0": "L’os ethmoïde appartient aux 3 etages de la base du crâne.",
     "answer1": "L’epine nasale est le prolongement anterieur de l’os ethmoïde.",
@@ -5006,7 +5006,7 @@
   {
     "id": 418,
     "matiere": "Anatomie",
-    "chapitre": "Tete et cou",
+    "chapitre": "Tête et cou",
     "question": "Concernant le crâne :",
     "answer0": "La fontanelle anterieure est en rapport avec l’os frontal.",
     "answer1": "Le processus styloïde appartient a l’os occipital.",
@@ -5018,7 +5018,7 @@
   {
     "id": 419,
     "matiere": "Anatomie",
-    "chapitre": "Tete et cou",
+    "chapitre": "Tête et cou",
     "question": "Concernant les os du squelette cranio-facial :",
     "answer0": "Les os de la tete presentent tous le même type d’ossification.",
     "answer1": "On peut palper la fontanelle posterieure sur le crâne d’un enfant de 18 mois.",
@@ -5030,7 +5030,7 @@
   {
     "id": 420,
     "matiere": "Anatomie",
-    "chapitre": "Tete et cou",
+    "chapitre": "Tête et cou",
     "question": "Concernant l’os frontal :",
     "answer0": "L’os frontal s’articule avec la petite aile de l’os sphenoïde.",
     "answer1": "L’os frontal s’articule avec l’os nasal.",
@@ -5042,7 +5042,7 @@
   {
     "id": 421,
     "matiere": "Anatomie",
-    "chapitre": "Tete et cou",
+    "chapitre": "Tête et cou",
     "question": "Cochez la (les) proposition(s) inexacte(s) :",
     "answer0": "Le septum nasal est constitue par la lame perpendiculaire du sphenoïde.",
     "answer1": "La paroi inferieure de la cavite nasale est constituee par le maxillaire et le vomer.",

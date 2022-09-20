@@ -111,20 +111,20 @@ export default function Score(props) {
                                             <sub className={styles.sub}>{sub}</sub>
                                         }>
                                             <Show when={sub.split('_b').length > 1} fallback={
+                                                <>
+                                                    {sub}
+                                                </>
+                                            }>
+                                                {sub.split('_b')[0]}
+                                                <For each={sub.split('_b')}>{(br, l) =>
                                                     <>
-                                                        {sub}
+                                                        <Show when={l() > 0}>
+                                                            <br />
+                                                            {br}
+                                                        </Show>
                                                     </>
-                                                }>
-                                                    {sub.split('_b')[0]}
-                                                    <For each={sub.split('_b')}>{(br, l) =>
-                                                        <>
-                                                            <Show when={l() > 0}>
-                                                                <br />
-                                                                {br}
-                                                            </Show>
-                                                        </>
-                                                    }</For>
-                                                </Show>
+                                                }</For>
+                                            </Show>
                                         </Show>
                                     }</For>
                                 </Show>
@@ -167,20 +167,20 @@ export default function Score(props) {
                                             <sub className={styles.sub}>{sub}</sub>
                                         }>
                                             <Show when={sub.split('_b').length > 1} fallback={
+                                                <>
+                                                    {sub}
+                                                </>
+                                            }>
+                                                {sub.split('_b')[0]}
+                                                <For each={sub.split('_b')}>{(br, l) =>
                                                     <>
-                                                        {sub}
+                                                        <Show when={l() > 0}>
+                                                            <br />
+                                                            {br}
+                                                        </Show>
                                                     </>
-                                                }>
-                                                    {sub.split('_b')[0]}
-                                                    <For each={sub.split('_b')}>{(br, l) =>
-                                                        <>
-                                                            <Show when={l() > 0}>
-                                                                <br />
-                                                                {br}
-                                                            </Show>
-                                                        </>
-                                                    }</For>
-                                                </Show>
+                                                }</For>
+                                            </Show>
                                         </Show>
                                     }</For>
                                 </Show>
@@ -192,16 +192,30 @@ export default function Score(props) {
         )
     }
 
-    setTimeout(() => {
-        document.getElementsByClassName(styles.scoreSubjects)[0].addEventListener('click', (e) => {
-            if (document.getElementsByClassName(styles.scoreSubjects)[0].className.includes(styles.active)) {
-                document.getElementsByClassName(styles.scoreSubjects)[0].style.maxHeight = "144px"
-                document.getElementsByClassName(styles.scoreSubjects)[0].classList.remove(styles.active)
-            } else {
-                document.getElementsByClassName(styles.scoreSubjects)[0].style.maxHeight = calculateHeight(document.getElementsByClassName(styles.scoreSubjects)[0].children) + 32 + "px"
-                document.getElementsByClassName(styles.scoreSubjects)[0].classList.add(styles.active)
-            }
+    function getAllChapters() {
+        let sum = 0;
+        Object.values(run.infos.subjects).forEach(e => {
+            sum += e.length
         })
+        return sum
+    }
+
+    function getSubjectsMaxHeight() {
+        return 19+24*[...run.infos.subjects[Object.keys(run.infos.subjects)[0]]].length+12+16+"px"
+    }
+
+    setTimeout(() => {
+        if (getAllChapters() > 4) {
+            document.getElementsByClassName(styles.scoreSubjects)[0].addEventListener('click', (e) => {
+                if (document.getElementsByClassName(styles.scoreSubjects)[0].className.includes(styles.active)) {
+                    document.getElementsByClassName(styles.scoreSubjects)[0].style.maxHeight = document.getElementsByClassName(styles.scoreSubject)[0].offsetHeight + 16 + "px"
+                    document.getElementsByClassName(styles.scoreSubjects)[0].classList.remove(styles.active)
+                } else {
+                    document.getElementsByClassName(styles.scoreSubjects)[0].style.maxHeight = calculateHeight(document.getElementsByClassName(styles.scoreSubjects)[0].children) + 32 + "px"
+                    document.getElementsByClassName(styles.scoreSubjects)[0].classList.add(styles.active)
+                }
+            })
+        }
     }, 1);
 
     return (
@@ -216,11 +230,13 @@ export default function Score(props) {
                 </div>
                 <div className={styles.scoreSubjectsWrapper}>
                     <span>Sur les matières suivantes :</span>
-                    <div className={styles.scoreSubjects}>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                            <path fill="currentColor" d="M11.586 10L6.293 4.707a1 1 0 011.414-1.414l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L11.586 10z">
-                            </path>
-                        </svg>
+                    <div className={styles.scoreSubjects} style={{ "max-height": getSubjectsMaxHeight() }}>
+                        <Show when={getAllChapters() > 4}>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path fill="currentColor" d="M11.586 10L6.293 4.707a1 1 0 011.414-1.414l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L11.586 10z">
+                                </path>
+                            </svg>
+                        </Show>
                         <For each={Object.keys(run.infos.subjects)}>{(subject) =>
                             <div className={styles.scoreSubject}>
                                 <span>{subject[0].toUpperCase() + subject.slice(1)}</span>

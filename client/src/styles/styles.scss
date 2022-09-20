@@ -453,7 +453,7 @@ p {
                     transition: .5s ease-in-out;
 
                     &.show {
-                        height: calc(52px * var(--data-chapters));
+                        height: calc(48px * var(--data-chapters));
                     }
 
                     .chapter {
@@ -468,6 +468,7 @@ p {
                         margin-left: 24px;
                         margin-right: 8px;
                         transition: .2s ease-in-out;
+                        height: 40px;
 
                         &:hover {
                             transform: scale(1.025);
