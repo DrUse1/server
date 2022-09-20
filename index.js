@@ -1,5 +1,5 @@
 require('dotenv').config()
-const stripe = require('stripe')(process.env.STRIPE_KEY);
+const stripe = require('stripe')(process.env.STRIPE_KEY_LIVE);
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
@@ -581,16 +581,12 @@ app.post('/create-checkout-session', async (req, res) => {
     const data = await checkToken(token)
     if (data !== false) {
         if (data.confirm === 'confirmed') {
-            const prices = await stripe.prices.list({
-                lookup_keys: [req.body.lookup_key],
-                expand: ['data.product'],
-            });
             const session = await stripe.checkout.sessions.create({
                 billing_address_collection: 'auto',
                 customer_email: data.email,
                 line_items: [
                     {
-                        price: prices.data[0].id,
+                        price: 'price_1Lk7DOGQzL6BRbH2I42L9EUp',
                         quantity: 1,
                     },
                 ],

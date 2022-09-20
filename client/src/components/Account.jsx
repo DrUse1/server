@@ -57,7 +57,6 @@ export default function Account() {
             subId: userInfo.subId,
             choice: choice
         }).then((res) => {
-            console.log(res.data)
             if (res.data) {
                 showWarning('La modification a été faite !', 'green')
                 setUserInfo('cancelWhenEnd', choice)
@@ -118,7 +117,6 @@ export default function Account() {
             new: passForm.new
         }).then((res) => {
             setLoading(a => a - 1)
-            console.log(res.data)
             if (res.data[0]) {
                 setPassForm('old', '')
                 handleChange('')
