@@ -7,6 +7,23 @@ import Example1 from '../images/example1.png'
 import Example2 from '../images/example2.png'
 
 export default function Home() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add(styles.show)
+            } else {
+                entry.target.classList.remove(styles.show)
+            }
+        })
+    });
+
+    setTimeout(() => {
+        const elements = document.querySelectorAll('.' + styles.box);
+        elements.forEach(el => {
+            observer.observe(el);
+        });
+    }, 100);
+
     return (
         <>
             <div className={styles.homeWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>

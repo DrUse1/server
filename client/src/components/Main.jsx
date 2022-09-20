@@ -190,10 +190,10 @@ export default function Main() {
                                                     {/* <div className={"subjectIcon"}>
                                                         <img src={anatomieIcon} />
                                                     </div> */}
-                                                    <div className={"subjectName"} style={{'margin-left':'8px'}}>
+                                                    <div className={"subjectName"} style={{ 'margin-left': '8px' }}>
                                                         <span>{chapter[0].toUpperCase() + chapter.slice(1)}</span>
                                                     </div>
-                                                    <div className={"subjectSwitch"} style={{ 'transform': 'scale(0.8)', 'position':'relative','right':'-6px'}}>
+                                                    <div className={"subjectSwitch"} style={{ 'transform': 'scale(0.8)', 'position': 'relative', 'right': '-6px' }}>
                                                         <label className="switch">
                                                             <input className={"toBeChecked " + subject} type="checkbox" checked={subjects[subject][chapter]} onChange={() => toggleChapter(chapter, subject)} />
                                                             <span className="slider round"></span>
@@ -247,7 +247,9 @@ export default function Main() {
                                     <div><p>10 questions avec correction</p></div>
                                 </div>
                                 <div className={"sessionArrowIconWrapper"}>
-                                    <img className={"sessionArrowIcon"} src={arrowIcon} alt="checkArrowIcon" />
+                                    <svg className={"sessionArrowIcon"} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                        <path fill="currentColor" d="M11.586 10L6.293 4.707a1 1 0 011.414-1.414l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L11.586 10z"></path>
+                                    </svg>
                                 </div>
                             </div>
                         </button>
@@ -260,7 +262,9 @@ export default function Main() {
                                     <div>
                                         <h2>Chapitres</h2>
                                         <div className={"desktopSessionArrowIconWrapper"}>
-                                            <img className={"sessionArrowIcon"} src={arrowIcon} alt="checkArrowIcon" />
+                                            <svg className={"sessionArrowIcon"} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                                <path fill="currentColor" d="M11.586 10L6.293 4.707a1 1 0 011.414-1.414l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L11.586 10z"></path>
+                                            </svg>
                                         </div>
                                     </div>
                                     <div>
@@ -268,7 +272,9 @@ export default function Main() {
                                     </div>
                                 </div>
                                 <div className={"sessionArrowIconWrapper"}>
-                                    <img className={"sessionArrowIcon"} src={arrowIcon} alt="checkArrowIcon" />
+                                    <svg className={"sessionArrowIcon"} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                        <path fill="currentColor" d="M11.586 10L6.293 4.707a1 1 0 011.414-1.414l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L11.586 10z"></path>
+                                    </svg>
                                 </div>
                             </div>
                         </button>
@@ -281,7 +287,9 @@ export default function Main() {
                                     <div>
                                         <h2>Examen</h2>
                                         <div className={"desktopSessionArrowIconWrapper"}>
-                                            <img className={"sessionArrowIcon"} src={arrowIcon} alt="checkArrowIcon" />
+                                            <svg className={"sessionArrowIcon"} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                                <path fill="currentColor" d="M11.586 10L6.293 4.707a1 1 0 011.414-1.414l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L11.586 10z"></path>
+                                            </svg>
                                         </div>
                                     </div>
                                     <div>
@@ -289,7 +297,9 @@ export default function Main() {
                                     </div>
                                 </div>
                                 <div className={"sessionArrowIconWrapper"}>
-                                    <img className={"sessionArrowIcon"} src={arrowIcon} alt="checkArrowIcon" />
+                                    <svg className={"sessionArrowIcon"} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                        <path fill="currentColor" d="M11.586 10L6.293 4.707a1 1 0 011.414-1.414l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L11.586 10z"></path>
+                                    </svg>
                                 </div>
                             </div>
                         </button>

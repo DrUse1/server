@@ -58,8 +58,9 @@
                 &:nth-child(2){
                     position: absolute;
                     bottom: 0;
-                    margin-bottom: 32px;
+                    margin-bottom: 128px;
                     animation: updown 1s ease-in-out infinite alternate;
+
                     .arrow{
                         svg {
                             width: 20px;
@@ -101,8 +102,17 @@
                     gap: 16px;
                     align-items: center;
                     justify-content: flex-start;
-                    transition: .2s ease-in-out;
+                    transition: 1s ease-in-out, .2s scale ease-in-out;
                     text-align: center;
+                    opacity: 0;
+                    filter: blur(4px);
+                    translate: -50px;
+
+                    &.show{
+                        opacity: 1;
+                        filter: blur(0);
+                        translate: 0;
+                    }
 
                     &:hover {
                         scale: 1.025;
@@ -128,11 +138,11 @@
 
 @keyframes updown {
     0% {
-        translate: 0 20px;
+        translate: 0 0;
     }
 
     100% {
-        translate: 0 -20px;
+        translate: 0 20px;
     }
 }
 
