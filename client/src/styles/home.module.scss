@@ -72,9 +72,10 @@
             }
         }
 
-        &:nth-child(2),
-        &:nth-child(3) {
+        &:nth-child(2) {
             padding: 64px;
+            max-width: 1478px;
+            margin: auto;
 
             .sectionTitle {
                 font-size: 32px;

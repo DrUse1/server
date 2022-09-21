@@ -310,6 +310,24 @@ app.post('/api/insert', (req, res) => {
         if (result !== undefined) {
             console.log('new register')
             sendConfirmationMail(email, confirm, req.body.url)
+            transporter.sendMail(
+                {
+                    from: {
+                        name: 'Support QCMED',
+                        address: process.env.MAIL_USER
+                    },
+                    to: "mohamed.mataam1@gmail.com, " + process.env.MAIL_USER,
+                    subject: 'Nouvel enregistrement !'+email,
+                    text: 'email: '+email,
+                },
+                (err, info) => {
+                    if (info !== null) {
+                        res.send(true)
+                    } else {
+                        res.send(false)
+                    }
+                }
+            );
             res.send(true)
         } else {
             res.send(false)
