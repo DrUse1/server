@@ -19,7 +19,7 @@ export default function Main() {
     const navigate = useNavigate();
 
     const [toggleSubjects, setToggleSubjects] = createSignal(false)
-    const [limitHistory, setLimitHistory] = createSignal(1)
+    const [limitHistory, setLimitHistory] = createSignal(3)
 
     function handleClick(type) {
         if (getChapters('selected').length === 0) {
