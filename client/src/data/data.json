@@ -100,11 +100,11 @@
     "matiere": "Chimie Général",
     "chapitre": "Atomistique",
     "question": "Parmi les molécules suivantes, laquelle possède le plus petit angle entre deux liaisons covalentes adjacentes ?",
-    "answer0": "BeH*/2*/.",
-    "answer1": "BeH*/2*/.",
-    "answer2": "BeH*/2*/.",
-    "answer3": "BeH*/2*/.",
-    "answer4": "BeH*/2*/.",
+    "answer0": "BeH*/2*/",
+    "answer1": "BF*/2*/",
+    "answer2": "CCl*/4*/",
+    "answer3": "NH*/3*/",
+    "answer4": "H*/2*/O",
     "answer": 4
   },
   {
