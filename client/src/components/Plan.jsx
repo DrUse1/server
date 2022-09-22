@@ -73,7 +73,7 @@ export default function Plan() {
                         </div>
                         <div className={styles.price}>
                             <span>€</span>
-                            <span>5</span>
+                            <span>4,95</span>
                             <span>/mois</span>
                         </div>
                         <div className={styles.subPrice}>
