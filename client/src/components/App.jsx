@@ -415,10 +415,10 @@ export default function App(props) {
                 <div className={"appScoreWrapper"}>
                     <Score />
                 </div>
-                <div className={"appQuestionWrapper"} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
+                <div className={"appQuestionWrapper"} style={{ filter: (loading() > 0 ? staticConst.blur : ''), '-webkit-filter': (loading() > 0 ? staticConst.blur : '') }}>
                     <Question />
                 </div>
-                <div className={"appAnswersWrapper"} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
+                <div className={"appAnswersWrapper"} style={{ filter: (loading() > 0 ? staticConst.blur : ''), '-webkit-filter': (loading() > 0 ? staticConst.blur : '') }}>
                     <Answers />
                 </div>
                 <div className={"appOtherWrapper"}>

@@ -139,7 +139,7 @@ export default function Forgot() {
                         </g>
                     </svg>
                 </div>
-                <div className={styles.forgotWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
+                <div className={styles.forgotWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : ''), '-webkit-filter': (loading() > 0 ? staticConst.blur : '') }}>
                     <div className={styles.forgotTitle}>
                         <span>Mot de passe oublié</span>
                     </div>

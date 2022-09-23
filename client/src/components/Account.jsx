@@ -179,7 +179,7 @@ export default function Account() {
                         </button>
                     </div>
                 </div>
-                <div className={styles.accountContent} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
+                <div className={styles.accountContent} style={{ filter: (loading() > 0 ? staticConst.blur : ''), '-webkit-filter': (loading() > 0 ? staticConst.blur : '') }}>
                     <Show when={activeItem()[0] === 'informations'}>
                         <div className={styles.accountContentTitle}>
                             <span>Informations</span>

@@ -350,7 +350,7 @@ export default function Auth() {
                         </g>
                     </svg>
                 </div>
-                <div className={styles.authWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
+                <div className={styles.authWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : ''), '-webkit-filter': (loading() > 0 ? staticConst.blur : '') }}>
                     <Show when={global.state === 'register'} fallback={
                         <DisplayLogin />
                     }>

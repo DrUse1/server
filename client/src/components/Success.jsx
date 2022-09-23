@@ -15,7 +15,7 @@ export default function Success() {
     return (
         <>
             <Header />
-            <div className={styles.successWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
+            <div className={styles.successWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : ''), '-webkit-filter': (loading() > 0 ? staticConst.blur : '') }}>
                 <Show when={state()} fallback={
                     <>
                         <div className={styles.title}>

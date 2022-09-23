@@ -221,7 +221,7 @@ export default function Score(props) {
     return (
         <>
             <Header />
-            <div className={styles.scoreWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
+            <div className={styles.scoreWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : ''), '-webkit-filter': (loading() > 0 ? staticConst.blur : '') }}>
                 <div className={styles.scoreTitle}>
                     <span>Tu as obtenu</span>
                 </div>

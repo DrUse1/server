@@ -26,7 +26,7 @@ export default function Home() {
 
     return (
         <>
-            <div className={styles.homeWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
+            <div className={styles.homeWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : ''), '-webkit-filter': (loading() > 0 ? staticConst.blur : '') }}>
                 <div className={styles.section}>
                     <div className={styles.container}>
                         <div className={styles.title}>

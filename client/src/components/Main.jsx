@@ -211,7 +211,7 @@ export default function Main() {
             </div>
             <div className="mainPage">
                 <Header />
-                <div className="mainWrapper" id="mainWrapper" style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
+                <div className="mainWrapper" id="mainWrapper" style={{ filter: (loading() > 0 ? staticConst.blur : ''), '-webkit-filter': (loading() > 0 ? staticConst.blur : '') }}>
                     <Show when={userInfo.plan === 'basic'}>
                         <div className="progressBarWrapper">
                             <div className="progressBarHeader">

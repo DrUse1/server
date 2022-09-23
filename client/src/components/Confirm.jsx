@@ -38,7 +38,7 @@ export default function Confirm() {
                         </g>
                     </svg>
                 </div>
-                <div className={styles.confirmWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
+                <div className={styles.confirmWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : ''), '-webkit-filter': (loading() > 0 ? staticConst.blur : '') }}>
                     <Show when={state() === 0} >
                         <div>Un problème est survenu. Réessayes plus tard ou contactes le support</div>
                     </Show>

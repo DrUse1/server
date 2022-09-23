@@ -12,7 +12,7 @@ export default function Terms() {
             <Show when={userInfo.email !== ''}>
                 <Header />
             </Show>
-            <div className={styles.termsWrapper + (userInfo.email !== '' ? ' ' + styles.header : '')} style={{ filter: (loading() > 0 ? staticConst.blur : '') }}>
+            <div className={styles.termsWrapper + (userInfo.email !== '' ? ' ' + styles.header : '')} style={{ filter: (loading() > 0 ? staticConst.blur : ''), '-webkit-filter': (loading() > 0 ? staticConst.blur : '') }}>
                 <div className={styles.termsTitle}>
                     <span>Conditions Générales d'Utilisation 📃</span>
                 </div>
