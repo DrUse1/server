@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "spec": ".",
     "matiere": "Chimie Général",
     "chapitre": "Atomistique",
     "question": "Structure des atomes :_bDonnée : N = 6,022 x 10/*23/* mol/*-1/*._bOn veut injecter 1g de morphine avec un volume de 200 mL_b(M*/morphine*/ = 285 g/mol)",
@@ -13,6 +14,7 @@
   },
   {
     "id": "2",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Atomistique",
     "question": "L'isotope le plus répandu du fer est //56/26//Fe. Pour cet isotope, parmi les propositions suivantes, indiquez la (les) proposition(s) exacte(s) :",
@@ -25,6 +27,7 @@
   },
   {
     "id": "3",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Atomistique",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -37,6 +40,7 @@
   },
   {
     "id": "4",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Atomistique",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -49,6 +53,7 @@
   },
   {
     "id": "5",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Atomistique",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -61,6 +66,7 @@
   },
   {
     "id": "6",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Atomistique",
     "question": "Un élément M s'ionise en M/*3+/*. Parmi les propositions suivantes, quelle(s) propriété(s) est(sont) commune(s) a M et M/*3+/* ?",
@@ -73,6 +79,7 @@
   },
   {
     "id": "7",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Atomistique",
     "question": "Le Sélénium (Se : Z = 34) est un élément chimique entrant dans la composition de certains médicaments utilises pour lutter contre le vieillissement cellulaire",
@@ -85,6 +92,7 @@
   },
   {
     "id": "8",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Atomistique",
     "question": "On appelle X l'élément situe dans la même colonne que l'arsenic mais dans la deuxième ligne de la classification périodique. Cochez la (ou les) proposition(s) exacte(s) :",
@@ -97,6 +105,7 @@
   },
   {
     "id": "9",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Atomistique",
     "question": "Parmi les molécules suivantes, laquelle possède le plus petit angle entre deux liaisons covalentes adjacentes ?",
@@ -109,6 +118,7 @@
   },
   {
     "id": "10",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Cinétique",
     "question": "Concernant l'énergie d'une réaction chimique :",
@@ -121,6 +131,7 @@
   },
   {
     "id": "11",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Cinétique",
     "question": "Quelle est l'unité d'une vitesse de réaction ?",
@@ -133,6 +144,7 @@
   },
   {
     "id": "12",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Cinétique",
     "question": "La décomposition d'un antibiotique dans l'eau a 20°C est une réaction du premier ordre. Déterminez la concentration en antibiotique au bout de 3 mois, puis au bout de 1 an, sachant que le temps de demi-vie et la concentration initiale en antibiotique sont respectivement de 0,420 an et 6.10/*-3/* mol.L/*-1/*",
@@ -145,6 +157,7 @@
   },
   {
     "id": "13",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Cinétique",
     "question": "À propos de la catalyse",
@@ -157,6 +170,7 @@
   },
   {
     "id": "14",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Thermochimie",
     "question": "Soit la réaction suivante :_bI*/2(g)*/ + H*/2(g)*/ */2*/⇄/*1/* 2HI*/(g)*/_bDans le sens 1 à 298K et a P°, on a :_b∆G°*/reaction*/ = -2,72 kJ et_b∆H°*/réaction*/ = -9,4 kJ._bCochez la(ou les) affirmation(s) exacte(s) :",
@@ -169,6 +183,7 @@
   },
   {
     "id": "15",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Thermochimie",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -181,6 +196,7 @@
   },
   {
     "id": "16",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Thermochimie",
     "question": "Soit la reaction de combustion totale d'une mole de glucose C*/6*/H*/12*/O*/6*/_b∆H°= -2810 kJ.mol/*-1/*",
@@ -193,6 +209,7 @@
   },
   {
     "id": "17",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Thermochimie",
     "question": "Concernant la constante d'equilibre K d'une reaction :",
@@ -205,6 +222,7 @@
   },
   {
     "id": "18",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Thermochimie",
     "question": "Concernant les enthalpies de transformation physique et atomique :",
@@ -217,6 +235,7 @@
   },
   {
     "id": "19",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Thermochimie",
     "question": "Cochez-la (ou les) proposition(s) exacte(s) :",
@@ -229,6 +248,7 @@
   },
   {
     "id": "20",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Thermochimie",
     "question": "Soit l'équilibre :_bCaCO*/3(s)*/ */2*/⇄/*1/* CO*/2(g)*/ + CaO*/(s)*/ avec K*/p*/ la constante d'équilibre._bCochez la (ou les) proposition(s) exacte(s) :",
@@ -241,6 +261,7 @@
   },
   {
     "id": "21",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Thermochimie",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -253,6 +274,7 @@
   },
   {
     "id": "22",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Thermochimie",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -265,6 +287,7 @@
   },
   {
     "id": "23",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Thermochimie",
     "question": "Quelle est la proposition exacte ?",
@@ -277,6 +300,7 @@
   },
   {
     "id": "24",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Solutions aqueuses",
     "question": "L'acide nitreux, molécule instable, doit être préparé in situ en solution aqueuse selon la réaction :_bNO//2-/2// + H*/3*/O/*+/* = HNO*/2*/ + H*/2*/O_b(constante d'équilibre à 298 K, K° = 10/*3,3/*)._bCochez la (ou les) proposition(s) exacte(s) :",
@@ -289,6 +313,7 @@
   },
   {
     "id": "25",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Solutions aqueuses",
     "question": "La cystéine est un acide aminé présentant un groupe thiol SH (pKa = 6,8) ; la cystine correspond à sa forme disulfure. Cochez la (ou les) proposition(s) exacte(s) :",
@@ -301,6 +326,7 @@
   },
   {
     "id": "26",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Solutions aqueuses",
     "question": "Concernant les équilibres d'oxydo-réduction :",
@@ -313,6 +339,7 @@
   },
   {
     "id": "27",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Solutions aqueuses",
     "question": "Oxydoréduction :",
@@ -325,6 +352,7 @@
   },
   {
     "id": "28",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Solutions aqueuses",
     "question": "Oxydoréduction :",
@@ -337,6 +365,7 @@
   },
   {
     "id": "29",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Solutions aqueuses",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -349,11 +378,12 @@
   },
   {
     "id": "30",
+    "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Solutions aqueuses",
     "question": "Soit la série des composés suivants de l'azote :_bN*/2*/, NO, HNO*/2*/ et NO//-/3//_bParmi les propositions suivantes donnant respectivement les nombres (ou degrés) d'oxydation de l'azote dans ces différentes espèces, indiquez la proposition correcte",
-    "answer0": "+I, +II, +III, +IV",
-    "answer1": "+I, +II, +III, +V",
+    "answer0": "=+I, +II, +III, +IV",
+    "answer1": "=+I, +II, +III, +V",
     "answer2": "0, +II, +III, +V",
     "answer3": "0, +II, +IV, +V",
     "answer4": "0, +II, +III, +IV",
@@ -361,6 +391,7 @@
   },
   {
     "id": "31",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Glucides",
     "question": "Concernant la structure des oses :",
@@ -373,6 +404,7 @@
   },
   {
     "id": "32",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Glucides",
     "question": "Les diholosides et les polyholosides suivants : maltose, glycogène, cellulose, saccharose, ont un seul point commun, lequel ?",
@@ -385,6 +417,7 @@
   },
   {
     "id": "33",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Glucides",
     "question": "Le glycogène :",
@@ -397,6 +430,7 @@
   },
   {
     "id": "34",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Glucides",
     "question": "Concernant les monosaccharides/polysaccharides :",
@@ -409,6 +443,7 @@
   },
   {
     "id": "35",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Glucides",
     "question": "L'amidon :",
@@ -421,6 +456,7 @@
   },
   {
     "id": "36",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Acide Aminé",
     "question": "Parmi les acides aminés suivants, lequel possède quatre stéréo-isomères de configuration ?",
@@ -433,6 +469,7 @@
   },
   {
     "id": "37",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Acide Aminé",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -445,6 +482,7 @@
   },
   {
     "id": "38",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Acide Aminé",
     "question": "Concernant les structures des acides aminés :",
@@ -457,6 +495,7 @@
   },
   {
     "id": "39",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Acide Aminé",
     "question": "Concernant les acides aminés naturels :",
@@ -469,6 +508,7 @@
   },
   {
     "id": "40",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Acide Aminé",
     "question": "Parmi les affirmations suivantes, laquelle est exacte ?",
@@ -481,6 +521,7 @@
   },
   {
     "id": "41",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Lipides",
     "question": "Concernant les lipoprotéines :",
@@ -493,6 +534,7 @@
   },
   {
     "id": "42",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Lipides",
     "question": "Concernant les sphingolipidoses :",
@@ -505,6 +547,7 @@
   },
   {
     "id": "43",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Lipides",
     "question": "Concernant les acides gras et les lipides :",
@@ -517,6 +560,7 @@
   },
   {
     "id": "44",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Lipides",
     "question": "Concernant les leucotriènes :",
@@ -529,6 +573,7 @@
   },
   {
     "id": "45",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Lipides",
     "question": "Concernant la tristéarine :",
@@ -541,6 +586,7 @@
   },
   {
     "id": "46",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Peptides et protéines",
     "question": "Concernant la structure tertiaire des protéines :",
@@ -553,6 +599,7 @@
   },
   {
     "id": "47",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Peptides et protéines",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -565,6 +612,7 @@
   },
   {
     "id": "48",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Peptides et protéines",
     "question": "Concernant la structure des protéines :",
@@ -577,6 +625,7 @@
   },
   {
     "id": "49",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Enzymologie",
     "question": "Généralités sur les enzymes :",
@@ -589,6 +638,7 @@
   },
   {
     "id": "50",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Enzymologie",
     "question": "Concernant les proenzymes :",
@@ -601,6 +651,7 @@
   },
   {
     "id": "51",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Enzymologie",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -613,6 +664,7 @@
   },
   {
     "id": "52",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Métabolise",
     "question": "Parmi les propositions suivantes, indiquez celle qui est exacte :",
@@ -625,6 +677,7 @@
   },
   {
     "id": "53",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Métabolise",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -637,6 +690,7 @@
   },
   {
     "id": "54",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Métabolise",
     "question": "Parmi les composés suivants, quel(s) est(sont) ceux qui peu(ven)t alimenter la néoglucogenèse ?",
@@ -649,6 +703,7 @@
   },
   {
     "id": "55",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Métabolise",
     "question": "Concernant la voie des pentoses phosphate :",
@@ -661,6 +716,7 @@
   },
   {
     "id": "56",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Métabolise",
     "question": "Concernant là cétogenèse :",
@@ -673,6 +729,7 @@
   },
   {
     "id": "57",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Métabolise",
     "question": "Concernant la 5-lipoxygenase :",
@@ -685,6 +742,7 @@
   },
   {
     "id": "58",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Métabolise",
     "question": "Les acides gras sont synthétisés à partir du malonyl CoA. Parmi les propositions suivantes, laquelle est exacte ?",
@@ -697,6 +755,7 @@
   },
   {
     "id": "59",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Métabolise",
     "question": "A propos des corps cétoniques :",
@@ -709,6 +768,7 @@
   },
   {
     "id": "60",
+    "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Métabolise",
     "question": "Parmi les propositions suivantes, indiquez celle qui est exacte",
@@ -721,6 +781,7 @@
   },
   {
     "id": "61",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "ADN, genome et chromosomes",
     "question": "Les chromosomes humains :",
@@ -733,6 +794,7 @@
   },
   {
     "id": "62",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "ADN, genome et chromosomes",
     "question": "Concernant l'ADN nucléaire humain :",
@@ -745,6 +807,7 @@
   },
   {
     "id": "63",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "ADN, genome et chromosomes",
     "question": "L'ADN mitochondrial :",
@@ -757,6 +820,7 @@
   },
   {
     "id": "64",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "ADN, genome et chromosomes",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -769,6 +833,7 @@
   },
   {
     "id": "65",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "ADN, genome et chromosomes",
     "question": "L'ATP :",
@@ -781,6 +846,7 @@
   },
   {
     "id": "66",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Réplication",
     "question": "Concernant la réplication chez les eucaryotes :",
@@ -793,6 +859,7 @@
   },
   {
     "id": "67",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Réplication",
     "question": "Concernant la réplication du génome :",
@@ -805,6 +872,7 @@
   },
   {
     "id": "68",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Réplication",
     "question": "La réplication du chromosome bactérien nécessite :",
@@ -817,6 +885,7 @@
   },
   {
     "id": "69",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Réplication",
     "question": "Concernant la réplication de l'ADN :",
@@ -829,6 +898,7 @@
   },
   {
     "id": "70",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Réplication",
     "question": "Concernant la réplication de l'ADN nucléaire chez les eucaryotes, quelles sont les deux propositions inexactes :",
@@ -841,6 +911,7 @@
   },
   {
     "id": "71",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Réparation, mutations",
     "question": "Une mutation ponctuelle introduit un codon TAA dans une séquence nucléique codant pour une protéine :",
@@ -853,6 +924,7 @@
   },
   {
     "id": "72",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Réparation, mutations",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -865,6 +937,7 @@
   },
   {
     "id": "73",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Réparation, mutations",
     "question": "Cochez la (ou les) réponse(s) exacte(s)",
@@ -877,6 +950,7 @@
   },
   {
     "id": "74",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Réparation, mutations",
     "question": "Concernant la réparation et la recombinaison du génome :",
@@ -889,6 +963,7 @@
   },
   {
     "id": "75",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Réparation, mutations",
     "question": "Une mutation :",
@@ -901,6 +976,7 @@
   },
   {
     "id": "76",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Transcription",
     "question": "Les exons :",
@@ -913,6 +989,7 @@
   },
   {
     "id": "77",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Transcription",
     "question": "Cochez la (ou les) réponse(s) exacte(s)",
@@ -925,6 +1002,7 @@
   },
   {
     "id": "78",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Transcription",
     "question": "Un ARNm transcrit par l'ARN polymérase II à partir de la matrice d'ADN_b5'- ATGCCCCGTCATTCGAGCTTCGAAGTTACCGGTTT -3'_bpossède les caractéristiques suivantes :",
@@ -937,6 +1015,7 @@
   },
   {
     "id": "79",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Transcription",
     "question": "Concernant les ARN non codants appelées microARN :",
@@ -949,6 +1028,7 @@
   },
   {
     "id": "80",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Transcription",
     "question": "Concernant les ARN messagers :",
@@ -961,6 +1041,7 @@
   },
   {
     "id": "81",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Traduction",
     "question": "Parmi les propositions relatives aux gènes codants, laquelle(lesquelles) est(sont) exactes(s) ?",
@@ -973,6 +1054,7 @@
   },
   {
     "id": "82",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Traduction",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -985,6 +1067,7 @@
   },
   {
     "id": "83",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Traduction",
     "question": "Concernant le code génétique et les mutations, quelle est la proposition exacte ?",
@@ -997,6 +1080,7 @@
   },
   {
     "id": "84",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Traduction",
     "question": "La séquence complémentaire d'un ADN codant 4 méthionines consécutives est :",
@@ -1009,6 +1093,7 @@
   },
   {
     "id": "85",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Traduction",
     "question": "Concernant l'opéron lactose :",
@@ -1021,6 +1106,7 @@
   },
   {
     "id": "86",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Régulation, expression génétique",
     "question": "Un gène inductible de procaryote comporte :",
@@ -1033,6 +1119,7 @@
   },
   {
     "id": "87",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Régulation, expression génétique",
     "question": "Un gène répressible de procaryote comporte :",
@@ -1045,6 +1132,7 @@
   },
   {
     "id": "88",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Régulation, expression génétique",
     "question": "Dans la régulation de l'opéron lactose plusieurs facteurs interviennent :",
@@ -1057,6 +1145,7 @@
   },
   {
     "id": "89",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Régulation, expression génétique",
     "question": "Concernant la régulation génique :",
@@ -1069,6 +1158,7 @@
   },
   {
     "id": "90",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Régulation, expression génétique",
     "question": "Concernant la technique de séquençage par le méthode de Sanger :",
@@ -1081,6 +1171,7 @@
   },
   {
     "id": "91",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Techniques d'analyse du génome",
     "question": "Cochez la (ou les) réponse(s) exacte(s)",
@@ -1093,6 +1184,7 @@
   },
   {
     "id": "92",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Techniques d'analyse du génome",
     "question": "Parmi les techniques suivantes, quelle(s) est(sont) celle(s) qui est(sont) utilisée(s) pour le clonage d'un gène ?",
@@ -1105,6 +1197,7 @@
   },
   {
     "id": "93",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Techniques d'analyse du génome",
     "question": "Concernant les méthodes et les techniques de biologie moléculaire, quelle est la proposition INEXACTE ?",
@@ -1117,6 +1210,7 @@
   },
   {
     "id": "94",
+    "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Techniques d'analyse du génome",
     "question": "Concernant la méthode de Southern :",
@@ -1129,6 +1223,7 @@
   },
   {
     "id": "95",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "La cellule",
     "question": "Concernant les bacteries :",
@@ -1141,6 +1236,7 @@
   },
   {
     "id": "96",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "La cellule",
     "question": "Indiquez les 2 caracteristiques universelles des cellules sur terre :",
@@ -1153,6 +1249,7 @@
   },
   {
     "id": "97",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "La cellule",
     "question": "Cochez la (ou les) affirmation(s) exacte(s) :",
@@ -1165,6 +1262,7 @@
   },
   {
     "id": "98",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "La cellule",
     "question": "Concernant les différences entre une cellule eucaryote et un procaryote :",
@@ -1177,6 +1275,7 @@
   },
   {
     "id": "99",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "La cellule",
     "question": "Concernant les cellules eucaryotes et procaryotes :",
@@ -1189,6 +1288,7 @@
   },
   {
     "id": "100",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "La cellule",
     "question": "Concernant les archeobacteries ou archaebacteries :",
@@ -1201,6 +1301,7 @@
   },
   {
     "id": "101",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "La cellule",
     "question": "Concernant les bacteries :",
@@ -1213,6 +1314,7 @@
   },
   {
     "id": "102",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "La cellule",
     "question": "Un virus et une cellule eucaryote tous les deux :",
@@ -1225,6 +1327,7 @@
   },
   {
     "id": "103",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "La cellule",
     "question": "Concernant les cellules et l'organisation générale des cellules :",
@@ -1237,6 +1340,7 @@
   },
   {
     "id": "104",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "La cellule",
     "question": "Concernant les compartiments cellulaires :",
@@ -1249,6 +1353,7 @@
   },
   {
     "id": "105",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "la membrane plasmique",
     "question": "Concernant la membrane plasmique :",
@@ -1261,6 +1366,7 @@
   },
   {
     "id": "106",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "la membrane plasmique",
     "question": "Un radeau lipidique :",
@@ -1273,6 +1379,7 @@
   },
   {
     "id": "107",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "la membrane plasmique",
     "question": "Le glucocerebroside :",
@@ -1285,6 +1392,7 @@
   },
   {
     "id": "108",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "la membrane plasmique",
     "question": "Concernant les sphingolipides de la membrane plasmique :",
@@ -1297,6 +1405,7 @@
   },
   {
     "id": "109",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "la membrane plasmique",
     "question": "Concernant la fluidite des membranes :",
@@ -1309,6 +1418,7 @@
   },
   {
     "id": "110",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "la membrane plasmique",
     "question": "Concernant les membranes :",
@@ -1321,6 +1431,7 @@
   },
   {
     "id": "111",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "la membrane plasmique",
     "question": "Quelle(s) est(sont) la(les) propriete(s) caracteristique(s) du glycocalyx (ou manteau cellulaire) ?",
@@ -1333,6 +1444,7 @@
   },
   {
     "id": "112",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "la membrane plasmique",
     "question": "Concernant la permeabilite de la membrane plasmatique :",
@@ -1345,6 +1457,7 @@
   },
   {
     "id": "113",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "la membrane plasmique",
     "question": "Dans les transports membranaires, l'échangeur HCO//-/3// / CI/*-/* :",
@@ -1357,6 +1470,7 @@
   },
   {
     "id": "114",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "la membrane plasmique",
     "question": "Cochez la (les) proposition(s) exacte(s) :",
@@ -1369,6 +1483,7 @@
   },
   {
     "id": "115",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Système endomembranaire",
     "question": "Concernant l'endocytose :",
@@ -1381,6 +1496,7 @@
   },
   {
     "id": "116",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Système endomembranaire",
     "question": "Cochez la(les) proposition(s) exacte(s) :",
@@ -1393,6 +1509,7 @@
   },
   {
     "id": "117",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Système endomembranaire",
     "question": "Concernant le transport vesiculaire :",
@@ -1405,6 +1522,7 @@
   },
   {
     "id": "118",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Système endomembranaire",
     "question": "Concernant l'endocytose :",
@@ -1417,6 +1535,7 @@
   },
   {
     "id": "119",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Système endomembranaire",
     "question": "Une proteine destinee aetre secretee/liberee hors de la cellule par exocytose constitutive doit :",
@@ -1429,6 +1548,7 @@
   },
   {
     "id": "120",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Système endomembranaire",
     "question": "La SRP :",
@@ -1441,6 +1561,7 @@
   },
   {
     "id": "121",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Système endomembranaire",
     "question": "Le RE lisse :",
@@ -1453,6 +1574,7 @@
   },
   {
     "id": "122",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Système endomembranaire",
     "question": "Cochez la (ou les) reponse(s) exacte(s)",
@@ -1465,6 +1587,7 @@
   },
   {
     "id": "123",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Système endomembranaire",
     "question": "Concernant le reticulum endoplasmique :",
@@ -1477,6 +1600,7 @@
   },
   {
     "id": "124",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Système endomembranaire",
     "question": "Le reticulum endoplasmique rugueux est :",
@@ -1489,6 +1613,7 @@
   },
   {
     "id": "125",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Organites intracellulaire",
     "question": "Concernant la degradation des proteines :",
@@ -1501,6 +1626,7 @@
   },
   {
     "id": "126",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Organites intracellulaire",
     "question": "L'ubiquitinylation :",
@@ -1513,6 +1639,7 @@
   },
   {
     "id": "127",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Organites intracellulaire",
     "question": "Une proteine est susceptible d'etre clivee en peptides par :",
@@ -1525,6 +1652,7 @@
   },
   {
     "id": "128",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Organites intracellulaire",
     "question": "Peroxysomes",
@@ -1537,6 +1665,7 @@
   },
   {
     "id": "129",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Organites intracellulaire",
     "question": "Parmi les propositions qui suivent, quelle(s) est(sont) celle(ceux) qui designe(nt) une(des) fonction(s) peroxysomale(s) ?",
@@ -1549,6 +1678,7 @@
   },
   {
     "id": "130",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Organites intracellulaire",
     "question": "Concernant le peroxysome, quelle est la bonne proposition ?",
@@ -1561,6 +1691,7 @@
   },
   {
     "id": "131",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Organites intracellulaire",
     "question": "Concernant le peroxysome :",
@@ -1573,6 +1704,7 @@
   },
   {
     "id": "132",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Organites intracellulaire",
     "question": "Concernant le peroxysome chez l'Homme :",
@@ -1585,6 +1717,7 @@
   },
   {
     "id": "133",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Organites intracellulaire",
     "question": "Cochez la (les) proposition(s) exacte(s) :",
@@ -1597,6 +1730,7 @@
   },
   {
     "id": "134",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Organites intracellulaire",
     "question": "Concernant les mitochondries :",
@@ -1609,6 +1743,7 @@
   },
   {
     "id": "135",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cytosquelette",
     "question": "Concernant l'ATP et le cytosquelette :",
@@ -1621,6 +1756,7 @@
   },
   {
     "id": "136",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cytosquelette",
     "question": "Concernant le cytosquelette :",
@@ -1633,6 +1769,7 @@
   },
   {
     "id": "137",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cytosquelette",
     "question": "Concernant les microtubules :",
@@ -1645,6 +1782,7 @@
   },
   {
     "id": "138",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cytosquelette",
     "question": "Les microtubules cytoplasmiques :",
@@ -1657,6 +1795,7 @@
   },
   {
     "id": "139",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cytosquelette",
     "question": "Concernant le cytosquelette :",
@@ -1669,6 +1808,7 @@
   },
   {
     "id": "140",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cytosquelette",
     "question": "Concernant les mouvements intracellulaires et les microtubules :",
@@ -1681,6 +1821,7 @@
   },
   {
     "id": "141",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cytosquelette",
     "question": "Quelle est la proposition vraie a propos du microfilament d'actine ?",
@@ -1693,6 +1834,7 @@
   },
   {
     "id": "142",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cytosquelette",
     "question": "Indiquez la proposition exacte concernant la tropomyosine :",
@@ -1705,6 +1847,7 @@
   },
   {
     "id": "143",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cytosquelette",
     "question": "Concernant les filaments intermediaires :",
@@ -1717,6 +1860,7 @@
   },
   {
     "id": "144",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cytosquelette",
     "question": "Indiquez les 3 propositions exactes concernant la specificite tissulaire des filaments intermediaires :",
@@ -1729,6 +1873,7 @@
   },
   {
     "id": "145",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Noyau",
     "question": "Concernant le noyau cellulaire",
@@ -1741,6 +1886,7 @@
   },
   {
     "id": "146",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Noyau",
     "question": "Cochez la (ou les) reponse(s) exacte(s) :",
@@ -1753,6 +1899,7 @@
   },
   {
     "id": "147",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Noyau",
     "question": "Concernant le noyau :",
@@ -1765,6 +1912,7 @@
   },
   {
     "id": "148",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Noyau",
     "question": "L'hyperchromatisme :",
@@ -1777,6 +1925,7 @@
   },
   {
     "id": "149",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Noyau",
     "question": "Concernant la compaction de la chromatine et les methylations :",
@@ -1789,6 +1938,7 @@
   },
   {
     "id": "150",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Noyau",
     "question": "A propos de la structure du noyau :",
@@ -1801,6 +1951,7 @@
   },
   {
     "id": "151",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Noyau",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -1813,6 +1964,7 @@
   },
   {
     "id": "152",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Noyau",
     "question": "Parmi les proprietes suivantes, quelles sont celles qui caracterisent les recepteurs nucleaires ?",
@@ -1825,6 +1977,7 @@
   },
   {
     "id": "153",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Noyau",
     "question": "Concernant le noyau :",
@@ -1837,6 +1990,7 @@
   },
   {
     "id": "154",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Noyau",
     "question": "Cochez la (ou les) reponse(s) exacte(s) :",
@@ -1849,6 +2003,7 @@
   },
   {
     "id": "155",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Noyau",
     "question": "Concernant le caryotype :",
@@ -1861,6 +2016,7 @@
   },
   {
     "id": "156",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "MEC et jonctions",
     "question": "Les jonctions communicantes :",
@@ -1873,6 +2029,7 @@
   },
   {
     "id": "157",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "MEC et jonctions",
     "question": "Les jonctions adherentes :",
@@ -1885,6 +2042,7 @@
   },
   {
     "id": "158",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "MEC et jonctions",
     "question": "Cochez la (ou les) reponse(s) exacte(s) :",
@@ -1897,6 +2055,7 @@
   },
   {
     "id": "159",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "MEC et jonctions",
     "question": "Les integrines sont :",
@@ -1909,6 +2068,7 @@
   },
   {
     "id": "160",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "MEC et jonctions",
     "question": "Indiquez deux proteoglycanes de surface :",
@@ -1921,6 +2081,7 @@
   },
   {
     "id": "161",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "MEC et jonctions",
     "question": "Concernant les molecules d'elastine :",
@@ -1933,6 +2094,7 @@
   },
   {
     "id": "162",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "MEC et jonctions",
     "question": "Indiquez le principal role de l'elastine :",
@@ -1945,6 +2107,7 @@
   },
   {
     "id": "163",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "MEC et jonctions",
     "question": "Indiquez 3 caracteristiques constantes du collagene :",
@@ -1957,6 +2120,7 @@
   },
   {
     "id": "164",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "MEC et jonctions",
     "question": "Concernant la matrice extracellulaire :",
@@ -1969,6 +2133,7 @@
   },
   {
     "id": "165",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "MEC et jonctions",
     "question": "Indiquez la cellule productrice de Ia matrice extracellulaire du tissu conjonctif :",
@@ -1981,6 +2146,7 @@
   },
   {
     "id": "166",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cycle cellulaire",
     "question": "Concernant la phase G1 :",
@@ -1993,6 +2159,7 @@
   },
   {
     "id": "167",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cycle cellulaire",
     "question": "Concernant le MPF :",
@@ -2005,6 +2172,7 @@
   },
   {
     "id": "168",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cycle cellulaire",
     "question": "Concernant la mitose :",
@@ -2017,6 +2185,7 @@
   },
   {
     "id": "169",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cycle cellulaire",
     "question": "Le deroulement du cycle cellulaire :",
@@ -2029,6 +2198,7 @@
   },
   {
     "id": "170",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cycle cellulaire",
     "question": "Le complexe Cdk2-cycline E :",
@@ -2041,6 +2211,7 @@
   },
   {
     "id": "171",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cycle cellulaire",
     "question": "Concernant le cycle cellulaire :",
@@ -2053,6 +2224,7 @@
   },
   {
     "id": "172",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cycle cellulaire",
     "question": "Concernant le mecanisme d'arret du cycle cellulaire en reponse a une alteration de l'ADN :",
@@ -2065,6 +2237,7 @@
   },
   {
     "id": "173",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cycle cellulaire",
     "question": "Telomeres et telomerase :",
@@ -2077,6 +2250,7 @@
   },
   {
     "id": "174",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cycle cellulaire",
     "question": "Concernant les cellules souches :",
@@ -2089,6 +2263,7 @@
   },
   {
     "id": "175",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Cycle cellulaire",
     "question": "L'immortalite cellulaire peutetre due a une :",
@@ -2101,6 +2276,7 @@
   },
   {
     "id": "176",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Signalisation cellulaire",
     "question": "L'activite enzymatique des recepteurs enzyme peutetre :",
@@ -2113,6 +2289,7 @@
   },
   {
     "id": "177",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Signalisation cellulaire",
     "question": "Concernant les recepteurs tyrosine kinase :",
@@ -2125,6 +2302,7 @@
   },
   {
     "id": "178",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Signalisation cellulaire",
     "question": "Parmi les propositions suivantes, indiquez la (les) proposition(s) exacte(s) :",
@@ -2137,6 +2315,7 @@
   },
   {
     "id": "179",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Signalisation cellulaire",
     "question": "Concernant les recepteurs membranaires :",
@@ -2149,6 +2328,7 @@
   },
   {
     "id": "180",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Signalisation cellulaire",
     "question": "Concernant la communication cellulaire :",
@@ -2161,6 +2341,7 @@
   },
   {
     "id": "181",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Signalisation cellulaire",
     "question": "Concernant la communication cellulaire :",
@@ -2173,6 +2354,7 @@
   },
   {
     "id": "182",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Signalisation cellulaire",
     "question": "Quelle est la proposition fausse ?",
@@ -2185,6 +2367,7 @@
   },
   {
     "id": "183",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Signalisation cellulaire",
     "question": "La signalisation paracrine (1 proposition exacte)",
@@ -2197,6 +2380,7 @@
   },
   {
     "id": "184",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Signalisation cellulaire",
     "question": "L'AMPc :",
@@ -2209,6 +2393,7 @@
   },
   {
     "id": "185",
+    "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Signalisation cellulaire",
     "question": "Concernant les proteines G :",
@@ -2221,6 +2406,7 @@
   },
   {
     "id": "186",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Méthodes d'étude des cellules et des tissus",
     "question": "Parmi les techniques suivantes, laquelle (lesquelles) est (sont) necessaire(s) pour l' obtention de populations cellulaires a partir d'un prelevement tissulaire ?",
@@ -2233,6 +2419,7 @@
   },
   {
     "id": "187",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Méthodes d'étude des cellules et des tissus",
     "question": "Concernant les methodes pour la microscopie electronique :",
@@ -2245,6 +2432,7 @@
   },
   {
     "id": "188",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Méthodes d'étude des cellules et des tissus",
     "question": "Concernant les colorations histochimiques classiques :",
@@ -2257,6 +2445,7 @@
   },
   {
     "id": "189",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Méthodes d'étude des cellules et des tissus",
     "question": "Cochez la (ou les) reponse(s) exacte(s) :",
@@ -2269,6 +2458,7 @@
   },
   {
     "id": "190",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Méthodes d'étude des cellules et des tissus",
     "question": "On met en culture quelques fibroblastes dans une boite de Petri. Quelles sont les deux propositions exactes ?",
@@ -2281,6 +2471,7 @@
   },
   {
     "id": "191",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Méthodes d'étude des cellules et des tissus",
     "question": "Concernant la preparation des tissus destines a une étude histologique :",
@@ -2293,6 +2484,7 @@
   },
   {
     "id": "192",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Méthodes d'étude des cellules et des tissus",
     "question": "Concernant les techniques d'immunohistochimie indirecte :",
@@ -2305,6 +2497,7 @@
   },
   {
     "id": "193",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Méthodes d'étude des cellules et des tissus",
     "question": "Concernant les methodes de l'hybridation in situ :",
@@ -2317,6 +2510,7 @@
   },
   {
     "id": "194",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Méthodes d'étude des cellules et des tissus",
     "question": "Concernant les techniques de visualisation en biologie cellulaire :",
@@ -2329,6 +2523,7 @@
   },
   {
     "id": "195",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Méthodes d'étude des cellules et des tissus",
     "question": "La microscopie a contraste de phase :",
@@ -2341,6 +2536,7 @@
   },
   {
     "id": "196",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu épithélial",
     "question": "Concernant les cils vibratiles des cellules epitheliales :",
@@ -2353,6 +2549,7 @@
   },
   {
     "id": "197",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu épithélial",
     "question": "Concernant les tissus epitheliaux :",
@@ -2365,6 +2562,7 @@
   },
   {
     "id": "198",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu épithélial",
     "question": "Concernant les tissus epitheliaux :",
@@ -2377,6 +2575,7 @@
   },
   {
     "id": "199",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu épithélial",
     "question": "Quelles sont les 2 propositions exactes ? Au niveau d'un epithelium simple cylindrique, on peut mettre en evidence par immunocytochimie :",
@@ -2389,6 +2588,7 @@
   },
   {
     "id": "200",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu épithélial",
     "question": "Les jonctions adherentes ont les caracteristiques suivantes :",
@@ -2401,6 +2601,7 @@
   },
   {
     "id": "201",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu épithélial",
     "question": "Concernant les jonctions :",
@@ -2413,6 +2614,7 @@
   },
   {
     "id": "202",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu épithélial",
     "question": "Concernant une jonction communicante entre deux cellules epitheliales :",
@@ -2425,6 +2627,7 @@
   },
   {
     "id": "203",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu épithélial",
     "question": "Concernant les integrines :",
@@ -2437,6 +2640,7 @@
   },
   {
     "id": "204",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu épithélial",
     "question": "Concernant les microvillosites :",
@@ -2449,6 +2653,7 @@
   },
   {
     "id": "205",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu épithélial",
     "question": "La muqueuse intestinale :",
@@ -2461,6 +2666,7 @@
   },
   {
     "id": "206",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu conjonctif",
     "question": "Concernant la lame basale :",
@@ -2473,6 +2679,7 @@
   },
   {
     "id": "207",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu conjonctif",
     "question": "Concernant la matrice extracellulaire des tissus conjonctifs :",
@@ -2485,6 +2692,7 @@
   },
   {
     "id": "208",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu conjonctif",
     "question": "Concernant les cellules des tissus conjonctifs :",
@@ -2497,6 +2705,7 @@
   },
   {
     "id": "209",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu conjonctif",
     "question": "Concernant la matrice extracellulaire :",
@@ -2509,6 +2718,7 @@
   },
   {
     "id": "210",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu conjonctif",
     "question": "Le tissu conjonctif dense est present dans :",
@@ -2521,6 +2731,7 @@
   },
   {
     "id": "211",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu conjonctif",
     "question": "Les adipocytes blancs :",
@@ -2533,6 +2744,7 @@
   },
   {
     "id": "212",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu conjonctif",
     "question": "Les adipocytes blancs :",
@@ -2545,6 +2757,7 @@
   },
   {
     "id": "213",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu conjonctif",
     "question": "Concernant le cartilage :",
@@ -2557,6 +2770,7 @@
   },
   {
     "id": "214",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu conjonctif",
     "question": "Parmi les types cellulaires suivants, indiquer celui(ceux) qui est (sont) preent(s) dans le tissu cartilagineux :",
@@ -2569,6 +2783,7 @@
   },
   {
     "id": "215",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu conjonctif",
     "question": "Propositions relatives au cartilage :",
@@ -2581,6 +2796,7 @@
   },
   {
     "id": "216",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu Nerveux",
     "question": "Concernant le neurone :",
@@ -2593,6 +2809,7 @@
   },
   {
     "id": "217",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu Nerveux",
     "question": "Concernant le tissu nerveux :",
@@ -2605,6 +2822,7 @@
   },
   {
     "id": "218",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu Nerveux",
     "question": "Concernant les neurones :",
@@ -2617,6 +2835,7 @@
   },
   {
     "id": "219",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu Nerveux",
     "question": "Concernant les neurones :",
@@ -2629,6 +2848,7 @@
   },
   {
     "id": "220",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu Nerveux",
     "question": "Concernant les neurones :",
@@ -2641,6 +2861,7 @@
   },
   {
     "id": "221",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu Nerveux",
     "question": "Concernant les axones et les dendrites :",
@@ -2653,6 +2874,7 @@
   },
   {
     "id": "222",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu Nerveux",
     "question": "Concernant les cellules du systeme nerveux central :",
@@ -2665,6 +2887,7 @@
   },
   {
     "id": "223",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu Nerveux",
     "question": "Cellules gliales",
@@ -2677,6 +2900,7 @@
   },
   {
     "id": "224",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu Nerveux",
     "question": "La nevroglie epitheliale tapissant le canal de l'ependyme :",
@@ -2689,6 +2913,7 @@
   },
   {
     "id": "225",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu Nerveux",
     "question": "Les astrocytes protoplasmiques :",
@@ -2701,6 +2926,7 @@
   },
   {
     "id": "226",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu musculaire",
     "question": "Parmi les molecules suivantes, laquelle est absente au sein des sarcomeres du muscle strie cardiaque :",
@@ -2713,6 +2939,7 @@
   },
   {
     "id": "227",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu musculaire",
     "question": "Concernant les tissus musculaires :",
@@ -2725,6 +2952,7 @@
   },
   {
     "id": "228",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu musculaire",
     "question": "Les cardiomyocytes :",
@@ -2737,6 +2965,7 @@
   },
   {
     "id": "229",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu musculaire",
     "question": "Concernant les cellules musculaires cardiaques :",
@@ -2749,6 +2978,7 @@
   },
   {
     "id": "230",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu musculaire",
     "question": "La(les) différence(s) entre les rhabdomyocytes et les cardiomyocytes est(sont) :",
@@ -2761,6 +2991,7 @@
   },
   {
     "id": "231",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu musculaire",
     "question": "Concernant les fibres musculaires striees squelettiques :",
@@ -2773,6 +3004,7 @@
   },
   {
     "id": "232",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu musculaire",
     "question": "Concernant les cellules satellites musculaires :",
@@ -2785,6 +3017,7 @@
   },
   {
     "id": "233",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu musculaire",
     "question": "Concernant la jonction neuromusculaire du muscle strie squelettique :",
@@ -2797,6 +3030,7 @@
   },
   {
     "id": "234",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu musculaire",
     "question": "Laquelle des proteines musculaires suivantes est mutee dans la plus frequente des myopathies ?",
@@ -2809,6 +3043,7 @@
   },
   {
     "id": "235",
+    "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu musculaire",
     "question": "Propositions relatives aux cellules musculaires :",
@@ -2821,6 +3056,7 @@
   },
   {
     "id": "236",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Premiere semaine",
     "question": "Concernant l'oeuf au cours de la premiere semaine :",
@@ -2833,6 +3069,7 @@
   },
   {
     "id": "237",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Premiere semaine",
     "question": "Concernant la premiere semaine de developpement :",
@@ -2845,6 +3082,7 @@
   },
   {
     "id": "238",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Premiere semaine",
     "question": "Concernant la fecondation :",
@@ -2857,6 +3095,7 @@
   },
   {
     "id": "239",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Premiere semaine",
     "question": "Concernant la premiere semaine du developpement :",
@@ -2869,6 +3108,7 @@
   },
   {
     "id": "240",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Premiere semaine",
     "question": "Apropos de la premiere semaine du developpement :",
@@ -2881,6 +3121,7 @@
   },
   {
     "id": "241",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Premiere semaine",
     "question": "Parmi les evenements suivants, lequel(lesquels) a(ont) lieu au cours de la ere semaine du developpement embryonnaire ?",
@@ -2893,6 +3134,7 @@
   },
   {
     "id": "242",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Premiere semaine",
     "question": "Quels evenements se deroulent pendant la premiere semaine du developpement de l'oeuf humain ?",
@@ -2905,6 +3147,7 @@
   },
   {
     "id": "243",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Premiere semaine",
     "question": "Concernant les jumeaux monochoraux :",
@@ -2917,6 +3160,7 @@
   },
   {
     "id": "244",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Deuxieme semaine",
     "question": "Concernant les mecanismes de la nidation au cours de la deuxieme semaine du developpement (quatrieme semaine d'amenorrhee) :",
@@ -2929,6 +3173,7 @@
   },
   {
     "id": "245",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Deuxieme semaine",
     "question": "Concernant l'hypoblaste :",
@@ -2941,6 +3186,7 @@
   },
   {
     "id": "246",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Deuxieme semaine",
     "question": "Concernant les deuxieme et troisieme semaines du developpement :",
@@ -2953,6 +3199,7 @@
   },
   {
     "id": "247",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Deuxieme semaine",
     "question": "Au cours de la deuxieme semaine du developpement :",
@@ -2965,6 +3212,7 @@
   },
   {
     "id": "248",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Deuxieme semaine",
     "question": "Indiquez la(les) structure(s) derivant de l'epiblaste :",
@@ -2977,6 +3225,7 @@
   },
   {
     "id": "249",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Deuxieme semaine",
     "question": "Concernant les caduques : (deux propositions exactes)",
@@ -2989,6 +3238,7 @@
   },
   {
     "id": "250",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Deuxieme semaine",
     "question": "Concernant la vesicule vitelline :",
@@ -3001,6 +3251,7 @@
   },
   {
     "id": "251",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Deuxieme semaine",
     "question": "Concernant les annexes des jumeaux :",
@@ -3013,6 +3264,7 @@
   },
   {
     "id": "252",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Deuxieme semaine",
     "question": "Concernant le developpement du placenta humain : (deux propositions exactes)",
@@ -3025,6 +3277,7 @@
   },
   {
     "id": "253",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Deuxieme semaine",
     "question": "Concernant l'allantoïde de l'embryon humain :",
@@ -3037,6 +3290,7 @@
   },
   {
     "id": "254",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Concernant le developpement embryonnaire :",
@@ -3049,6 +3303,7 @@
   },
   {
     "id": "255",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Concernant le signal d'asymetrie :",
@@ -3061,6 +3316,7 @@
   },
   {
     "id": "256",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Concernant l'embryologie :",
@@ -3073,6 +3329,7 @@
   },
   {
     "id": "257",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Parmi les evenements suivants, lesquels ont lieu a la 3e semaine du developpement :",
@@ -3085,6 +3342,7 @@
   },
   {
     "id": "258",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Qu'est-ce qui ne derive pas de l'ectoblaste ?",
@@ -3097,6 +3355,7 @@
   },
   {
     "id": "259",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Qu'est-ce qui ne derive pas de l'entoblaste ?",
@@ -3109,6 +3368,7 @@
   },
   {
     "id": "260",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Quelles propositions parmi les suivantes concernent les consequences de la plicature transversale observees au cours de la quatrieme semaine du developpement de l'oeuf humain ?",
@@ -3121,6 +3381,7 @@
   },
   {
     "id": "261",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Concernant le tube digestif primitif a la quatrieme semaine du developpement embryonnaires",
@@ -3133,6 +3394,7 @@
   },
   {
     "id": "262",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "A la fin de la 3e semaine du developpement embryonnaire, on peut observer sur une coupe transversale passant en avant du noeud de Hansen :",
@@ -3145,6 +3407,7 @@
   },
   {
     "id": "263",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Concernant les somites :",
@@ -3157,6 +3420,7 @@
   },
   {
     "id": "264",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Concernant le tube neural :",
@@ -3169,6 +3433,7 @@
   },
   {
     "id": "265",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Jours de developpement embryonnaire, l'ordre de grandeur de la taille de l'embryon est de :",
@@ -3181,6 +3446,7 @@
   },
   {
     "id": "266",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Concernant l'embryologie :",
@@ -3193,6 +3459,7 @@
   },
   {
     "id": "267",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Chez l'embryon de Poulet, si l'on marque les cellules du croissant de Koller avec un marqueur fluorescent, on peut suivre leur lignage. On observe :",
@@ -3205,6 +3472,7 @@
   },
   {
     "id": "268",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Concernant le même schema que le QCM precedent :",
@@ -3217,6 +3485,7 @@
   },
   {
     "id": "269",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Concernant le grossesse :",
@@ -3229,6 +3498,7 @@
   },
   {
     "id": "270",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Cochez la (ou les) reponse(s) exacte(s) :",
@@ -3241,6 +3511,7 @@
   },
   {
     "id": "271",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "Concernant Shh (Sonic Hedgehog) et son role dans le bourgeon de membre d'un tetrapode :",
@@ -3253,6 +3524,7 @@
   },
   {
     "id": "272",
+    "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Troisième et dernière semaine",
     "question": "En vous basant sur vos connaissances, vous pouvez affirmer que :",
@@ -3265,6 +3537,7 @@
   },
   {
     "id": "273",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Généralités",
     "question": "Cochez la (ou les) reponse(s) exacte(s) :",
@@ -3277,6 +3550,7 @@
   },
   {
     "id": "274",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Généralités",
     "question": "Concernant les definitions suivantes :",
@@ -3289,6 +3563,7 @@
   },
   {
     "id": "275",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Généralités",
     "question": "Dans l'espece humaine :",
@@ -3301,6 +3576,7 @@
   },
   {
     "id": "276",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Méiose,gamètes et reproduction",
     "question": "Concernant la capacitation d es spermatozoïdes :",
@@ -3313,6 +3589,7 @@
   },
   {
     "id": "277",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Méiose,gamètes et reproduction",
     "question": "Concernant les cellules de Sertoli :",
@@ -3325,6 +3602,7 @@
   },
   {
     "id": "278",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Méiose,gamètes et reproduction",
     "question": "Concernant la cellule de Leydig :",
@@ -3337,6 +3615,7 @@
   },
   {
     "id": "279",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Méiose,gamètes et reproduction",
     "question": "Concernant l'azoospermie :",
@@ -3349,6 +3628,7 @@
   },
   {
     "id": "280",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Méiose,gamètes et reproduction",
     "question": "Concernant les gametes :",
@@ -3361,6 +3641,7 @@
   },
   {
     "id": "281",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Méiose,gamètes et reproduction",
     "question": "Concernant l'ovaire :",
@@ -3373,6 +3654,7 @@
   },
   {
     "id": "282",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Méiose,gamètes et reproduction",
     "question": "Concernant la meiose :",
@@ -3385,6 +3667,7 @@
   },
   {
     "id": "283",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Méiose,gamètes et reproduction",
     "question": "Concernant la spermatogenese :",
@@ -3397,6 +3680,7 @@
   },
   {
     "id": "284",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Méiose,gamètes et reproduction",
     "question": "L'ovocyte de premier ordre :",
@@ -3409,6 +3693,7 @@
   },
   {
     "id": "285",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Méiose,gamètes et reproduction",
     "question": "Concernant la gametogenese :",
@@ -3421,6 +3706,7 @@
   },
   {
     "id": "286",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Hormones",
     "question": "Concernant la folliculogenese et l'ovogenese :",
@@ -3433,6 +3719,7 @@
   },
   {
     "id": "287",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Hormones",
     "question": "Indiquez la(ou les) reponse(s) fausse(s)",
@@ -3445,6 +3732,7 @@
   },
   {
     "id": "288",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Hormones",
     "question": "Concernant les gonades :",
@@ -3457,6 +3745,7 @@
   },
   {
     "id": "289",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Hormones",
     "question": "Concernant la meiose :",
@@ -3469,6 +3758,7 @@
   },
   {
     "id": "290",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Hormones",
     "question": "Parmi les propositions suivantes concernant les oestrogenes, une seule est inexacte, laquelle ?",
@@ -3481,6 +3771,7 @@
   },
   {
     "id": "291",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Hormones",
     "question": "Chez l'embryon male, l'hormone anti-mullerienne ou AMH :",
@@ -3493,6 +3784,7 @@
   },
   {
     "id": "292",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Endomètre, fécondation et Développement",
     "question": "Parmi les elements suivants, quel est celui qui est a l'origine du blocage de la polyspermie ?",
@@ -3505,6 +3797,7 @@
   },
   {
     "id": "293",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Endomètre, fécondation et Développement",
     "question": "Concernant l'endometre :",
@@ -3517,6 +3810,7 @@
   },
   {
     "id": "294",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Endomètre, fécondation et Développement",
     "question": "Concernant le complexe cumulo-ovocytaire ovule au cours de la fecondation, indiquez la proposition exacte :",
@@ -3529,6 +3823,7 @@
   },
   {
     "id": "295",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Endomètre, fécondation et Développement",
     "question": "Concernant la fecondation :",
@@ -3541,6 +3836,7 @@
   },
   {
     "id": "296",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Endomètre, fécondation et Développement",
     "question": "Parmi les propositions suivantes concernant l'ordre des evenements survenant lors de la fecondation, indiquez celle(s) qui est (sont) exacte(s) :",
@@ -3553,6 +3849,7 @@
   },
   {
     "id": "297",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Endomètre, fécondation et Développement",
     "question": "Au cours de la fecondation :",
@@ -3565,6 +3862,7 @@
   },
   {
     "id": "298",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Endomètre, fécondation et Développement",
     "question": "Concernant la capacitation des spermatozoïdes : (2 propositions exactes)",
@@ -3577,6 +3875,7 @@
   },
   {
     "id": "299",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Endomètre, fécondation et Développement",
     "question": "Indiquez la reponse fausse. Parmi les composants du sperme :",
@@ -3589,6 +3888,7 @@
   },
   {
     "id": "300",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Endomètre, fécondation et Développement",
     "question": "Concernant la fecondation :",
@@ -3601,6 +3901,7 @@
   },
   {
     "id": "301",
+    "spec": "",
     "matiere": "Reproduction",
     "chapitre": "Endomètre, fécondation et Développement",
     "question": "Parmi les propositions suivantes interessant le transfert trans-placentaire des",
@@ -3613,6 +3914,7 @@
   },
   {
     "id": "302",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Généralités",
     "question": "Cochez la (ou les) réponse(s) exacte(s)",
@@ -3625,6 +3927,7 @@
   },
   {
     "id": "303",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Généralités",
     "question": "Parmi les propositions suivantes, indiquez laquelle (ou lesquelles) corresponde(nt) à une grandeur physique :",
@@ -3637,6 +3940,7 @@
   },
   {
     "id": "304",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Généralités",
     "question": "Parmi les propositions suivantes, indiquez laquelle (ou lesquelles) est (sont) une fonction du temps :",
@@ -3649,6 +3953,7 @@
   },
   {
     "id": "305",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Généralités",
     "question": "L'equation aux dimensions d'une puissance est :",
@@ -3661,6 +3966,7 @@
   },
   {
     "id": "306",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Liquide, gaz et solution",
     "question": "A propos des gaz reels :",
@@ -3673,6 +3979,7 @@
   },
   {
     "id": "307",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Liquide, gaz et solution",
     "question": "Cochez la (ou les) reponse(s) exacte(s)",
@@ -3685,6 +3992,7 @@
   },
   {
     "id": "308",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Liquide, gaz et solution",
     "question": "Concernant l'eau a l'etat liquide :",
@@ -3697,6 +4005,7 @@
   },
   {
     "id": "309",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Liquide, gaz et solution",
     "question": "Concernant l'etat gazeux :",
@@ -3709,6 +4018,7 @@
   },
   {
     "id": "310",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Liquide, gaz et solution",
     "question": "Dans la loi de Nernst, la valeur absolue de la différence de potentiel transmembranaire:",
@@ -3721,6 +4031,7 @@
   },
   {
     "id": "311",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Liquide, gaz et solution",
     "question": "Les proprietes « colligatives » dependent :",
@@ -3733,6 +4044,7 @@
   },
   {
     "id": "312",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Liquide, gaz et solution",
     "question": "Concernant la mobilite ionique, elle augmente avec :",
@@ -3745,6 +4057,7 @@
   },
   {
     "id": "313",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Liquide, gaz et solution",
     "question": "On dispose d'un certain volume d'eau froide. Parmi les actions proposees, laquelle doit entrainer une augmentation de la tension superficielle du liquide ?",
@@ -3757,6 +4070,7 @@
   },
   {
     "id": "314",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Liquide, gaz et solution",
     "question": "On trouve qu'une solution de glucose de concentration 1,00 M genere une pression osmotique de 22,5 atm a 0°C. On melange deux solutions de même concentration 1,00 M : Na*/2*/CO*/3*/ et NaCl, a la même temperature. La pression osmotique générée est égale a :",
@@ -3769,6 +4083,7 @@
   },
   {
     "id": "315",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Liquide, gaz et solution",
     "question": "Concernant les proprietes de l'eau pure :",
@@ -3781,6 +4096,7 @@
   },
   {
     "id": "316",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Les ondes et leur propagation",
     "question": "Cochez la (ou les) reponse(s) exacte(s)",
@@ -3793,6 +4109,7 @@
   },
   {
     "id": "317",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Les ondes et leur propagation",
     "question": "Les vagues a la surface de la mer se propagent avec une celerite egale a 1,56 fois leur periode. Cochez la (ou les) reponse(s) exacte(s)",
@@ -3805,6 +4122,7 @@
   },
   {
     "id": "318",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Les ondes et leur propagation",
     "question": "Cochez la (ou les) reponse(s) exacte(s) :",
@@ -3817,6 +4135,7 @@
   },
   {
     "id": "319",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Les ondes et leur propagation",
     "question": "On enregistre la voix d'une personne par un microphone dont la bande passante est comprise entre 100 et 5000 Hz. La frequence fondamentale de la voix du sujet est egale a 500 Hz. Le signal electrique produit par le microphone est amplifie par un amplificateur de gain en tension de 43 dB, puis numerise par un convertisseur analogique-numerique.On rappelle que la vitesse de propagation des vibrations acoustiques dans l'air est de l'ordre de 330 m.s-1 et que l'impedance acoustique de l'air est de 430 kg.m-2s-1.Parmi les propositions suivantes, laquelle est fausse ?",
@@ -3829,6 +4148,7 @@
   },
   {
     "id": "320",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Les ondes et leur propagation",
     "question": "On considere les caracteristiques energetiques des ondes acoustiques pour un ensemble d'auditeurs de reference et pour un son pur de 1000 Hz",
@@ -3841,6 +4161,7 @@
   },
   {
     "id": "321",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Les ondes et leur propagation",
     "question": "Acoustique",
@@ -3853,6 +4174,7 @@
   },
   {
     "id": "322",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Le domaine de l'optique",
     "question": "L'indice de refraction de l'eau etant n = 1,33, des ondes de longueur d'onde λ = 150 nm se propagent dans ce milieu",
@@ -3865,6 +4187,7 @@
   },
   {
     "id": "323",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Le domaine de l'optique",
     "question": "On considere un rayon lumineux dans l'air (indice optique nair = 1) arrivant sur unesurface separant l'air d'un milieu en verre d'indice optique nverre = 1,5).A partir de quel angle incident a-t-on le phenomene de reflexion totale ?",
@@ -3877,6 +4200,7 @@
   },
   {
     "id": "324",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Le domaine de l'optique",
     "question": "L'intervalle de longueurs d'onde du domaine visible va de 400 nm a 800 nm. Quel est l'intervalle en frequences du domaine visible sachant que la vitesse de la lumiere c vaut c = 3 x 10/*8/* m.s/*-1/* ?",
@@ -3889,6 +4213,7 @@
   },
   {
     "id": "325",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Le domaine de l'optique",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -3901,6 +4226,7 @@
   },
   {
     "id": "326",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Le domaine de l'optique",
     "question": "Un objet est place en avant du plan focal objet d'une lentille mince :",
@@ -3913,6 +4239,7 @@
   },
   {
     "id": "327",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Le domaine de l'optique",
     "question": "Avec une lentille mince divergente :",
@@ -3925,6 +4252,7 @@
   },
   {
     "id": "328",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Le domaine de l'optique",
     "question": "Concernant un oeil emmetrope :",
@@ -3937,6 +4265,7 @@
   },
   {
     "id": "329",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Le domaine de l'optique",
     "question": "Concernant un oeil presbyte :",
@@ -3949,6 +4278,7 @@
   },
   {
     "id": "330",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Le domaine de l'optique",
     "question": "Concernant un oeil myope :",
@@ -3961,6 +4291,7 @@
   },
   {
     "id": "331",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Le domaine de l'optique",
     "question": "Concernant un oeil astigmate :",
@@ -3973,6 +4304,7 @@
   },
   {
     "id": "332",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Ondes EM",
     "question": "Concernant les rayonnements utilises en medecine :",
@@ -3985,6 +4317,7 @@
   },
   {
     "id": "333",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Ondes EM",
     "question": "Les rayons X :",
@@ -3997,6 +4330,7 @@
   },
   {
     "id": "334",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Ondes EM",
     "question": "Application des lasers",
@@ -4009,6 +4343,7 @@
   },
   {
     "id": "335",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Ondes EM",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -4021,6 +4356,7 @@
   },
   {
     "id": "336",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Ondes EM",
     "question": "Concernant les reactions nucleaires conduisant a la transformation d'un noyau X en noyau Y :",
@@ -4033,6 +4369,7 @@
   },
   {
     "id": "337",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Radioactivité",
     "question": "La capture electronique :",
@@ -4045,6 +4382,7 @@
   },
   {
     "id": "338",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Radioactivité",
     "question": "La reaction d'annihilation :",
@@ -4057,6 +4395,7 @@
   },
   {
     "id": "339",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Radioactivité",
     "question": "Les particules α :",
@@ -4069,6 +4408,7 @@
   },
   {
     "id": "340",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Radioactivité",
     "question": "Le /*201/*Tl se transforme par capture electronique. On supposera que l'electron capture est un electron de la couche K",
@@ -4081,6 +4421,7 @@
   },
   {
     "id": "341",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Radioactivité",
     "question": "Un element radioactif a une periode biologique de 20 jours et une periode physique de 4 jours. Sa periode effective est :",
@@ -4093,6 +4434,7 @@
   },
   {
     "id": "342",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Radioactivité",
     "question": "Un patient recoit une dose d'iode 131 (emetteur β/*-/* et γ) pour traiter une maladie de la thyroïde",
@@ -4105,6 +4447,7 @@
   },
   {
     "id": "343",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Radioactivité",
     "question": "Quelle est la signification physique du coefficient d'attenuation massique du plomb ?",
@@ -4117,6 +4460,7 @@
   },
   {
     "id": "344",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Rayonnement",
     "question": "Lors d'une exposition aux rayons ionisants :",
@@ -4129,6 +4473,7 @@
   },
   {
     "id": "345",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Rayonnement",
     "question": "On considere les lesions de l'ADN crees par les rayonnements ionisants :",
@@ -4141,6 +4486,7 @@
   },
   {
     "id": "346",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Rayonnement",
     "question": "Lors d'une contamination externe par un element radioactif chez un patient :",
@@ -4153,6 +4499,7 @@
   },
   {
     "id": "347",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Rayonnement",
     "question": "L'interaction d'un rayon γ de 140 keV avec la matiere peut se faire :",
@@ -4165,6 +4512,7 @@
   },
   {
     "id": "348",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Rayonnement",
     "question": "La dose equivalente :",
@@ -4177,6 +4525,7 @@
   },
   {
     "id": "349",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Rayonnement",
     "question": "En dosimetrie :",
@@ -4189,6 +4538,7 @@
   },
   {
     "id": "350",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Rayonnement",
     "question": "Cochez la (ou les) reponse(s) exacte(s)",
@@ -4201,6 +4551,7 @@
   },
   {
     "id": "351",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Imagerie medicale",
     "question": "La tomographie par emission de positons est une technique d'imagerie medicale :",
@@ -4213,6 +4564,7 @@
   },
   {
     "id": "352",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Imagerie medicale",
     "question": "En imagerie tomographique :",
@@ -4225,6 +4577,7 @@
   },
   {
     "id": "353",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Imagerie medicale",
     "question": "En imagerie tomodensitometrique :",
@@ -4237,6 +4590,7 @@
   },
   {
     "id": "354",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Imagerie medicale",
     "question": "Concernant la tomographie par emission de positons dans un centre hospitalier :",
@@ -4249,6 +4603,7 @@
   },
   {
     "id": "355",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Imagerie medicale",
     "question": "Soit une onde ultrasonore qui se propage dans un tissu a la vitesse de 1 580 m.s/*-1/*. La frequence nominale des ultrasons est de 5 MHz et l'intensite sonore de 1 W.m/*-2/*. La masse volumique du tissu est de 1,04 kg.dm/*-3/*",
@@ -4261,6 +4616,7 @@
   },
   {
     "id": "356",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Imagerie medicale",
     "question": "En imagerie par resonance magnetique :",
@@ -4273,6 +4629,7 @@
   },
   {
     "id": "357",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Imagerie medicale",
     "question": "Soit une population de protons soumis a un champ magnetique statique de 3 T. Une impulsion de radiofrequence de champ magnetique egal a 3,14x10-3 T provoque une bascule de 180 ° de l'aimantation resultante. Dans ce cas de figure :",
@@ -4285,6 +4642,7 @@
   },
   {
     "id": "358",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Imagerie medicale",
     "question": "Ondes radiofrequentes - Resonance Magnetique Nucleaire : Le phenomene de precession que l'on peut observer a l'aide d'une impulsion radiofrequente sur une population de noyaux places dans un champ magnetique :",
@@ -4297,6 +4655,7 @@
   },
   {
     "id": "359",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Biophysique cardiaque",
     "question": "L'hematocrite sanguin chez le sujet normal :",
@@ -4309,6 +4668,7 @@
   },
   {
     "id": "360",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Biophysique cardiaque",
     "question": "A propos de la contraction cardiaque. Parmi lesmecanismes d'adaptation de la performance ventriculaire gauche ci-dessous, quel(s) est (sont) celui (ceux) qui augmente(nt) le volume d'ejection systolique (VES) tout en diminuant le travail cardiaque ?",
@@ -4321,6 +4681,7 @@
   },
   {
     "id": "361",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Biophysique cardiaque",
     "question": "A propos du debit cardiaque. On realise une ventriculographie isotopique chez un patient. Le volume telediastolique (VTD) du ventricule gauche est de 120 mL et la fraction d'ejection ventriculaire (FEV) est de 60%. La frequence cardiaque est de 60 bts/min. Quel est le debit cardiaque (note Q) de ce patient en L/min ?",
@@ -4333,6 +4694,7 @@
   },
   {
     "id": "362",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Biophysique cardiaque",
     "question": "A propos de la systole. On peut dire qu'il s'agit du temps qui s'ecoule entre :",
@@ -4345,6 +4707,7 @@
   },
   {
     "id": "363",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Biophysique cardiaque",
     "question": "Lors de la mesure de la tension arterielle a l'aide d'un brassard et d'un stethoscope :",
@@ -4357,6 +4720,7 @@
   },
   {
     "id": "364",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Biophysique cardiaque",
     "question": "Concernant le systeme cardiovasculaire humain :",
@@ -4369,6 +4733,7 @@
   },
   {
     "id": "365",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Biophysique cardiaque",
     "question": "Concernant les resistances vasculaires systemiques (RVS) :",
@@ -4381,6 +4746,7 @@
   },
   {
     "id": "366",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Biophysique cardiaque",
     "question": "Concernant l'hemodynamique intra-cardiaque :",
@@ -4393,6 +4759,7 @@
   },
   {
     "id": "367",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Biophysique cardiaque",
     "question": "Parmi les propositions suivantes, indiquez le(s) parametre(s) dont depend la pression arterielle",
@@ -4405,6 +4772,7 @@
   },
   {
     "id": "368",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Mecanique des fluides",
     "question": "La dimension d'une force est :",
@@ -4417,6 +4785,7 @@
   },
   {
     "id": "369",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Mecanique des fluides",
     "question": "Mecanique des fluides parfaits",
@@ -4429,6 +4798,7 @@
   },
   {
     "id": "370",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Mecanique des fluides",
     "question": "Cochez la (ou les) reponse(s) exacte(s)",
@@ -4441,6 +4811,7 @@
   },
   {
     "id": "371",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Mecanique des fluides",
     "question": "Cochez la (ou les) reponse(s) exacte(s)",
@@ -4453,6 +4824,7 @@
   },
   {
     "id": "372",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Mecanique des fluides",
     "question": "La resistance vasculaire :",
@@ -4465,6 +4837,7 @@
   },
   {
     "id": "373",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Mecanique des fluides",
     "question": "Le theoreme de Bernoulli :",
@@ -4477,6 +4850,7 @@
   },
   {
     "id": "374",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Mecanique des fluides",
     "question": "On considere un ecoulement sanguin en regime permanent dans une artere indeformable. Le sang est considere comme un fluide newtonien. Soit Q = 1 L.min/*-1/* le debit limite en dessous duquel le regime d'ecoulement est toujours laminaire",
@@ -4489,6 +4863,7 @@
   },
   {
     "id": "375",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Mecanique des fluides",
     "question": "Parmi les proprietes des vaisseaux qui suivent, laquelle est fausse ?",
@@ -4501,6 +4876,7 @@
   },
   {
     "id": "376",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Mecanique des fluides",
     "question": "Dans un diagramme tension/rayon :",
@@ -4513,6 +4889,7 @@
   },
   {
     "id": "377",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Mecanique des fluides",
     "question": "L'empilement des globules rouges dans les vaisseaux est un phenomene :",
@@ -4525,6 +4902,7 @@
   },
   {
     "id": "378",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Potentiel membranaire",
     "question": "Concernant les recepteurs de l'acetylcholine, il est exact que :",
@@ -4537,6 +4915,7 @@
   },
   {
     "id": "379",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Potentiel membranaire",
     "question": "Concernant le potentiel de membrane :",
@@ -4549,6 +4928,7 @@
   },
   {
     "id": "380",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Potentiel membranaire",
     "question": "Le potentiel de repos d'une cellule vivante est maintenu par un certain nombre de phenomenes. Lesquels parmi les suivants ?",
@@ -4561,6 +4941,7 @@
   },
   {
     "id": "381",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Potentiel membranaire",
     "question": "L'integration neuronale correspond a la capacite du corps cellulaire du neurone a modifier son potentiel electrique membranaire. Quelles sont les modalites de cette integration neuronale ?",
@@ -4573,6 +4954,7 @@
   },
   {
     "id": "382",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Potentiel membranaire",
     "question": "Concernant le modele electrique representant les proprietes de la membrane d'une cellule nerveuse au repos :",
@@ -4585,6 +4967,7 @@
   },
   {
     "id": "383",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Potentiel membranaire",
     "question": "La vitesse de propagation du potentiel d'action dans le tissu nodal est variable. A quel endroit est-elle la plus lente ?",
@@ -4597,6 +4980,7 @@
   },
   {
     "id": "384",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Potentiel membranaire",
     "question": "Concernant les divers secteurs de l'organisme :",
@@ -4609,6 +4993,7 @@
   },
   {
     "id": "385",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Potentiel membranaire",
     "question": "Dans l'equilibre de Donnan qui s'applique au niveau de la membrane capillaire :",
@@ -4621,6 +5006,7 @@
   },
   {
     "id": "386",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Potentiel membranaire",
     "question": "A propos des equilibres ioniques de part et d'autre de la membrane plasmique d'un neurone :",
@@ -4633,6 +5019,7 @@
   },
   {
     "id": "387",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Potentiel membranaire",
     "question": "A propos du potentiel membranaire neuronal :",
@@ -4645,6 +5032,7 @@
   },
   {
     "id": "388",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "ECG/Electrophorèse",
     "question": "La propagation du potentiel d'action dans le coeur :",
@@ -4657,6 +5045,7 @@
   },
   {
     "id": "389",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "ECG/Electrophorèse",
     "question": "Concernant l'electrocardiogramme :",
@@ -4669,6 +5058,7 @@
   },
   {
     "id": "390",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Transport membranaires",
     "question": "Deux compartiments separes par une membrane impermeable aux seules macromolecules contiennent initialement une solution aqueuse de chlorure de sodium. On introduit dans le compartiment (1) un proteinate de sodium dissociable",
@@ -4681,6 +5071,7 @@
   },
   {
     "id": "391",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Transport membranaires",
     "question": "Concernant les membranes dialysantes :",
@@ -4693,6 +5084,7 @@
   },
   {
     "id": "392",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Transport membranaires",
     "question": "Permeabilites membranaires et pathologies",
@@ -4705,6 +5097,7 @@
   },
   {
     "id": "393",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Homeostasie",
     "question": "Le diagramme de Davenport est un modele dont les trois variables sont contenues dans l'equation de Henderson et Hasselbach. On peut dire que :",
@@ -4717,6 +5110,7 @@
   },
   {
     "id": "394",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Homeostasie",
     "question": "La dissociation de l'oxygene de l'hemoglobine est acceleree :",
@@ -4729,6 +5123,7 @@
   },
   {
     "id": "395",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Homeostasie",
     "question": "Chez un sujet qui developpe un bilan sode positif avec une osmolarite qui se maintient a la consigne normale, on peut observer :",
@@ -4741,6 +5136,7 @@
   },
   {
     "id": "396",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Homeostasie",
     "question": "Soit une cellule qui baigne dans un milieu extracellulaire dont la concentration en glucose est egale a 2 fois celle du milieu intracellulaire. Les concentrations sodiques sont celles classiquement decrites en cours",
@@ -4753,6 +5149,7 @@
   },
   {
     "id": "397",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Homeostasie",
     "question": "Cochez la (ou les) reponse(s) exacte(s)",
@@ -4765,6 +5162,7 @@
   },
   {
     "id": "398",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Homeostasie",
     "question": "Au niveau des capillaires systemiques, un oedeme peut apparaitre :",
@@ -4777,6 +5175,7 @@
   },
   {
     "id": "399",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Homeostasie",
     "question": "Au cours d'un controle anti-dopage, un cycliste de 35 ans de 80 kg (densite corporelle estimee a 1) presente un taux d'hematocrite plasmatique de 60%. Sachant que son volume plasmatique represente 5% de son poids total, quel est son volume globulaire total (volume des globules rouges circulants) ?",
@@ -4789,6 +5188,7 @@
   },
   {
     "id": "400",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Thermorégulation",
     "question": "Concernant la thermoregulation :",
@@ -4801,6 +5201,7 @@
   },
   {
     "id": "401",
+    "spec": "",
     "matiere": "BioPhy-Physio",
     "chapitre": "Thermorégulation",
     "question": "La vasomotricite cutanee determine l'epaisseur de l'enveloppe corporelle ainsi que les echanges thermiques entre l'organisme et le milieu ambiant par convection et radiation. Quelle(s) est (sont) la (les) proposition(s) exacte(s) ?",
@@ -4813,6 +5214,7 @@
   },
   {
     "id": "402",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Genéralités",
     "question": "Concernant les généralites :",
@@ -4825,6 +5227,7 @@
   },
   {
     "id": "403",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Genéralités",
     "question": "Cochez la proposition exacte :",
@@ -4837,6 +5240,7 @@
   },
   {
     "id": "404",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Genéralités",
     "question": "Concernant les généralites de l'appareil locomoteur :",
@@ -4849,6 +5253,7 @@
   },
   {
     "id": "405",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Genéralités",
     "question": "Quelle articulation parmi les suivantes a normalement le plus grand nombre de degres de liberte ?",
@@ -4861,6 +5266,7 @@
   },
   {
     "id": "406",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Genéralités",
     "question": "Les articulations diarthroses comportent toutes :",
@@ -4873,6 +5279,7 @@
   },
   {
     "id": "407",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Genéralités",
     "question": "Concernant les généralites en osteologie et en myologie :",
@@ -4885,6 +5292,7 @@
   },
   {
     "id": "408",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Genéralités",
     "question": "Concernant l'anatomie générale et la terminologie anatomique :",
@@ -4897,6 +5305,7 @@
   },
   {
     "id": "409",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Genéralités",
     "question": "Concernant les généralites de l'appareil locomoteur :",
@@ -4909,6 +5318,7 @@
   },
   {
     "id": "410",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Genéralités",
     "question": "Concernant les articulations :",
@@ -4921,6 +5331,7 @@
   },
   {
     "id": "411",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Genéralités",
     "question": "Concernant les articulations :",
@@ -4933,6 +5344,7 @@
   },
   {
     "id": "412",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tête et cou",
     "question": "Concernant le squelette cranien :",
@@ -4945,6 +5357,7 @@
   },
   {
     "id": "413",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tête et cou",
     "question": "Cochez la (les) proposition(s) exacte(s) :",
@@ -4957,6 +5370,7 @@
   },
   {
     "id": "414",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tête et cou",
     "question": "Concernant le crâne :",
@@ -4969,6 +5383,7 @@
   },
   {
     "id": "415",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tête et cou",
     "question": "Concernant l'osteologie :",
@@ -4981,6 +5396,7 @@
   },
   {
     "id": "416",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tête et cou",
     "question": "Concernant le crâne :",
@@ -4993,6 +5409,7 @@
   },
   {
     "id": "417",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tête et cou",
     "question": "Concernant le crâne :",
@@ -5005,6 +5422,7 @@
   },
   {
     "id": "418",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tête et cou",
     "question": "Concernant le crâne :",
@@ -5017,6 +5435,7 @@
   },
   {
     "id": "419",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tête et cou",
     "question": "Concernant les os du squelette cranio-facial :",
@@ -5029,6 +5448,7 @@
   },
   {
     "id": "420",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tête et cou",
     "question": "Concernant l'os frontal :",
@@ -5041,6 +5461,7 @@
   },
   {
     "id": "421",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tête et cou",
     "question": "Cochez la (les) proposition(s) inexacte(s) :",
@@ -5053,6 +5474,7 @@
   },
   {
     "id": "422",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Rachis",
     "question": "Concernant le rachis :",
@@ -5065,6 +5487,7 @@
   },
   {
     "id": "423",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Rachis",
     "question": "Concernant le squelette du thorax :",
@@ -5077,6 +5500,7 @@
   },
   {
     "id": "424",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Rachis",
     "question": "Concernant le rachis :",
@@ -5089,6 +5513,7 @@
   },
   {
     "id": "425",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Rachis",
     "question": "Concernant la colonne vertebrale :",
@@ -5101,6 +5526,7 @@
   },
   {
     "id": "426",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Rachis",
     "question": "Concernant les vertebres :",
@@ -5113,6 +5539,7 @@
   },
   {
     "id": "427",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Rachis",
     "question": "Concernant la disposition de profil du rachis :",
@@ -5125,6 +5552,7 @@
   },
   {
     "id": "428",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Rachis",
     "question": "Concernant le segment cervical rachidien :",
@@ -5137,6 +5565,7 @@
   },
   {
     "id": "429",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Rachis",
     "question": "Concernant le rachis :",
@@ -5149,6 +5578,7 @@
   },
   {
     "id": "430",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Rachis",
     "question": "Concernant le rachis :",
@@ -5161,6 +5591,7 @@
   },
   {
     "id": "431",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Rachis",
     "question": "Concernant la colonne vertebrale et la cage thoracique :",
@@ -5173,6 +5604,7 @@
   },
   {
     "id": "432",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Innervation et peau",
     "question": "Concernant la description du cerveau :",
@@ -5185,6 +5617,7 @@
   },
   {
     "id": "433",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Innervation et peau",
     "question": "Concernant la description de l'encephale :",
@@ -5197,6 +5630,7 @@
   },
   {
     "id": "434",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Innervation et peau",
     "question": "Le proencephale donnera :",
@@ -5209,6 +5643,7 @@
   },
   {
     "id": "435",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Innervation et peau",
     "question": "Concernant le tronc cerebral :",
@@ -5221,6 +5656,7 @@
   },
   {
     "id": "436",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Innervation et peau",
     "question": "Concernant le tronc cerebral :",
@@ -5233,6 +5669,7 @@
   },
   {
     "id": "437",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Innervation et peau",
     "question": "Concernant la moelle epiniere :",
@@ -5245,6 +5682,7 @@
   },
   {
     "id": "438",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Innervation et peau",
     "question": "Concernant les noyaux du cerveau :",
@@ -5257,6 +5695,7 @@
   },
   {
     "id": "439",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Innervation et peau",
     "question": "Concernant les meninges :",
@@ -5269,6 +5708,7 @@
   },
   {
     "id": "440",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Innervation et peau",
     "question": "Concernant les meninges :",
@@ -5281,6 +5721,7 @@
   },
   {
     "id": "441",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Innervation et peau",
     "question": "Concernant le systeme nerveux :",
@@ -5293,6 +5734,7 @@
   },
   {
     "id": "442",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Sup",
     "question": "Concernant le membre superieur :",
@@ -5305,6 +5747,7 @@
   },
   {
     "id": "443",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Sup",
     "question": "Concernant l'osteologie du membre superieur :",
@@ -5317,6 +5760,7 @@
   },
   {
     "id": "444",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Sup",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -5329,6 +5773,7 @@
   },
   {
     "id": "445",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Sup",
     "question": "Concernant la scapula :",
@@ -5341,6 +5786,7 @@
   },
   {
     "id": "446",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Sup",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -5353,6 +5799,7 @@
   },
   {
     "id": "447",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Sup",
     "question": "Concernant l'olecrâne :",
@@ -5365,6 +5812,7 @@
   },
   {
     "id": "448",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Sup",
     "question": "Concernant l'osteologie du membre superieur :",
@@ -5377,6 +5825,7 @@
   },
   {
     "id": "449",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Sup",
     "question": "Concernant l'avant-bras, le poignet et la main :",
@@ -5389,6 +5838,7 @@
   },
   {
     "id": "450",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Sup",
     "question": "Concernant le squelette du poignet et de la main :",
@@ -5401,6 +5851,7 @@
   },
   {
     "id": "451",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Sup",
     "question": "Concernant l'osteologie du membre superieur :",
@@ -5413,6 +5864,7 @@
   },
   {
     "id": "452",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Inf",
     "question": "Concernant le squelette du membre inferieur :",
@@ -5425,6 +5877,7 @@
   },
   {
     "id": "453",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Inf",
     "question": "Concernant l'os coxal :",
@@ -5437,6 +5890,7 @@
   },
   {
     "id": "454",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Inf",
     "question": "Concernant l'osteologie du pied :",
@@ -5449,6 +5903,7 @@
   },
   {
     "id": "455",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Inf",
     "question": "Concernant le membre inferieur :",
@@ -5461,6 +5916,7 @@
   },
   {
     "id": "456",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Inf",
     "question": "Concernant le tibia :",
@@ -5473,6 +5929,7 @@
   },
   {
     "id": "457",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Inf",
     "question": "Concernant la patella :",
@@ -5485,6 +5942,7 @@
   },
   {
     "id": "458",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Inf",
     "question": "Concernant l'osteologie du membre inferieur :",
@@ -5497,6 +5955,7 @@
   },
   {
     "id": "459",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Inf",
     "question": "Quel(s) os parmi les suivants participe(nt) a la constitution de l'articulation medio-tarsienne ?",
@@ -5509,6 +5968,7 @@
   },
   {
     "id": "460",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Inf",
     "question": "Concernant la hanche :",
@@ -5521,6 +5981,7 @@
   },
   {
     "id": "461",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Membre Inf",
     "question": "Concernant l'osteologie du pied :",
@@ -5533,6 +5994,7 @@
   },
   {
     "id": "462",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil respiratoire",
     "question": "Concernant l'appareil respiratoire :",
@@ -5545,6 +6007,7 @@
   },
   {
     "id": "463",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil respiratoire",
     "question": "La trachee et les bronches :",
@@ -5557,6 +6020,7 @@
   },
   {
     "id": "464",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil respiratoire",
     "question": "Concernant le larynx et le pharynx :",
@@ -5569,6 +6033,7 @@
   },
   {
     "id": "465",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil respiratoire",
     "question": "Concernant l'appareil respiratoire :",
@@ -5581,6 +6046,7 @@
   },
   {
     "id": "466",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil respiratoire",
     "question": "Concernant l'appareil respiratoire :",
@@ -5593,6 +6059,7 @@
   },
   {
     "id": "467",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil respiratoire",
     "question": "Concernant l'appareil respiratoire :",
@@ -5605,6 +6072,7 @@
   },
   {
     "id": "468",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil respiratoire",
     "question": "Concernant les voies aeriennes :",
@@ -5617,6 +6085,7 @@
   },
   {
     "id": "469",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil respiratoire",
     "question": "Concernant l'appareil respiratoire :",
@@ -5629,6 +6098,7 @@
   },
   {
     "id": "470",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil respiratoire",
     "question": "Concernant le thorax :",
@@ -5641,6 +6111,7 @@
   },
   {
     "id": "471",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil cardio-vasculaire",
     "question": "Concernant le coeur :",
@@ -5653,6 +6124,7 @@
   },
   {
     "id": "472",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil cardio-vasculaire",
     "question": "Cochez la proposition inexacte :",
@@ -5665,6 +6137,7 @@
   },
   {
     "id": "473",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil cardio-vasculaire",
     "question": "Concernant la description du coeur :",
@@ -5677,6 +6150,7 @@
   },
   {
     "id": "474",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil cardio-vasculaire",
     "question": "Concernant le coeur :",
@@ -5689,6 +6163,7 @@
   },
   {
     "id": "475",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil cardio-vasculaire",
     "question": "Concernant le coeur :",
@@ -5701,6 +6176,7 @@
   },
   {
     "id": "476",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil cardio-vasculaire",
     "question": "Concernant la description du coeur :",
@@ -5713,6 +6189,7 @@
   },
   {
     "id": "477",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil cardio-vasculaire",
     "question": "L'aorte abdominale :",
@@ -5725,6 +6202,7 @@
   },
   {
     "id": "478",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil cardio-vasculaire",
     "question": "Concernant le systeme azygos :",
@@ -5737,6 +6215,7 @@
   },
   {
     "id": "479",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil cardio-vasculaire",
     "question": "Concernant le coeur :",
@@ -5749,6 +6228,7 @@
   },
   {
     "id": "480",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil cardio-vasculaire",
     "question": "Concernant la systematisation de l'appareil circulatoire :",
@@ -5761,6 +6241,7 @@
   },
   {
     "id": "481",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tronc",
     "question": "Concernant la paroi abdominale :",
@@ -5773,6 +6254,7 @@
   },
   {
     "id": "482",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tronc",
     "question": "Concernant les espaces intercostaux :",
@@ -5785,6 +6267,7 @@
   },
   {
     "id": "483",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tronc",
     "question": "Le muscle diaphragme (thoraco-abdominal)",
@@ -5797,6 +6280,7 @@
   },
   {
     "id": "484",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tronc",
     "question": "Concernant les cotes :",
@@ -5809,6 +6293,7 @@
   },
   {
     "id": "485",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tronc",
     "question": "Concernant le thorax :",
@@ -5821,6 +6306,7 @@
   },
   {
     "id": "486",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tronc",
     "question": "Concernant les vaisseaux et nerfs de l'espace intercostal, cochez la proposition exacte :",
@@ -5833,6 +6319,7 @@
   },
   {
     "id": "487",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tronc",
     "question": "Concernant le muscle iliopsoas :",
@@ -5845,6 +6332,7 @@
   },
   {
     "id": "488",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tronc",
     "question": "Concernant l'abdomen :",
@@ -5857,6 +6345,7 @@
   },
   {
     "id": "489",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tronc",
     "question": "Concernant le diaphragme :",
@@ -5869,6 +6358,7 @@
   },
   {
     "id": "490",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Tronc",
     "question": "Concernant le thorax :",
@@ -5881,6 +6371,7 @@
   },
   {
     "id": "491",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil digestif",
     "question": "Concernant le developpement embryonnaire du tube digestif :",
@@ -5893,6 +6384,7 @@
   },
   {
     "id": "492",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil digestif",
     "question": "Concernant l'appareil digestif :",
@@ -5905,6 +6397,7 @@
   },
   {
     "id": "493",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil digestif",
     "question": "Concernant l'abdomen :",
@@ -5917,6 +6410,7 @@
   },
   {
     "id": "494",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil digestif",
     "question": "Concernant l'estomac :",
@@ -5929,6 +6423,7 @@
   },
   {
     "id": "495",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil digestif",
     "question": "Concernant l'abdomen :",
@@ -5941,6 +6436,7 @@
   },
   {
     "id": "496",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil digestif",
     "question": "Le bol alimentaire passe successivement par :",
@@ -5953,6 +6449,7 @@
   },
   {
     "id": "497",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil digestif",
     "question": "Concernant le colon :",
@@ -5965,6 +6462,7 @@
   },
   {
     "id": "498",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil digestif",
     "question": "Concernant le retour veineux digestif :",
@@ -5977,6 +6475,7 @@
   },
   {
     "id": "499",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil digestif",
     "question": "Concernant l'appareil digestif :",
@@ -5989,6 +6488,7 @@
   },
   {
     "id": "500",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil digestif",
     "question": "Concernant l'appareil digestif :",
@@ -6001,6 +6501,7 @@
   },
   {
     "id": "501",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Système Endocrinien",
     "question": "Concernant le foie :",
@@ -6013,6 +6514,7 @@
   },
   {
     "id": "502",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Système Endocrinien",
     "question": "Concernant les glandes endocrines :",
@@ -6025,6 +6527,7 @@
   },
   {
     "id": "503",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Urologie",
     "question": "Concernant les reins :",
@@ -6037,6 +6540,7 @@
   },
   {
     "id": "504",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Urologie",
     "question": "Concernant l'espace retro-peritoneal :",
@@ -6049,6 +6553,7 @@
   },
   {
     "id": "505",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Urologie",
     "question": "Le pedicule renal :",
@@ -6061,6 +6566,7 @@
   },
   {
     "id": "506",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Urologie",
     "question": "Concernant la vessie :",
@@ -6073,6 +6579,7 @@
   },
   {
     "id": "507",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Urologie",
     "question": "Concernant les glandes surrenales :",
@@ -6085,6 +6592,7 @@
   },
   {
     "id": "508",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Urologie",
     "question": "Concernant l'anatomie de l'appareil urinaire :",
@@ -6097,6 +6605,7 @@
   },
   {
     "id": "509",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Urologie",
     "question": "Concernant le retroperitoine :",
@@ -6109,6 +6618,7 @@
   },
   {
     "id": "510",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Urologie",
     "question": "Concernant le pelvis :",
@@ -6121,6 +6631,7 @@
   },
   {
     "id": "511",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil genital et sein",
     "question": "Concernant l'uterus :",
@@ -6133,6 +6644,7 @@
   },
   {
     "id": "512",
+    "spec": "",
     "matiere": "Anatomie",
     "chapitre": "Appareil genital et sein",
     "question": "Concernant l'appareil genital :",
@@ -6145,6 +6657,7 @@
   },
   {
     "id": "513",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "En quelle annee, en retrouvant son laboratoire apres des vacances, Alexander Fleming a-t-il fait sa fameuse observation de l'effet inhibiteur d'une moisissure (penicillium notatum)",
@@ -6157,6 +6670,7 @@
   },
   {
     "id": "514",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "Parmi les produits suivants, quels sont les deux qui n'ont pas ete purifies au cours du XIXe siecle ?",
@@ -6169,6 +6683,7 @@
   },
   {
     "id": "515",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "Cochez la (ou les) reponse(s) exacte(s) :",
@@ -6181,6 +6696,7 @@
   },
   {
     "id": "516",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "Cochez la (ou les) reponse(s) exacte(s) :",
@@ -6193,6 +6709,7 @@
   },
   {
     "id": "517",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "Hippocrate :",
@@ -6205,6 +6722,7 @@
   },
   {
     "id": "518",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "Concernant le developpement des principaux concepts de la pharmacologie : (2 propositions exactes)",
@@ -6217,6 +6735,7 @@
   },
   {
     "id": "519",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "Concernant les personnages qui ont marque l'histoire du medicament :",
@@ -6229,6 +6748,7 @@
   },
   {
     "id": "520",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "Concernant l'histoire du medicament :",
@@ -6241,6 +6761,7 @@
   },
   {
     "id": "521",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "L'ecorce de quinquina :",
@@ -6253,6 +6774,7 @@
   },
   {
     "id": "522",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "Concernant les medicaments :",
@@ -6265,6 +6787,7 @@
   },
   {
     "id": "523",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Statut et definition du médicament",
     "question": "L'effet placebo :",
@@ -6277,6 +6800,7 @@
   },
   {
     "id": "524",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Statut et definition du médicament",
     "question": "On entend par dispositif medical tout instrument, appareil, equipement, matiere, produit, destine par le fabricant aetre utilise chez l'homme a des fins medicales. Selon la classification des dispositifs medicaux, on peut dire :",
@@ -6289,6 +6813,7 @@
   },
   {
     "id": "525",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Statut et definition du médicament",
     "question": "Parmi ces propositions qui doivent ameliorer la sante des malades, laquelle (ou lesquelles) est (sont) vraie(s) ?",
@@ -6301,6 +6826,7 @@
   },
   {
     "id": "526",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Statut et definition du médicament",
     "question": "Concernant les medicaments antivitamine K :",
@@ -6313,6 +6839,7 @@
   },
   {
     "id": "527",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Statut et definition du médicament",
     "question": "A propos de la definition du medicament :",
@@ -6325,6 +6852,7 @@
   },
   {
     "id": "528",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Statut et definition du médicament",
     "question": "Une preparation magistrale est :",
@@ -6337,6 +6865,7 @@
   },
   {
     "id": "529",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Statut et definition du médicament",
     "question": "Les produits sanguins labiles (PSL) :",
@@ -6349,6 +6878,7 @@
   },
   {
     "id": "530",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Statut et definition du médicament",
     "question": "Concernant les experiences de binding de type deplacement/competition :",
@@ -6361,6 +6891,7 @@
   },
   {
     "id": "531",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Statut et definition du médicament",
     "question": "Cochez la(les) proposition(s) exacte(s) :",
@@ -6373,6 +6904,7 @@
   },
   {
     "id": "532",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Statut et definition du médicament",
     "question": "Selon l'article L.5121- du Code de Sante Publique, un produit de sante « préparé en pharmacie, inscrit a la Pharmacopee ou au Formulaire national, et destine à être dispense directement aux patients approvisionnes par cette pharmacie », est : (une seule reponse possible)",
@@ -6385,6 +6917,7 @@
   },
   {
     "id": "533",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Structure de régulation du médicament",
     "question": "Parmi les medicaments suivants, quels sont ceux qui necessitent une autorisation de mise sur le marche (AMM) ?",
@@ -6397,6 +6930,7 @@
   },
   {
     "id": "534",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Structure de régulation du médicament",
     "question": "Concernant l'evaluation des medicaments :",
@@ -6409,6 +6943,7 @@
   },
   {
     "id": "535",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Structure de régulation du médicament",
     "question": "Concernant la procedure decentralisee d'AMM :",
@@ -6421,6 +6956,7 @@
   },
   {
     "id": "536",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Structure de régulation du médicament",
     "question": "Parmi les criteres suivants, lesquels permettent de determiner le service medical rendu ?",
@@ -6433,6 +6969,7 @@
   },
   {
     "id": "537",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Structure de régulation du médicament",
     "question": "Concernant le prix des medicaments remboursables :",
@@ -6445,6 +6982,7 @@
   },
   {
     "id": "538",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Structure de régulation du médicament",
     "question": "La fixation du taux de remboursement des medicaments en France necessite l'intervention des acteurs :",
@@ -6457,6 +6995,7 @@
   },
   {
     "id": "539",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Structure de régulation du médicament",
     "question": "Parmi les produits suivants, lequel(lesquels) est(sont) reglemente(s) par l'Agence Nationale de Securite du Medicament et des Produits de Sante (ANSM) :",
@@ -6469,6 +7008,7 @@
   },
   {
     "id": "540",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Structure de régulation du médicament",
     "question": "L'ANSM (Agence Nationale de Securite du Medicament et des produits de sante) exerce notamment les metiers suivants :",
@@ -6481,6 +7021,7 @@
   },
   {
     "id": "541",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Structure de régulation du médicament",
     "question": "Cochez la (ou les) reponse(s) exacte(s) :",
@@ -6493,6 +7034,7 @@
   },
   {
     "id": "542",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Structure de régulation du médicament",
     "question": "La commission de la transparence :",
@@ -6505,6 +7047,7 @@
   },
   {
     "id": "543",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "Aspects societaux et economiques du medicament en France :",
@@ -6517,6 +7060,7 @@
   },
   {
     "id": "544",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "Concernant les etablissements pharmaceutiques :",
@@ -6529,6 +7073,7 @@
   },
   {
     "id": "545",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "Parmi ces situations, toutes sauf une, sont des risques entraînés par l'automedication. Cochez cette proposition",
@@ -6541,6 +7086,7 @@
   },
   {
     "id": "546",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "Concernant l'automedication :",
@@ -6553,6 +7099,7 @@
   },
   {
     "id": "547",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Conception du médicament",
     "question": "Concernant le nombre de sujets a traiter (NST) :",
@@ -6565,6 +7112,7 @@
   },
   {
     "id": "548",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Conception du médicament",
     "question": "Indiquez la proposition fausse :",
@@ -6577,6 +7125,7 @@
   },
   {
     "id": "549",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Conception du médicament",
     "question": "De la conception a la mise sur le marche d'un medicament :",
@@ -6589,6 +7138,7 @@
   },
   {
     "id": "550",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Conception du médicament",
     "question": "Concernant les medicaments racemiques, l'administration d'un seul enantiomere est utile si :",
@@ -6601,6 +7151,7 @@
   },
   {
     "id": "551",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Forme galénique",
     "question": "Production des medicaments :",
@@ -6613,6 +7164,7 @@
   },
   {
     "id": "552",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Forme galénique",
     "question": "La principale qualite requise d'un medicament est :",
@@ -6625,6 +7177,7 @@
   },
   {
     "id": "553",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Forme galénique",
     "question": "La dessication et la pulverisation d'une matiere premiere sont des operations effectu ees avec les objectifs :",
@@ -6637,6 +7190,7 @@
   },
   {
     "id": "554",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Forme galénique",
     "question": "La sterilisation par la vapeur :",
@@ -6649,6 +7203,7 @@
   },
   {
     "id": "555",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Forme galénique",
     "question": "Les substances auxiliaires :",
@@ -6661,6 +7216,7 @@
   },
   {
     "id": "556",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Forme galénique",
     "question": "Peuventetre des formes galeniques a visee systemique :",
@@ -6673,6 +7229,7 @@
   },
   {
     "id": "557",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Forme galénique",
     "question": "Les formes unitaires orales solides sont :",
@@ -6685,6 +7242,7 @@
   },
   {
     "id": "558",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Forme galénique",
     "question": "Concernant la lyophilisation :",
@@ -6697,6 +7255,7 @@
   },
   {
     "id": "559",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Forme galénique",
     "question": "Parmi ces propositions, laquelle correspond a la principale qualite requise d'un medicament :",
@@ -6709,6 +7268,7 @@
   },
   {
     "id": "560",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Forme galénique",
     "question": "Parmi les effets indesirables graves des medicaments, on trouve :",
@@ -6721,6 +7281,7 @@
   },
   {
     "id": "561",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Développement et production du médicament",
     "question": "Un implant :",
@@ -6733,6 +7294,7 @@
   },
   {
     "id": "562",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Développement et production du médicament",
     "question": "Les comprimes :",
@@ -6745,6 +7307,7 @@
   },
   {
     "id": "563",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Développement et production du médicament",
     "question": "Les cachets :",
@@ -6757,6 +7320,7 @@
   },
   {
     "id": "564",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Développement et production du médicament",
     "question": "Concernant les gelules :",
@@ -6769,6 +7333,7 @@
   },
   {
     "id": "565",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Développement et production du médicament",
     "question": "Concernant le medicament :",
@@ -6781,6 +7346,7 @@
   },
   {
     "id": "566",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Développement et production du médicament",
     "question": "Quelles sont les formes obligatoirement steriles ?",
@@ -6793,6 +7359,7 @@
   },
   {
     "id": "567",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Développement et production du médicament",
     "question": "Les collyres :",
@@ -6805,6 +7372,7 @@
   },
   {
     "id": "568",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Développement et production du médicament",
     "question": "Concernant les gelules :",
@@ -6817,6 +7385,7 @@
   },
   {
     "id": "569",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude pharmaco-toxico",
     "question": "Concernant les phases de developpement d'une molecule :",
@@ -6829,6 +7398,7 @@
   },
   {
     "id": "570",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude pharmaco-toxico",
     "question": "Concernant les mutations survenant dans l'ADN :",
@@ -6841,6 +7411,7 @@
   },
   {
     "id": "571",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude pharmaco-toxico",
     "question": "Concernant les études de toxicite aiguë d'un medicament :",
@@ -6853,6 +7424,7 @@
   },
   {
     "id": "572",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude pharmaco-toxico",
     "question": "Concernant les études de toxicite chronique :",
@@ -6865,6 +7437,7 @@
   },
   {
     "id": "573",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude pharmaco-toxico",
     "question": "Quel(s) type(s) d'effet est(sont) susceptible(s) d'etre detecte(s) par les études de genotoxicite ?",
@@ -6877,6 +7450,7 @@
   },
   {
     "id": "574",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude pharmaco-toxico",
     "question": "La dose letale 50 d'un principe actif :",
@@ -6889,6 +7463,7 @@
   },
   {
     "id": "575",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude pharmaco-toxico",
     "question": "Les études de pharmacologie-toxicologie precliniques comprennent :",
@@ -6901,6 +7476,7 @@
   },
   {
     "id": "576",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude pharmaco-toxico",
     "question": "Le developpement preclinique :",
@@ -6913,6 +7489,7 @@
   },
   {
     "id": "577",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude pharmaco-toxico",
     "question": "Parmi les definitions suivantes, indiquez laquelle correspond a un essai de phase IIb de medicaments :",
@@ -6925,6 +7502,7 @@
   },
   {
     "id": "578",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude clinique",
     "question": "Un essai en double-placebo permet de comparer :",
@@ -6937,6 +7515,7 @@
   },
   {
     "id": "579",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude clinique",
     "question": "Au cours du developpement d'un medicament, une étude de phase I :",
@@ -6949,6 +7528,7 @@
   },
   {
     "id": "580",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude clinique",
     "question": "Lors d'une étude phase III randomisee en double aveugle, evaluant l'efficacite d'un nouveau medicament chez l'adulte :",
@@ -6961,6 +7541,7 @@
   },
   {
     "id": "581",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude clinique",
     "question": "Concernant l'Autorisation de Mise sur le Marche :",
@@ -6973,6 +7554,7 @@
   },
   {
     "id": "582",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude clinique",
     "question": "Cochez la (ou les) reponse(s) exacte(s) :",
@@ -6985,6 +7567,7 @@
   },
   {
     "id": "583",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude clinique",
     "question": "L'attribution des traitements experimentaux par tirage au sort (encore appelee randomisation) dans le cadre d'un essai clinique :",
@@ -6997,6 +7580,7 @@
   },
   {
     "id": "584",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude clinique",
     "question": "Dans le cadre du developpement d'un nouveau medicament, les études cliniques de phase I :",
@@ -7009,6 +7593,7 @@
   },
   {
     "id": "585",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude clinique",
     "question": "Concernant les études de pharmaco-epidemiologie cherchant a etablir un lien entre un effet indesirable et un medicament :",
@@ -7021,6 +7606,7 @@
   },
   {
     "id": "586",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude clinique",
     "question": "Le promoteur d'un essai clinique :",
@@ -7033,6 +7619,7 @@
   },
   {
     "id": "587",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude clinique",
     "question": "La personne se pretant a la recherche :",
@@ -7045,6 +7632,7 @@
   },
   {
     "id": "588",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanisme d'action",
     "question": "Devenir du medicament dans l'organisme; pharmacocinetique :",
@@ -7057,6 +7645,7 @@
   },
   {
     "id": "589",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanisme d'action",
     "question": "La pharmacogenetique :",
@@ -7069,6 +7658,7 @@
   },
   {
     "id": "590",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanisme d'action",
     "question": "Concernant les cibles moleculaires des medicaments :",
@@ -7081,6 +7671,7 @@
   },
   {
     "id": "591",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanisme d'action",
     "question": "Le rythme cardiaque peutetre modifie (augmente ou diminue) par :",
@@ -7093,6 +7684,7 @@
   },
   {
     "id": "592",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanisme d'action",
     "question": "La communication intercellulaire peut impliquer :",
@@ -7105,6 +7697,7 @@
   },
   {
     "id": "593",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanisme d'action",
     "question": "Les effets suivants sont de nature atropinique :",
@@ -7117,6 +7710,7 @@
   },
   {
     "id": "594",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanisme d'action",
     "question": "Concernant l'etiquetage des medicaments :",
@@ -7129,6 +7723,7 @@
   },
   {
     "id": "595",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanisme d'action",
     "question": "Les glucosides cardiotoniques",
@@ -7141,6 +7736,7 @@
   },
   {
     "id": "596",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanisme d'action",
     "question": "Le fait d'antagoniser les recepteurs alpha-adrenergiques peripheriques :",
@@ -7153,6 +7749,7 @@
   },
   {
     "id": "597",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanisme d'action",
     "question": "Parmi les ligands suivants, lequel(lesquels) active(nt) un recepteur nucleaire :",
@@ -7165,6 +7762,7 @@
   },
   {
     "id": "598",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Principe Actif",
     "question": "Parmi les substances suivantes, toutes sont des medicaments, sauf une :",
@@ -7177,6 +7775,7 @@
   },
   {
     "id": "599",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Principe Actif",
     "question": "L'aspirine presente les effets benefiques suivants :",
@@ -7189,6 +7788,7 @@
   },
   {
     "id": "600",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Principe Actif",
     "question": "Un medicament de la famille des anti-inflammatoires non steroïdiens :",
@@ -7201,6 +7801,7 @@
   },
   {
     "id": "601",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Principe Actif",
     "question": "Le ranibizumab (Lucentis/*®/* ) est :",
@@ -7213,6 +7814,7 @@
   },
   {
     "id": "602",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Principe Actif",
     "question": "Le zolpidem :",
@@ -7225,6 +7827,7 @@
   },
   {
     "id": "603",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Principe Actif",
     "question": "Concernant le tramadol :",
@@ -7237,6 +7840,7 @@
   },
   {
     "id": "604",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Principe Actif",
     "question": "Concernant la simvastatine :",
@@ -7249,6 +7853,7 @@
   },
   {
     "id": "605",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Principe Actif",
     "question": "Concernant les medicaments :",
@@ -7261,6 +7866,7 @@
   },
   {
     "id": "606",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Principe Actif",
     "question": "Indiquez la proposition fausse :",
@@ -7273,6 +7879,7 @@
   },
   {
     "id": "607",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Principe Actif",
     "question": "L'ibuprofene :",
@@ -7285,6 +7892,7 @@
   },
   {
     "id": "608",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "On estime le volume apparent de distribution d'unmedicament a 10000 litres/kg; cela peut vouloir dire :",
@@ -7297,6 +7905,7 @@
   },
   {
     "id": "609",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "Un medicament a un coefficient d'extraction hepatique de 0,80. Lors d'une diminution du debit sanguin hepatique :",
@@ -7309,6 +7918,7 @@
   },
   {
     "id": "610",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "Lorsqu'un comprime est administre par voie orale, le principe actif subit dans l'ordre les etapes suivantes :",
@@ -7321,6 +7931,7 @@
   },
   {
     "id": "611",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "Quelle est la dose de medicament a administrer par voie orale lorsque ce medicament a une biodisponibilite de 25% et que l'on veut obtenir la même concentration plasmatique qu'avec une administration intra-veineuse de 200 mg ?",
@@ -7333,6 +7944,7 @@
   },
   {
     "id": "612",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "Les parametres pharmacocinetiques qui interviennent dans le calcul du facteur de biodisponibilite F d'un medicament sont :",
@@ -7345,6 +7957,7 @@
   },
   {
     "id": "613",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "Lors de l'administration repetee d'un medicament de demi-vie courte (1 a 2 heures) :",
@@ -7357,6 +7970,7 @@
   },
   {
     "id": "614",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "Le domaine de concentration sanguine qui permet de maintenir une efficacite therapeutique sans entrainer d'effets toxiques correspond a :",
@@ -7369,6 +7983,7 @@
   },
   {
     "id": "615",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "Concernant la demi-vie d'elimination :",
@@ -7381,6 +7996,7 @@
   },
   {
     "id": "616",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "Concernant les parametres pharmacocinetiques :",
@@ -7393,6 +8009,7 @@
   },
   {
     "id": "617",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "Le volume de distribution :",
@@ -7405,6 +8022,7 @@
   },
   {
     "id": "618",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "La pharmacocinetique :",
@@ -7417,6 +8035,7 @@
   },
   {
     "id": "619",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "La pharmacocinetique d'un medicament est lineaire lorsque :",
@@ -7429,6 +8048,7 @@
   },
   {
     "id": "620",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "La bioequivalence de deux formes galeniques d'un principe actif est evaluee au moyen du(des) parametre(s) pharmacocinetique(s) suivant(s) :",
@@ -7441,6 +8061,7 @@
   },
   {
     "id": "621",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "Concernant la concentration efficace 50 d'un principe actif :",
@@ -7453,6 +8074,7 @@
   },
   {
     "id": "622",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie et pharmacocinétique",
     "question": "Concernant l'étude pharmacologique de la liaison ligand-recepteur :",
@@ -7465,6 +8087,7 @@
   },
   {
     "id": "623",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Rapport bénéfice-risque",
     "question": "Une prescription est l'acte medical realise par un professionnel de sante, consistant a prescrire sur ordonnance :",
@@ -7477,6 +8100,7 @@
   },
   {
     "id": "624",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Rapport bénéfice-risque",
     "question": "Les medicaments de la liste II :",
@@ -7489,6 +8113,7 @@
   },
   {
     "id": "625",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Rapport bénéfice-risque",
     "question": "Une sage-femme peut prescrire :",
@@ -7501,6 +8126,7 @@
   },
   {
     "id": "626",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Rapport bénéfice-risque",
     "question": "L'ordonnance securisee :",
@@ -7513,6 +8139,7 @@
   },
   {
     "id": "627",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Rapport bénéfice-risque",
     "question": "Indiquez la (les) proposition(s) exacte(s) :",
@@ -7525,6 +8152,7 @@
   },
   {
     "id": "628",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Rapport bénéfice-risque",
     "question": "Les infirmier(e)s peuvent delivrer un vaccin antigrippal sans prescriptionmedicales :",
@@ -7537,6 +8165,7 @@
   },
   {
     "id": "629",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Rapport bénéfice-risque",
     "question": "Cochez la(les) proposition(s) exacte(s) :",
@@ -7549,6 +8178,7 @@
   },
   {
     "id": "630",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Rapport bénéfice-risque",
     "question": "Les professionnels de sante habilites a rediger une ordonnance sont :",
@@ -7561,6 +8191,7 @@
   },
   {
     "id": "631",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacovigilance",
     "question": "Le droit de substitution :",
@@ -7573,6 +8204,7 @@
   },
   {
     "id": "632",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacovigilance",
     "question": "Parmi les informations suivantes, indiquez les deux qui, reglementairement, doivent figurer sur une boite de medicaments :",
@@ -7585,6 +8217,7 @@
   },
   {
     "id": "633",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacovigilance",
     "question": "Parmi les substances actives faisant l'objet d'une surveillance en addictovigilance, on retrouve :",
@@ -7597,6 +8230,7 @@
   },
   {
     "id": "634",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacovigilance",
     "question": "Concernant le marche français du medicament :",
@@ -7609,6 +8243,7 @@
   },
   {
     "id": "635",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacovigilance",
     "question": "Cochez la (ou les) proposition(s) exacte(s) :",
@@ -7621,6 +8256,7 @@
   },
   {
     "id": "636",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacovigilance",
     "question": "Cochez la(les) propositions(s) exacte(s) :",
@@ -7633,6 +8269,7 @@
   },
   {
     "id": "637",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacovigilance",
     "question": "Concernant les medicaments en France actuellement :",
@@ -7645,6 +8282,7 @@
   },
   {
     "id": "638",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Iatrogenes et bon usage du médicament",
     "question": "Concernant le mesusage des medicaments :",
@@ -7657,6 +8295,7 @@
   },
   {
     "id": "639",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Iatrogenes et bon usage du médicament",
     "question": "Pour lutter contre la resistance bacterienne, la seule proposition fausse est :",
@@ -7669,6 +8308,7 @@
   },
   {
     "id": "640",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Iatrogenes et bon usage du médicament",
     "question": "Le Bon Usage du Medicament suppose :",
@@ -7681,6 +8321,7 @@
   },
   {
     "id": "641",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Iatrogenes et bon usage du médicament",
     "question": "Les medicaments peuvent donner des effets indesirables :",
@@ -7693,6 +8334,7 @@
   },
   {
     "id": "642",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Iatrogenes et bon usage du médicament",
     "question": "Certaines categories d'effets indesirables graves :",
@@ -7705,6 +8347,7 @@
   },
   {
     "id": "643",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Iatrogenes et bon usage du médicament",
     "question": "Parmi les facteurs favorisant les accidents medicamenteux, on peut retrouver :",
@@ -7717,6 +8360,7 @@
   },
   {
     "id": "644",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Iatrogenes et bon usage du médicament",
     "question": "Concernant la mauvaise observance :",
@@ -7729,6 +8373,7 @@
   },
   {
     "id": "645",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Iatrogenes et bon usage du médicament",
     "question": "La iatrogenie est une pathologie pouvantetre :",
@@ -7741,6 +8386,7 @@
   },
   {
     "id": "646",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Iatrogenes et bon usage du médicament",
     "question": "Concernant l'enquete nationale sur les evenements indesirables lies aux soins (ENEIS) :",
@@ -7753,6 +8399,7 @@
   },
   {
     "id": "647",
+    "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Iatrogenes et bon usage du médicament",
     "question": "Parmi les facteurs favorisant les accidents medicamenteux, on retrouve :",
@@ -7765,6 +8412,7 @@
   },
   {
     "id": "648",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Histoire de la medecine et de la pharmacie",
     "question": "Ambroise Pare est un celebre medecin :",
@@ -7777,6 +8425,7 @@
   },
   {
     "id": "649",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Histoire de la medecine et de la pharmacie",
     "question": "Le scientifique allemand Wilhelm Röntgen a decouvert :",
@@ -7789,6 +8438,7 @@
   },
   {
     "id": "650",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Histoire de la medecine et de la pharmacie",
     "question": "Dans le cadre de l'histoire de la chirurgie :",
@@ -7801,6 +8451,7 @@
   },
   {
     "id": "651",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Histoire de la medecine et de la pharmacie",
     "question": "Concernant l'histoire de la medecine :",
@@ -7813,6 +8464,7 @@
   },
   {
     "id": "652",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Histoire de la medecine et de la pharmacie",
     "question": "Parmi les personnages suivants quel(s) est (sont) celui (ceux) qui est (sont) a l'origine de la decouverte de bacteries ?",
@@ -7825,6 +8477,7 @@
   },
   {
     "id": "653",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Histoire de la medecine et de la pharmacie",
     "question": "Concernant Claude Bernard :",
@@ -7837,6 +8490,7 @@
   },
   {
     "id": "654",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Histoire de la medecine et de la pharmacie",
     "question": "Dans le cadre de l'histoire de la tuberculose :",
@@ -7849,6 +8503,7 @@
   },
   {
     "id": "655",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Histoire de la medecine et de la pharmacie",
     "question": "Citez, parmi ces evenements, le plus ancien et le plus recent :",
@@ -7861,6 +8516,7 @@
   },
   {
     "id": "656",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Histoire de la medecine et de la pharmacie",
     "question": "Concernant la revolution microbiologique :",
@@ -7873,6 +8529,7 @@
   },
   {
     "id": "657",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Droit et ethique",
     "question": "Le secret professionnel :",
@@ -7885,6 +8542,7 @@
   },
   {
     "id": "658",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Droit et ethique",
     "question": "Une IVG est illegale si :",
@@ -7897,6 +8555,7 @@
   },
   {
     "id": "659",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Droit et ethique",
     "question": "Les principes fondamentaux de la bioethique sont :",
@@ -7909,6 +8568,7 @@
   },
   {
     "id": "660",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Droit et ethique",
     "question": "Le code de Nuremberg :",
@@ -7921,6 +8581,7 @@
   },
   {
     "id": "661",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Droit et ethique",
     "question": "La personne de confiance :",
@@ -7933,6 +8594,7 @@
   },
   {
     "id": "662",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Droit et ethique",
     "question": "Dans le cadre de l'histoire de la chirurgie :",
@@ -7945,6 +8607,7 @@
   },
   {
     "id": "663",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Droit et ethique",
     "question": "Le droit fondamental a la protection de la sante defini a l'article L 1110-1 du code de la sante publique :",
@@ -7957,6 +8620,7 @@
   },
   {
     "id": "664",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Droit et ethique",
     "question": "Concernant l'euthanasie :",
@@ -7969,6 +8633,7 @@
   },
   {
     "id": "665",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Droit et ethique",
     "question": "Parmi les evenements dates suivants, quel(s) est(sont) celui(ceux) qui a (ont) constitue une etape dans la reconnaissance et la compensation du handicap ?",
@@ -7981,6 +8646,7 @@
   },
   {
     "id": "666",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Droit et ethique",
     "question": "Concernant la loi du 11 fevrier 2005 :",
@@ -7993,6 +8659,7 @@
   },
   {
     "id": "667",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Facteurs de risque et societ e",
     "question": "En France, le nombre annuel de deces attribuables au tabac est de :",
@@ -8005,6 +8672,7 @@
   },
   {
     "id": "668",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Facteurs de risque et societ e",
     "question": "Concernant la mortalite prematuree dans notre pays :",
@@ -8017,6 +8685,7 @@
   },
   {
     "id": "669",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Facteurs de risque et societ e",
     "question": "La sedentarite :",
@@ -8029,6 +8698,7 @@
   },
   {
     "id": "670",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Facteurs de risque et societ e",
     "question": "Concernant la sante des enfants en France :",
@@ -8041,6 +8711,7 @@
   },
   {
     "id": "671",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Facteurs de risque et societ e",
     "question": "Concernant les indicateurs de sante en France :",
@@ -8053,6 +8724,7 @@
   },
   {
     "id": "672",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Facteurs de risque et societ e",
     "question": "Concernant le suicide dans notre pays :",
@@ -8065,6 +8737,7 @@
   },
   {
     "id": "673",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Facteurs de risque et societ e",
     "question": "Quel est le facteur le plus dangereux pour le risque cardio-vasculaire collectif ?",
@@ -8077,6 +8750,7 @@
   },
   {
     "id": "674",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Facteurs de risque et societ e",
     "question": "Quelle est la localisation du cancer la plus frequente chez l'homme ?",
@@ -8089,6 +8763,7 @@
   },
   {
     "id": "675",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Facteurs de risque et societ e",
     "question": "Concernant le cancer en France :",
@@ -8101,6 +8776,7 @@
   },
   {
     "id": "676",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Facteurs de risque et societ e",
     "question": "Parmi les maladies infectieuses suivantes, quelle(s) est(sont) celle(s) qui releve(nt) d'une vaccination obligatoire ?",
@@ -8113,6 +8789,7 @@
   },
   {
     "id": "677",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Organisation des systemes de soins",
     "question": "Concernant le modele bismarckien :",
@@ -8125,6 +8802,7 @@
   },
   {
     "id": "678",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Organisation des systemes de soins",
     "question": "Concernant les HUSI :",
@@ -8137,6 +8815,7 @@
   },
   {
     "id": "679",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Organisation des systemes de soins",
     "question": "Le systeme de sante beveridgien :",
@@ -8149,6 +8828,7 @@
   },
   {
     "id": "680",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Organisation des systemes de soins",
     "question": "Concernant une definition de la sante :",
@@ -8161,6 +8841,7 @@
   },
   {
     "id": "681",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Organisation des systemes de soins",
     "question": "Lequel de ces risques n'est pas un risque social ?",
@@ -8173,6 +8854,7 @@
   },
   {
     "id": "682",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Organisation des systemes de soins",
     "question": "Concernant le PMSI, cochez la proposition vraie :",
@@ -8185,6 +8867,7 @@
   },
   {
     "id": "683",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Organisation des systemes de soins",
     "question": "Quel(s) element(s) de definition de la dependance est (sont) pris en compte dans l'enquete Handicap, Incapacite,Dependance ?",
@@ -8197,6 +8880,7 @@
   },
   {
     "id": "684",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Organisation des systemes de soins",
     "question": "Quelles sont les deux principaux motifs d'admission en affection de longue duree par l'assurance maladie ?",
@@ -8209,6 +8893,7 @@
   },
   {
     "id": "685",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Organisation des systemes de soins",
     "question": "Un de ces principes ne sert pas a caracteriser la securite sanitaire. Lequel ?",
@@ -8221,6 +8906,7 @@
   },
   {
     "id": "686",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Organisation des systemes de soins",
     "question": "Quelle(s) grande(s) direction(s) se trouve(nt) sous l'autorite du Ministere en charge de la sante ?",
@@ -8233,6 +8919,7 @@
   },
   {
     "id": "687",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Psychologie",
     "question": "Concernant le transfert :",
@@ -8245,6 +8932,7 @@
   },
   {
     "id": "688",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Psychologie",
     "question": "Concernant le developpement du langage chez l'enfant :",
@@ -8257,6 +8945,7 @@
   },
   {
     "id": "689",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Psychologie",
     "question": "Concernant l'attachement :",
@@ -8269,6 +8958,7 @@
   },
   {
     "id": "690",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Psychologie",
     "question": "L'empathie :",
@@ -8281,6 +8971,7 @@
   },
   {
     "id": "691",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Psychologie",
     "question": "La reformulation est :",
@@ -8293,6 +8984,7 @@
   },
   {
     "id": "692",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "L'homme et son environnement",
     "question": "Concernant les plantes sources de medicaments :",
@@ -8305,6 +8997,7 @@
   },
   {
     "id": "693",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "L'homme et son environnement",
     "question": "Concernant l'adaptation des vegetaux a l'echelle de la planete :",
@@ -8317,6 +9010,7 @@
   },
   {
     "id": "694",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "L'homme et son environnement",
     "question": "Concernant les plantes medicinales :",
@@ -8329,6 +9023,7 @@
   },
   {
     "id": "695",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "L'homme et son environnement",
     "question": "Concernant les intoxications vegetales :",
@@ -8341,6 +9036,7 @@
   },
   {
     "id": "696",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "L'homme et son environnement",
     "question": "Concernant la qualite de l'air :",
@@ -8353,6 +9049,7 @@
   },
   {
     "id": "697",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "L'homme et son environnement",
     "question": "Concernant le taxol :",
@@ -8365,6 +9062,7 @@
   },
   {
     "id": "698",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Semantique et terminologie m edicale",
     "question": "Cochez la(les) proposition(s) exacte(s) :",
@@ -8377,6 +9075,7 @@
   },
   {
     "id": "699",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Semantique et terminologie m edicale",
     "question": "Cochez la(les) proposition(s) exacte(s) :",
@@ -8389,6 +9088,7 @@
   },
   {
     "id": "700",
+    "spec": "",
     "matiere": "SSH",
     "chapitre": "Semantique et terminologie m edicale",
     "question": "Cochez la(les) proposition(s) exacte(s) :",
@@ -8401,6 +9101,7 @@
   },
   {
     "id": "701",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Outils mathematiques",
     "question": "Parmi les molarites suivantes, quelle est la plus faible ?",
@@ -8413,6 +9114,7 @@
   },
   {
     "id": "702",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Outils mathematiques",
     "question": "Cochez la(ou les) propositions(s) correcte(s) :",
@@ -8425,6 +9127,7 @@
   },
   {
     "id": "703",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Outils mathematiques",
     "question": "Dans une certaine maladie grave, la fonction de survie a compter du diagnostic est divisee par deux entre deux dates quelconques differant d'un an",
@@ -8437,6 +9140,7 @@
   },
   {
     "id": "704",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Outils mathematiques",
     "question": "Une solution de medicament A a 3 g/L est administree en intra-veineuse a un patient a l'aide d'un diffuseur qui delivre un debit constant de 2 mL par heure pendant 72 h. L'elimination de ce medicament du compartiment sanguin (4 litres) depend de sa concentration sanguine et varie selon une constante k*/e*/ = 0,1 h/*-1/*. À t = 0 la concentration sanguine de A est nulle. Quelle est la concentration sanguine en A predite par le modele a t = 96 h ?",
@@ -8449,6 +9153,7 @@
   },
   {
     "id": "705",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique descriptive",
     "question": "Cochez la (ou les) reponse(s) exacte(s)",
@@ -8461,6 +9166,7 @@
   },
   {
     "id": "706",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique descriptive",
     "question": "Cochez la (ou les) reponse(s) exacte(s)",
@@ -8473,6 +9179,7 @@
   },
   {
     "id": "707",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique descriptive",
     "question": "On etudie la variable « intensite de la douleur 24 h apres une intervention chirurgicale» que l'on code « pas de douleur » , « douleur moderee » , « douleur intense », « douleur Insupportable »:",
@@ -8485,6 +9192,7 @@
   },
   {
     "id": "708",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique descriptive",
     "question": "On mesure le taux de globules rouges sanguin chez 50 sujets, chaque sujet etant preleves 3 fois. On obtient 150 valeurs de taux de globules rouges. Quelles composantes de la variabilit e participent a expliquer la dispersion ?",
@@ -8497,6 +9205,7 @@
   },
   {
     "id": "709",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique descriptive",
     "question": "Concernant les proprietes de la variance, cochez les reponses fausses :",
@@ -8509,6 +9218,7 @@
   },
   {
     "id": "710",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Probabilites",
     "question": "On s'interesse aux familles de deux enfants susceptibles d'etre atteints par une maladie genetique qui touche 1 garçon sur 2 et non les filles. Si f = fille ; g = garçon sain ; m = garçon malade, quel est l'ensemble fondamental qui tient compte de l'ordre dans la fratrie,",
@@ -8521,18 +9231,20 @@
   },
   {
     "id": "711",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Probabilites",
     "question": "Dans un jeu il y a un sac contenant 5 boules blanches et 5 boules noires. Chaque candidat doit venir tirer 2 boules sans remise ; s'il y a au moins une boule noire, le candidat est elimine. Quelle est la probabilite que le deuxieme candidat soit elimine ? (a 1 % pres)",
-    "answer0": "11 %",
+    "answer0": "11%",
     "answer1": "20%",
     "answer2": "35%",
-    "answer3": "54 %",
-    "answer4": "88 %",
+    "answer3": "54%",
+    "answer4": "88%",
     "answer": "4"
   },
   {
     "id": "712",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Probabilites",
     "question": "Lors d'une étude de pharmacovigilance, on a mesure la probabilite d'observer certains effets indesirables d'un medicament : rash cutane : 0,01 ; nausees : 0,2 ; myalgies : 0,1, Les patients presentent a la fois des nausees et des myalgies dans 2 % des cas. L'effet indesirable est considere comme grave dans 50 % des cas de rash cutane et dans 1 % des cas de myalgie ou de nausees",
@@ -8545,6 +9257,7 @@
   },
   {
     "id": "713",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Probabilites",
     "question": "Des patients hospitalises contractant une infection au cours de leur sejour sont pris en charge par une equipe mobile specialisee ne prenant en charge que des patients avec infection nosocomiale. Ils peuvent souffrir d'une ou de plusieurs infections : une bacteriemie (BAC), une pneumonie (PNE) ou une infection du tractus urinaire (ITU). Dans la population P des patients pris en charge par cette equipe,2 patients sur 5 sont atteints, d'infection du tractus urinaire et 35 %ne presentent pas de pneumonie. Par ailleurs,9 patients sur 10 sont atteints de pneumonie ou d'infection du tractus urinaire. Cochez la(les) proposition(s) exacte(s) :",
@@ -8557,6 +9270,7 @@
   },
   {
     "id": "714",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Probabilites",
     "question": "Un politique decide de modifier la selection des etudiants en medecine. S'inspirant de la selection dans l'armee fran¸caise au XIXe siecle, il propose de proceder a un tirage au sort de la fa¸con suivante. Chaque etudiant tire au sort un nombre entre 1 et 10. Si ce nombre est superieur ou egal a 9, l'etudiant est re¸cu ; dans le cas contraire, il peut retenter sa chance une seconde fois en procedant de la même fa¸con, independamment de son premier tirage. Le politique decide dans un premier temps de tirer un nombre entier de 1 a 10 de façon equiprobable",
@@ -8569,6 +9283,7 @@
   },
   {
     "id": "715",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Probabilites",
     "question": "Un politique decide de modifier la selection des etudiants en medecine. S'inspirant de la selection dans l'armee fran¸caise au XIXe siecle, il propose de proceder a un tirage au sort de la fa¸con suivante.Chaque etudiant tire au sort un nombre entre 1 et 10. Si ce nombre est superieur ou egal a 9, l'etudiant est re¸cu ; dans le cas contraire, il peut retenter sa chance une seconde fois en procedant de la même fa¸con, independamment de son premier tirage. Insatisfait, le politique decide de modifier la loi du tirage, en utilisant maintenant une loi uniforme continue, toujours entre 1 et 10",
@@ -8581,6 +9296,7 @@
   },
   {
     "id": "716",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Probabilites",
     "question": "Dans une population, une maladie M presente une prevalence de 1 %. On choisit au hasard un echantillon de 100 personnes dans cette population. On appelle X la variable aleatoire definie par le nombre de personnes malades dans cet echantillon",
@@ -8593,6 +9309,7 @@
   },
   {
     "id": "717",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Probabilites",
     "question": "Dans une population de sujets atteints de diabete de type 1, la mesure de l'hemoglobine glyquee suit une loi normale de moyenne 6,1 et d'ecart type 0,65",
@@ -8605,6 +9322,7 @@
   },
   {
     "id": "718",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Probabilites",
     "question": "Un echographiste recontacte 100 femmes pour lesquelles il a commis une erreur sur le sexe de l'enfant. On suppose que le delai de reponse a son courrier (qui est en moyenne de 30 jours) suit une loi exponentielle",
@@ -8617,6 +9335,7 @@
   },
   {
     "id": "719",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
     "question": "Une maladie M affecte les sujets d'une population mais le pourcentage de personnes infectes est inconnu. En selectionnant des malades et des sujets non malades dans la population, on constitue 2 groupes independants, l'un de 112 personnes atteintes (groupe M), l'autre de 268 non atteintes (groupe N). Parmi les malades on observe 97 personnes qui possèdent une mutation d'un gene (mG), mais seulement 72 presentent cette mutation chez les non malades. On veut evaluer l'interet de la detection de cette mutation dans le diagnostic de la maladie",
@@ -8629,6 +9348,7 @@
   },
   {
     "id": "720",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
     "question": "Une étude sur un parametre quantitatif (n > 30) donne une estimation avec un intervalle de confiance a 95 %. On veut reduire l'etendue d'un facteur k, pour cela il faudra :",
@@ -8641,6 +9361,7 @@
   },
   {
     "id": "721",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
     "question": "On s'interesse a l'intervalle de confiance de la moyenne du caractere biologique X, estim ee sur une population de tres grande taille. Un premier intervalle de confiance a 95 % a ete obtenu sur cette population en 1970 sur un echantillon de 1000 sujets. Aujourd'hui, on souhaite recalculer cet intervalle de confiance car la variabilite de X a augment e considerablement. En utilisant le même niveau de confiance et la même taille d'echantillon, le nouvel intervalle de confiance est :",
@@ -8653,9 +9374,10 @@
   },
   {
     "id": "722",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
-    "question": "Un medecin souhaite evaluer la toxicite d'un nouveau traitement. Il souhaite ecarter un traitement « trop toxique » qui donnerait 30 % de toxicite (Hypothese nulle) et espere un traitement « peu toxique »dont la toxicite serait de 10 % (Hypothese alternative). Il se propose de traiter 10 volontaires sains et d'adopter la regle de decision suivante : - si aucune toxicite n'est observee chez les 10 volontaires traites, il conclura que le traitement est «  peu toxique » ; - si au moins 1 toxicite est observee il conclura que le traitement est « trop toxique ». On veut calculer les risques d'erreur associe a cette demarche. Attention, ici le risque d'erreur de premiere espece n'est pas fixe a 0,05 comme habituellement mais se calcule a partir de la regle de decision. Cochez la bonne reponse",
+    "question": "Un medecin souhaite evaluer la toxicite d'un nouveau traitement. Il souhaite ecarter un traitement « trop toxique » qui donnerait 30 % de toxicite (Hypothese nulle) et espere un traitement « peu toxique »dont la toxicite serait de 10 % (Hypothese alternative). Il se propose de traiter 10 volontaires sains et d'adopter la regle de decision suivante : - si aucune toxicite n'est observee chez les 10 volontaires traites, il conclura que le traitement est « peu toxique » ; - si au moins 1 toxicite est observee il conclura que le traitement est « trop toxique ». On veut calculer les risques d'erreur associe a cette demarche. Attention, ici le risque d'erreur de premiere espece n'est pas fixe a 0,05 comme habituellement mais se calcule a partir de la regle de decision. Cochez la bonne reponse",
     "answer0": "0,02 < α < 0,05 et 0,20 < β < 0,40",
     "answer1": "0,20 < α < 0,40 et 0,10 < β < 0,20",
     "answer2": "0,02 < α < 0,05 et 0,60 < β < 0,80",
@@ -8665,6 +9387,7 @@
   },
   {
     "id": "723",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
     "question": "De quels items depend la probabilite pour que l'hypothese alternative H1 soit acceptee si elle est vraie ?",
@@ -8677,6 +9400,7 @@
   },
   {
     "id": "724",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
     "question": "On souhaite analyser l'evolution de la formule sanguine au cours d'une infection. Pour cela on mesure la proportion de granulocytes neutrophiles parmi les leucocytes a J1 et J7 de chacun des 29 malades d'un echantillon (on sait qu'elle suit une loi normale). On note les resultats suivants : Moyenne a J1 : 90 % ; Moyenne a J7 : 60 % On souhaite comparer les resultats obtenus a J1 et J7",
@@ -8689,6 +9413,7 @@
   },
   {
     "id": "725",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
     "question": "Pour mesurer l'efficacite d'un traitement anti-tumoral, on a mesure le volume V d'une tumeur dans un groupe de 81 souris. Les resultats sont les suivants : avant traitement : moyenne(V) = 40 mm3 apres traitement : moyenne(V) = 35 mm3La statistique du test parametrique adapte vaut 4,5. On conclut a une réduction significative du volume de la tumeur au risque 5%",
@@ -8701,6 +9426,7 @@
   },
   {
     "id": "726",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
     "question": "On cherche a mesurer le temps supplementaire de travail effectue un jour donne, dans un hopital, par rapport au planing theorique prevu. La moyenne de temps de travail d'un echantillon de 50 infirmieres a ete ce jour la de 8 heures 20 minutes (ecart type 50 minutes). Le temps theorique est de 7 heures 30 minutes par jour",
@@ -8713,6 +9439,7 @@
   },
   {
     "id": "727",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
     "question": "On veut etudier la decroissance de la charge virale, apres traitement, chez 40 patients atteints d'hepatite C. On mesure la charge virale le jour precedant l'initialisation du traitement (J0), puis 14 jours plus tard (J14). On veut savoir si la charge virale a diminue entre les deux mesures",
@@ -8725,6 +9452,7 @@
   },
   {
     "id": "728",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
     "question": "On veut etudier la relation entre l'epaisseur d'un melanome et la survie des patients 5 ans apres le diagnostic initial de la tumeur. L'étude porte sur 30 patients. Aucun patient n'est perdu de vue.Parmi les 15 patients ayant un melanome d'epaisseur > 1,5 mm,10 sont decedes. Parmi les 15 patients ayant un melanome d'epaisseur < 1,5 mm,3 sont decedes. Pour etudier cette relation, on peut utiliser :",
@@ -8737,6 +9465,7 @@
   },
   {
     "id": "729",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
     "question": "Parmi les propositions suivantes relatives au test statistique a utiliser, la proposition inexacte est :",
@@ -8749,6 +9478,7 @@
   },
   {
     "id": "730",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
     "question": "Une étude recente a ete conduite pour evaluer l'impact du tabagisme parental sur la pression arterielle systolique d'enfants en basage. La pression arterielle systolique moyenne etait de : 100 mmHg (ecart type : 7,7 mmHg) chez 2274 enfants non exposes au tabagisme parental ; 101 mmHg (ecart type : 8,0 mmHg) chez 1411 enfants exposes au tabagisme parental.On pose l'hypothese nulle H0 comme etant l'absence d'association entre le tabagisme parental et la pression arterielle systolique moyenne. On suppose les conditions de validite du test verifiees. Dans cette étude :",
@@ -8761,6 +9491,7 @@
   },
   {
     "id": "731",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Statistique inferentielle",
     "question": "Une étude recente a ete conduite pour evaluer l'impact du tabagisme parental sur la pression arterielle systolique d'enfants en basage. La pression arterielle systolique moyenne etait de : 100 mmHg (ecart type : 7,7 mmHg) chez 2274 enfants non exposes au tabagisme parental 101 mmHg (ecart type : 8,0 mmHg) chez 1411 enfants exposes au tabagisme parental. On pose l'hypothese nulle H0 comme etant l'absence d'association entre le tabagisme parental et la pression arterielle systolique moyenne. On suppose les conditions de validite du test verifiees.Dans cette étude on peut utiliser :",
@@ -8773,6 +9504,7 @@
   },
   {
     "id": "732",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Applications aux sciences de la vie",
     "question": "La radiographie du sein est negative chez 10 % des femmes ayant un cancer du sein.Cette mammographie est negative chez 95 % des femmes n'ayant pas un cancer du sein",
@@ -8785,6 +9517,7 @@
   },
   {
     "id": "733",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Applications aux sciences de la vie",
     "question": "Une étude anglaise a evalue les performances d'un test de depistage rapide du VIH realise sur un echantillon de salive. Dans cette étude, les resultats du test de depistage rapide pratique sur 800 patients a risque eleve d'infection a VIH/sida ont ete compares aux resultats d'un test immunoenzymatique de 3e generation (considere comme test de reference). La prevalence de l'infection a VIH dans l'echantillon d'étude etait de 6 %. La sensibilite etait de 93,8 % et la valeur predictive negative etait de 99,6 %. Le test rapide etait positif pour 51 patients et 3 patients etaient des faux negatifs",
@@ -8797,6 +9530,7 @@
   },
   {
     "id": "734",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Applications aux sciences de la vie",
     "question": "A l'issue d'une étude de cohorte mesurant l'association entre l'incidence du cancer du sein et l'exposition aux contraceptifs oraux, le risque relatif calcule est de 1,4 et l'intervalle de confiance a 95% du risque relatif est [0,8-2]. Cochez la (ou les) proposition(s) exacte(s) :",
@@ -8809,6 +9543,7 @@
   },
   {
     "id": "735",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Applications aux sciences de la vie",
     "question": "On dispose d'un test pour le diagnostic d'une maladie M dont la sensibilite est 0,90. Dans une population ou la prevalence de la maladie est 0,60 :",
@@ -8821,6 +9556,7 @@
   },
   {
     "id": "736",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Applications aux sciences de la vie",
     "question": "Une étude a evalue sur 620 personnes un test propose pour reperer une depression en comparant ses resultats aux diagnostics d'experts. On observe les resultats suivants : parmi les 120 depressifs diagnostiques, tous ont ete reperes par le test ; le test a aussi repere 25 personnes supplementaires, a tort, comme potentiellement depressives. Quelle est la proposition qui est correcte pour cette étude :",
@@ -8833,6 +9569,7 @@
   },
   {
     "id": "737",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Applications aux sciences de la vie",
     "question": "Cochez la (ou les) reponse(s) exacte(s) :",
@@ -8845,6 +9582,7 @@
   },
   {
     "id": "738",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Applications aux sciences de la vie",
     "question": "Dans une étude cas-temoins pour analyser la relation entre contraception orale et cancer du sein :",
@@ -8857,6 +9595,7 @@
   },
   {
     "id": "739",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Applications aux sciences de la vie",
     "question": "Sur une periode d'un an, dans une population bien definie,300 femmes ont donne naissance a des enfants presentant des malformations congenitales. Elles ont ete comparees a 900 femmes qui ont donne naissance a des enfants normaux pendant la même periode. Sur la base d'un questionnaire, on a tente d'etablir si ces femmes avaient ete exposees a un facteur infectieux pouvantetre associe a la malformation de l'enfant",
@@ -8869,6 +9608,7 @@
   },
   {
     "id": "740",
+    "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Applications aux sciences de la vie",
     "question": "Une étude est en cours sur la survie de patients atteints de cancer ORL. La date d'inclusion des patients dans l'étude correspond au debut du traitement, consideree ici comme date d'origine de la survie.Le patient A a ete inclus le 1e fevrier 2011. Il decede le 1e fevrier 2012. Le patient B a ete inclus le 3 fevrier 2011. Il a ete revu en consultation le 3 decembre 2012. Il etait toujours vivant a cette date. Il doit cependantetre revu en consultation au cours du 1e trimestre 2013. L'étude ne sera pas encore terminee a cette date car la date de point est prevue au 1e juillet 2013",
