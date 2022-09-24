@@ -1,7 +1,7 @@
 import { createSignal, Show, For } from "solid-js"
 import { createStore } from "solid-js/store";
 
-import { staticConst, global, setGlobal, resetGlobal, subjects, setSubjects, updatePlays, userInfo, getChapters, loading, setLoading, setUserInfo } from '../globalInfo'
+import { staticConst, global, setGlobal, resetGlobal, subjects, setSubjects, updatePlays, userInfo, getChapters, loading, setLoading, setUserInfo, data } from '../globalInfo'
 
 import * as utils from '../utils'
 import Axios from "axios";
@@ -29,7 +29,8 @@ export default function App(props) {
     setupNumQuestions()
     function setupNumQuestions() {
         let count = 0;
-        props.data.forEach(each => {
+        console.log(data)
+        data.forEach(each => {
             if (subjects[each.matiere][each.chapitre]) {
                 count++
             }
@@ -49,13 +50,13 @@ export default function App(props) {
         let index;
         loop()
         function loop() {
-            index = utils.getRandomInt(props.data.length)
-            if (global.alreadyDone.includes(index) || getChapters('unselected').includes(props.data[index].chapitre.toString())) {
+            index = utils.getRandomInt(data.length)
+            if (global.alreadyDone.includes(index) || getChapters('unselected').includes(data[index].chapitre.toString())) {
                 loop()
             }
         }
         setGlobal('alreadyDone', [...global.alreadyDone, index])
-        return (formatItem(props.data[index]))
+        return (formatItem(data[index]))
     }
 
     function formatItem(it) {
@@ -385,7 +386,7 @@ export default function App(props) {
         return (
             <>
                 <div className="appOtherContent">
-                {/* <button onClick={() => launchInter()}>launch interval</button>
+                    {/* <button onClick={() => launchInter()}>launch interval</button>
                 <button onClick={() => clearInterval(inter)}>stop interval</button> */}
                     <Show when={askConfirmation()[0]} fallback={
                         <>

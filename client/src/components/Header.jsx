@@ -33,6 +33,18 @@ export default function Header() {
                         </svg>
                     </button>
                 </div>
+                <Show when={['mohamed.mataam1@gmail.com', 'opvxgame@gmail.com'].includes(userInfo.email)}>
+                    <button onClick={() => (localStorage.setItem(staticConst.LOCAL_SPEC_KEY,
+                        localStorage.getItem(staticConst.LOCAL_SPEC_KEY) !== 'true'), window.location.reload())}
+                        style={{
+                            'background-color': 'var(--color-lighter-grey)',
+                            'border': 'none',
+                            'border-radius': '20px',
+                            'padding': '8px 16px',
+                        }}>
+                        Questions Spéciales : {localStorage.getItem(staticConst.LOCAL_SPEC_KEY)}
+                    </button>
+                </Show>
                 <div className={styles.headerAccountWrapper}>
                     <button className={styles.headerAccountContent}
                         onClick={() => {

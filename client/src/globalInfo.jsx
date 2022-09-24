@@ -2,12 +2,14 @@ import Axios from "axios";
 import { createStore } from "solid-js/store";
 
 import { createEffect, createSignal } from "solid-js";
-import data from './data/data.json';
+
+export let data = []
 
 export const staticConst = {
     LOCAL_SUBJECT_KEY: "subjects",
     LOCAL_HISTORY_KEY: "history",
     LOCAL_SESSION_KEY: "session",
+    LOCAL_SPEC_KEY: "spec",
     url: window.location.origin.includes('localhost') || window.location.origin.includes('127.0.0.1') ? 'http://localhost:8080' : '',
     blur: 'blur(4px)'
 }
@@ -44,7 +46,7 @@ export const [userInfo, setUserInfo] = createStore({
     token: ''
 })
 
-export const [subjects, setSubjects] = createStore(setupSubjects())
+export const [subjects, setSubjects] = createStore()
 
 const session = setupSession()
 
@@ -60,7 +62,21 @@ export function showWarning(msg, type) {
     }
 }
 
-function setupSubjects() {
+function setupSubjects(props) {
+    let newData = []
+    props.data.forEach(each => {
+        if (localStorage.getItem(staticConst.LOCAL_SPEC_KEY) === 'true' &&
+            ['mohamed.mataam1@gmail.com', 'opvxgame@gmail.com'].includes(userInfo.email)) {
+            if (each.spec === '.') {
+                newData = [...newData, each]
+            }
+        } else {
+            if (each.spec !== '.') {
+                newData = [...newData, each]
+            }
+        }
+    })
+    data = newData
     let subjects = {}
     if (localStorage.getItem(staticConst.LOCAL_SUBJECT_KEY) === null) {
         data.forEach(item => {
@@ -173,7 +189,7 @@ function setupSession() {
     return JSON.parse(localStorage.getItem(staticConst.LOCAL_SESSION_KEY))
 }
 
-export default function SetupGlobal() {
+export default function SetupGlobal(props) {
     authentification()
     function authentification() {
         setLoading(a => a + 1)
@@ -184,6 +200,12 @@ export default function SetupGlobal() {
         }).then((res) => {
             if (res.data !== false) {
                 setUserInfo(res.data)
+                if (['opvxgame@gmail.com', 'mohamed.mataam1@gmail.com'].includes(userInfo.email)) {
+                    if (localStorage.getItem(staticConst.LOCAL_SPEC_KEY) == null) {
+                        localStorage.setItem(staticConst.LOCAL_SPEC_KEY, false)
+                    }
+                }
+                setSubjects(setupSubjects(props))
                 updatePlays(true)
                 getStripeData()
                 setGlobal('logged', true)

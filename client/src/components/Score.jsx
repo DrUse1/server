@@ -54,7 +54,7 @@ export default function Score(props) {
     }
 
     function getQuestion(ask, elem) {
-        let item = props.data.find(item => item.id === elem.id)
+        let item = props.data.find(item => item.id.toString() === elem.id.toString())
         if (ask === 'question') {
             return item.question
         } else if (ask === 'answers') {
@@ -201,7 +201,7 @@ export default function Score(props) {
     }
 
     function getSubjectsMaxHeight() {
-        return 19+24*[...run.infos.subjects[Object.keys(run.infos.subjects)[0]]].length+12+16+"px"
+        return 19 + 24 * [...run.infos.subjects[Object.keys(run.infos.subjects)[0]]].length + 12 + 16 + "px"
     }
 
     setTimeout(() => {
@@ -297,7 +297,7 @@ export default function Score(props) {
                     </div>
                 </div>
                 <button className={styles.other} onClick={() => { window.location.replace('/') }}>Faire une autre série</button>
-            </div>
+            </div >
             <Footer style='header' />
         </>
     )

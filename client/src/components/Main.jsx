@@ -8,7 +8,6 @@ import subjectsIcon from '../svg/subjects.svg'
 import trainIcon from '../svg/train.svg'
 import crossIcon from '../svg/cross.svg'
 import neutralCheckIcon from '../svg/neutralCheck.svg'
-import arrowIcon from '../svg/arrow.svg'
 
 import { useNavigate } from "@solidjs/router";
 import Header from "./Header";

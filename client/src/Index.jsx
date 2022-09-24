@@ -58,8 +58,8 @@ function Index() {
           <Route path="/" element={<Main />} />
           <Route path="plan" element={<Plan />} />
           <Route path="account" element={<Account />} />
-          <Route path="app" element={<App data={data}/>} />
-          <Route path="score" element={<Score data={data}/>} />
+          <Route path="app" element={<App />} />
+          <Route path="score" element={<Score data={data} />} />
           <Route path="success" element={<Success />} />
         </Show>
       </Routes>
@@ -79,7 +79,7 @@ if (window.origin.includes('qcmed') && !window.origin.includes('www')) {
     render(() => (
       <Router>
         <Show when={!notLoad.includes(window.location.pathname)}>
-          <SetupGlobal />
+          <SetupGlobal data={data} />
         </Show>
         <Index />
       </Router>
