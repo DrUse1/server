@@ -29,13 +29,17 @@ export default function App(props) {
     setupNumQuestions()
     function setupNumQuestions() {
         let count = 0;
-        console.log(data)
         data.forEach(each => {
             if (subjects[each.matiere][each.chapitre]) {
                 count++
             }
         })
-        setGlobal('round', (count < global.maxRound ? count : global.maxRound))
+        if (localStorage.getItem(staticConst.LOCAL_SPEC_KEY) === 'true' &&
+            ['mohamed.mataam1@gmail.com', 'opvxgame@gmail.com'].includes(userInfo.email)) {
+            setGlobal('round', count)
+        } else {
+            setGlobal('round', (count < global.maxRound ? count : global.maxRound))
+        }
     }
 
     function getSelectedAnswers() {
