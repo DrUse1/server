@@ -317,7 +317,7 @@ app.post('/api/insert', (req, res) => {
                         address: process.env.MAIL_USER
                     },
                     to: "mohamed.mataam1@gmail.com, " + process.env.MAIL_USER,
-                    subject: 'Nouvel enregistrement !'+email,
+                    subject: 'Nouvel enregistrement ! '+email,
                     text: 'email: '+email,
                 },
                 (err, info) => {

@@ -25,6 +25,7 @@ export function SubjectIcon(props) {
         'Embryologie': <img src={embryo} alt={props.subject} />,
         'Reproduction': <img src={reproduction} alt={props.subject} />,
         'BioPhy-Physio': <img src={veins} alt={props.subject} />,
+        'Physiologie': <img src={veins} alt={props.subject} />,
         'Anatomie': <img src={anatomie} alt={props.subject} />,
         'Pharmacologie': <img src={capsule} alt={props.subject} />,
         'SSH': <img src={ssh} alt={props.subject} />,
