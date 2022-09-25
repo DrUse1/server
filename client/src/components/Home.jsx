@@ -5,6 +5,7 @@ import Footer from "./Footer";
 
 import Example1 from '../images/example1.png'
 import Example2 from '../images/example2.png'
+import { createSignal } from "solid-js";
 
 export default function Home() {
     const observer = new IntersectionObserver((entries) => {
@@ -24,11 +25,52 @@ export default function Home() {
         });
     }, 100);
 
+    const [areaValue, setAreaValue] = createSignal('')
+
+    function formatArea() {
+        function preferredOrder(obj, order) {
+            var newObject = {};
+            for (var i = 0; i < order.length; i++) {
+                if (obj.hasOwnProperty(order[i])) {
+                    newObject[order[i]] = obj[order[i]];
+                }
+            }
+            return newObject;
+        }
+
+        let splitQCM = areaValue().split('QCM')
+        let _temp = []
+        splitQCM.forEach(e => {
+            if (e !== '') {
+                _temp = [..._temp, e.slice((e[5] === ' ' ? 6 : 5))]
+            }
+        })
+        splitQCM = _temp
+        _temp = []
+        const letters = 'EDCBA'
+        splitQCM.forEach(e => {
+            let obj = {}
+            for (let i = 0; i < 5; i++) {
+                e = e.split(letters[i] + ') ')
+                obj['answer' + (4 - i)] = e[1]
+                e = e[0]
+            }
+            obj['question'] = e
+            obj = preferredOrder(obj, ['question','answer0','answer1','answer2','answer3','answer4'])
+            _temp = [..._temp, obj]
+        })
+        splitQCM = _temp
+        _temp = []
+        console.log(splitQCM)
+    }
+
     return (
         <>
             <div className={styles.homeWrapper} style={{ filter: (loading() > 0 ? staticConst.blur : ''), '-webkit-filter': (loading() > 0 ? staticConst.blur : '') }}>
                 <div className={styles.section}>
                     <div className={styles.container}>
+                        {/* <textarea value={areaValue()} onChange={(e) => setAreaValue(e.target.value.replaceAll('\n', ''))} />
+                        <button onClick={() => formatArea()}>submit</button> */}
                         <div className={styles.title}>
                             <span>Bienvenue sur QCMed !</span>
                         </div>
