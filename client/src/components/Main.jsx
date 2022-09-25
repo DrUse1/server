@@ -175,7 +175,7 @@ export default function Main() {
                                         <div className={"subjectName"}>
                                             <span>{subject[0].toUpperCase() + subject.slice(1)}</span>
                                         </div>
-                                        <div className={"subjectSwitch"} style={{ 'transform': 'scale(0.9)' }}>
+                                        <div className={"subjectSwitch"} style={{ 'transform': 'scale(0.9)', 'position': 'relative', 'right': '-2px' }}>
                                             <label className="switch">
                                                 <input className={"toBeChecked mainSubjectToBeChecked " + subject} type="checkbox" checked={!Object.values(subjects[subject]).includes(false)} onChange={() => toggleChapters(subject)} />
                                                 <span className="slider round"></span>
@@ -192,7 +192,7 @@ export default function Main() {
                                                     <div className={"subjectName"} style={{ 'margin-left': '8px' }}>
                                                         <span>{chapter[0].toUpperCase() + chapter.slice(1)}</span>
                                                     </div>
-                                                    <div className={"subjectSwitch"} style={{ 'transform': 'scale(0.8)', 'position': 'relative', 'right': '-6px' }}>
+                                                    <div className={"subjectSwitch"} style={{ 'transform': 'scale(0.8)', 'position': 'relative', 'right': '-5px' }}>
                                                         <label className="switch">
                                                             <input className={"toBeChecked " + subject} type="checkbox" checked={subjects[subject][chapter]} onChange={() => toggleChapter(chapter, subject)} />
                                                             <span className="slider round"></span>
