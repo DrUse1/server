@@ -13,6 +13,7 @@ import veins from '../svg/subjects/veins.png'
 import capsule from '../svg/subjects/capsule.png'
 import ssh from '../svg/subjects/ssh.png'
 import stats from '../svg/subjects/stats.png'
+import biophysique from '../svg/subjects/biophysique.png'
 
 
 export function SubjectIcon(props) {
@@ -30,6 +31,8 @@ export function SubjectIcon(props) {
         'Pharmacologie': <img src={capsule} alt={props.subject} />,
         'SSH': <img src={ssh} alt={props.subject} />,
         'Biostatistique': <img src={stats} alt={props.subject} />,
+        'Chimie': <img src={atom} alt={props.subject} />,
+        'BioPhysique': <img src={biophysique} alt={props.subject} />,
     }
     return (
         <>
