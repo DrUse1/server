@@ -184,6 +184,903 @@
   {
     "id": "10015",
     "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Procaryote",
+    "question": "À propos de la régulation et de l’expression des gènes chez les procaryotes, indiquez laou les bonne(s) réponse(s) :",
+    "answer0": "Il y a une phase de maturation de l’ARNpré-m en ARNm",
+    "answer1": "Les opérons dit répressibles s’expriment lorsqu’il n’y a pas de ligand",
+    "answer2": "Les opérons dit inductibles sont généralement impliqué dans les voies cataboliques",
+    "answer3": "Le promoteur est une séquence situé en amont des gènes qui permet la reconnaissance de l’ARN polymérase",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2,3"
+  },
+  {
+    "id": "10016",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Procaryote",
+    "question": "À propos de l’opéron lactose, indiquez la ou les bonne(s) réponse(s) :",
+    "answer0": "La protéine Lac I possède un domaine de liaison pour l’AMPc",
+    "answer1": "La protéine CAP se fixe sur la séquence CAP et facilite la liaison de l’ARN Polymérase",
+    "answer2": "En absence de lactose, il n’y a aucune expression de l’opéron",
+    "answer3": "En présence de lactose seul, l’opéron est dans un état réprimé",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2"
+  },
+  {
+    "id": "10017",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Procaryote",
+    "question": "À propos de la régulation et de l’expression des gènes chez les procaryotes, indiquez la oules bonne(s) réponse(s) :",
+    "answer0": "Un opéron est uniquement constitué d’un ensemble de gènes",
+    "answer1": "Le ligand est une protéine qui se fixe directement à l’opérateur",
+    "answer2": "On parle de protéine TRANSrégulatrice parce que la régulation se fait à proximité des gènes",
+    "answer3": "Le promoteur est une séquence régulatrice reconnue par l’ARN polymérase pour commencer la transcription",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "3"
+  },
+  {
+    "id": "10018",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Procaryote",
+    "question": "À propos de la régulation et de l’expression des gènes chez les procaryotes, indiquez la oules bonne(s) réponse(s) :",
+    "answer0": "Les opérons répressibles s’expriment lorsqu’il n’y a pas de ligand",
+    "answer1": "Les opérons inductibles ne s’expriment pas lorsqu’il n’y a pas de ligand",
+    "answer2": "Les opérons répressibles sont généralement impliqué dans les voies anaboliques",
+    "answer3": "Les opérons inductibles sont généralement impliqué dans les voies anaboliques",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2"
+  },
+  {
+    "id": "10019",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Procaryote",
+    "question": "À propos des états transcriptionnels de l’opéron lactose, indiquez la ou les bonne(s)réponse(s) :",
+    "answer0": "En présence de lactose et de glucose l’opéron est dans un état permissif",
+    "answer1": "En présence de lactose seul l’opéron est dans un état activé",
+    "answer2": "En présence de glucose on a une production d’AMPc",
+    "answer3": "En absence de lactose le promoteur est enfermé",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,3"
+  },
+  {
+    "id": "10020",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Procaryote",
+    "question": "À propos de la régulation chez les procaryotes et des opérons, indiquez la ou les bonne(s)réponse(s) :",
+    "answer0": "L’opérateur est une séquence qui permet de fixer une protéine régulatrice",
+    "answer1": "L’opérateur se trouve forcément après le promoteur",
+    "answer2": "Le promoteur et l’opérateur sont en amont de l’opéron et donc ne font pas parti de l’opéron",
+    "answer3": "On parle de régulation en TRANS quand la régulation se fait à distance de l’opéron",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,3"
+  },
+  {
+    "id": "10021",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Procaryote",
+    "question": "À propos de l’opéron lactose, indiquez la ou les proposition(s) exacte(s) :",
+    "answer0": "Il permet la dégradation du lactose",
+    "answer1": "Il est constitué de 2 opérateurs",
+    "answer2": "En présence de lactose, la transcription peut se faire normalement",
+    "answer3": "En présence de lactose, la protéine Lac I enferme le promoteur",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10022",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Procaryote",
+    "question": "À propos de la régulation et de l’expression des gènes chez les procaryotes, indiquez la ou lesproposition(s) exacte(s) :",
+    "answer0": "Elle purement transcriptionelle ou traductionnelle",
+    "answer1": "La synthèse du tryptophane est un exemple d’opéron répressible",
+    "answer2": "Les voies anaboliques sont des voies de dégradation",
+    "answer3": "Les voies cataboliques s’expriment généralement quand il n’y a pas de ligand",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10023",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Procaryote",
+    "question": "À propos de la régulation et de l’expression des gènes chez les procaryotes, indiquez la ou lesproposition(s) exacte(s) :",
+    "answer0": "Un opéron est un ensemble de gènes qui sont impliqués dans une même fonction et qui permet d’avoir unerégulation commune et simultanés de ces gènes",
+    "answer1": "La transcription d’un opéron va donner un polycistron, c’est un unique et long brin d’ARN",
+    "answer2": "L’opéron lactose possède 2 promoteurs",
+    "answer3": "Dans l’opéron lactose, le gène Lac I est un répresseur de la transcription de l’opéron",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,3"
+  },
+  {
+    "id": "10024",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Eucaryote",
+    "question": "À propos de la régulation et de l’expression des gènes chez les eucaryotes, indiquez la ou lesproposition(s) exacte(s) :",
+    "answer0": "L’épigénétique fait référence à des informations codés par l’ADN",
+    "answer1": "Il n’y a pas de régulation au niveau de la transcription",
+    "answer2": "A partir d’un seul et unique gène, on aboutira toujours à la même protéine",
+    "answer3": "Les microARN permettent une régulation au niveau de la traduction",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "3"
+  },
+  {
+    "id": "10025",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Eucaryote",
+    "question": "À propos de la régulation chez les eucaryotes, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La méthylation de la cytosine des îlots CpG place d’ADN sous forme d’hétérochromatine (forme inaccessible à latranscription)",
+    "answer1": "Chaque gène possède une combinaison unique de séquences régulatrices, ce qui permet une régulation trèsspécifique de son expression",
+    "answer2": "La maturation du pré-ARN messager correspond uniquement à l’excision des introns et à la ligation des exons",
+    "answer3": "L’épissage alternatif permet notamment d’ignorés certains exons",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,3"
+  },
+  {
+    "id": "10026",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Eucaryote",
+    "question": "À propos de la régulation au niveau de la transcription chez les eucaryotes, indiquez la (les)proposition(s) exacte(s) :",
+    "answer0": "La machinerie transcriptionnelle est constitué de l’ARN polymérase II et des facteurs de transcriptions spécifiques",
+    "answer1": "L’expression d’un gène est faible seul les facteurs de transcriptions généraux sont présent",
+    "answer2": "Tous les facteurs de transcriptions possède le même mode de régulation",
+    "answer3": "Le complexe médiator est un complexe qui joue le rôle d’intermédiaire entre les facteurs de transcriptions générauxet spécifiques",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,3"
+  },
+  {
+    "id": "10027",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Eucaryote",
+    "question": "À propos de la régulation et de l’expression des gènes chez les eucaryotes, indiquez la ou lesproposition(s) exacte(s) :",
+    "answer0": "La modification du niveau de compaction de la chromatine est une modification épigénétique",
+    "answer1": "Ces modifications sont irréversibles",
+    "answer2": "Une cellule crée une mémoire épigénétique c’est à dire qu’elle transmet à sa descendance le profil d’expression del’ensemble de ces gènes",
+    "answer3": "L’acétylation des résidus lysine de la queue des histones place la chromatine dans une conformation fermée(hétérochromatine)",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10028",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Eucaryote",
+    "question": "À propos de la régulation et de l’expression des gènes chez les eucaryotes, indiquez la ou lesproposition(s) exacte(s) :",
+    "answer0": "La maturation et l’épissage sont des synonymes",
+    "answer1": "Le transcrit primaire peut être reconnu par la machinerie traductionelle",
+    "answer2": "L’épissage correspond à l’élimination des séquences non codantes (introns) et à la ligation des séquences codantes(exons) et à l’ajout d’une coiffe et d’une queue sur le transcrit primaire",
+    "answer3": "Le choix des exons ignorés ou non dépends de mécanismes de régulation simple",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "4"
+  },
+  {
+    "id": "10029",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Eucaryote",
+    "question": "À propos de la régulation et de l’expression des gènes chez les eucaryotes, indiquez la ou lesproposition(s) exacte(s) :",
+    "answer0": "La maturation des micro-ARN est réalisé par une enzyme (appelé DICER) qui permet de cliver en long brin d’ARN(précurseur des micro-ARN) afin de se retrouver avec pleins de mini bout d’ARN",
+    "answer1": "On obtient alors un microARN mature",
+    "answer2": "In fine, le microARN mature permet de bloquer la transcription",
+    "answer3": "Les ARN interférences sont des petits ARN non codant qui bloquent la production d’une protéine en agissant sur leurARNm",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,3"
+  },
+  {
+    "id": "10030",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Expression et Régulation Eucaryote",
+    "question": "À propos de la régulation et de l’expression des gènes chez les eucaryotes et du métabolismedu fer, indiquez la ou les proposition(s) exacte(s) :",
+    "answer0": "La ferritine est une structure qui permet de stocker le fer",
+    "answer1": "Quand il n’y a pas de fer, la protéine IRP empêche la traduction",
+    "answer2": "La protéine IRP se fixe à la séquence IRE et force l’ARNm à adopter une configuration en épingle à cheveux",
+    "answer3": "Lorsque le fer est présent, il se fixe à la protéine IRP, l’empêchant de se fixer à l’ARNm, il ne bloque plus latraduction de la ferritine qui peut alors être réalisée",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10031",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Méiose",
+    "question": "À propos de la méiose, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La méiose est un processus de division cellulaire intervenant dans le cadre de la reproduction asexuée",
+    "answer1": "Elle permet de former des cellules haploïdes appelées gamètes",
+    "answer2": "La première division cellulaire ou méiose 1 divise le nombre de chromatides par 2",
+    "answer3": "Le premier brassage génétique ou crossing-over peut survenir en métaphase de méiose 1",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10032",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Méiose",
+    "question": "À propos de la méiose, donnez la (les) proposition(s) exacte(s) :",
+    "answer0": "Elle permet la diversification génétique",
+    "answer1": "Elle peut produire des gamètes dit aneuploïdes dont la fréquence est diminuée avec l’âge maternel avancé",
+    "answer2": "Les crossing-over inégaux sont favorisés par la présence de séquences répétées",
+    "answer3": "Un diagnostic pré-natal non invasif peut être réalisé à partir d’une amniocentèse",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10033",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Notion d'hérédité",
+    "question": "À propos des travaux de Mendel, donnez la (les) proposition(s) exacte(s) :",
+    "answer0": "Mendel définit un gène comme étant une particule transmise changée à la descendance",
+    "answer1": "Il introduit la notion du mélange des caractères",
+    "answer2": "Il introduit la notion de ségrégation des caractères",
+    "answer3": "Il explique la loi d’assortissement indépendant valable pour n’importe quel gène",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2"
+  },
+  {
+    "id": "10034",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Notion d'hérédité",
+    "question": "À propos des mécanismes de l’hérédité, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Gregor Mendel démontre que les gènes sont situés sur les chromosomes par l’étude de caractères mutants chezla drosophile",
+    "answer1": "L’hérédité polygénique suit la plupart du temps les principes de Mendel",
+    "answer2": "Dans le système ABO, les gènes s’expriment exclusivement selon des rapports de dominance ou de récessivité",
+    "answer3": "Un variant nucléotidique peut constituer un polymorphisme allélique",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "3"
+  },
+  {
+    "id": "10035",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Mutation et Maintenance du génome",
+    "question": "À propos des mécanismes de mutation du génome, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La transition est un type de mutation très fréquente où une purine est remplacée par une pyrimidine",
+    "answer1": "Certains remaniements chromosomiques peuvent provoquer une perte ou un gain de régions chromosomiques. Cesont des réarrangements déséquilibrés",
+    "answer2": "Les mutations sont le plus souvent dues à une erreur de réplication",
+    "answer3": "Les séquences mini ou micro-satellites permettent de réduire le risque de mutation grâce à leur grande stabilité",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2"
+  },
+  {
+    "id": "10036",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Mutation et Maintenance du génome",
+    "question": "À propos des mutations du génome, indiquez la (les) proposition(s) exacte(s) : (relu et corrigé par leprof)",
+    "answer0": "Les mutations peuvent parfois apporter un bénéfice pour l’individu : elles participent à l’évolution",
+    "answer1": "Elles sont transmises à la descendance lorsqu’elles se trouvent dans le gamète ayant participé à la fécondation",
+    "answer2": "Elles peuvent être induites, spontanées",
+    "answer3": "La dépurination est la perte d’une adénine ou d’une guanine par rupture de la liaison avec le désoxyribose et dontle remplacement au hasard pourra introduire une mutation",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10037",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Mutation et Maintenance du génome",
+    "question": "À propos des mutations du génome, indiquez la (les) proposition(s) exacte(s) : (relu et corrigé par leprof)",
+    "answer0": "Une transition remplace une purine par une pyrimidine",
+    "answer1": "Les insertions ou délétions n’entrainent aucun décalage de lecture de l’ARNm",
+    "answer2": "Les séquences répétées représentent 90% du génome eucaryote",
+    "answer3": "Une séquence micro-satellite est constituée par la répétition d’un motif de 10 à 100 pb",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "4"
+  },
+  {
+    "id": "10038",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Biologie moléculaire et génomique comparative",
+    "question": "À propos de la dynamique du génome, donnez la (les) proposition(s) exacte(s)",
+    "answer0": "Les mutations sont le moteur de l’évolution",
+    "answer1": "Le génome procaryote est riche en séquences non codantes uniques et répétées",
+    "answer2": "Le phénomène d’épissage alternatif est rendu possible par les introns",
+    "answer3": "Les éléments transposables ne jouent aucun rôle dans l’évolution",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10039",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Différences Eucaryote / Procaryote",
+    "question": "À propos de l’introduction à la biologie moléculaire, indiquez la (les) proposition(s) exacte(s) : (reluet corrigé par le prof)",
+    "answer0": "Les rétrovirus possèdent de l’ARN double brin",
+    "answer1": "Le génome viral est contenu dans une capside protéique",
+    "answer2": "Les cellules procaryotes n’ont pas de noyau mais une autre structure appelée nucléoïde",
+    "answer3": "Les cellules eucaryotes ne possèdent que de l’ADN sous forme linéaire",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2"
+  },
+  {
+    "id": "10040",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Traduction / Transcription des gènes eucaryotes",
+    "question": "À propos de la transcription",
+    "answer0": "L’ADN est transcrit en ARNm dans le noyau",
+    "answer1": "L’ARNm est transcrit en ADN dans le noyau",
+    "answer2": "L’ADN est transcrit en ARNm dans le cytoplasme",
+    "answer3": "L’ajout d’une coiffe en 5’ permet d’augmenter la dégradation du transcrit mature",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0"
+  },
+  {
+    "id": "10041",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Traduction / Transcription des gènes eucaryotes",
+    "question": "À propos de la traduction, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Un regroupement de 3 nucléotides est appelé codon et équivaut à un acide aminé",
+    "answer1": "Le ribosome se charge de la traduction par fixation sur l’ARNm de la petite sous unité puis de la grosse",
+    "answer2": "Une mutation du 3ième nucléotide est plus sévère qu’une mutation du 2nd nucléotide du codon",
+    "answer3": "La petite sous unité du ribosome assure la correspondance codon/anticodon",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,3"
+  },
+  {
+    "id": "10042",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Traduction / Transcription des gènes eucaryotes",
+    "question": "À propos de la traduction, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Le codon UGU code pour un facteur de terminaison",
+    "answer1": "Le codon AUG code pour un facteur d’initiation",
+    "answer2": "Une substitution faux sens donne un codon Stop",
+    "answer3": "Un ARNt est spécifique d’un codon",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "4"
+  },
+  {
+    "id": "10043",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Traduction / Transcription des gènes eucaryotes",
+    "question": "À propos de la traduction, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Lors de la traduction de l’ARNm chez les procaryotes, le cadre de lecture ORF est reconnu par la séquence deShine-Dalgamo",
+    "answer1": "La dégénérescence du code génétique abolit l’effet de certaines mutations",
+    "answer2": "Une mutation silencieuse (= synonyme) aboutit au même acide aminé",
+    "answer3": "Les séquences 5’UTR et 3’UTR sont traduites en amont et en aval de la protéine",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2"
+  },
+  {
+    "id": "10044",
+    "spec": ".",
+    "matiere": "Biologie Moléculaire",
+    "chapitre": "Traduction / Transcription des gènes eucaryotes",
+    "question": "À propos de la traduction, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les régions 5’-UTR et 3’-UTR sont codantes et donc traduites",
+    "answer1": "La non-ambiguïté du code génétique signifie qu’un AA n’est codé que par un seul codon",
+    "answer2": "La dégénérescence du code génétique augmente la fréquence de mutations graves",
+    "answer3": "Le codon AGC est un codon Stop",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "4"
+  },
+  {
+    "id": "10045",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de la biophysique cardiaque, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La diastole correspond à 1/3 du cycle cardiaque",
+    "answer1": "La systole correspond donc à 2/3 du cycle cardiaque",
+    "answer2": "Quand la fréquence cardiaque est modifiée, c’est le temps de la systole qui s’adapte",
+    "answer3": "La fréquence cardiaque moyenne est de 70 bpm",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "3"
+  },
+  {
+    "id": "10046",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de la biophysique cardiaque, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Le VTS représente le volume maximal",
+    "answer1": "Le VTD représente le volume maximal",
+    "answer2": "Le VTS c’est le volume du cœur en fin de contraction",
+    "answer3": "Le VTD c’est le volume du cœur en fin de remplissage",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2,3"
+  },
+  {
+    "id": "10047",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de la biophysique cardiaque, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "En moyenne, chez l’Homme, VTD = 120 mL",
+    "answer1": "En moyenne, chez l’Homme, VTS = 50 mL",
+    "answer2": "Un VES normal vaut à peu près 70 mL",
+    "answer3": "Un fraction d’éjection normale doit être supérieure à 50 %",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10048",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "Un patient a un VTS de 60mL et un VTD de 150 mL. Quelles sont la (les) proposition(s) exacte(s) ?",
+    "answer0": "VES = 90 mL",
+    "answer1": "VES = 210 mL",
+    "answer2": "FE = 60 mL",
+    "answer3": "FE = 60 %",
+    "answer4": "FE = 30 %",
+    "answer": "0,3"
+  },
+  {
+    "id": "10049",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de la contraction au niveau du muscle, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La contraction isométrique c’est la mise en tension du muscle sans raccourcissement des fibres",
+    "answer1": "Dans la contraction isotonique, on retrouve un raccourcissement des fibres",
+    "answer2": "La contraction isométrique résulte en un mouvement",
+    "answer3": "La contraction isotonique résulte en un mouvement",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,3"
+  },
+  {
+    "id": "10050",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos des notions de précharge et de postcharge, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La postcharge c’est la force d’étirement qui va allonger les fibres musculaires",
+    "answer1": "La précharge c’est la force contre laquelle travaille la fibre musculaire",
+    "answer2": "La postcharge c’est donc le degré d’étirement des fibres musculaires avant leur contraction",
+    "answer3": "La précharge dépend des résistances aortiques pour le ventricule gauche",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "4"
+  },
+  {
+    "id": "10051",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos du retour veineux, il dépend de :",
+    "answer0": "La pompe musculaire",
+    "answer1": "Des résistances périphériques",
+    "answer2": "La pompe respiratoire",
+    "answer3": "Du gradient de pression",
+    "answer4": "La veino-constriction",
+    "answer": "0,2,4"
+  },
+  {
+    "id": "10052",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de la biophysique cardiaque, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Le débit entre le cœur droit et le cœur gauche n’est pas nécessairement égal",
+    "answer1": "La force de contraction du ventricule est d’autant plus grande que les cellules myocardiques sont plus étirées avantleur contraction",
+    "answer2": "C’est la loi de Fick",
+    "answer3": "Un augmentation de la postcharge entraine une augmentation de la force de contraction du ventricule",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10053",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos du même schéma, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "3 correspond à la fermeture de la valve aortique",
+    "answer1": "4 correspond à l’ouverture de la valve mitrale",
+    "answer2": "Entre 3 et 4, c’est la relaxation isovolumétrique",
+    "answer3": "Le petit rond noir montre la systole auriculaire",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10054",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de l’étude des bruits du cœurs, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les bruits du cœur s’expliquent par le mouvement de fermeture des valves",
+    "answer1": "Les bruits du cœur peuvent aussi être expliqués par les turbulences du sang, c’est une situation physiologique",
+    "answer2": "Le bruit B1 correspond à la fermeture des valves auriculoventriculaires",
+    "answer3": "Le bruit B2 correspond à la fermeture des valves mitrale et tricuspide",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10055",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de l’étude des bruits du cœur, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La systole se trouve entre les phases B2 et B1",
+    "answer1": "La diastole se trouve entre les bruits B1 et B2",
+    "answer2": "Les contractions des cœur droits et gauches ne sont pas simultanées",
+    "answer3": "Un rétrécissement aortique s’entend par un souffle systolique râpeux",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "3"
+  },
+  {
+    "id": "10056",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de la compliance cardiaque, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La compliance cardiaque correspond à la distension des fibres musculaires pendant la phase de remplissage",
+    "answer1": "Si la compliance diminue, la pression intraventriculaire augmente",
+    "answer2": "Si la compliance augmente, alors le VES augmente",
+    "answer3": "Si la compliance diminue, le VTD diminue",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10057",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de la contractilité cardiaque, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La contractilité cardiaque définit le degré de distension des fibres musculaires cardiaques avant la systole",
+    "answer1": "La contractilité se définie en systole",
+    "answer2": "E*/max*/ est un mauvais indicateur de la contractilité car il dépend de la précharge et de la postcharge",
+    "answer3": "Si la contractilité augmente, le VES diminue",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10058",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos du même schéma, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Entre 3 et 4, on retrouve la relaxation isovolumétrique",
+    "answer1": "Lors de la relaxation isovolumétrique, le volume ventriculaire est constant",
+    "answer2": "De 4 à 1, on retrouve le remplissage",
+    "answer3": "Lors du remplissage, le volume ventriculaire augmente",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10059",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de l’augmentation de la postcharge et de la précharge, indiquez la (les)proposition(s) exacte(s) :",
+    "answer0": "Une augmentation de la postcharge entraine une diminution du VES",
+    "answer1": "Une augmentation de la postcharge entraine une diminution du débit cardiaque",
+    "answer2": "Une augmentation de la précharge entraine une augmentation de la PTD",
+    "answer3": "Une augmentation de la précharge entraine une augmentation du VES",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10060",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de l’augmentation de la précharge et de la postcharge, indiquez la (les)proposition(s) exacte(s) :",
+    "answer0": "Si la précharge et la postcharge augmentent, on a une augmentation du VTD",
+    "answer1": "Si la précharge et la postcharge augmentent, on a une diminution de la PTD",
+    "answer2": "Si la précharge et la postcharge augmentent, on a une augmentation du VES",
+    "answer3": "Si la précharge et la postcharge augmentent, on a une diminution du PTS",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10061",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de l’influence de la contractilité sur le diagramme pression-volume, indiquez la (les)proposition(s) exacte(s) :",
+    "answer0": "La contractilité cardiaque dépend de la précharge et de la postcharge",
+    "answer1": "C’est ainsi un mauvais reflet des performances globales du cœur",
+    "answer2": "Pour un même patient, on va retrouver plusieurs contractilités",
+    "answer3": "Le VTD est modifié par les médicaments inotropes",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "4"
+  },
+  {
+    "id": "10062",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos du travail cardiaque, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Le travail d’une force est l’énergie fournie par cette force lorsque le point d’application de la force se déplace",
+    "answer1": "Le travail cardiaque correspond au périmètre du diagramme pression-volume",
+    "answer2": "Si on a une augmentation de la postcharge, le travail cardiaque augmente, et se fait avec bénéfice",
+    "answer3": "Si on a une augmentation de la précharge, le travail cardiaque augmente, et se fait avec bénéfice",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,3"
+  },
+  {
+    "id": "10063",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos des anomalies de la contraction cardiaque, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "L’hypokinésie est caractérisée par une absence totale de contraction du myocarde",
+    "answer1": "La dyskinésie est caractérisée par un mouvement paradoxal du myocarde",
+    "answer2": "L’akinésie est caractérisée par une altération partielle du mouvement du myocarde",
+    "answer3": "L’hypokinésie entraine une altération du FEVG",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,3"
+  },
+  {
+    "id": "10064",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos des techniques d’imagerie, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "L’échographie cardiaque est une sonde qui émet des infrasons",
+    "answer1": "Les avantages de l’échographies cardiaque sont son innocuité et sa rapidité",
+    "answer2": "L’IRM est une technique invasive et ionisante",
+    "answer3": "Un des avantages de l’IRM est son accessibilité réduite",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10065",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "Un patient arrive dans votre service avec un débit cardiaque de 8 L.min-1, une fréquence cardiaquede 80 bpm et une pression ventriculaire moyenne de 15 kPa. Quel est son travail cardiaque ?",
+    "answer0": "1200 Joules",
+    "answer1": "1500 Joules",
+    "answer2": "1,5 Watts",
+    "answer3": "1,5 Joules",
+    "answer4": "1200 Watts",
+    "answer": "3"
+  },
+  {
+    "id": "10066",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "Lorsque la précharge augmente isolément, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Le VTD augmente",
+    "answer1": "Le VES diminue",
+    "answer2": "La PTS augmente",
+    "answer3": "La PTD augmente très fortement",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0"
+  },
+  {
+    "id": "10067",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de la biophysique cardiaque, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Le travail mécanique du VG pour 1 battement est d’environ 1J",
+    "answer1": "Au repos, le rendement cardiaque est de 30%",
+    "answer2": "A l’effort, le travail fourni par le cœur peut être multiplié par 10",
+    "answer3": "A l’effort, le rendement va passer de 30 à 50 %",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0"
+  },
+  {
+    "id": "10068",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de l’insuffisance aortique, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "C’est une fuite de la valve aortique lors de sa fermeture",
+    "answer1": "Le volume de remplissage du VD sera alors augmenté",
+    "answer2": "La précharge sera alors diminuée",
+    "answer3": "Selon la loi de Franck Starling, le VES augmenter alors pour compenser la fuite",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,3"
+  },
+  {
+    "id": "10069",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de la biophysique cardiaque, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La veine cave apporte le sang vers l’atrium gauche",
+    "answer1": "Le sang du ventricule droit part ensuite dans les artères pulmonaires",
+    "answer2": "Des artères pulmonaires, le sang va aux poumons",
+    "answer3": "Le sang revient des poumons par les veines pulmonaires jusqu’à l’atrium droit",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2,3"
+  },
+  {
+    "id": "10070",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de la loi de Franck Starling, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Elle concerne la postcharge",
+    "answer1": "Pffff n’importe quoi elle concerne la précharge",
+    "answer2": "Elle dit que si le VTD augmente, on a une augmentation « linéaire » du VES",
+    "answer3": "Et ça, ça marche quelle que soit l’augmentation du VTD",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2"
+  },
+  {
+    "id": "10071",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de la compliance, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Si la compliance augmente, k augmente et le VES aussi",
+    "answer1": "Si la compliance augmente, k augmente et le VES diminue",
+    "answer2": "Si la compliance augmente, k diminue et le VES aussi",
+    "answer3": "Si la compliance augmente, k diminue et le VES augmente",
+    "answer4": "Si la compliance diminue, k augmente et le VES diminue",
+    "answer": "3,4"
+  },
+  {
+    "id": "10072",
+    "spec": ".",
+    "matiere": "BioPhysique",
+    "chapitre": "Biophysique Cardique",
+    "question": "À propos de la biophysique cardiaque, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Lors de la contraction isovolumétrique, les valvules mitrales et aortiques sont ouvertes",
+    "answer1": "La compliance se définit en diastole",
+    "answer2": "C’est la contractilité qui se définit en diastole",
+    "answer3": "D’ailleurs la diastole c’est entre B2 et B1 et elle dure 5/8 du cycle",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10073",
+    "spec": ".",
+    "matiere": "Chimie",
+    "chapitre": "Introduction",
+    "question": "À propos de l’introduction à la chimie, indiquez la (les) réponse(s) exacte(s) :",
+    "answer0": "La chimie est la science de la constitution des divers corps, de leur transformation mais pas de leurs propriétés",
+    "answer1": "Pour étudier les molécules on se place généralement à l’échelle du micromètre",
+    "answer2": "La chimie physique est synonyme de chimie organique",
+    "answer3": "la biochimie est une discipline à l’interface avec la biologie",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "3"
+  },
+  {
+    "id": "10074",
+    "spec": ".",
+    "matiere": "Chimie",
+    "chapitre": "Introduction",
+    "question": "À propos de l’atome, indiquez la (les) réponse(s) exacte(s) :",
+    "answer0": "Les électrons sont 1800 fois plus légers que les protons ou les neutrons",
+    "answer1": "La masse de l’atome (principalement exprimée en grammes) correspond à 1/12/*e/* de la masse d’un atome de carbone 12",
+    "answer2": "Des isotopes sont des éléments avec le même numéro atomique Z et un nombre de masse A différent",
+    "answer3": "La mole est la quantité de matière contenant 6,022.10/*23/* mol d’entités élémentaires",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10075",
+    "spec": ".",
+    "matiere": "Chimie",
+    "chapitre": "Introduction",
+    "question": "À propos de l’atome, indiquez la (les) réponse(s) exacte(s) :",
+    "answer0": "Le modèle de Bohr représente l’atome comme un noyau autour duquel gravite les électrons sur des orbitalesrectangulaires",
+    "answer1": "Le rayon d’une orbite est 0,53 fois le niveau de la couche (de l’orbite) au carré",
+    "answer2": "Peu importe l’orbite, les électrons ont tous la même énergie",
+    "answer3": "Quand n=0 on peut dire que nous sommes à l’état fondamental, au-delà l’atome est excité",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10076",
+    "spec": ".",
+    "matiere": "Chimie",
+    "chapitre": "Introduction",
+    "question": "À propos de l’atome, indiquez la (les) réponse(s) exacte(s) :",
+    "answer0": "Louis de Broglie va affirmer qu’à chaque particule en mouvement peut être associée une onde lumineuse",
+    "answer1": "La dualité onde – particule n’est pas compatible avec la mécanique classique",
+    "answer2": "Le principe d’incertitude affirme que nous ne pouvons ni connaître la vitesse, ni la position de l’électron",
+    "answer3": "Le modèle ondulatoire de Schrödinger défini l’électron en fonction de son énergie et de sa probabilité de présencedans l’espace",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,3"
+  },
+  {
+    "id": "10077",
+    "spec": ".",
+    "matiere": "Chimie",
+    "chapitre": "Introduction",
+    "question": "À propos des différents nombres quantiques, indiquez la (les) réponse(s) exacte(s) :",
+    "answer0": "Lorsque l=2 on a une orbitale de forme p",
+    "answer1": "Le nombre quantique principal n caractérise le volume de l’orbitale",
+    "answer2": "Le nombre magnétique de spin peut prendre des valeurs comprises entre -l et +l",
+    "answer3": "Les orbitales atomiques sont telles qu’elles vont minimiser les répulsions entre les électrons",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,3"
+  },
+  {
+    "id": "10078",
+    "spec": ".",
+    "matiere": "Chimie",
+    "chapitre": "Introduction",
+    "question": "À propos des orbitales atomiques, indiquez la (les) réponse(s) exacte(s) :",
+    "answer0": "Lorsque l=1, m peut prendre 3 valeurs différentes (1 ; 2 ; 3)",
+    "answer1": "Le plan nodal est un point où la probabilité de présence des électrons est non-nulle",
+    "answer2": "Le nombre quantique principal m définit la couche et l’énergie de l’électron",
+    "answer3": "Pour résoudre l’équation de Schrödinger pour des atomes poly-électroniques on considèrera que les électrons sontdépendants l’un de l’autre",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "4"
+  },
+  {
+    "id": "10079",
+    "spec": ".",
+    "matiere": "Chimie",
+    "chapitre": "Introduction",
+    "question": "À propos des règles de remplissage, indiquez la (les) réponse(s) exacte(s) :",
+    "answer0": "Le principe d’exclusion de Hund annonce que les électrons sont répartis à raison de 1 par case quantique avantd’être appariés en doublets",
+    "answer1": "Lorsque les électrons sont appariés dans une case quantique, leurs spin sont antiparallèles",
+    "answer2": "La règle de Klechkowski indique que le remplissage des cases quantiques se fait suivant l’ordre croissant de n+l, demanière à un niveau d’énergie croissant des orbitales atomiques",
+    "answer3": "Malgré son n supérieur à l’orbitale 3d, la 4s a une énergie inférieure",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2,3"
+  },
+  {
+    "id": "10080",
+    "spec": ".",
+    "matiere": "Chimie",
+    "chapitre": "Introduction",
+    "question": "À propos du tableau périodique des éléments, indiquez la (les) réponse(s) exacte(s) :",
+    "answer0": "Les atomes sont classés suivant leur numéro atomique",
+    "answer1": "Dans une même colonne, les éléments ont la même structure électronique de leur couche de valence",
+    "answer2": "La première colonne du tableau périodique des éléments correspond aux alcalins",
+    "answer3": "Non, la première colonne correspond aux halogènes",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2"
+  },
+  {
+    "id": "10081",
+    "spec": ".",
+    "matiere": "Chimie",
+    "chapitre": "Introduction",
+    "question": "À propos du carbone, indiquez la (les) réponse(s) exacte(s) :",
+    "answer0": "Sa configuration électronique est : 1s2, 2s2, 2p2 car Z=6",
+    "answer1": "On retrouve rarement la valence primaire du carbone",
+    "answer2": "Par contre la valence secondaire est beaucoup plus fréquente",
+    "answer3": "Cette valence secondaire permet de former 4 liaisons",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10082",
+    "spec": ".",
+    "matiere": "Chimie",
+    "chapitre": "Introduction",
+    "question": "À propos du Néon Ne10, indiquez la (les) réponse(s) exacte(s) :",
+    "answer0": "Sa configuration électronique est 1s2, 2s2, 2p6",
+    "answer1": "Non, sa configuration électronique est 1s2, 2s2, 1p6",
+    "answer2": "Il appartient aux gaz nobles",
+    "answer3": "Il fait partie du bloc s",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10083",
+    "spec": ".",
+    "matiere": "Chimie",
+    "chapitre": "Introduction",
+    "question": "À propos du Sélénium Se34, indiquez la (les) réponse(s) exacte(s) :",
+    "answer0": "Sa configuration électronique est : 1s2, 2s2, 2p6, 3s, 3p6, 4s2, 3d10, 4p4",
+    "answer1": "Sa configuration électronique est : 1s2, 2s2, 2p6, 3s2, 3p6, 3d10, 4s2, 4p4",
+    "answer2": "Sa configuration électronique est : 1s2, 2s2, 3p6, 3s2, 3p6, 4s2, 3d10, 4p4",
+    "answer3": "Sa configuration électronique est : 1s2, 2s2, 2p6, 3s2, 3p6, 4s2, 4p4, 3d10",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "4"
+  },
+  {
+    "id": "10084",
+    "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
     "question": "À propos des compartiments de l’organisme",
@@ -195,7 +1092,7 @@
     "answer": "0,2"
   },
   {
-    "id": "10016",
+    "id": "10085",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -208,7 +1105,7 @@
     "answer": "1,2,3"
   },
   {
-    "id": "10017",
+    "id": "10086",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -221,7 +1118,7 @@
     "answer": "0,1,2"
   },
   {
-    "id": "10018",
+    "id": "10087",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -234,7 +1131,7 @@
     "answer": "2,3"
   },
   {
-    "id": "10019",
+    "id": "10088",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -247,7 +1144,7 @@
     "answer": "1"
   },
   {
-    "id": "10020",
+    "id": "10089",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -260,7 +1157,7 @@
     "answer": "3"
   },
   {
-    "id": "10021",
+    "id": "10090",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -273,7 +1170,7 @@
     "answer": "2"
   },
   {
-    "id": "10022",
+    "id": "10091",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -286,7 +1183,7 @@
     "answer": "1"
   },
   {
-    "id": "10023",
+    "id": "10092",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -299,7 +1196,7 @@
     "answer": "1,2,3"
   },
   {
-    "id": "10024",
+    "id": "10093",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -312,7 +1209,7 @@
     "answer": "4"
   },
   {
-    "id": "10025",
+    "id": "10094",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -325,7 +1222,7 @@
     "answer": "0,3"
   },
   {
-    "id": "10026",
+    "id": "10095",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -338,7 +1235,7 @@
     "answer": "1,2"
   },
   {
-    "id": "10027",
+    "id": "10096",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -351,7 +1248,7 @@
     "answer": "1,2,3"
   },
   {
-    "id": "10028",
+    "id": "10097",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -364,7 +1261,7 @@
     "answer": "4"
   },
   {
-    "id": "10029",
+    "id": "10098",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -377,7 +1274,7 @@
     "answer": "1,3"
   },
   {
-    "id": "10030",
+    "id": "10099",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Chimique",
@@ -390,7 +1287,7 @@
     "answer": "2,3"
   },
   {
-    "id": "10031",
+    "id": "10100",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Chimique",
@@ -403,7 +1300,7 @@
     "answer": "0"
   },
   {
-    "id": "10032",
+    "id": "10101",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Chimique",
@@ -416,7 +1313,7 @@
     "answer": "0,2,3"
   },
   {
-    "id": "10033",
+    "id": "10102",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Chimique",
@@ -429,7 +1326,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10034",
+    "id": "10103",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -442,7 +1339,7 @@
     "answer": "1,3"
   },
   {
-    "id": "10035",
+    "id": "10104",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -455,7 +1352,7 @@
     "answer": "0,2,3"
   },
   {
-    "id": "10036",
+    "id": "10105",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -468,7 +1365,7 @@
     "answer": "0,1,3"
   },
   {
-    "id": "10037",
+    "id": "10106",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -481,7 +1378,7 @@
     "answer": "4"
   },
   {
-    "id": "10038",
+    "id": "10107",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -494,7 +1391,7 @@
     "answer": "4"
   },
   {
-    "id": "10039",
+    "id": "10108",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -507,7 +1404,7 @@
     "answer": "2"
   },
   {
-    "id": "10040",
+    "id": "10109",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -520,7 +1417,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10041",
+    "id": "10110",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -533,7 +1430,7 @@
     "answer": "0,2,3"
   },
   {
-    "id": "10042",
+    "id": "10111",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -546,7 +1443,7 @@
     "answer": "1"
   },
   {
-    "id": "10043",
+    "id": "10112",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -559,7 +1456,7 @@
     "answer": "4"
   },
   {
-    "id": "10044",
+    "id": "10113",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Acide Base",
@@ -572,7 +1469,7 @@
     "answer": "1"
   },
   {
-    "id": "10045",
+    "id": "10114",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Acide Base",
@@ -585,7 +1482,7 @@
     "answer": "2"
   },
   {
-    "id": "10046",
+    "id": "10115",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Acide Base",
@@ -598,7 +1495,7 @@
     "answer": "0"
   },
   {
-    "id": "10047",
+    "id": "10116",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Acide Base",
@@ -611,7 +1508,7 @@
     "answer": "2"
   },
   {
-    "id": "10048",
+    "id": "10117",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -624,7 +1521,7 @@
     "answer": "1,3"
   },
   {
-    "id": "10049",
+    "id": "10118",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -637,7 +1534,7 @@
     "answer": "2,3"
   },
   {
-    "id": "10050",
+    "id": "10119",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -650,7 +1547,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10051",
+    "id": "10120",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -663,7 +1560,7 @@
     "answer": "0,1,3"
   },
   {
-    "id": "10052",
+    "id": "10121",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -676,7 +1573,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10053",
+    "id": "10122",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -689,7 +1586,7 @@
     "answer": "0,1,2"
   },
   {
-    "id": "10054",
+    "id": "10123",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -702,7 +1599,7 @@
     "answer": "1"
   },
   {
-    "id": "10055",
+    "id": "10124",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -715,7 +1612,7 @@
     "answer": "4"
   },
   {
-    "id": "10056",
+    "id": "10125",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -728,7 +1625,7 @@
     "answer": "0"
   },
   {
-    "id": "10057",
+    "id": "10126",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -741,7 +1638,7 @@
     "answer": "1,2,3"
   },
   {
-    "id": "10058",
+    "id": "10127",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -754,7 +1651,7 @@
     "answer": "0,2,3"
   },
   {
-    "id": "10059",
+    "id": "10128",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -767,7 +1664,7 @@
     "answer": "0,1,2"
   },
   {
-    "id": "10060",
+    "id": "10129",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -780,7 +1677,7 @@
     "answer": "4"
   },
   {
-    "id": "10061",
+    "id": "10130",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -793,7 +1690,7 @@
     "answer": "0,3"
   },
   {
-    "id": "10062",
+    "id": "10131",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -806,7 +1703,7 @@
     "answer": "1,2,3"
   },
   {
-    "id": "10063",
+    "id": "10132",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -819,7 +1716,7 @@
     "answer": "0,2,3"
   },
   {
-    "id": "10064",
+    "id": "10133",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -832,7 +1729,7 @@
     "answer": "0,2,3"
   },
   {
-    "id": "10065",
+    "id": "10134",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -845,7 +1742,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10066",
+    "id": "10135",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -927,7 +1824,7 @@
     "spec": "",
     "matiere": "Chimie Général",
     "chapitre": "Atomistique",
-    "question": "Un élément M s'ionise en M/*3+/*. Parmi les propositions suivantes, quelle(s) propriété(s) est(sont) commune(s) a M et M/*3+/* ?",
+    "question": "Un élément M s'ionise en M/*3+/*. Parmi les propositions suivantes, quelle(s) propriété(s) est (sont) commune(s) a M et M/*3+/* ?",
     "answer0": "Charge nucléaire",
     "answer1": "Masse",
     "answer2": "Propriétés chimiques",
@@ -1551,7 +2448,7 @@
     "spec": "",
     "matiere": "Biochimie",
     "chapitre": "Métabolise",
-    "question": "Parmi les composés suivants, quel(s) est(sont) ceux qui peu(ven)t alimenter la néoglucogenèse ?",
+    "question": "Parmi les composés suivants, quel(s) est (sont) ceux qui peu(ven)t alimenter la néoglucogenèse ?",
     "answer0": "SuccinylcoA",
     "answer1": "Glycerol",
     "answer2": "Lysine",
@@ -1902,7 +2799,7 @@
     "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Traduction",
-    "question": "Parmi les propositions relatives aux gènes codants, laquelle(lesquelles) est(sont) exactes(s) ?",
+    "question": "Parmi les propositions relatives aux gènes codants, laquelle(lesquelles) est (sont) exactes(s) ?",
     "answer0": "Ils permettent l'expression des protéines",
     "answer1": "Leurs exons sont de taille plus grande que celle de leurs introns",
     "answer2": "Ils peuvent être traduits à partir d'ARNr",
@@ -2045,7 +2942,7 @@
     "spec": "",
     "matiere": "Biologie Moléculaire",
     "chapitre": "Techniques d'analyse du génome",
-    "question": "Parmi les techniques suivantes, quelle(s) est(sont) celle(s) qui est(sont) utilisée(s) pour le clonage d'un gène ?",
+    "question": "Parmi les techniques suivantes, quelle(s) est (sont) celle(s) qui est (sont) utilisée(s) pour le clonage d'un gène ?",
     "answer0": "Construction d'un vecteur recombinant",
     "answer1": "Sélection des colonies bactériennes par un antibiotique",
     "answer2": "Ligation de deux vecteurs",
@@ -2292,7 +3189,7 @@
     "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "La membrane plasmique",
-    "question": "Quelle(s) est(sont) la(les) propriete(s) caracteristique(s) du glycocalyx (ou manteau cellulaire) ?",
+    "question": "Quelle(s) est (sont) la (les) propriete(s) caracteristique(s) du glycocalyx (ou manteau cellulaire) ?",
     "answer0": "Il contient les chaines glucidiques des glycolipides",
     "answer1": "Il contient une proportion importante de cholesterol",
     "answer2": "Il participe aux phenomenes de reconnaissance intercellulaire",
@@ -2357,7 +3254,7 @@
     "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Système endomembranaire",
-    "question": "Cochez la(les) proposition(s) exacte(s)",
+    "question": "Cochez la (les) proposition(s) exacte(s)",
     "answer0": "Il existe trois voies d'endocytose : la pinocytose, l'endocytose par recepteur interpose et la phagocytose",
     "answer1": "L'exocytose permet l'elimination de cellules senescentes ou apoptotiques",
     "answer2": "L'endocytose par recepteur interpose est un mode d'endocytose non specifique",
@@ -2526,7 +3423,7 @@
     "spec": "",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Organites intracellulaire",
-    "question": "Parmi les propositions qui suivent, quelle(s) est(sont) celle(ceux) qui designe(nt) une(des) fonction(s) peroxysomale(s) ?",
+    "question": "Parmi les propositions qui suivent, quelle(s) est (sont) celle(ceux) qui designe(nt) une(des) fonction(s) peroxysomale(s) ?",
     "answer0": "Production d'ATP",
     "answer1": "Participation a la synthese des hormones steroïdes",
     "answer2": "Participation a la synthese de constituants importants de la myeline appeles plasmalogenes",
@@ -3839,7 +4736,7 @@
     "spec": "",
     "matiere": "Histologie",
     "chapitre": "Tissu musculaire",
-    "question": "La(les) différence(s) entre les rhabdomyocytes et les cardiomyocytes est(sont)",
+    "question": "La(les) différence(s) entre les rhabdomyocytes et les cardiomyocytes est (sont)",
     "answer0": "La presence de sarcomeres",
     "answer1": "Leur morphologie",
     "answer2": "Leur mode de contraction (volontaire ou involontaire)",
@@ -4073,7 +4970,7 @@
     "spec": "",
     "matiere": "Embryologie",
     "chapitre": "Deuxieme semaine",
-    "question": "Indiquez la(les) structure(s) derivant de l'epiblaste",
+    "question": "Indiquez la (les) structure(s) derivant de l'epiblaste",
     "answer0": "Le mesoblaste extra-embryonnaire",
     "answer1": "Le cytotrophoblaste",
     "answer2": "La membrane de Heuser",
@@ -7752,7 +8649,7 @@
     "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Statut et definition du médicament",
-    "question": "Cochez la(les) proposition(s) exacte(s)",
+    "question": "Cochez la (les) proposition(s) exacte(s)",
     "answer0": "Les medicaments retrocedables ne sont vendus au public que dans les officines de ville",
     "answer1": "Les medicaments retrocedables ont un suivi particulier de prescription ou de delivrance",
     "answer2": "Les medicaments reserves a l'usage hospitalier peuventetre retrocedes",
@@ -7856,7 +8753,7 @@
     "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Structure de régulation du médicament",
-    "question": "Parmi les produits suivants, lequel(lesquels) est(sont) reglemente(s) par l'Agence Nationale de Securite du Medicament et des Produits de Sante (ANSM)",
+    "question": "Parmi les produits suivants, lequel(lesquels) est (sont) reglemente(s) par l'Agence Nationale de Securite du Medicament et des Produits de Sante (ANSM)",
     "answer0": "Les produits cosmetiques",
     "answer1": "Les complements alimentaires",
     "answer2": "Les produits sanguins",
@@ -8298,7 +9195,7 @@
     "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Étude pharmaco-toxico",
-    "question": "Quel(s) type(s) d'effet est(sont) susceptible(s) d'etre detecte(s) par les études de genotoxicite ?",
+    "question": "Quel(s) type(s) d'effet est (sont) susceptible(s) d'etre detecte(s) par les études de genotoxicite ?",
     "answer0": "Effet cancerogene",
     "answer1": "Effet mutagene",
     "answer2": "Effet immunogene",
@@ -9026,7 +9923,7 @@
     "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Rapport bénéfice-risque",
-    "question": "Cochez la(les) proposition(s) exacte(s)",
+    "question": "Cochez la (les) proposition(s) exacte(s)",
     "answer0": "Les infirmiers ont un droit de prescription limite aux dispositifs medicaux",
     "answer1": "La prescription d'un medicament stupefiant ne necessite l'inscription en toutes lettres que pour le dosage et le nombre de prises",
     "answer2": "La duree de prescription est reduite a 7 ou 14 jours pour tous les medicaments stupefiants",
@@ -9117,7 +10014,7 @@
     "spec": "",
     "matiere": "Pharmacologie",
     "chapitre": "Pharmacovigilance",
-    "question": "Cochez la(les) propositions(s) exacte(s)",
+    "question": "Cochez la (les) propositions(s) exacte(s)",
     "answer0": "Un medicament d'exception ne peutetre prescrit que par un medecin specialiste",
     "answer1": "Un medicament d'exception prescrit sur une ordonnance securisee est rembours e a un taux de 100 %",
     "answer2": "Les immunoglobulines font partie des medicaments derives du sang en tant que produits labiles",
@@ -9494,7 +10391,7 @@
     "spec": "",
     "matiere": "SSH",
     "chapitre": "Droit et ethique",
-    "question": "Parmi les evenements dates suivants, quel(s) est(sont) celui(ceux) qui a (ont) constitue une etape dans la reconnaissance et la compensation du handicap ?",
+    "question": "Parmi les evenements dates suivants, quel(s) est (sont) celui(ceux) qui a (ont) constitue une etape dans la reconnaissance et la compensation du handicap ?",
     "answer0": "La loi de 1898 sur la reconnaissance des accidents du travail",
     "answer1": "La loi de 1905 sur la separation des eglises et de l'etat",
     "answer2": "La creation de la securite sociale en 1945",
@@ -9637,7 +10534,7 @@
     "spec": "",
     "matiere": "SSH",
     "chapitre": "Facteurs de risque et societ e",
-    "question": "Parmi les maladies infectieuses suivantes, quelle(s) est(sont) celle(s) qui releve(nt) d'une vaccination obligatoire ?",
+    "question": "Parmi les maladies infectieuses suivantes, quelle(s) est (sont) celle(s) qui releve(nt) d'une vaccination obligatoire ?",
     "answer0": "La fievre jaune",
     "answer1": "La diphterie",
     "answer2": "La grippe",
@@ -9923,7 +10820,7 @@
     "spec": "",
     "matiere": "SSH",
     "chapitre": "Semantique et terminologie m edicale",
-    "question": "Cochez la(les) proposition(s) exacte(s)",
+    "question": "Cochez la (les) proposition(s) exacte(s)",
     "answer0": "Une oophorite est une ablation des ovaires",
     "answer1": "Patella designe l'articulation du genou",
     "answer2": "Le radical rhum- designe l'engorgement",
@@ -9936,7 +10833,7 @@
     "spec": "",
     "matiere": "SSH",
     "chapitre": "Semantique et terminologie m edicale",
-    "question": "Cochez la(les) proposition(s) exacte(s)",
+    "question": "Cochez la (les) proposition(s) exacte(s)",
     "answer0": "Un delire onirique designe les hallucinations a l'etat de veille",
     "answer1": "Un produit lacrymogene est aussi un produit dacryogene",
     "answer2": "L'uranoplastie pourrait designer une intervention chirurgicale au niveau du cerveau",
@@ -9949,7 +10846,7 @@
     "spec": "",
     "matiere": "SSH",
     "chapitre": "Semantique et terminologie m edicale",
-    "question": "Cochez la(les) proposition(s) exacte(s)",
+    "question": "Cochez la (les) proposition(s) exacte(s)",
     "answer0": "Une aerendocardie est une pathologie des arteres cardiaques",
     "answer1": "Le prefixe meteor designe un solide, une petite masse",
     "answer2": "Une hypercapnie est un taux anormalement eleve de dioxyde de carbone dansle sang",
@@ -10118,7 +11015,7 @@
     "spec": "",
     "matiere": "Biostatistique",
     "chapitre": "Probabilites",
-    "question": "Des patients hospitalises contractant une infection au cours de leur sejour sont pris en charge par une equipe mobile specialisee ne prenant en charge que des patients avec infection nosocomiale. Ils peuvent souffrir d'une ou de plusieurs infections : une bacteriemie (BAC), une pneumonie (PNE) ou une infection du tractus urinaire (ITU). Dans la population P des patients pris en charge par cette equipe,2 patients sur 5 sont atteints, d'infection du tractus urinaire et 35 %ne presentent pas de pneumonie. Par ailleurs,9 patients sur 10 sont atteints de pneumonie ou d'infection du tractus urinaire. Cochez la(les) proposition(s) exacte(s)",
+    "question": "Des patients hospitalises contractant une infection au cours de leur sejour sont pris en charge par une equipe mobile specialisee ne prenant en charge que des patients avec infection nosocomiale. Ils peuvent souffrir d'une ou de plusieurs infections : une bacteriemie (BAC), une pneumonie (PNE) ou une infection du tractus urinaire (ITU). Dans la population P des patients pris en charge par cette equipe,2 patients sur 5 sont atteints, d'infection du tractus urinaire et 35 %ne presentent pas de pneumonie. Par ailleurs,9 patients sur 10 sont atteints de pneumonie ou d'infection du tractus urinaire. Cochez la (les) proposition(s) exacte(s)",
     "answer0": "La probabilite pour un patient pris en charge par cette equipe d'etre atteint de pneumonie et d'infection du tractus urinaire est de 0,10",
     "answer1": "La probabilite pour un patient pris en charge par cette equipe d'etre atteint de pneumonie et d'infection du tractus urinaire est de 0,15",
     "answer2": "La probabilite pour un patient pris en charge par cette equipe de n'avoir aucune infection est de 0,10",

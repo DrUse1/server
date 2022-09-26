@@ -38,11 +38,14 @@ export default function Home() {
             return newObject;
         }
 
+
         let splitQCM = areaValue().split('QCM')
         let _temp = []
         splitQCM.forEach(e => {
             if (e !== '') {
-                _temp = [..._temp, e.slice((e[5] === ' ' ? 6 : 5))]
+                e = e.split(': ')
+                e.shift()
+                _temp = [..._temp, e.join(': ')]
             }
         })
         splitQCM = _temp
