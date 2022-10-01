@@ -1,7 +1,7 @@
-import { createEffect, createSignal, useContext } from "solid-js"
+import { createSignal } from "solid-js"
 import Axios from 'axios'
 import * as utils from '../utils'
-import { staticConst, global, setGlobal, resetGlobal, showWarning, loading, setLoading } from '../globalInfo'
+import { staticConst, global, setGlobal, showWarning, loading, setLoading } from '../globalInfo'
 
 import styles from '../styles/auth.module.scss'
 import { useNavigate } from "@solidjs/router"

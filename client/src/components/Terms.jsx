@@ -1,6 +1,5 @@
 import { Show } from "solid-js";
-import { createStore } from "solid-js/store";
-import { global, loading, setLoading, showWarning, staticConst, userInfo } from "../globalInfo";
+import { global, loading, staticConst, userInfo } from "../globalInfo";
 import Header from "./Header";
 
 import styles from '../styles/terms.module.scss'

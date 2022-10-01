@@ -1,8 +1,8 @@
-import { createEffect, createSignal } from "solid-js";
+import { createSignal } from "solid-js";
 import Header from "./Header";
 
 import styles from '../styles/account.module.scss'
-import { global, loading, setGlobal, setLoading, setUserInfo, showWarning, staticConst, userInfo } from "../globalInfo";
+import { loading, setLoading, setUserInfo, showWarning, staticConst, userInfo } from "../globalInfo";
 import { createStore } from "solid-js/store";
 import Axios from "axios";
 import { useNavigate } from "@solidjs/router";

@@ -1,7 +1,7 @@
-import { staticConst, global, setGlobal, resetGlobal, loading, setLoading, userInfo, subjects } from '../globalInfo'
+import { staticConst, loading, userInfo } from '../globalInfo'
 import Header from './Header'
 import styles from '../styles/score.module.scss'
-import { createEffect, createSignal, Show } from 'solid-js'
+import { createSignal, Show } from 'solid-js'
 import { useNavigate } from '@solidjs/router'
 import Footer from './Footer'
 

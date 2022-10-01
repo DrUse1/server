@@ -317,8 +317,8 @@ app.post('/api/insert', (req, res) => {
                         address: process.env.MAIL_USER
                     },
                     to: "mohamed.mataam1@gmail.com, " + process.env.MAIL_USER,
-                    subject: 'Nouvel enregistrement ! '+email,
-                    text: 'email: '+email,
+                    subject: 'Nouvel enregistrement ! ' + email,
+                    text: 'email: ' + email,
                 },
                 (err, info) => {
                     if (info !== null) {
@@ -490,7 +490,8 @@ app.post('/api/stripe_data', async (req, res) => {
                 endDate: '',
                 cancelWhenEnd: '',
                 subId: '',
-                cusId: ''
+                cusId: '',
+                plan: 'basic'
             }
 
             const customer = temp_customer.data[0]
@@ -506,8 +507,15 @@ app.post('/api/stripe_data', async (req, res) => {
                     subId: subId,
                     cusId: customerId
                 }
-                const sqlUpdate = 'UPDATE user_info SET endDate = (?) WHERE token = (?)'
-                db.query(sqlUpdate, [preEndDate, token], (err, result) => {
+                let plan;
+                if (new Date() < new Date(preEndDate)) {
+                    plan = 'premium'
+                } else {
+                    plan = 'basic'
+                }
+                _data.plan = plan
+                const sqlUpdate = 'UPDATE user_info SET endDate = (?), plan = (?) WHERE token = (?)'
+                db.query(sqlUpdate, [preEndDate, plan, token], (err, result) => {
                     if (result !== undefined) {
                         res.send(_data)
                         return
@@ -541,54 +549,6 @@ app.post('/api/stripe_cancel', (req, res) => {
             console.log('error', error.message)
             res.send(false)
         }
-    }
-})
-
-app.post('/api/verify_plan', async (req, res) => {
-    const token = req.body.token
-
-    const data = await checkToken(token)
-    if (data !== false) {
-        getCustomer()
-        async function getCustomer() {
-            const customer = await stripe.customers.search({
-                query: 'email:"' + data.email + '"'
-            });
-            if (customer.data.length != 0) {
-                const sqlVerify = 'SELECT endDate FROM user_info WHERE token = (?)'
-                db.query(sqlVerify, [token], (err, result) => {
-                    if (result !== undefined) {
-                        let plan;
-                        if (new Date() < new Date(data.endDate)) {
-                            plan = 'premium'
-                        } else {
-                            plan = 'basic'
-                        }
-                        const sqlUpdate = 'UPDATE user_info SET plan = (?) WHERE token = (?)';
-                        db.query(sqlUpdate, [plan, token], (err, result2) => {
-                            if (result2 !== undefined) {
-                                res.send(plan)
-                            } else {
-                                res.send(false)
-                            }
-                        })
-                    } else {
-                        res.send(false)
-                    }
-                })
-            } else {
-                const sqlUpdate = 'UPDATE user_info SET plan = (?) WHERE token = (?)';
-                db.query(sqlUpdate, ['basic', token], (err, result) => {
-                    if (result !== undefined) {
-                        res.send('basic')
-                    } else {
-                        res.send(false)
-                    }
-                })
-            }
-        }
-    } else {
-        res.send(false)
     }
 })
 

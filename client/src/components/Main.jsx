@@ -1,5 +1,4 @@
 import { createEffect, createSignal, For } from "solid-js";
-import { Transition } from "solid-transition-group";
 
 import { staticConst, global, setGlobal, subjects, setSubjects, showWarning, userInfo, getChapters, loading } from '../globalInfo'
 

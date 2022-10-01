@@ -1,6 +1,6 @@
 import { render } from 'solid-js/web'
 import { Show } from 'solid-js'
-import { Router, Route, Routes, useNavigate } from "@solidjs/router";
+import { Router, Route, Routes } from "@solidjs/router";
 
 import './styles/globalStyles.scss'
 import './styles/styles.scss'

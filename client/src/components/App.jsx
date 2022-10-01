@@ -1,7 +1,7 @@
 import { createSignal, Show, For } from "solid-js"
 import { createStore } from "solid-js/store";
 
-import { staticConst, global, setGlobal, resetGlobal, subjects, setSubjects, updatePlays, userInfo, getChapters, loading, setLoading, setUserInfo, data } from '../globalInfo'
+import { staticConst, global, setGlobal, subjects, updatePlays, userInfo, getChapters, loading, setLoading, data } from '../globalInfo'
 
 import * as utils from '../utils'
 import Axios from "axios";

@@ -1,4 +1,4 @@
-import { global, loading, setGlobal, staticConst, userInfo } from "../globalInfo"
+import { loading, staticConst } from "../globalInfo"
 import Footer from "./Footer";
 import Header from "./Header"
 import styles from "../styles/success.module.scss"

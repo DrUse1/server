@@ -1,7 +1,6 @@
 import Axios from "axios";
 import { createStore } from "solid-js/store";
-
-import { createEffect, createSignal } from "solid-js";
+import { createSignal } from "solid-js";
 
 export let data = []
 
@@ -157,16 +156,6 @@ export function updatePlays(setup = false) {
     })
 }
 
-function verifyPlan() {
-    setLoading(a => a + 1)
-    Axios.post(staticConst.url + '/api/verify_plan', {
-        token: session
-    }).then((res) => {
-        setUserInfo('plan', res.data)
-        setLoading(a => a - 1)
-    })
-}
-
 function getStripeData() {
     setLoading(a => a + 1)
     Axios.post(staticConst.url + '/api/stripe_data', {
@@ -177,7 +166,7 @@ function getStripeData() {
         setUserInfo('cancelWhenEnd', res.data.cancelWhenEnd)
         setUserInfo('subId', res.data.subId)
         setUserInfo('cusId', res.data.cusId)
-        verifyPlan()
+        setUserInfo('plan', res.data.plan)
         setLoading(a => a - 1)
     })
 }

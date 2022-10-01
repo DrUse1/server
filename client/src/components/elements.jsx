@@ -2,7 +2,6 @@ import { global } from "../globalInfo"
 
 import dna from '../svg/subjects/dna.png'
 import atom from '../svg/subjects/atom.png'
-import flask from '../svg/subjects/flask.png'
 import chemistry from '../svg/subjects/chemistry.png'
 import cells from '../svg/subjects/cells.png'
 import cell from '../svg/subjects/cell.png'
