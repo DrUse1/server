@@ -9,7 +9,7 @@
     "answer1": "Après l’ouverture de l’hélice, les amorces sont directement synthétisées par la primase",
     "answer2": "L’ADN polymérase n’a pas besoin d’amorce pour répliquer le brin direct",
     "answer3": "L’ARN polymérase a besoin d’amorces pour synthétiser le brin tardif",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0"
   },
   {
@@ -22,7 +22,7 @@
     "answer1": "Que ce soit le brin tardif ou le brin direct, ils sont tous les deux des brins fils",
     "answer2": "La dépurination est la perte d’une adénine ou d’une guanine par rupture de la liaison avec le désoxyribose et dont le remplacement au hasard pourra introduire une mutation",
     "answer3": "Le brin direct est synthétisé de son extrémité 5’P libre à son extrémité 3’ OH libre",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "1,3"
   },
   {
@@ -35,7 +35,7 @@
     "answer1": "la liaison 5’ phosphoesther permet de relier les nucléotides entre eux",
     "answer2": "la liaison N-Glycosidique permet de relier le ou les groupement(s) phosphate(s) au nucéoside",
     "answer3": "un nucéotide est formé d’un pentose, d’une base azotée et d’un ou plusieurs groupement(s) phosphate(s)",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "3"
   },
   {
@@ -48,7 +48,7 @@
     "answer1": "Il existe deux types de brins fils : le brin direct et le brin tardif",
     "answer2": "le brin tardif est issu de la fusion des fragments d’okazaki entre eux",
     "answer3": "l’extrémité 5’ du brin fils correspond à l’extrémité 3’ du brin parent",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,1,2,3"
   },
   {
@@ -61,7 +61,7 @@
     "answer1": "Seul l’ADN possède la base azotée « adénine »",
     "answer2": "On ne peut pas avoir de nucléotides avec trois groupements phosphates",
     "answer3": "L’ARN possède uniquement des bases azotées mineures",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0"
   },
   {
@@ -74,7 +74,7 @@
     "answer1": "L’ADN polymerase n’a pas besoin d’amorce pour fonctionner",
     "answer2": "La primase synthétise les amorces pour permettre à l’ADN polymérase de fonctionner",
     "answer3": "Il existe une fourche par bulle de réplication",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "2"
   },
   {
@@ -87,7 +87,7 @@
     "answer1": "Il existe des régions d’ADN qui sont toujours compactées : on les appelle les zones d’hétérochromatine constitutive",
     "answer2": "Les télomères correspondent à de l’hétérochromatine constitutive",
     "answer3": "En mitose, l’ADN est sous forme d’hétérochromatine",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,1,2,3"
   },
   {
@@ -100,7 +100,7 @@
     "answer1": "La structure secondaire de l’ADN implique des protéines appelées « histones »",
     "answer2": "La thymine et l’adénine s’apparie grâce à la formation de 2 liaisons hydrogènes",
     "answer3": "Le principe de complémentarité des bases postule que les bases s’associent de manière aléatoire entre elles pour former des paires de bases",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,2"
   },
   {
@@ -113,7 +113,7 @@
     "answer1": "Il existe quatre niveaux de compaction : du plus au moins compacté nous avons : le niveau fibre de chromatine, puis le solénoïde, le niveau euchromatine et enfin le niveau hétérochromatine",
     "answer2": "La réplication est un phénomène arrivant que rarement au sein des cellules. En effet, l’ADN peut rester intact dans le noyau pendant plusieurs années, il n’a donc besoin d’être répliqué que dans des cas critiques d’attaques cellulaires",
     "answer3": "La télomérase est une boucle d’ADN permettant d’éviter les phénomènes de fusion à l’extrémité des chromosomes eucaryotes",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0"
   },
   {
@@ -126,7 +126,7 @@
     "answer1": "Ce sont les deux chercheurs Watson et Crick qui ont décrit le fait que les deux brins d’ADN étaient antiparallèles",
     "answer2": "Dans le modèle de la double hélice d’ADN, chaque tour d’hélice est d’une longueur de 3,4nm et les paires de bases sont distantes entre elles de 0,34nm",
     "answer3": "Chaque brin de la double hélice d’ADN est lu en sens inverse",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "1,2,3"
   },
   {
@@ -139,7 +139,7 @@
     "answer1": "Les brins d’ADN ne sont pas toujours antiparallèles",
     "answer2": "Le diamètre de l’hélice d’ADN n’est pas constant, il peut varier entre 1,2 et 2,2nm",
     "answer3": "La structure secondaire de l’ADN possède des sillons permettant des interactions entre les bases azotées et des protéines",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,3"
   },
   {
@@ -152,7 +152,7 @@
     "answer1": "Le message formé par l’enchainement variable des bases azotées d’un brin d’ADN ou d’ARN sera toujours lu de l’extrémité 5’OH libre à l’extrémité 3’phosphate libre",
     "answer2": "Les fragments d’Okazaki sont des séquences de ribonucléotides présents sur le brin tardif",
     "answer3": "Lors de la réplication de l’ADN, l’enzyme permettant de briser les liaisons hydrogènes unissant les deux brins d’ADN pour former la bulle de réplication s’appelle l’hélicase",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "3"
   },
   {
@@ -165,7 +165,7 @@
     "answer1": "L’organisation spatiale du génome est aléatoire",
     "answer2": "Un nucléosome est constitué d’un octomère d’histones (H1 et H1 + H2A et H2A + H3 et H3 + H4 et H4) et de l’ADN enroulé autour",
     "answer3": "Le niveau fibre de chromatine est un niveau très condensé",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0"
   },
   {
@@ -178,7 +178,7 @@
     "answer1": "Une fibre de chromatine mesure 30 nm de diamètre",
     "answer2": "Le solénoide est constitué à chaque tour d’hélice de 6 nucléosomes",
     "answer3": "Une chromatide est sous forme d’euchromatine",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "2"
   },
   {
@@ -574,6 +574,695 @@
   {
     "id": "10045",
     "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Introduction / Méthodes d'Études & d'Analyse",
+    "question": "À propos de la culture des cellules en laboratoire, indiquez la (les) proposition(s) exacte(s) :A)",
+    "answer0": "Les cellules humaines peuvent se multiplier indéfiniment en laboratoire à condition de renouveler régulièrement leurmilieu de culture",
+    "answer1": "On peut immortaliser des cellules humaines normales en les infectant avec un virus oncogène",
+    "answer2": "Les cellules en sénescence sont métaboliquement inactives",
+    "answer3": "Les propositions A, B et C sont fausses",
+    "answer4": "",
+    "answer": "1"
+  },
+  {
+    "id": "10046",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Introduction / Méthodes d'Études & d'Analyse",
+    "question": "À propos des cellules souches, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les cellules pluripotentes peuvent reconstituer un tissu",
+    "answer1": "Le potentiel de différenciation des cellules au stade morula est plus important que celui des cellules au stadeblastocyste",
+    "answer2": "Toutes les cellules souches adultes sont totipotentes",
+    "answer3": "Les cellules souches ne sont pas capables d’autorenouvellement",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1"
+  },
+  {
+    "id": "10047",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Introduction / Méthodes d'Études & d'Analyse",
+    "question": "À propos de la mise en culture des cellules, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les fibroblastes de culture primaire peuvent effectuer un nombre illimité de divisions, à condition de remplacersuffisamment souvent le milieu de culture adéquat",
+    "answer1": "Un avantage d’étudier des cellules en culture est de travailler avec un contenu cellulaire plus homogène qu’un tissu",
+    "answer2": "Aucune cellule humaine mise en culture n’est capable de pousser directement sur le plastique des boîtes de Pétri D)Des lignées immortelles peuvent être obtenues de manière spontanée, mais il s’agit d’un phénomène très rare pour lescellules humaines",
+    "answer3": "Des lignées immortelles peuvent être obtenues de manière spontanée, mais il s’agit d’un phénomène très rare pour les cellules humaines",
+    "answer4": "Les propositions A, B et C sont fausses",
+    "answer": "1,3"
+  },
+  {
+    "id": "10048",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Introduction / Méthodes d'Études & d'Analyse",
+    "question": "À propos de la culture des cellules en laboratoire, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les cellules souches ne peuvent pas se diviser in vitro",
+    "answer1": "Les cellules humaines issues de cultures primaires peuvent se multiplier indéfiniment en laboratoire à condition derenouveler régulièrement leur milieu de culture",
+    "answer2": "la progression du cycle cellulaire est contrôlée par l’apport en nutriments des cellules",
+    "answer3": "On peut immortaliser des cellules humaines normales en forçant l’expression de la télomérase",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2,3"
+  },
+  {
+    "id": "10049",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "À propos des méthodes de détection de l’apoptose, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La structure des membranes plasmiques n’est pas modifiée dans les cellules en apoptose",
+    "answer1": "La fragmentation de la chromatine est une des caractéristiques des cellules en apoptose",
+    "answer2": "L’expression de la β-galactosidase permet de mesurer l’activation des caspases effectrices",
+    "answer3": "Les cellules en subG1 sont celles qui échappent à l’apoptose",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10050",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "À propos de la mort cellulaire, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La sénescence correspond à la mort des cellules âgées",
+    "answer1": "L’apoptose et la nécrose nécessitent l’hydrolyse de molécules d’ATP",
+    "answer2": "Les cellules nécrotiques peuvent être visualisées par un marquage à l’annexine V",
+    "answer3": "Les cellules nécrotiques condensent leur chromatine",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2"
+  },
+  {
+    "id": "10051",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "Des expériences de double immunofluorescence ont été conduites avec des anticorps primaires desouris dirigés contre la protéine p53 et des anticorps primaires de lapin dirigés contre la protéine Myc. Parmices propositions concernant ce type de marquage fluorescent, quel est/sont celle(s) qui sont exactes pourvisualiser séparément dans les mêmes cellules les deux anticorps primaires ?",
+    "answer0": "Anticorps de souris anti-immunoglobuline de lapin couplés à la rhodamine et des anticorps de lapin antiimmunoglobuline de souris couplés à la fluorescéine",
+    "answer1": "Anticorps de chèvre anti-immunoglobuline de lapin couplés à la fluorescéine et des anticorps de lapin antiimmunoglobuline de souris couplés à la fluorescéine",
+    "answer2": "Anticorps de souris anti-immunoglobuline de lapin couplés à la rhodamine et des anticorps de lapin antiimmunoglobuline de chèvre couplés à la fluorescéine",
+    "answer3": "Anticorps de cheval anti-immunoglobuline de lapin couplés à la rhodamine et des anticorps de chèvre antiimmunoglobuline de souris couplés à la fluorescéine",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "3"
+  },
+  {
+    "id": "10052",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "À propos de la protéine p53, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "p53 agit comme un facteur de transcription",
+    "answer1": "p53 est activée en réponse à un grand nombre de stress cellulaire",
+    "answer2": "p53 peut induire l’apoptose",
+    "answer3": "p53 est codée par un gène qui est très souvent muté dans les cancers",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10053",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "À propos des oncogènes, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les oncogènes peuvent être surexprimés dans les cancers",
+    "answer1": "Les oncogènes ont été sélectionnées au cours de l’évolution pour leur capacité à induire des cancers",
+    "answer2": "Les oncogènes sont souvent délétés dans les cancers",
+    "answer3": "Les oncogènes peuvent induire la sénescence cellulaire",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,3"
+  },
+  {
+    "id": "10054",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "À propos de l’étude des mutants, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Une mutation récessive peut être complémentée par un allèle sauvage",
+    "answer1": "Une mutation dominante est nécessairement présente sur les deux allèles d’un organisme diploïde de phénotypemutant",
+    "answer2": "Les propositions A et B sont fausses",
+    "answer3": "",
+    "answer4": "",
+    "answer": "0"
+  },
+  {
+    "id": "10055",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "À propos de l’apoptose et du cancer, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Ras et pRb sont souvent mutés dans les cellules cancéreuses : ce sont donc des oncogènes",
+    "answer1": "La perte de fonction d’un gène suppresseur de tumeur favorise le développement du cancer",
+    "answer2": "Les cellules apoptotiques condensent et fragmentent leur chromatine",
+    "answer3": "L’apoptose est un phénomène physiologique impliqué dans le développement",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2,3"
+  },
+  {
+    "id": "10056",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "À propos de la sénescence cellulaire, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les cellules sénescentes sont généralement plus résistantes à l’apoptose que les cellules jeunes",
+    "answer1": "La sénescence cellulaire joue un rôle dans la réparation tissulaire",
+    "answer2": "Les cellules sénescentes sont reconnues et éliminées par le système immunitaire",
+    "answer3": "La sénescence cellulaire peut être déclenchée par un stress oxydatif",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2,3"
+  },
+  {
+    "id": "10057",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "À propos du cancer, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La résistance à l’apoptose est une caractéristique des cellules cancéreuses",
+    "answer1": "Toutes les cellules immortelles sont des cellules cancéreuses",
+    "answer2": "Des lignées immortelles peuvent être obtenues de manière spontanée à partir de cellules normales, mais il s’agitd’un phénomène très rare pour les cellules humaines",
+    "answer3": "Les cellules cancéreuses possèdent un cycle cellulaire mal contrôlé",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2,3"
+  },
+  {
+    "id": "10058",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "La protéine p53 est présente en grande quantité dans de nombreuses lignées de cellules issues detumeurs humaines. Parmi les propositions suivantes, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Ce résultat démontre que p53 a une fonction oncogène",
+    "answer1": "Ce résultat démontre que p53 est nécessaire à la division des cellules",
+    "answer2": "Ce résultat suggéré que p53 est un facteur pro-apoptotique",
+    "answer3": "Ce résultat démontre une addiction des cellules cancéreuses pour p53",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "4"
+  },
+  {
+    "id": "10059",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "À propos de l’apoptose, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les cellules apoptotiques sont éliminées par phagocytose",
+    "answer1": "La composition des membranes plasmiques n’est pas modifiée dans les cellules en apoptose",
+    "answer2": "La stimulation de la famille des récepteurs de mort Fas déclenche l’apoptose",
+    "answer3": "L’induction de l’apoptose s’effectue quand les caspases sont inactivées",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10060",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "À propos de la mort cellulaire, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La sénescence correspond à la mort des cellules âgées",
+    "answer1": "L’apoptose et la nécrose nécessitent l’hydrolyse de molécules d’ATP",
+    "answer2": "Les cellules nécrotiques condensent leur chromatine",
+    "answer3": "Les cellules nécrotiques peuvent être visualisées par un marquage à l’annexine V",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "3"
+  },
+  {
+    "id": "10061",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Sénescence, Vieillissement, Cancer & Mort",
+    "question": "À propos de la transformation maligne, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "L’inactivation d’un des deux allèles d’un gène suppresseur de tumeur est suffisante pour déclencher un cancer",
+    "answer1": "L’expression d’un oncogène correspond à un gain de fonction",
+    "answer2": "L’amplification du gène déterminant la synthèse de la cycline D est un phénomène oncogénique",
+    "answer3": "Un oncogène peut s’exprimer à partir d’un génome viral",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2,3"
+  },
+  {
+    "id": "10062",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Cytosquelette",
+    "question": "À propos du cytosquelette, indiquez la (les) proposition(s) exacte(s) :A)",
+    "answer0": "Le GTP est nécessaire au fonctionnement de la myosine",
+    "answer1": "Les kinésines sont des moteurs spécifiques aux microfilaments",
+    "answer2": "L’équilibre polymérisation-dépolymérisation des microfilaments est régulé par des protéines se fixant sur la tubuline",
+    "answer3": "Les propositions A, B et C sont fausses",
+    "answer4": "",
+    "answer": "3"
+  },
+  {
+    "id": "10063",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Cytosquelette",
+    "question": "À propos du cytosquelette, indiquez la (les) proposition(s) exacte(s) :A)",
+    "answer0": "Le centrosome est constitué de deux centrioles perpendiculaires et de matériel péricentriolaire",
+    "answer1": "Les dynéines sont des moteurs spécifiques des microfilaments",
+    "answer2": "L’équilibre polymérisation-dépolymérisation des filaments intermédiaires est régulé par des protéines se fixant sur latubuline",
+    "answer3": "Les propositions A, B et C sont fausses",
+    "answer4": "",
+    "answer": "0"
+  },
+  {
+    "id": "10064",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Cytosquelette",
+    "question": "À propos de la mitose, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les microtubules polaires maintiennent à distance les deux centrosomes qui constituent les pôles du fuseaumitotique",
+    "answer1": "Le point de contrôle mitotique vérifie l’alignement des chromosomes à l’équateur du fuseau mitotique lors del’anaphase",
+    "answer2": "La migration des chromosomes à une chromatide vers les pôles du fuseau est uniquement dépendante de ladépolymérisation des microtubules",
+    "answer3": "La cytocinèse est dépendante de la myosine",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,3"
+  },
+  {
+    "id": "10065",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Cytosquelette",
+    "question": "À propos du cytosquelette, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Le GTP est nécessaire au fonctionnement de la myosine",
+    "answer1": "Les kinésines sont des moteurs spécifiques des microfilaments",
+    "answer2": "L’équilibre polymérisation-dépolymérisation des microfilaments est régulé par des protéines se fixant sur l’actine G",
+    "answer3": "L’extrémité négative des microtubules est dirigée vers le centrosome",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2,3"
+  },
+  {
+    "id": "10066",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Cycle Cellulaire",
+    "question": "À propos de la mitose, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "L’attachement correct des chromosomes au fuseau mitotique est indispensable au déclenchement de la métaphase",
+    "answer1": "Dans une mitose fermée, la rupture de l’enveloppe nucléaire se fait en début de prométaphase",
+    "answer2": "Les chromosomes non attachés au fuseau bloquent la séparation des chromatides-sœurs",
+    "answer3": "Les propositions A, B, C et D sont fausses",
+    "answer4": "",
+    "answer": "1,2"
+  },
+  {
+    "id": "10067",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Cycle Cellulaire",
+    "question": "À propos de la réplication et du cycle cellulaire, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Une origine de réplication initie la réplication deux fois par phase S",
+    "answer1": "Il existe une et une seule origine de réplication par chromosome humain",
+    "answer2": "Après avoir subi un dommage en phase G1, les cellules sont bloquées dans le cycle cellulaire de manièreirréversible",
+    "answer3": "La réplication de l’ADN s’effectue en début de phase M",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "4"
+  },
+  {
+    "id": "10068",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Cycle Cellulaire",
+    "question": "À propos du cycle cellulaire, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les transitions entre les phases du cycle sont contrôlées par différents couples cycline-CDK",
+    "answer1": "La transition G1-S nécessite de nombreux gènes activés par le facteur de transcription pRb",
+    "answer2": "Les origines de réplication restent les mêmes au cours du développement",
+    "answer3": "L’ubiquitinylation de pRb permet le passage de la phase G1 à la phase S",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0"
+  },
+  {
+    "id": "10069",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Cycle Cellulaire",
+    "question": "À propos de la mitose, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les microtubules polaires maintiennent à distance les deux centrosomes qui constituent les pôles du fuseaumitotique",
+    "answer1": "Le point de contrôle mitotique vérifie l’alignement des chromosomes à l’équateur du fuseau mitotique lors del’anaphase",
+    "answer2": "La migration des chromosomes à une chromatide vers les pôles du fuseau est uniquement dépendante de ladépolymérisation des microtubules",
+    "answer3": "La cytocinèse est dépendante de la myosine",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,3"
+  },
+  {
+    "id": "10070",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Cycle Cellulaire",
+    "question": "À propos du cycle cellulaire, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "les transitions entre les phases du cycle sont contrôlées par différents couples cycline-CDK",
+    "answer1": "La transition G1-S nécessite la transcription de nombreux gènes activés par le facteur de transcription pRb",
+    "answer2": "Les origines de réplication restent les mêmes au cours du développement",
+    "answer3": "L’hyper phosphorylation de pRb permet le passage de la phase G1 à la phase S",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,3"
+  },
+  {
+    "id": "10071",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Cycle Cellulaire",
+    "question": "À propos des mécanismes de contrôle de la progression du cycle cellulaire, indiquez la (les)proposition(s) exacte(s) :",
+    "answer0": "La division des cellules eucaryotes peut être contrôlée par ses contacts avec d’autres cellules ou en réponse à desmolécules extracellulaires",
+    "answer1": "La traversée du point de restriction nécessaire la déphosphorylation de la protéine Rb",
+    "answer2": "Un endommagement de l’ADN survenant dans une cellule en phase G1 entraîne un arrêt du cycle en phase G2",
+    "answer3": "Les transitions entre les phases du cycle sont contrôlées par différentes kinases appelées complexes cycline-CDK",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,3"
+  },
+  {
+    "id": "10072",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Cycle Cellulaire",
+    "question": "À propos de la mitose, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Au cours de la métaphase, le complexe condensine est dégradé au niveau du centromère",
+    "answer1": "Le complexe cohésine se met en place pendant la réplication",
+    "answer2": "À la fin de l’anaphase, la protéolyse du complexe cohésine permet la séparation soudaine des chromatides-sœurs",
+    "answer3": "Après avoir subi un dommage en phase G1, les cellules sont bloquées dans le cycle cellulaire de manièreirréversible",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10073",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Cycle Cellulaire",
+    "question": "À propos du cycle cellulaire, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La transition G1/S nécessite le facteur MPF",
+    "answer1": "Pendant la phase G1-S, la protéine E2F empêche l’activation de p53",
+    "answer2": "L’activation de pRb peut favoriser la prolifération des cellules cancéreuses",
+    "answer3": "L’hyperphosphorylation de pRb permet le passage de la phase G1 à la phase S",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "3"
+  },
+  {
+    "id": "10074",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos des compartiments cellulaires, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "L’autophagie est un mécanisme général de dégradation et de renouvellement des organites",
+    "answer1": "La pinocytose permet l’élimination de cellules sénescentes ou apoptotiques",
+    "answer2": "L’endocytose par récepteur interposé est un mode d’endocytose spécifique",
+    "answer3": "Les vésicules de la sécrétion constitutive sont entourées de clathrine",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10075",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos des compartiments cellulaires, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La phagocytose concerne l’endocytose de particules volumineuses dans une vacuole appelée phagosome",
+    "answer1": "Le matériel présent dans le cavéosome peut être apporté directement au réticulum endoplasmique à partir duquel ilgagne le cytosol via le translocon",
+    "answer2": "Les endosomes forment un compartiment membranaire vers lequel se dirigent les vésicules d’endocytose",
+    "answer3": "Les membranes des lysosomes sont dotées d’une V-ATPase pompe à protons",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10076",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "Dans certaines maladies, un récepteur de la membrane plasmique n’est plus fonctionnel. Dans lamajorité des cas, cela provient d’une modification du récepteur qui n’est pas adressé correctement à lasurface de la cellule. Les protéines anormales s’accumulent à leurs sites de synthèse et de maturation. Cessites peuvent être (une ou plusieurs réponses exactes) :",
+    "answer0": "Le noyau",
+    "answer1": "La mitochondrie",
+    "answer2": "L’appareil de Golgi",
+    "answer3": "Le lysosome",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2,3"
+  },
+  {
+    "id": "10077",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos des compartiments cellulaires, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les lysosomes forment un compartiment qui contient des hydrolases fonctionnant à pH basique",
+    "answer1": "L’endocytose par récepteur interposé est un mode d’endocytose spécifique",
+    "answer2": "Le réticulum endoplasmique granulaire est le lieu de synthèse des protéines sécrétées",
+    "answer3": "Le protéasome sert à transférer les protéines dans la lumière du réticulum endoplasmique",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2"
+  },
+  {
+    "id": "10078",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos de l’adressage membranaire des protéines, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les protéines à ancre GPI sont exposées sur la face cytosolique de la membrane plasmique",
+    "answer1": "Les enzyme palmitoyl transferases, myristoyl-transférases et farnésyl-transférases sont localisées dans la lumièredes endosomes",
+    "answer2": "L’adressage des protéines à ancre GPI nécessite leur traduction au niveau du réticulum endoplasmique",
+    "answer3": "La majorité des protéines mitochondriales proviennent du cytosol",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "3"
+  },
+  {
+    "id": "10079",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos des compartiments cellulaires, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les peroxysomes sont des organelles à pH acide contenant de nombreuses hydrolases",
+    "answer1": "Le pH des endosomes augmente au cours de la maturation des endosomes précoces vers les endosomes tardifs",
+    "answer2": "Les phagosomes peuvent résulter de la phagocytose de cellules apoptotiques",
+    "answer3": "Les protéases lysosomales sont actives à un pH de 7",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2"
+  },
+  {
+    "id": "10080",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos des compartiments cellulaires, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Il existe trois voies d’endocytose : la pinocytose, l’endocytose par récepteur interposé et la phagocytose",
+    "answer1": "L’exocytose permet l’élimination de cellules sénescentes ou apoptotiques",
+    "answer2": "L’endocytose par récepteur interposé est un mode d’endocytose non spécifique",
+    "answer3": "Les protéines à GPI sont ancrées à un glycolipide du feuillet interne de la membrane plasmique par une liaisoncovalente",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0"
+  },
+  {
+    "id": "10081",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos des compartiments cellulaires, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "L’autophagie est un mécanisme général de dégradation et de renouvellement des organites",
+    "answer1": "La pinocytose permet l’élimination des cellules sénescentes et apoptotiques",
+    "answer2": "L’endocytose par récepteur interposé est un mode d’endocytose spécifique",
+    "answer3": "Les vésicules de la sécrétion constitutive sont entourées de clathrine",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10082",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos des compartiments cellulaires, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La phagocytose concerne l’endocytose de particules volumineuses dans une vacuole appelée phagosome",
+    "answer1": "Le matériel présent dans le cavéosome peut être apporté directement au réticulum endoplasmique à partir duquel ilgagne le cytosol via le translocon",
+    "answer2": "Les endosomes forment un compartiment membranaire vers lequel se dirigent les vésicules d’endocytose",
+    "answer3": "Les membranes des lysosomes sont dotées d’une V-ATPase pompe à protons",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10083",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos des compartiments cellulaires, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les peroxysomes sont des organelles à pH acide contenant de nombreuses hydrolases",
+    "answer1": "Le pH des endosomes augmente au cours de la maturation des endosomes précoces vers les endosomes tardifs",
+    "answer2": "La V-ATPase permet de coupler l’hydrolyse de l’ATP en ADP + Pi à l’import de protons dans les mitochondries",
+    "answer3": "Les protéases lysosomales sont actives à un pH de 7",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "4"
+  },
+  {
+    "id": "10084",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos des compartiments cellulaires, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Lors de la phagocytose, les macrophages émettent des pseudopodes",
+    "answer1": "Les anticorps du lait maternel sont transmis au nouveau-né grâce au processus d’endocytose par récepteurinterposé puis par pinocytose",
+    "answer2": "Lors de la transcytose, le contenu des vésicules d’endocytose est transporté au pôle cellulaire opposé par exocytose",
+    "answer3": "Les vésicules de stockage sont alimentées par le processus de transcytose",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2"
+  },
+  {
+    "id": "10085",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos des compartiments cellulaires, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les lysosomes sont des organites à pH acide contenant de nombreuses hydrolases",
+    "answer1": "Le pH des endosomes augmente au cours de la maturation des endosomes précoces vers les endosomes tardifs",
+    "answer2": "La V-ATPase permet de concentrer les protons dans les lysosomes",
+    "answer3": "Les protéases lysosomales sont actives à un pH basique",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10086",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "Parmi les fonctions suivantes, la(es)quelle(s) est(sont) exercée(s) par le réticulum endoplasmiquerugueux ?",
+    "answer0": "La transduction d’un signal exogène de la cellule",
+    "answer1": "La synthèse des protéines membranaires",
+    "answer2": "La synthèse d’ATP",
+    "answer3": "L’autophagie",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10087",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos des compartiments cellulaires, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Le système endomembranaire est nucléaire",
+    "answer1": "Le réticulum endoplasmique lisse est le lieu de synthèse des protéines sécrétées",
+    "answer2": "La lumière des compartiments du système endomembranaire est l’équivalent du milieu extracellulaire",
+    "answer3": "Une partie des composés cellulaires est déversée dans le milieu extracellulaire par endocytose",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2"
+  },
+  {
+    "id": "10088",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Compartiments Cellulaires",
+    "question": "À propos des compartiments cellulaires, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Le protéasome sert à transférer les protéines dans la lumière du réticulum endoplasmique",
+    "answer1": "La phagocytose permet l’élimination de protéines mal conformées",
+    "answer2": "Les caspases dégradent l’ensemble de la cellule",
+    "answer3": "L’ubiquitination protège les protéines de la protéolyse",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2"
+  },
+  {
+    "id": "10089",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Noyau & Épigénétique",
+    "question": "À propos de la chromatine, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Des modifications post-traductionnelles des histones régulent l’expression des gènes",
+    "answer1": "Certains facteurs de transcription modifient la structure de la chromatine",
+    "answer2": "Tous les nucléosomes sont fonctionnellement équivalents",
+    "answer3": "La régulation de l’expression des gènes s’effectue de manière identique quel que soit leur localisation dans lenucléoplasme",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1"
+  },
+  {
+    "id": "10090",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Noyau & Épigénétique",
+    "question": "À propos de l’organisation des chromosomes, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Tous les nucléosomes d’une même cellule sont identiques",
+    "answer1": "Les nucléosomes défavorisent la transcription",
+    "answer2": "L’histone H1 est présente dans tous les nucléosomes du noyau",
+    "answer3": "Les éléments insulateurs segmentent les chromosomes en domaines indépendants de régulation de la transcription",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,3"
+  },
+  {
+    "id": "10091",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Noyau & Épigénétique",
+    "question": "À propos de l’organisation des chromosomes, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Les modifications post-traductionnelles des histones sont introduites par des enzymes spécialisées",
+    "answer1": "L’immunoprécipitation de chromatine permet d’étudier les modifications post-traductionnelles de l’extrémité Nterminale des histones dans les nucléosomes de différentes régions chromosomiques",
+    "answer2": "Les protéines histone acétyl-transférases et les protéines histone désacétylases sont souvent des co-activateurs oudes co-répresseurs en interagissant avec des facteurs de transcription",
+    "answer3": "Les modifications post-traductionnelles des histones peuvent réguler les interactions entre nucléosomes et protéinesde type répresseur ou activateur",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10092",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Noyau & Épigénétique",
+    "question": "À propos de la chromatine, indiquez la (les) proposition(s) exacte(s) :A)",
+    "answer0": "La méthylation des lysines de l’histone H3 est toujours associée à la répression de la transcription",
+    "answer1": "Les gènes actifs sont présents dans des domaines sensibles à la DNase1",
+    "answer2": "Il y a effet de position quand l’activité d’un élément génétique dépend de son contexte chromosomique",
+    "answer3": "Les propositions A, B, C et D sont fausses",
+    "answer4": "",
+    "answer": "1,2"
+  },
+  {
+    "id": "10093",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Noyau & Épigénétique",
+    "question": "À propos de la chromatine, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "L’acétylation des histones provoque la décondensation de la chromatine par aout d’un excès de charges positivesqui induit leur répulsion électrostatique mutuelle",
+    "answer1": "La méthylation des lysines de l’histone H3 est toujours associée à la répression de la transcription",
+    "answer2": "Tous les nucléosomes sont fonctionnellement équivalents",
+    "answer3": "La régulation de l’expression des gènes s’effectue de manière identique quelle que soit leur localisation dans lenucléoplasme",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "4"
+  },
+  {
+    "id": "10094",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Noyau & Épigénétique",
+    "question": "À propos de l’organisation des chromosomes, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Tous les nucléosomes d’une même cellule sont identiques",
+    "answer1": "Les nucléosomes défavorisent la transcription",
+    "answer2": "L’histone H1 est présente dans tous les nucléosomes du noyau",
+    "answer3": "Les éléments insulateurs segmentent les chromosomes en domaines indépendants de régulation de la transcription",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,3"
+  },
+  {
+    "id": "10095",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Noyau & Épigénétique",
+    "question": "À propos de la chromatine, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "Des modifications post-traductionnelles des histones régulent l’expression des gènes",
+    "answer1": "Certains facteurs de transcription modifient la structure de la chromatine",
+    "answer2": "Tous les nucléosomes sont fonctionnellement équivalents vis-à-vis de la transcription",
+    "answer3": "Le code histone est une caractéristique des procaryotes",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1"
+  },
+  {
+    "id": "10096",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Noyau & Épigénétique",
+    "question": "Avant la mitose, chaque chromosome réplique son matériel génétique. Les deux produits de cetteduplication sont connectés par les cohésives et sont appelés (indiquez la [les] proposition[s] exacte[s]) :",
+    "answer0": "Les chromosomes sexuels",
+    "answer1": "Les chromatides sœurs",
+    "answer2": "Les chromosomes homologues",
+    "answer3": "Les télomères",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10097",
+    "spec": ".",
+    "matiere": "Biologie Cellulaire",
+    "chapitre": "Noyau & Épigénétique",
+    "question": "À propos du noyau, indiquez la (les) proposition(s) exacte(s) :",
+    "answer0": "La méthylation des histones est couplée à la méthylation de l’ADN",
+    "answer1": "La chromatine hyper-condensée est localisée à la périphérie des territoires chromosomiques",
+    "answer2": "La lamine nucléaire peut s’associer à la chromatine",
+    "answer3": "Les « enhancers » correspondent à des sites hypersensibles à la DNase1",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2,3"
+  },
+  {
+    "id": "10098",
+    "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
     "question": "À propos de la biophysique cardiaque, indiquez la (les) proposition(s) exacte(s) :",
@@ -585,7 +1274,7 @@
     "answer": "3"
   },
   {
-    "id": "10046",
+    "id": "10099",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -598,7 +1287,7 @@
     "answer": "1,2,3"
   },
   {
-    "id": "10047",
+    "id": "10100",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -611,7 +1300,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10048",
+    "id": "10101",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -624,7 +1313,7 @@
     "answer": "0,3"
   },
   {
-    "id": "10049",
+    "id": "10102",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -637,7 +1326,7 @@
     "answer": "0,1,3"
   },
   {
-    "id": "10050",
+    "id": "10103",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -650,7 +1339,7 @@
     "answer": "4"
   },
   {
-    "id": "10051",
+    "id": "10104",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -663,7 +1352,7 @@
     "answer": "0,2,4"
   },
   {
-    "id": "10052",
+    "id": "10105",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -676,7 +1365,7 @@
     "answer": "1"
   },
   {
-    "id": "10053",
+    "id": "10106",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -689,7 +1378,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10054",
+    "id": "10107",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -702,7 +1391,7 @@
     "answer": "0,2"
   },
   {
-    "id": "10055",
+    "id": "10108",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -715,7 +1404,7 @@
     "answer": "3"
   },
   {
-    "id": "10056",
+    "id": "10109",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -728,7 +1417,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10057",
+    "id": "10110",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -741,7 +1430,7 @@
     "answer": "1"
   },
   {
-    "id": "10058",
+    "id": "10111",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -754,7 +1443,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10059",
+    "id": "10112",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -767,7 +1456,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10060",
+    "id": "10113",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -780,7 +1469,7 @@
     "answer": "0,2"
   },
   {
-    "id": "10061",
+    "id": "10114",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -793,7 +1482,7 @@
     "answer": "4"
   },
   {
-    "id": "10062",
+    "id": "10115",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -806,7 +1495,7 @@
     "answer": "0,3"
   },
   {
-    "id": "10063",
+    "id": "10116",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -819,7 +1508,7 @@
     "answer": "1,3"
   },
   {
-    "id": "10064",
+    "id": "10117",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -832,7 +1521,7 @@
     "answer": "1"
   },
   {
-    "id": "10065",
+    "id": "10118",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -845,7 +1534,7 @@
     "answer": "3"
   },
   {
-    "id": "10066",
+    "id": "10119",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -858,7 +1547,7 @@
     "answer": "0"
   },
   {
-    "id": "10067",
+    "id": "10120",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -871,7 +1560,7 @@
     "answer": "0"
   },
   {
-    "id": "10068",
+    "id": "10121",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -884,7 +1573,7 @@
     "answer": "0,3"
   },
   {
-    "id": "10069",
+    "id": "10122",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -897,7 +1586,7 @@
     "answer": "1,2,3"
   },
   {
-    "id": "10070",
+    "id": "10123",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -910,7 +1599,7 @@
     "answer": "1,2"
   },
   {
-    "id": "10071",
+    "id": "10124",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -923,7 +1612,7 @@
     "answer": "3,4"
   },
   {
-    "id": "10072",
+    "id": "10125",
     "spec": ".",
     "matiere": "BioPhysique",
     "chapitre": "Biophysique Cardique",
@@ -936,7 +1625,7 @@
     "answer": "1"
   },
   {
-    "id": "10073",
+    "id": "10126",
     "spec": ".",
     "matiere": "Chimie",
     "chapitre": "Introduction",
@@ -949,7 +1638,7 @@
     "answer": "3"
   },
   {
-    "id": "10074",
+    "id": "10127",
     "spec": ".",
     "matiere": "Chimie",
     "chapitre": "Introduction",
@@ -962,7 +1651,7 @@
     "answer": "0,2"
   },
   {
-    "id": "10075",
+    "id": "10128",
     "spec": ".",
     "matiere": "Chimie",
     "chapitre": "Introduction",
@@ -975,7 +1664,7 @@
     "answer": "1"
   },
   {
-    "id": "10076",
+    "id": "10129",
     "spec": ".",
     "matiere": "Chimie",
     "chapitre": "Introduction",
@@ -988,7 +1677,7 @@
     "answer": "0,1,3"
   },
   {
-    "id": "10077",
+    "id": "10130",
     "spec": ".",
     "matiere": "Chimie",
     "chapitre": "Introduction",
@@ -1001,7 +1690,7 @@
     "answer": "1,3"
   },
   {
-    "id": "10078",
+    "id": "10131",
     "spec": ".",
     "matiere": "Chimie",
     "chapitre": "Introduction",
@@ -1014,7 +1703,7 @@
     "answer": "4"
   },
   {
-    "id": "10079",
+    "id": "10132",
     "spec": ".",
     "matiere": "Chimie",
     "chapitre": "Introduction",
@@ -1027,7 +1716,7 @@
     "answer": "1,2,3"
   },
   {
-    "id": "10080",
+    "id": "10133",
     "spec": ".",
     "matiere": "Chimie",
     "chapitre": "Introduction",
@@ -1040,7 +1729,7 @@
     "answer": "0,1,2"
   },
   {
-    "id": "10081",
+    "id": "10134",
     "spec": ".",
     "matiere": "Chimie",
     "chapitre": "Introduction",
@@ -1053,7 +1742,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10082",
+    "id": "10135",
     "spec": ".",
     "matiere": "Chimie",
     "chapitre": "Introduction",
@@ -1066,7 +1755,7 @@
     "answer": "0,2"
   },
   {
-    "id": "10083",
+    "id": "10136",
     "spec": ".",
     "matiere": "Chimie",
     "chapitre": "Introduction",
@@ -1079,7 +1768,7 @@
     "answer": "4"
   },
   {
-    "id": "10084",
+    "id": "10137",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -1088,11 +1777,11 @@
     "answer1": "L’inuline permet de mesurer le volume cellulaire",
     "answer2": "Le tritium permet de mesurer le volume d’eau totale",
     "answer3": "L’albumine marquée à l’iode 125 permet de mesurer le volume pulmonaire",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,2"
   },
   {
-    "id": "10085",
+    "id": "10138",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -1101,11 +1790,11 @@
     "answer1": "Le patient possède 5,3 L de sang suite à son hémorragie",
     "answer2": "Le patient a besoin d’une transfusion de 1L de sang",
     "answer3": "Le pronostic vital de ce patient est engagé",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "1,2,3"
   },
   {
-    "id": "10086",
+    "id": "10139",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -1114,11 +1803,11 @@
     "answer1": "Le volume extracellulaire diminue de 2L",
     "answer2": "Le volume extracellulaire passe de 20 L à 18L",
     "answer3": "Le volume extracellulaire passe de 24 à 22L",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,1,2"
   },
   {
-    "id": "10087",
+    "id": "10140",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -1127,11 +1816,11 @@
     "answer1": "L’urine est dépoussiérée réchauffée et humidifiée par l’organisme",
     "answer2": "On utilise un spiromètre pour mesurer le volume pulmonaire",
     "answer3": "On peut utiliser l’hélium pour mesurer le volume pulmonaire",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "2,3"
   },
   {
-    "id": "10088",
+    "id": "10141",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -1140,11 +1829,11 @@
     "answer1": "Le volume résiduel est supérieur au volume courant",
     "answer2": "Le volume résiduel n’intervient que en cas d’efforts intenses",
     "answer3": "Le volume de réserve inspiratoire est de 4 litres",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "1"
   },
   {
-    "id": "10089",
+    "id": "10142",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -1153,11 +1842,11 @@
     "answer1": "Il est facile à mesurer",
     "answer2": "Le plasma est filtré 500 fois par jours",
     "answer3": "L’EDTA est éliminé exclusivement par les reins",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "3"
   },
   {
-    "id": "10090",
+    "id": "10143",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Compartiments",
@@ -1166,11 +1855,11 @@
     "answer1": "La clairance plasmatique d’un soluté est la quantité de soluté éliminée par le foie et par les reins par unité de temps exprimé en mmol/min",
     "answer2": "La clairance plasmatique d’un soluté est le volume de plasma épuré du soluté par unité de temps exprimé en ml/min",
     "answer3": "La clairance plasmatique d’un soluté est le volume d’urine enrichi de ce soluté par les reins exprimé en ml d’ultrafiltrat glomérulaire",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "2"
   },
   {
-    "id": "10091",
+    "id": "10144",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -1179,11 +1868,11 @@
     "answer1": "Le plasma est plus riche en protéines que le liquide interstitiel",
     "answer2": "Non c’est l’inverse ! C’est le liquide interstitiel qui est plus riche en protéines",
     "answer3": "L’eau diffuse toujours du compartiment le plus concentré vers le moins concentré",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "1"
   },
   {
-    "id": "10092",
+    "id": "10145",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -1192,11 +1881,11 @@
     "answer1": "Dans les capillaires standards, Δπ ne varie pas du pôle artériel au pôle veineux",
     "answer2": "Lorsque ΔP > Δπ, on parle de flux nutritif car on favorise le transfert du liquide du capillaire vers l’interstitium",
     "answer3": "Lorsque ΔP < Δπ, on parle de flux dépuratif car on favorise le transfert du liquide de l’interstitium vers le capillaire",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "1,2,3"
   },
   {
-    "id": "10093",
+    "id": "10146",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -1205,11 +1894,11 @@
     "answer1": "Non ! L’effet Donnan se produit uniquement dans les capillaires pulmonaires",
     "answer2": "Les protéines sont électropositives, l’effet Donnan répartit donc des charges positives dans la lumière du capillaire",
     "answer3": "Les protéines sont électronégatives, l’effet Donnan répartit donc des charges positives dans la lumière du capillaire",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "4"
   },
   {
-    "id": "10094",
+    "id": "10147",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -1218,11 +1907,11 @@
     "answer1": "L’épanchement correspond à une accumulation de liquide dans les cavités réelles de l’organisme",
     "answer2": "L’ascite correspond à une accumulation de liquide dans la plèvre",
     "answer3": "L’œdème pulmonaire peut provoquer des dyspnées",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,3"
   },
   {
-    "id": "10095",
+    "id": "10148",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -1231,11 +1920,11 @@
     "answer1": "La pression hydrostatique est légèrement négative dans l’interstitium",
     "answer2": "Lorsqu’on observe un excès de liquide dans l’interstitium, la pression hydrostatique devient anormalement positive",
     "answer3": "Les capillaires lymphatiques vont être capables de conduire le liquide en excès vers la veine cave inférieure",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "1,2"
   },
   {
-    "id": "10096",
+    "id": "10149",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -1244,11 +1933,11 @@
     "answer1": "L’hyperventilation permet de faire diminuer la PCO*/2*/ alvéolaire",
     "answer2": "L’hyperventilation n’a aucun effet sur la PO*/2*/ alvéolaire",
     "answer3": "En cas d’insuffisance cardiaque, ΔP devient supérieur à Δπ",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "1,2,3"
   },
   {
-    "id": "10097",
+    "id": "10150",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -1257,11 +1946,11 @@
     "answer1": "Le cytoplasme possède beaucoup de protéines donc une forte pression osmotique",
     "answer2": "Le liquide extracellulaire possède beaucoup d’osmoles donc une forte pression oncotique",
     "answer3": "Une membrane osmotique sépare le cytoplasme du liquide extracellulaire",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "4"
   },
   {
-    "id": "10098",
+    "id": "10151",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Flux Transmembranaires",
@@ -1270,11 +1959,11 @@
     "answer1": "Si on augmente la concentration de sodium dans le liquide extracellulaire, on observe une augmentation du volume du liquide extracellulaire",
     "answer2": "Si on augmente la concentration de sodium dans le liquide extracellulaire, on observe un flux d’eau du liquide extracellulaire vers le cytoplasme",
     "answer3": "Si on augmente la concentration de sodium dans le liquide extracellulaire, on observe un flux d’eau du cytoplasme vers le liquide extracellulaire",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "1,3"
   },
   {
-    "id": "10099",
+    "id": "10152",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Chimique",
@@ -1283,11 +1972,11 @@
     "answer1": "Le potentiel chimique d’une molécule est proportionnel à sa concentration en un point uniquement",
     "answer2": "Selon la loi de Fick, la diffusion est proportionnelle au coefficient de diffusion et au gradient de concentration entre deux points d’une molécule donnée",
     "answer3": "On retrouve le signe - dans la loi de Fick car la diffusion va dans le sens opposé du gradient de concentration",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "2,3"
   },
   {
-    "id": "10100",
+    "id": "10153",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Chimique",
@@ -1296,11 +1985,11 @@
     "answer1": "La pression osmotique correspond à la pression exercée par les osmoles diffusibles à travers la paroi",
     "answer2": "Toutes les molécules exercent une pression osmotique sauf les molécules d’eau",
     "answer3": "La pression osmotique est mise en évidence à l’aide d’une membrane non sélective",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0"
   },
   {
-    "id": "10101",
+    "id": "10154",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Chimique",
@@ -1309,11 +1998,11 @@
     "answer1": "Les molécules en suspension exercent une pression oncotique et sont impliquées dans l’abaissement cryoscopique",
     "answer2": "A 0°C la glace et l’eau contenant des molécules dissoutes ne sont plus en équilibre, la glace fond plus vite que l’eau ne congèle",
     "answer3": "Il existe une relation linéaire entre l’osmolalité d’une solution et l’abaissement cryoscopique",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,2,3"
   },
   {
-    "id": "10102",
+    "id": "10155",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Chimique",
@@ -1322,11 +2011,11 @@
     "answer1": "La force motrice de la convection est la pression hydrostatique",
     "answer2": "La convection et la diffusion vont collaborer pour permettre aux molécules dissoutes d’avoir des mouvements harmonieux",
     "answer3": "Lors d’une convection à travers une membrane non sélective, aucun potentiel chimique n’est généré",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,1,2,3"
   },
   {
-    "id": "10103",
+    "id": "10156",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -1335,11 +2024,11 @@
     "answer1": "La membrane plasmique constitue un dipôle",
     "answer2": "Le potentiel électrique est proportionnel uniquement à sa charge et à sa mobilité dans le dipôle",
     "answer3": "La loi d’Ohm nous indique que la conductance est égale au rapport de l’intensité sur le potentiel électrique",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "1,3"
   },
   {
-    "id": "10104",
+    "id": "10157",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -1348,11 +2037,11 @@
     "answer1": "Le courant qui traverse la membrane plasmique est un électron",
     "answer2": "Si l’ampèremètre ne détecte rien malgré́ un grand PE c’est que les charges ne peuvent pas se déplacer dans le système étudié",
     "answer3": "L’intensité (en ampère) correspond à la quantité de charges passant en un point d’un conducteur par unité de temps",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,2,3"
   },
   {
-    "id": "10105",
+    "id": "10158",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -1361,11 +2050,11 @@
     "answer1": "Le potentiel chimique va par conséquence équilibrer le potentiel électrique d’une osmole électriquement chargée",
     "answer2": "Si on exerce un potentiel électrique supérieur au potentiel chimique le sens du flux d’une osmole chargée ne sera pas modifié",
     "answer3": "Non au contraire ! Cela va inverser le sens du flux de l’osmole chargée",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,1,3"
   },
   {
-    "id": "10106",
+    "id": "10159",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -1374,11 +2063,11 @@
     "answer1": "La conductance est inventée",
     "answer2": "La conductance est imposée",
     "answer3": "La conductance est clampée",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "4"
   },
   {
-    "id": "10107",
+    "id": "10160",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -1387,11 +2076,11 @@
     "answer1": "Sa conductance est de 6 pS",
     "answer2": "Sa durée d’ouverture est de 0,5 seconde",
     "answer3": "Sa probabilité d’ouverture est de 1",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "4"
   },
   {
-    "id": "10108",
+    "id": "10161",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -1400,11 +2089,11 @@
     "answer1": "Le K/*+/* est le principal cation extracellulaire",
     "answer2": "Les liquides biologiques sont neutres",
     "answer3": "Les liquides biologiques sont chargés positivement",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "2"
   },
   {
-    "id": "10109",
+    "id": "10162",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -1413,11 +2102,11 @@
     "answer1": "Les pompes consomment de l’ATP, on parle donc de transport osmolaire actif",
     "answer2": "Un co-transporteur transporte deux osmoles dans le même sens",
     "answer3": "Les échangeurs et les co-transporteurs ne fonctionnent plus du tout lorsqu’il manque une seule des molécules qu’ils transportent",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,1,2,3"
   },
   {
-    "id": "10110",
+    "id": "10163",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -1426,11 +2115,11 @@
     "answer1": "On choisit des cellules lambdas",
     "answer2": "On crée un potentiel électrique grâce à un dispositif externe",
     "answer3": "Si on détecte une intensité c’est qu’il y a un échange, un flux qui se produit",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "0,2,3"
   },
   {
-    "id": "10111",
+    "id": "10164",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -1439,11 +2128,11 @@
     "answer1": "Les deux assertions sont vraies et n’ont pas une relation de cause à effet",
     "answer2": "La première assertion est vraie, mais la deuxième est fausse",
     "answer3": "La première assertion est fausse, mais la deuxième est vraie",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "1"
   },
   {
-    "id": "10112",
+    "id": "10165",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel Électrique",
@@ -1452,11 +2141,11 @@
     "answer1": "Le bicarbonate (HCO//-/3// ) va fuir les charges positives et va donc aller où les charges négatives prédominent",
     "answer2": "Si on prend l’échangeur sodium/chlore, le sodium passera suivant son potentiel chimique mais pas suivant son potentiel électrique",
     "answer3": "Si on prend le co-transporteur sodium/glucose, le glucose diffusera suivant son potentiel chimique et électrique",
-    "answer4": "Les propositions A, B, C, D sont fausses",
+    "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "4"
   },
   {
-    "id": "10113",
+    "id": "10166",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Acide Base",
@@ -1469,7 +2158,7 @@
     "answer": "1"
   },
   {
-    "id": "10114",
+    "id": "10167",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Acide Base",
@@ -1482,7 +2171,7 @@
     "answer": "2"
   },
   {
-    "id": "10115",
+    "id": "10168",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Acide Base",
@@ -1495,7 +2184,7 @@
     "answer": "0"
   },
   {
-    "id": "10116",
+    "id": "10169",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Acide Base",
@@ -1508,7 +2197,7 @@
     "answer": "2"
   },
   {
-    "id": "10117",
+    "id": "10170",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1521,7 +2210,7 @@
     "answer": "1,3"
   },
   {
-    "id": "10118",
+    "id": "10171",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1534,7 +2223,7 @@
     "answer": "2,3"
   },
   {
-    "id": "10119",
+    "id": "10172",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1547,7 +2236,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10120",
+    "id": "10173",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1560,7 +2249,7 @@
     "answer": "0,1,3"
   },
   {
-    "id": "10121",
+    "id": "10174",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1573,7 +2262,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10122",
+    "id": "10175",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1586,7 +2275,7 @@
     "answer": "0,1,2"
   },
   {
-    "id": "10123",
+    "id": "10176",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1599,7 +2288,7 @@
     "answer": "1"
   },
   {
-    "id": "10124",
+    "id": "10177",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1612,7 +2301,7 @@
     "answer": "4"
   },
   {
-    "id": "10125",
+    "id": "10178",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1625,7 +2314,7 @@
     "answer": "0"
   },
   {
-    "id": "10126",
+    "id": "10179",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1638,7 +2327,7 @@
     "answer": "1,2,3"
   },
   {
-    "id": "10127",
+    "id": "10180",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1651,7 +2340,7 @@
     "answer": "0,2,3"
   },
   {
-    "id": "10128",
+    "id": "10181",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1664,7 +2353,7 @@
     "answer": "0,1,2"
   },
   {
-    "id": "10129",
+    "id": "10182",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1677,7 +2366,7 @@
     "answer": "4"
   },
   {
-    "id": "10130",
+    "id": "10183",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1690,7 +2379,7 @@
     "answer": "0,3"
   },
   {
-    "id": "10131",
+    "id": "10184",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1703,7 +2392,7 @@
     "answer": "1,2,3"
   },
   {
-    "id": "10132",
+    "id": "10185",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1716,7 +2405,7 @@
     "answer": "0,2,3"
   },
   {
-    "id": "10133",
+    "id": "10186",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1729,7 +2418,7 @@
     "answer": "0,2,3"
   },
   {
-    "id": "10134",
+    "id": "10187",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",
@@ -1742,7 +2431,7 @@
     "answer": "0,1,2,3"
   },
   {
-    "id": "10135",
+    "id": "10188",
     "spec": ".",
     "matiere": "Physiologie",
     "chapitre": "Potentiel d'Action Cardiaque",

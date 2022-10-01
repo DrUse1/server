@@ -364,24 +364,24 @@ export default function App(props) {
 
         }
 
-        // let inter
+        // let inter;
         // function launchInter() {
         //     inter = setInterval(() => {
         //         if (loading() === 0 && window.location.pathname === '/app') {
         //             handleClick('answer', 1)
         //             submitAnswer()
         //             nextQuestion()
-        //             if(document.getElementsByClassName('appQuestionWrapper')[0].innerHTML.replaceAll('</','<').replaceAll('/>','>').includes('/')){
+        //             if (document.getElementsByClassName('appQuestionWrapper')[0].innerHTML.replaceAll('</', '<').replaceAll('/>', '>').includes('/')) {
         //                 console.log('stopped question')
         //                 console.log(document.getElementsByClassName('appQuestionWrapper')[0].innerHTML)
         //                 //clearInterval(inter)
         //             }
-        //             if(document.getElementsByClassName('appAnswersWrapper')[0].innerHTML.replaceAll('</','<').replaceAll('/>','>').includes('/')){
+        //             if (document.getElementsByClassName('appAnswersWrapper')[0].innerHTML.replaceAll('</', '<').replaceAll('/>', '>').includes('/')) {
         //                 console.log('stopped answers')
-        //                 console.log(document.getElementsByClassName('appAnswersWrapper')[0].innerHTML.replaceAll('</','<').replaceAll('/>','>'))
+        //                 console.log(document.getElementsByClassName('appAnswersWrapper')[0].innerHTML.replaceAll('</', '<').replaceAll('/>', '>'))
         //                 //clearInterval(inter)
         //             }
-        //         }else{
+        //         } else {
         //             clearInterval(inter)
         //         }
         //     }, 20);
@@ -391,7 +391,7 @@ export default function App(props) {
             <>
                 <div className="appOtherContent">
                     {/* <button onClick={() => launchInter()}>launch interval</button>
-                <button onClick={() => clearInterval(inter)}>stop interval</button> */}
+                    <button onClick={() => clearInterval(inter)}>stop interval</button> */}
                     <Show when={askConfirmation()[0]} fallback={
                         <>
                             <Show when={submitted()} fallback={
