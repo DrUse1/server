@@ -599,111 +599,131 @@ p {
         justify-content: flex-start;
         gap: 12px;
         padding-bottom: 24px;
-        width: 100%;
+        margin: 0 16px;
+        width: calc(100% - 32px);
         max-width: 1024px;
         transition: .2s ease-in-out;
 
         .appAnswerItemWrapper {
-            background: none;
-            border: 2px solid var(--color-lighter-grey);
-            border-radius: 20px;
-            padding: 16px;
-            margin: 0 16px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            transition: 0.2s ease-in-out;
+            .appAnswerItemContent {
+                background: white;
+                border: 2px solid var(--color-lighter-grey);
+                border-radius: 20px;
+                padding: 16px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                transition: 0.2s ease-in-out;
+                width: 100%;
+                position: relative;
+                z-index: 2;
 
-            h2 {
-                margin-right: 16px;
-            }
+                h2 {
+                    margin-right: 16px;
+                }
 
-            &>span {
-                font-size: 16px;
-                text-align: left;
+                &>span {
+                    font-size: 16px;
+                    text-align: left;
 
-                .supsub {
-                    position: relative;
-                    text-align: center;
-                    vertical-align: middle;
-                    top: 2px;
-
-                    .sup,
-                    .sub {
-                        width: 100%;
-                        text-align: center;
-                        font-size: 12px;
-                        left: 0;
-                        vertical-align: middle;
-                    }
-
-                    .sup {
-                        top: -10px;
+                    .supsub {
                         position: relative;
-                    }
+                        text-align: center;
+                        vertical-align: middle;
+                        top: 2px;
 
-                    .sub {
-                        top: 4px;
-                        position: absolute;
+                        .sup,
+                        .sub {
+                            width: 100%;
+                            text-align: center;
+                            font-size: 12px;
+                            left: 0;
+                            vertical-align: middle;
+                        }
 
-                        &.alone {
-                            top: 0;
+                        .sup {
+                            top: -10px;
                             position: relative;
+                        }
+
+                        .sub {
+                            top: 4px;
+                            position: absolute;
+
+                            &.alone {
+                                top: 0;
+                                position: relative;
+                            }
+                        }
+
+                        sup,
+                        sub {
+                            font-size: 12px;
+                        }
+
+                        sup {
+                            position: absolute;
+                            top: -3px;
+                            width: 100%;
                         }
                     }
 
-                    sup,
-                    sub {
+                    .ion {
                         font-size: 12px;
                     }
 
-                    sup {
-                        position: absolute;
-                        top: -3px;
-                        width: 100%;
+                    &>.sub {
+                        font-size: 12px;
                     }
                 }
 
-                .ion {
-                    font-size: 12px;
+                &:hover {
+                    border: 2px solid var(--color-blue);
+                    transform: scale(1.02);
+
+                    h2,
+                    span,
+                    sub,
+                    sup {
+                        color: var(--color-darker-blue);
+                    }
                 }
 
-                &>.sub {
-                    font-size: 12px;
+                &.yellow {
+                    background-color: var(--color-blue);
+                }
+
+                &.green {
+                    background-color: var(--color-green);
+                }
+
+                &.red {
+                    background-color: var(--color-red);
+                }
+
+                &.colored {
+
+                    h2,
+                    span,
+                    sub,
+                    sup {
+                        color: var(--color-lighter-grey);
+                    }
                 }
             }
 
-            &:hover {
-                border: 2px solid var(--color-blue);
-                transform: scale(1.02);
+            .appAnswerItemExplanation {
+                background-color: var(--color-lighter-grey);
+                width: 100%;
+                padding: 16px;
+                border-radius: 20px;
+                position: relative;
+                top: -40px;
+                padding-top: 56px;
+                display: none;
 
-                h2,
-                span,
-                sub,
-                sup {
-                    color: var(--color-darker-blue);
-                }
-            }
+                span {
 
-            &.yellow {
-                background-color: var(--color-blue);
-            }
-
-            &.green {
-                background-color: var(--color-green);
-            }
-
-            &.red {
-                background-color: var(--color-red);
-            }
-
-            &.colored {
-
-                h2,
-                span,
-                sub,
-                sup {
-                    color: var(--color-lighter-grey);
                 }
             }
         }

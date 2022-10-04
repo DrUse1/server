@@ -54,7 +54,7 @@ export default function App(props) {
         let index;
         loop()
         function loop() {
-            index = utils.getRandomInt(data.length)
+            index = 0//utils.getRandomInt(data.length)
             if (global.alreadyDone.includes(index) || getChapters('unselected').includes(data[index].chapitre.toString())) {
                 loop()
             }
@@ -84,13 +84,13 @@ export default function App(props) {
     function handleClick(type, i) {
         if (type === 'answer') {
             if (submitted()) return
-            document.getElementsByClassName('appAnswersWrapper')[0].children[i].classList.remove('yellow', 'colored', 'white', 'red', 'green')
+            document.getElementsByClassName('appAnswersWrapper')[0].children[i].children[0].classList.remove('yellow', 'colored', 'white', 'red', 'green')
             if (item.answers[i].color === 'white') {
                 setItem('answers', i, 'color', 'yellow')
-                document.getElementsByClassName('appAnswersWrapper')[0].children[i].classList.add('yellow', 'colored')
+                document.getElementsByClassName('appAnswersWrapper')[0].children[i].children[0].classList.add('yellow', 'colored')
             } else {
                 setItem('answers', i, 'color', 'white')
-                document.getElementsByClassName('appAnswersWrapper')[0].children[i].classList.add('white')
+                document.getElementsByClassName('appAnswersWrapper')[0].children[i].children[0].classList.add('white')
             }
 
             if (getSelectedAnswers().length === 0) {
@@ -256,12 +256,19 @@ export default function App(props) {
             <>
                 <For each={item.answers}>
                     {(answer) =>
-                        <button className={"appAnswerItemWrapper"} onClick={() => handleClick('answer', answer.id)}>
-                            <h2>
-                                {letters[answer.id]}
-                            </h2>
-                            <FormatAnswer answer={answer.value} />
-                        </button>
+                        <div className={"appAnswerItemWrapper"}>
+                            <button className={"appAnswerItemContent"} onClick={() => handleClick('answer', answer.id)}>
+                                <h2>
+                                    {letters[answer.id]}
+                                </h2>
+                                <FormatAnswer answer={answer.value.split('---')[0]} />
+                            </button>
+                            <Show when={answer.value.includes('---')}>
+                                <div className={"appAnswerItemExplanation"}>
+                                    <span>{answer.value.split('---')[1]}</span>
+                                </div>
+                            </Show>
+                        </div>
                     }
                 </For>
             </>
@@ -280,14 +287,14 @@ export default function App(props) {
                             failed = true
                         }
                         setItem('answers', i, 'color', 'green')
-                        document.getElementsByClassName('appAnswersWrapper')[0].children[i].classList.remove('yellow', 'colored', 'white', 'red', 'green')
-                        document.getElementsByClassName('appAnswersWrapper')[0].children[i].classList.add('green', 'colored')
+                        document.getElementsByClassName('appAnswersWrapper')[0].children[i].children[0].classList.remove('yellow', 'colored', 'white', 'red', 'green')
+                        document.getElementsByClassName('appAnswersWrapper')[0].children[i].children[0].classList.add('green', 'colored')
                     } else {
                         if (answer.color === 'yellow') {
                             setItem('answers', i, 'color', 'red')
                             failed = true
-                            document.getElementsByClassName('appAnswersWrapper')[0].children[i].classList.remove('yellow', 'colored', 'white', 'red', 'green')
-                            document.getElementsByClassName('appAnswersWrapper')[0].children[i].classList.add('red', 'colored')
+                            document.getElementsByClassName('appAnswersWrapper')[0].children[i].children[0].classList.remove('yellow', 'colored', 'white', 'red', 'green')
+                            document.getElementsByClassName('appAnswersWrapper')[0].children[i].children[0].classList.add('red', 'colored')
                         }
                     }
                 })
@@ -298,6 +305,14 @@ export default function App(props) {
                 saveItem(failed)
                 if (global.state === 'exam') {
                     nextQuestion()
+                }
+            }
+            for (let i = 0; i < document.getElementsByClassName('appAnswerItemWrapper').length; i++) {
+                if (document.getElementsByClassName('appAnswerItemWrapper')[i].children.length >= 2) {
+                    document.getElementsByClassName('appAnswerItemWrapper')[i].children[1].style.display = 'block';
+                    document.getElementsByClassName('appAnswerItemWrapper')[i].style.maxHeight = (document.getElementsByClassName('appAnswerItemWrapper')[i].children[0].clientHeight
+                        + document.getElementsByClassName('appAnswerItemWrapper')[i].children[1].clientHeight
+                        - 36) + 'px'
                 }
             }
         }
@@ -413,6 +428,26 @@ export default function App(props) {
 
         )
     }
+
+    window.addEventListener('resize', () => {
+        for (let i = 0; i < document.getElementsByClassName('appAnswerItemWrapper').length; i++) {
+            if (document.getElementsByClassName('appAnswerItemWrapper')[i].children.length >= 2 && document.getElementsByClassName('appAnswerItemWrapper')[i].children[1].clientHeight !== 0) {
+                document.getElementsByClassName('appAnswerItemWrapper')[i].style.maxHeight = (document.getElementsByClassName('appAnswerItemWrapper')[i].children[0].clientHeight
+                    + document.getElementsByClassName('appAnswerItemWrapper')[i].children[1].clientHeight
+                    - 36) + 'px'
+            }
+        }
+    })
+
+    setTimeout(() => {
+        for (let i = 0; i < document.getElementsByClassName('appAnswerItemWrapper').length; i++) {
+            if (document.getElementsByClassName('appAnswerItemWrapper')[i].children.length >= 2 && document.getElementsByClassName('appAnswerItemWrapper')[i].children[1].clientHeight !== 0) {
+                document.getElementsByClassName('appAnswerItemWrapper')[i].style.maxHeight = (document.getElementsByClassName('appAnswerItemWrapper')[i].children[0].clientHeight
+                    + document.getElementsByClassName('appAnswerItemWrapper')[i].children[1].clientHeight
+                    - 36) + 'px'
+            }
+        }
+    }, 0);
 
     return (
         <>

@@ -1,0 +1,6 @@
+{
+    "csv-preview.commentCharacter": "#",
+    "csv-preview.formatValues": "never",
+    "csv-preview.lineNumbers": "source",
+    "csv-preview.separator": ";"
+}
