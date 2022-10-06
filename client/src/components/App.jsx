@@ -382,18 +382,18 @@ export default function App(props) {
         // let inter;
         // function launchInter() {
         //     inter = setInterval(() => {
-        //         if (loading() === 0 && window.location.pathname === '/app') {
+        //         if (loading() === 0 && window.location.pathname === '/app' && global.score[1] < global.round - 1) {
         //             handleClick('answer', 1)
         //             submitAnswer()
         //             nextQuestion()
         //             if (document.getElementsByClassName('appQuestionWrapper')[0].innerHTML.replaceAll('</', '<').replaceAll('/>', '>').includes('/')) {
         //                 console.log('stopped question')
-        //                 console.log(document.getElementsByClassName('appQuestionWrapper')[0].innerHTML)
+        //                 console.log(document.getElementsByClassName('appQuestionWrapper')[0].innerHTML.replaceAll('</', '<').replaceAll('/>', '>').replaceAll('/', '>>>>>/<<<<<'))
         //                 //clearInterval(inter)
         //             }
         //             if (document.getElementsByClassName('appAnswersWrapper')[0].innerHTML.replaceAll('</', '<').replaceAll('/>', '>').includes('/')) {
         //                 console.log('stopped answers')
-        //                 console.log(document.getElementsByClassName('appAnswersWrapper')[0].innerHTML.replaceAll('</', '<').replaceAll('/>', '>'))
+        //                 console.log(document.getElementsByClassName('appAnswersWrapper')[0].innerHTML.replaceAll('</', '<').replaceAll('/>', '>').replaceAll('/', '>>>>>/<<<<<'))
         //                 //clearInterval(inter)
         //             }
         //         } else {
