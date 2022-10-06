@@ -54,7 +54,7 @@ export default function App(props) {
         let index;
         loop()
         function loop() {
-            index = 0//utils.getRandomInt(data.length)
+            index = utils.getRandomInt(data.length)
             if (global.alreadyDone.includes(index) || getChapters('unselected').includes(data[index].chapitre.toString())) {
                 loop()
             }
