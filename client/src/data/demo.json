@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "spec": "",
+        "matiere": "Chimie Général",
+        "chapitre": "Atomistique",
+        "question": "Structure des atomes :_bDonnée : N = 6,022 x 10/*23/* mol/*-1/*._bOn veut injecter 1g de morphine avec un volume de 200 mL_b(M*/morphine*/ = 285 g/mol)",
+        "answer0": "La notion d'atomos, particule invisible et indivisible, a été introduite dans la Grèce antique",
+        "answer1": "La charge de l'électron est égale à la charge élémentaire, soit +1,602 x 10/*-19/* C",
+        "answer2": "La masse d'un atome de fer //56/26//Fe vaut 9,3 x 10/*-17/* μg",
+        "answer3": "La concentration de la solution injectable vaut 0,0175 mol/L",
+        "answer4": "La concentration de la solution injectable vaut 57 mol/L",
+        "answer": "0,3"
+    },
+    {
+        "id": "2",
+        "spec": "",
+        "matiere": "Biochimie",
+        "chapitre": "Glucides",
+        "question": "Concernant la structure des oses",
+        "answer0": "Le glucose est un cétohexose",
+        "answer1": "Le fructose est un cétohexose",
+        "answer2": "Le glucose sous forme pyranique possède deux carbones asymétriques supplémentaires par rapport à la forme linéaire",
+        "answer3": "Dans la cellulose, les molécules de glucose sont reliées par des liaisons α1-4",
+        "answer4": "Dans le glycogène, les molécules de glucose sont reliées par des liaisons α1-4ou α1-6",
+        "answer": "1,4"
+    },
+    {
+        "id": "3",
+        "spec": "",
+        "matiere": "Biologie Moléculaire",
+        "chapitre": "ADN, Génome et Chromosomes",
+        "question": "Concernant l'ADN nucléaire humain",
+        "answer0": "L'ADN B est caractérise par la présence de trois paires de bases par tour d'hélice",
+        "answer1": "Dans une molécule d'ADN, la somme des nucléotides A + T est toujours égale a la somme des nucléotides G +",
+        "answer2": "Dans une molécule d'ADN, les liaisons phosphodiesters lient deux molécules de désoxyribose adjacentes",
+        "answer3": "La fibre de chromatine de 10 nm possède une structure avec 6 nucléosomes qui s'assemblent en une hélice stabilisée par l'histone H1",
+        "answer4": "Les chromosomes sont repartis au hasard a l'intérieur du noyau pendant l'interphase",
+        "answer": "2"
+    },
+    {
+        "id": "4",
+        "spec": "",
+        "matiere": "Biologie Cellulaire",
+        "chapitre": "La Cellule",
+        "question": "Concernant les différences entre une cellule eucaryote et un procaryote",
+        "answer0": "Une bacterie ne contient pas de mitochondrie",
+        "answer1": "Les coefficients de sedimentation des ribosomes eucaryotes et procaryotes sont identiques",
+        "answer2": "Il est possible d'observer un nucleole dans une bacterie",
+        "answer3": "Chez un eucaryote l'ADN est lineaire",
+        "answer4": "Aucune des propositions ci-dessus",
+        "answer": "0,3"
+    },
+    {
+        "id": "5",
+        "spec": "",
+        "matiere": "Reproduction",
+        "chapitre": "Méiose, Gamètes et Reproduction",
+        "question": "Concernant la gametogenese",
+        "answer0": "Elle n'implique que les cellules germinales",
+        "answer1": "Chez la femme, elle ne debute qu'a la puberte",
+        "answer2": "Elle n'est soumise a un controle hormonal que chez la femme",
+        "answer3": "Elle produit autant de gametes chez l'homme que chez la femme",
+        "answer4": "Aucune des propositions ci-dessus",
+        "answer": "0"
+    }
+]

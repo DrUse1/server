@@ -24,6 +24,7 @@ import Home from './components/Home';
 import Terms from './components/Terms';
 
 import data from './data/data.json'
+import Demo from './components/Demo';
 
 function Index() {
   return (
@@ -54,6 +55,7 @@ function Index() {
         <Route path="home" element={<Home />} />
         <Route path="contact" element={<Contact />} />
         <Route path="terms" element={<Terms />} />
+        <Route path="demo" element={<Demo />} />
         <Show when={global.logged}>
           <Route path="/" element={<Main />} />
           <Route path="plan" element={<Plan />} />
@@ -67,8 +69,8 @@ function Index() {
   )
 }
 
-const notLoad = ['/confirm', '/home']
-const pages = ['/auth', '/confirm', '/forgot', '/home', '/', '/plan', '/account', '/contact', '/app', '/score', '/success', '/terms']
+const notLoad = ['/confirm', '/home', '/demo']
+const pages = ['/auth', '/confirm', '/forgot', '/home', '/', '/plan', '/account', '/contact', '/app', '/score', '/success', '/terms', '/demo']
 
 if (window.origin.includes('qcmed') && !window.origin.includes('www')) {
   window.location.href = 'https://www.qcmed.fr' + window.location.pathname

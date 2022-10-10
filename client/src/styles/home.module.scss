@@ -31,37 +31,44 @@
                     }
 
                     .start {
-                        margin-top: 32px;
-                        cursor: pointer;
-                        border: none;
-                        border-radius: 20px;
-                        background-color: var(--color-dark-blue);
-                        padding: 4px 8px;
-                        transition: .2s ease-in-out;
                         animation: fadein 1s ease-out, opacity 1s linear forwards;
                         opacity: 0;
                         translate: 0 0;
                         animation-delay: 0.5s;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 12px;
+                        margin-top: 32px;
 
-                        span {
-                            font-size: 16px;
-                            color: white;
-                        }
+                        button {
+                            cursor: pointer;
+                            border: none;
+                            border-radius: 20px;
+                            background-color: var(--color-dark-blue);
+                            padding: 4px 24px;
+                            transition: .2s ease-in-out;
 
-                        &:hover {
-                            background-color: var(--color-darker-blue);
-                            scale: 1.025;
+                            span {
+                                font-size: 16px;
+                                color: white;
+                            }
+
+                            &:hover {
+                                background-color: var(--color-darker-blue);
+                                scale: 1.025;
+                            }
                         }
                     }
                 }
 
-                &:nth-child(2){
+                &:nth-child(2) {
                     position: absolute;
                     bottom: 0;
                     margin-bottom: 128px;
                     animation: updown 1s ease-in-out infinite alternate;
 
-                    .arrow{
+                    .arrow {
                         svg {
                             width: 20px;
                             height: 20px;
@@ -110,7 +117,7 @@
                     -webkit-filter: blur(4px);
                     translate: -50px;
 
-                    &.show{
+                    &.show {
                         opacity: 1;
                         filter: blur(0);
                         -webkit-filter: blur(0);

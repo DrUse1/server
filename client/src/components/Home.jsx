@@ -59,7 +59,7 @@ export default function Home() {
                 e = e[0]
             }
             obj['question'] = e
-            obj = preferredOrder(obj, ['question','answer0','answer1','answer2','answer3','answer4'])
+            obj = preferredOrder(obj, ['question', 'answer0', 'answer1', 'answer2', 'answer3', 'answer4'])
             _temp = [..._temp, obj]
         })
         splitQCM = _temp
@@ -80,9 +80,14 @@ export default function Home() {
                         <div className={styles.slogan}>
                             <span>Faire des QCM n'a jamais été aussi facile.</span>
                         </div>
-                        <button className={styles.start} onClick={() => window.location.href = '/auth'}>
-                            <span>Commencer maintenant !</span>
-                        </button>
+                        <div className={styles.start}>
+                            <button onClick={() => window.location.href = '/auth'}>
+                                <span>Se connecter</span>
+                            </button>
+                            <button onClick={() => window.location.href = '/demo'}>
+                                <span>Essayez une série maintenant !</span>
+                            </button>
+                        </div>
                     </div>
                     <div className={styles.container}>
                         <div className={styles.arrow}>

@@ -203,7 +203,7 @@ export default function SetupGlobal(props) {
                 }
             } else {
                 setGlobal('logged', false)
-                const notReload = ['/auth', '/confirm', '/forgot', '/home', '/contact']
+                const notReload = ['/auth', '/confirm', '/forgot', '/home', '/contact', '/demo']
                 if (!notReload.includes(window.location.pathname)) {
                     window.location.replace('/home')
                 }

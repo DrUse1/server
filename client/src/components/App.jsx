@@ -7,7 +7,7 @@ import * as utils from '../utils'
 import Axios from "axios";
 
 
-export default function App(props) {
+export default function App() {
     if (userInfo.numPlays >= global.dailyLimit) {
         if (userInfo.plan === 'basic') {
             window.location.replace('/')

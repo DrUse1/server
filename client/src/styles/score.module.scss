@@ -340,5 +340,9 @@
         padding: 16px;
         padding-top: 80px;
         max-width: 1024px;
+
+        &.demo {
+            padding-top: 16px;
+        }
     }
 }
