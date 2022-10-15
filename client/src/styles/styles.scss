@@ -498,6 +498,77 @@ p {
     }
 }
 
+.appReport {
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 15%);
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+    z-index: 1001;
+    height: auto;
+    width: 75vw;
+    max-width: 540px;
+    max-height: 75vh;
+    border-radius: 20px;
+    top: 50%;
+    translate: -50% -50%;
+    left: 50%;
+    transition: .5s cubic-bezier(.8, 0, .2, 1);
+    opacity: 0;
+    scale: 0.5;
+    rotate: 15deg;
+    padding: 16px;
+
+    &.active {
+        opacity: 1;
+        translate: -50% -50%;
+        scale: 1;
+        rotate: 0deg;
+        pointer-events: all;
+    }
+
+    &>span{
+        &:nth-child(2){
+            font-size: 12px;
+            margin-left: auto;
+            margin-right: 4px;
+        }
+    }
+
+    textarea {
+        resize: none;
+        padding: 8px;
+        border: 2px solid var(--color-lighter-grey);
+        border-radius: 8px;
+        outline: none;
+        transition: .2s ease-in-out;
+
+        &:focus {
+            border: 2px solid var(--color-light-grey);
+        }
+    }
+
+    button {
+        background: var(--color-lighter-grey);
+        border: none;
+        border-radius: 20px;
+        padding: 8px 24px;
+        transition: .2s ease-in-out;
+        margin: 16px auto 0 auto;
+
+        span {
+            font-size: 14px;
+        }
+
+        &:hover {
+            background: var(--color-light-grey);
+            transform: scale(1.025);
+        }
+    }
+}
+
 .appWrapper {
     width: 100%;
     display: flex;
@@ -722,9 +793,7 @@ p {
                 padding-top: 56px;
                 display: none;
 
-                span {
-
-                }
+                span {}
             }
         }
     }
@@ -743,29 +812,33 @@ p {
             align-items: center;
             gap: 12px;
             padding: 16px;
-            max-width: 1024px;
-        }
+            max-width: 1056px;
 
-        .appOtherContent button {
-            background: none;
-            border-radius: 20px;
-            padding: 8px 16px;
-            border: 2px solid var(--color-light-grey);
-            transition: .2s ease-in-out;
-        }
+            button {
+                background: none;
+                border-radius: 20px;
+                padding: 8px 16px;
+                border: 2px solid var(--color-light-grey);
+                transition: .2s ease-in-out;
 
-        .appOtherContent button:not([disabled]):hover {
-            background: none;
-            border-radius: 20px;
-            padding: 8px 16px;
-            border: 2px solid var(--color-light-blue);
-            transition: .2s ease-in-out;
-            transform: scale(1.025);
-        }
+                &:first-child {
+                    margin-right: auto;
+                }
 
-        .appOtherContent button:disabled {
-            cursor: default;
-            background-color: var(--color-lighter-grey);
+                &:not([disabled]):hover {
+                    background: none;
+                    border-radius: 20px;
+                    padding: 8px 16px;
+                    border: 2px solid var(--color-light-blue);
+                    transition: .2s ease-in-out;
+                    transform: scale(1.025);
+                }
+
+                &:disabled {
+                    cursor: default;
+                    background-color: var(--color-lighter-grey);
+                }
+            }
         }
     }
 }

@@ -8,6 +8,7 @@ const crypto = require('crypto')
 const path = require('path')
 const app = express()
 const nodemailer = require("nodemailer");
+//const data = require('./client/src/data/data.json')
 
 let transporter = nodemailer.createTransport({
     pool: true,
@@ -249,6 +250,31 @@ app.post('/api/forgot', async (req, res) => {
             res.send(false)
         }
     })
+})
+
+app.post('/api/report', async (req, res) => {
+    const id = req.body.id
+    const msg = req.body.msg
+    
+    transporter.sendMail(
+        {
+            from: "support@qcmed.fr",
+            to: "support@qcmed.fr mohamed.mataam1@gmail.com",
+            subject: `Report Question : ${id}`,
+            text: `
+            Une question à été signaler
+            id : ${id},
+            commentaire : ${msg}
+            `
+        },
+        (err, info) => {
+            if (info !== null) {
+                console.log('sent report mail')
+            } else {
+                console.log('error sending report mail')
+            }
+        }
+    );
 })
 
 app.get('/api/verify', (req, res) => {

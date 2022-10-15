@@ -1,7 +1,7 @@
 import { createSignal, Show, For } from "solid-js"
 import { createStore } from "solid-js/store";
 
-import { staticConst, global, setGlobal, subjects, updatePlays, userInfo, getChapters, loading, setLoading, data } from '../globalInfo'
+import { staticConst, global, setGlobal, subjects, updatePlays, userInfo, getChapters, loading, setLoading, data, showWarning } from '../globalInfo'
 
 import * as utils from '../utils'
 import Axios from "axios";
@@ -23,6 +23,8 @@ export default function App() {
     const [askConfirmation, setAskConfirmation] = createSignal([false])
     const [disableButton, setDisableButton] = createSignal(true)
     const [selected, setSelected] = createSignal([])
+
+    const [reportMsg, setReportMsg] = createSignal('')
 
     let serieHistory = []
 
@@ -379,6 +381,16 @@ export default function App() {
 
         }
 
+        function reportQuestion() {
+            document.getElementsByClassName('appReport')[0].classList.add('active')
+            document.getElementsByClassName('overlay')[0].classList.add('active')
+        }
+
+        document.getElementsByClassName('overlay')[0].addEventListener('click', () => {
+            document.getElementsByClassName('appReport')[0].classList.remove('active')
+            document.getElementsByClassName('overlay')[0].classList.remove('active')
+        })
+
         // let inter;
         // function launchInter() {
         //     inter = setInterval(() => {
@@ -409,6 +421,7 @@ export default function App() {
                     <button onClick={() => clearInterval(inter)}>stop interval</button> */}
                     <Show when={askConfirmation()[0]} fallback={
                         <>
+                            <button className={"appSubmit"} onClick={() => reportQuestion()}>Signaler</button>
                             <Show when={submitted()} fallback={
                                 <button className={"appSubmit"} onClick={() => submitAnswer()} disabled={disableButton()}>Valider</button>
                             }>
@@ -449,8 +462,38 @@ export default function App() {
         }
     }, 0);
 
+    function sendReport() {
+        if (reportMsg() === '') {
+            showWarning('Veuillez ajoutez un commentaire pour le signalement', 'red')
+        } else if (reportMsg().length > 200) {
+            showWarning('Commentaire trop long', 'red')
+        }
+        else {
+            showWarning('Merci pour le signalement !', 'green')
+            Axios.post(staticConst.url + '/api/report', {
+                id: item.id,
+                msg: reportMsg()
+            })
+            setReportMsg('')
+            document.getElementsByClassName('appReport')[0].classList.remove('active')
+            document.getElementsByClassName('overlay')[0].classList.remove('active')
+        }
+    }
+
     return (
         <>
+            <div className="appReport">
+                <span>Ajoutes un commentaire avec ce signalement</span>
+                <span>{reportMsg().length} / 200</span>
+                <textarea
+                    rows={3}
+                    onInput={(e) => setReportMsg(e.target.value)}
+                    value={reportMsg()}
+                    maxlength="200"></textarea>
+                <button onClick={() => sendReport()}>
+                    <span>Envoyez</span>
+                </button>
+            </div>
             <div className={"appWrapper"}>
                 <div className={"appScoreWrapper"}>
                     <Score />
