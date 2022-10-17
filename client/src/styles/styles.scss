@@ -821,7 +821,7 @@ p {
                 border: 2px solid var(--color-light-grey);
                 transition: .2s ease-in-out;
 
-                &:first-child {
+                &.reportButton {
                     margin-right: auto;
                 }
 

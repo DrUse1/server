@@ -420,7 +420,7 @@ export default function App() {
                     <button onClick={() => clearInterval(inter)}>stop interval</button> */}
                     <Show when={askConfirmation()[0]} fallback={
                         <>
-                            <button className={"appSubmit"} onClick={() => reportQuestion()}>Signaler</button>
+                            <button className={"appSubmit reportButton"} onClick={() => reportQuestion()}>Signaler</button>
                             <Show when={submitted()} fallback={
                                 <button className={"appSubmit"} onClick={() => submitAnswer()} disabled={disableButton()}>Valider</button>
                             }>
