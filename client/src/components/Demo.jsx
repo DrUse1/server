@@ -41,7 +41,7 @@ export default function Demo() {
     function getItem() {
         setGlobal('alreadyDone', [...global.alreadyDone, index() + 1])
         setIndex(prev => prev + 1)
-        return (formatItem(JSON.parse(JSON.stringify(data))[index() - 1]))
+        return (formatItem(Array.from(data)[index() - 1]))
     }
 
     function formatItem(it) {
@@ -444,7 +444,7 @@ export default function Demo() {
     }
 
     function getQuestion(ask, elem) {
-        let _item = data.find(__item => __item.id.toString() == elem.id.toString())
+        let _item = Array.from(data).find(__item => __item.id.toString() == elem.id.toString())
         if (ask === 'question') {
             return _item.question
         } else if (ask === 'answers') {
