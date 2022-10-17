@@ -54,7 +54,7 @@ export default function Score(props) {
     }
 
     function getQuestion(ask, elem) {
-        let item = props.data.find(item => item.id.toString() === elem.id.toString())
+        let item = Array.from(props.data).find(item => item.id.toString() === elem.id.toString())
         if (ask === 'question') {
             return item.question
         } else if (ask === 'answers') {

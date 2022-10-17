@@ -6,7 +6,6 @@ import { staticConst, global, setGlobal, subjects, updatePlays, userInfo, getCha
 import * as utils from '../utils'
 import Axios from "axios";
 
-
 export default function App() {
     if (userInfo.numPlays >= global.dailyLimit) {
         if (userInfo.plan === 'basic') {
@@ -62,7 +61,7 @@ export default function App() {
             }
         }
         setGlobal('alreadyDone', [...global.alreadyDone, index])
-        return (formatItem(data[index]))
+        return (formatItem(Array.from(data)[index]))
     }
 
     function formatItem(it) {
