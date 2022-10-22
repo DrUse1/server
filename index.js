@@ -169,46 +169,33 @@ app.post('/api/contact', async (req, res) => {
     const object = req.body.object
     const msg = req.body.msg;
 
-    (async function () {
-        try {
+    try {
+        //Load the template file
+        const templateFile = fs.readFileSync("./template/contact.html");
+        //Load and inline the style
+        const templateStyled = await inlineCss(templateFile.toString(), { url: 'file://' + __dirname + "/template/" });
+        //Inject the data in the template and compile the html
+        const templateCompiled = hogan.compile(templateStyled);
+        const templateRendered = templateCompiled.render({ object: [object], msg: [msg] });
 
-            //Load the template file
-            const templateFile = fs.readFileSync("./template/contact.html");
-            //Load and inline the style
-            const templateStyled = await inlineCss(templateFile.toString(), { url: 'file://' + __dirname + "/template/" });
-            //Inject the data in the template and compile the html
-            const templateCompiled = hogan.compile(templateStyled);
-            const templateRendered = templateCompiled.render({ object: [object], msg: [msg] });
+        const emailData = {
+            to: email + ", " + process.env.MAIL_USER,
+            from: '"QCMed" support@qcmed.fr',
+            subject: `Demande transmise - QCMED`,
+            html: templateRendered,
+            attachments: [{
+                filename: 'logo.png',
+                path: __dirname + "/template/logo.png",
+                cid: 'logoimage'
+            }]
+        };
 
-            const emailData = {
-                to: email + ", " + process.env.MAIL_USER,
-                from: '"QCMed" support@qcmed.fr',
-                subject: `Demande transmise - QCMED`,
-                html: templateRendered,
-                attachments: [{
-                    filename: 'logo.png',
-                    path: __dirname + "/template/logo.png",
-                    cid: 'logoimage'
-                }]
-            };
+        //Send the email
+        transporter.sendMail(emailData);
 
-            //Send the email
-            await transporter.sendMail(
-                emailData,
-                (err, info) => {
-                    if (info !== null) {
-                        console.log('sent contact mail to ' + ' ' + user.email)
-                        res.send(true)
-                    } else {
-                        console.log('error sending contact mail to ' + ' ' + user.email)
-                        res.send(false)
-                    }
-                });
-
-        } catch (e) {
-            console.error(e);
-        }
-    })()
+    } catch (e) {
+        console.error(e);
+    }
 })
 
 app.post('/api/confirm', async (req, res) => {
@@ -249,7 +236,7 @@ app.post('/api/forgot', async (req, res) => {
                 const forgotToken = getRandomToken()
                 const sqlUpdate = 'UPDATE user_info SET forgot = (?) WHERE email = (?)'
                 db.query(sqlUpdate, [forgotToken, email], (err, result_) => {
-                    sendForgotMail({email: [email], forgotToken: [forgotToken], prenom: [result[0].prenom]})
+                    sendForgotMail({ email: [email], forgotToken: [forgotToken], prenom: [result[0].prenom] })
                     res.send(true)
                 })
             } else {

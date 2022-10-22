@@ -15,18 +15,16 @@ export default function Contact() {
     })
 
     function handleSubmit() {
-        setLoading(a => a + 1)
         Axios.post(staticConst.url + '/api/contact', {
             email: contact.email,
             object: contact.object,
             msg: contact.message
-        }).then((res) => {
-            setLoading(a => a - 1)
-            if (res) {
-                showWarning('Le message a bien été envoyé !', 'green')
-            } else {
-                showWarning('Une erreur est survenue. Réessayez plus tard.')
-            }
+        })
+        showWarning('Le message a bien été envoyé !', 'green')
+        setContact({
+            email: '',
+            object: '',
+            message: ''
         })
     }
 
