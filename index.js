@@ -83,119 +83,132 @@ function checkToken(token) {
     });
 }
 
-function sendConfirmationMail(email, confirmToken, url) {
-    transporter.sendMail(
-        {
-            from: "support@qcmed.fr",
-            to: email,
-            subject: 'Confirmation de mail, QCMed',
-            text: `
-            Vous venez de créer un compte chez nous !
-            Confirmer le en cliquant ${url}/confirm?email=${email}&confirm=${confirmToken}
-            `,
-            html: `
-            Vous venez de créer un compte chez nous !
-            Confirmer le en cliquant 
-            <a href="${url}/confirm?email=${email}&confirm=${confirmToken}">ICI</a>
-            `
-        },
-        (err, info) => {
-            if (info !== null) {
-                console.log('sent confirmation mail')
-            } else {
-                console.log('error sending confirmation mail')
-            }
+function sendConfirmationMail(user) {
+    (async function () {
+        try {
+
+            //Load the template file
+            const templateFile = fs.readFileSync("./template/confirmation.html");
+            //Load and inline the style
+            const templateStyled = await inlineCss(templateFile.toString(), { url: 'file://' + __dirname + "/template/" });
+            //Inject the data in the template and compile the html
+            const templateCompiled = hogan.compile(templateStyled);
+            const templateRendered = templateCompiled.render({ prenom: [user.prenom], email: [user.email], confirmToken: [user.confirmToken] });
+
+            const emailData = {
+                to: user.email,
+                from: '"QCMed" support@qcmed.fr',
+                subject: `Confirmation d'Email, QCMed`,
+                html: templateRendered,
+                attachments: [{
+                    filename: 'logo.png',
+                    path: __dirname + "/template/logo.png",
+                    cid: 'logoimage'
+                }]
+            };
+
+            //Send the email
+            await transporter.sendMail(
+                emailData,
+                (err, info) => {
+                    if (info !== null) {
+                        console.log('sent confirmation mail to ' + user.prenom + ' ' + user.email)
+                    } else {
+                        console.log('error sending confirmation mail to ' + user.prenom + ' ' + user.email)
+                    }
+                });
+
+        } catch (e) {
+            console.error(e);
         }
-    );
+    })()
 }
 
-function sendForgotMail(email, forgotToken, url) {
-    transporter.sendMail(
-        {
-            from: "support@qcmed.fr",
-            to: email,
-            subject: 'Mot de passe oublié',
-            text: `
-            Tu as oublié ton mot de passe malheureusement :(
-                Réinitialise le en allant
-                ${url}/forgot?email=${email}&forgot=${forgotToken}
-            `,
-            html: `
-            Tu as oublié ton mot de passe malheureusement :(
-            Réinitialise le en allant
-            <a href="${url}/forgot?email=${email}&forgot=${forgotToken}">ICI</a>
-            `
-        },
-        (err, info) => {
-            if (info !== null) {
-                console.log('sent forgot mail')
-            } else {
-                console.log('error sending forgot mail')
-            }
+function sendForgotMail(user) {
+    (async function () {
+        try {
+            //Load the template file
+            const templateFile = fs.readFileSync("./template/forgot.html");
+            //Load and inline the style
+            const templateStyled = await inlineCss(templateFile.toString(), { url: 'file://' + __dirname + "/template/" });
+            //Inject the data in the template and compile the html
+            const templateCompiled = hogan.compile(templateStyled);
+            const templateRendered = templateCompiled.render({ prenom: [user.prenom], email: [user.email], forgotToken: [user.forgotToken] });
+
+            const emailData = {
+                to: user.email,
+                from: '"QCMed" support@qcmed.fr',
+                subject: `Réinitialisation de mot de passe - QCMed`,
+                html: templateRendered,
+                attachments: [{
+                    filename: 'logo.png',
+                    path: __dirname + "/template/logo.png",
+                    cid: 'logoimage'
+                }]
+            };
+
+            //Send the email
+            await transporter.sendMail(
+                emailData,
+                (err, info) => {
+                    if (info !== null) {
+                        console.log('sent forgot mail to ' + user.prenom + ' ' + user.email)
+                    } else {
+                        console.log('error sending forgot mail to ' + user.prenom + ' ' + user.email)
+                    }
+                });
+
+        } catch (e) {
+            console.error(e);
         }
-    );
+    })()
 }
 
 app.post('/api/contact', async (req, res) => {
     const email = req.body.email
     const object = req.body.object
-    const msg = req.body.msg
+    const msg = req.body.msg;
 
-    transporter.sendMail(
-        {
-            from: {
-                name: 'Support QCMED',
-                address: process.env.MAIL_USER
-            },
-            to: email + ", " + process.env.MAIL_USER,
-            subject: 'Demande transmise - QCMED',
-            text: msg,
-            html: `<html>
-            <style>
-                .wrapper{
-                    display: flex;
-                    flex-direction: column;
-                    max-width: 400px;
-                }
-        
-                h3 {
-                    text-align: center;
-                }
-        
-                .mailContent {
-                    background-color: #f2f2f2;
-                    border: 2px solid gray;
-                    border-radius: 5px;
-                }
-        
-                p {
-                    margin: 4px;
-                } 
-            </style>
-            <body>
-                <div class="wrapper">
-                    <h3>Nous avons bien transmis votre demande.</h3>
-                    <div class="desc">
-                        Voici les détails : <br><br>
-        
-                        Objet : ${object} <br>
-                        Contenu du message :
-                    </div>
-                    <div class="mailContent">
-                        <p>${msg}</p>
-                    </div>
-                </div>
-            </body>
-        </html>`
-        },
-        (err, info) => {
-            if (info !== null) {
-                res.send(true)
-            } else {
-                res.send(false)
-            }
+    (async function () {
+        try {
+
+            //Load the template file
+            const templateFile = fs.readFileSync("./template/contact.html");
+            //Load and inline the style
+            const templateStyled = await inlineCss(templateFile.toString(), { url: 'file://' + __dirname + "/template/" });
+            //Inject the data in the template and compile the html
+            const templateCompiled = hogan.compile(templateStyled);
+            const templateRendered = templateCompiled.render({ object: [object], msg: [msg] });
+
+            const emailData = {
+                to: email + ", " + process.env.MAIL_USER,
+                from: '"QCMed" support@qcmed.fr',
+                subject: `Demande transmise - QCMED`,
+                html: templateRendered,
+                attachments: [{
+                    filename: 'logo.png',
+                    path: __dirname + "/template/logo.png",
+                    cid: 'logoimage'
+                }]
+            };
+
+            //Send the email
+            await transporter.sendMail(
+                emailData,
+                (err, info) => {
+                    if (info !== null) {
+                        console.log('sent contact mail to ' + ' ' + user.email)
+                        res.send(true)
+                    } else {
+                        console.log('error sending contact mail to ' + ' ' + user.email)
+                        res.send(false)
+                    }
+                });
+
+        } catch (e) {
+            console.error(e);
         }
-    );
+    })()
 })
 
 app.post('/api/confirm', async (req, res) => {
@@ -235,8 +248,8 @@ app.post('/api/forgot', async (req, res) => {
             if (forgot === undefined) {
                 const forgotToken = getRandomToken()
                 const sqlUpdate = 'UPDATE user_info SET forgot = (?) WHERE email = (?)'
-                db.query(sqlUpdate, [forgotToken, email], (err, result) => {
-                    sendForgotMail(email, forgotToken, url)
+                db.query(sqlUpdate, [forgotToken, email], (err, result_) => {
+                    sendForgotMail({email: [email], forgotToken: [forgotToken], prenom: [result[0].prenom]})
                     res.send(true)
                 })
             } else {
@@ -338,7 +351,8 @@ app.post('/api/insert', (req, res) => {
     db.query(sqlInsert, [email, hashPassword(password), nom, prenom, phone, token, lastPlay, numPlays, plan, confirm], (err, result) => {
         if (result !== undefined) {
             console.log('new register')
-            sendConfirmationMail(email, confirm, req.body.url)
+            const user = { email: [email], prenom: [prenom], confirmToken: [confirm] }
+            sendConfirmationMail(user)
             transporter.sendMail(
                 {
                     from: {
@@ -605,7 +619,8 @@ app.post('/create-checkout-session', async (req, res) => {
             res.send(session.url)
         } else {
             const confirm = getRandomToken()
-            sendConfirmationMail(data.email, confirm, req.body.url)
+            const user = { email: [data.email], prenom: [data.prenom], confirmToken: [confirm] }
+            sendConfirmationMail(user, confirm)
             const sqlUpdate = 'UPDATE user_info SET confirm = (?) where token = (?)'
             db.query(sqlUpdate, [confirm, token], (err, result) => {
                 res.send('confirm')
@@ -631,7 +646,7 @@ function sendReminder() {
             try {
 
                 //Load the template file
-                const templateFile = fs.readFileSync("./template/template.html");
+                const templateFile = fs.readFileSync("./template/reminder.html");
                 //Load and inline the style
                 const templateStyled = await inlineCss(templateFile.toString(), { url: 'file://' + __dirname + "/template/" });
                 //Inject the data in the template and compile the html
