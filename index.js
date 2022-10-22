@@ -171,7 +171,7 @@ app.post('/api/contact', async (req, res) => {
 
     try {
         //Load the template file
-        const templateFile = fs.readFileSync("/template/contact.html");
+        const templateFile = fs.readFileSync(__dirname + "/template/contact.html");
         //Load and inline the style
         const templateStyled = await inlineCss(templateFile.toString(), { url: 'file://' + __dirname + "/template/" });
         //Inject the data in the template and compile the html
