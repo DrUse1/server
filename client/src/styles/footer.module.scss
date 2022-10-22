@@ -46,24 +46,7 @@
                     background: none;
                     border: none;
                     transition: .2s ease-in-out;
-
-                    svg,
-                    path,
-                    g {
-                        width: 100px;
-                        height: auto;
-                        //color: var(--color-darker-blue);
-                        //fill: var(--color-darker-blue);
-                        color: black;
-                        fill: black;
-                    }
-
-                    g {
-                        ellipse {
-                            //stroke: var(--color-darker-blue);
-                            stroke: black;
-                        }
-                    }
+                    height: 20px;
 
                     &:hover {
                         scale: 1.025;

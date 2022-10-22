@@ -7,24 +7,7 @@
 
     .logo {
         margin-top: 64px;
-
-        svg,
-        path,
-        g {
-            width: 150px;
-            height: auto;
-            color: var(--color-darker-blue);
-            fill: var(--color-darker-blue);
-            //color: black;
-            //fill: black;
-        }
-
-        g {
-            ellipse {
-                stroke: var(--color-darker-blue);
-                //stroke: black;
-            }
-        }
+        width: 150px;
     }
 
     .confirmWrapper {

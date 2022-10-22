@@ -1,4 +1,4 @@
-import { createEffect, createSignal, For } from "solid-js";
+import { createSignal, For } from "solid-js";
 
 import { staticConst, global, setGlobal, subjects, setSubjects, showWarning, userInfo, getChapters, loading } from '../globalInfo'
 

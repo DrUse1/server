@@ -7,7 +7,10 @@ const mysql = require('mysql')
 const crypto = require('crypto')
 const path = require('path')
 const app = express()
-const nodemailer = require("nodemailer");
+const nodemailer = require("nodemailer"),
+    fs = require('fs'),
+    hogan = require('hogan.js'),
+    inlineCss = require('inline-css');
 //const data = require('./client/src/data/data.json')
 
 let transporter = nodemailer.createTransport({
@@ -255,7 +258,7 @@ app.post('/api/forgot', async (req, res) => {
 app.post('/api/report', async (req, res) => {
     const id = req.body.id
     const msg = req.body.msg
-    
+
     transporter.sendMail(
         {
             from: "support@qcmed.fr",
@@ -621,5 +624,56 @@ app.listen(8080, () => {
     console.log('Running on port 8080')
 })
 
-//const sqlClear = 'DELETE FROM user_info WHERE id >= 0'
-//const sqlReset = 'ALTER TABLE user_info AUTO_INCREMENT = 1'
+//sendReminder()
+function sendReminder() {
+    function sendMail(user) {
+        (async function () {
+            try {
+
+                //Load the template file
+                const templateFile = fs.readFileSync("./template/template.html");
+                //Load and inline the style
+                const templateStyled = await inlineCss(templateFile.toString(), { url: 'file://' + __dirname + "/template/" });
+                //Inject the data in the template and compile the html
+                const templateCompiled = hogan.compile(templateStyled);
+                const templateRendered = templateCompiled.render({ prenom: [user.prenom] });
+
+                const emailData = {
+                    to: user.email,
+                    from: '"QCMed" support@qcmed.fr',
+                    subject: `${user.prenom}, Commences tes Séries dès Aujourd'hui !`,
+                    html: templateRendered,
+                    attachments: [{
+                        filename: 'logo.png',
+                        path: __dirname + "/template/logo.png",
+                        cid: 'logoimage'
+                    }]
+                };
+
+                //Send the email
+                await transporter.sendMail(
+                    emailData,
+                    (err, info) => {
+                        if (info !== null) {
+                            console.log('sent mail to ' + user.prenom + ' ' + user.email)
+                        } else {
+                            console.log('error sending mail to ' + user.prenom + ' ' + user.email)
+                        }
+                    });
+
+            } catch (e) {
+                console.error(e);
+            }
+        })()
+    }
+    //const sqlSelect = 'SELECT email, prenom FROM user_info WHERE history IS NULL'
+    db.query(sqlSelect, (err, result) => {
+        if (result != null) {
+            if (result[0] != undefined) {
+                result.forEach(user => {
+                    //sendMail(user)
+                })
+            }
+        }
+    })
+}
