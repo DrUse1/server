@@ -88,7 +88,7 @@ function sendConfirmationMail(user) {
         try {
 
             //Load the template file
-            const templateFile = fs.readFileSync("./template/confirmation.html");
+            const templateFile = fs.readFileSync(__dirname + "/template/confirmation.html");
             //Load and inline the style
             const templateStyled = await inlineCss(templateFile.toString(), { url: 'file://' + __dirname + "/template/" });
             //Inject the data in the template and compile the html
@@ -128,7 +128,7 @@ function sendForgotMail(user) {
     (async function () {
         try {
             //Load the template file
-            const templateFile = fs.readFileSync("./template/forgot.html");
+            const templateFile = fs.readFileSync(__dirname + "/template/forgot.html");
             //Load and inline the style
             const templateStyled = await inlineCss(templateFile.toString(), { url: 'file://' + __dirname + "/template/" });
             //Inject the data in the template and compile the html
@@ -185,7 +185,7 @@ app.post('/api/contact', async (req, res) => {
             html: templateRendered,
             attachments: [{
                 filename: 'logo.png',
-                path: "template/logo.png",
+                path: __dirname + "/template/logo.png",
                 cid: 'logoimage'
             }]
         };
@@ -633,7 +633,7 @@ function sendReminder() {
             try {
 
                 //Load the template file
-                const templateFile = fs.readFileSync("./template/reminder.html");
+                const templateFile = fs.readFileSync(__dirname + "/template/reminder.html");
                 //Load and inline the style
                 const templateStyled = await inlineCss(templateFile.toString(), { url: 'file://' + __dirname + "/template/" });
                 //Inject the data in the template and compile the html
