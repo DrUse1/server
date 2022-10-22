@@ -4,13 +4,6 @@ import { staticConst, userInfo } from "../globalInfo";
 import styles from '../styles/header.module.scss'
 import { LogoFull } from "./elements";
 
-document.getElementsByTagName('html')[0].addEventListener('click', () => {
-    setTimeout(() => {
-        if (document.getElementsByClassName(styles.headerAccountDropdown).length === 0) return
-        document.getElementsByClassName(styles.headerAccountDropdown)[0].classList.remove(styles.active)
-    }, 1);
-})
-
 export default function Header() {
     const navigate = useNavigate()
     return (
@@ -34,16 +27,7 @@ export default function Header() {
                     </button>
                 </Show>
                 <div className={styles.headerAccountWrapper}>
-                    <button className={styles.headerAccountContent}
-                        onClick={() => {
-                            if (!document.getElementsByClassName(styles.headerAccountDropdown)[0].className.includes(styles.active)) {
-                                setTimeout(() => {
-                                    if (!document.getElementsByClassName(styles.headerAccountDropdown)[0].className.includes(styles.active)) {
-                                        document.getElementsByClassName(styles.headerAccountDropdown)[0].classList.add(styles.active)
-                                    }
-                                }, 2);
-                            }
-                        }}>
+                    <button className={styles.headerAccountContent}>
                         <div className={styles.profilePic}>
                             <span>{userInfo.prenom[0] + userInfo.nom[0]}</span>
                         </div>

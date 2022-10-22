@@ -48,7 +48,7 @@
                 gap: 8px;
                 transition: .2s ease-in-out;
 
-                &:hover {
+                &:hover, &:focus {
                     transform: scale(1.1);
                 }
 
@@ -105,12 +105,11 @@
                         background-color: var(--color-light-grey);
                     }
                 }
-
-                &.active {
-                    opacity: 1;
-                    transform: translateY(0);
-                    pointer-events: all;
-                }
+            }
+            &:has(.headerAccountContent:focus) .headerAccountDropdown{
+                opacity: 1;
+                transform: translateY(0);
+                pointer-events: all;
             }
         }
     }
