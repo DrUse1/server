@@ -529,8 +529,8 @@ p {
         pointer-events: all;
     }
 
-    &>span {
-        &:nth-child(2) {
+    &>span{
+        &:nth-child(2){
             font-size: 12px;
             margin-left: auto;
             margin-right: 4px;
@@ -792,6 +792,8 @@ p {
                 top: -40px;
                 padding-top: 56px;
                 display: none;
+
+                span {}
             }
         }
     }
