@@ -185,7 +185,7 @@ app.post('/api/contact', async (req, res) => {
             html: templateRendered,
             attachments: [{
                 filename: 'logo.png',
-                path: __dirname + "/template/logo.png",
+                path: "template/logo.png",
                 cid: 'logoimage'
             }]
         };
