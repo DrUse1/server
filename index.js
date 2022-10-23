@@ -628,6 +628,7 @@ app.listen(8080, () => {
 
 //sendReminder()
 function sendReminder() {
+    //sendMail({email:'opvxgame@gmail.com','prenom':'Mohamed'})
     function sendMail(user) {
         (async function () {
             try {
@@ -669,13 +670,13 @@ function sendReminder() {
         })()
     }
     //const sqlSelect = 'SELECT email, prenom FROM user_info WHERE history IS NULL'
-    db.query(sqlSelect, (err, result) => {
-        if (result != null) {
-            if (result[0] != undefined) {
-                result.forEach(user => {
-                    //sendMail(user)
-                })
-            }
-        }
-    })
+    // db.query(sqlSelect, (err, result) => {
+    //     if (result != null) {
+    //         if (result[0] != undefined) {
+    //             result.forEach(user => {
+    //                 //sendMail(user)
+    //             })
+    //         }
+    //     }
+    // })
 }
