@@ -67,17 +67,17 @@ function getRandomToken() {
 
 function checkToken(token) {
     const sqlSelect = 'SELECT * FROM user_info WHERE token = (?)'
-    return new Promise(resolve => {
+    return new Promise((resolve, reject) => {
         db.query(sqlSelect, [token], (err, result) => {
-            result = (result === undefined ? [] : result)
+            result = (result == undefined ? [] : result)
             if (result.length > 0) {
                 if (result[0].token === token) {
                     resolve(result[0])
                 } else {
-                    resolve(false)
+                    reject()
                 }
             } else {
-                resolve(false)
+                reject()
             }
         })
     });
@@ -303,8 +303,7 @@ app.get('/api/verify', (req, res) => {
 app.get('/api/check', async (req, res) => {
     const token = req.query.token
 
-    const data = await checkToken(token)
-    if (data !== false) {
+    checkToken(token).then(data => {
         const info = {
             email: data.email,
             nom: data.nom,
@@ -316,9 +315,9 @@ app.get('/api/check', async (req, res) => {
             token: token
         }
         res.send(info)
-    } else {
+    }).catch(() => {
         res.send(false)
-    }
+    })
 })
 
 app.post('/api/insert', (req, res) => {
@@ -386,8 +385,7 @@ app.post('/api/history', async (req, res) => {
     const token = req.body.token
     const toAdd = req.body.toAdd
 
-    const data = await checkToken(token)
-    if (data !== false) {
+    checkToken(token).then(data => {
         const sqlSelect = 'SELECT history FROM user_info WHERE token = (?)'
         db.query(sqlSelect, [token], (err, result) => {
             if (result !== undefined) {
@@ -412,9 +410,9 @@ app.post('/api/history', async (req, res) => {
                 res.send(false)
             }
         })
-    } else {
+    }).catch(() => {
         res.send(false)
-    }
+    })
 })
 
 app.post('/api/updateData', async (req, res) => {
@@ -424,20 +422,19 @@ app.post('/api/updateData', async (req, res) => {
     const nom = req.body.nom
     const phone = req.body.phone
 
-    const data = await checkToken(token)
-    if (data !== false) {
+    checkToken(token).then(data => {
         const sqlUpdate = 'UPDATE user_info SET prenom = (?), nom = (?), phone = (?) WHERE token = (?)'
-        db.query(sqlUpdate, [prenom, nom, phone, token], (err2, result2) => {
-            if (result2 !== undefined) {
+        db.query(sqlUpdate, [prenom, nom, phone, data.token], (err, result) => {
+            if (result !== undefined) {
                 res.send(true)
             } else {
-                console.log(err2)
+                console.log(err)
                 res.send(false)
             }
         })
-    } else {
+    }).catch(() => {
         res.send(false)
-    }
+    })
 })
 
 app.post('/api/updatePassword', async (req, res) => {
@@ -446,8 +443,7 @@ app.post('/api/updatePassword', async (req, res) => {
     const oldPass = req.body.old
     const newPass = req.body.new
 
-    const data = await checkToken(token)
-    if (data !== false) {
+    checkToken(token).then(data => {
         if (checkPassword(data.password, oldPass)) {
             const sqlUpdate = 'UPDATE user_info SET password = (?) WHERE token = (?)'
             db.query(sqlUpdate, [hashPassword(newPass), token], (err2, result2) => {
@@ -462,9 +458,9 @@ app.post('/api/updatePassword', async (req, res) => {
         } else {
             res.send([false, 'password'])
         }
-    } else {
+    }).catch(() => {
         res.send([false, 'token'])
-    }
+    })
 })
 
 app.post('/api/updateplays', async (req, res) => {
@@ -472,8 +468,7 @@ app.post('/api/updateplays', async (req, res) => {
     const token = req.body.token
     const setup = req.body.setup
 
-    const data = await checkToken(token)
-    if (data !== false) {
+    checkToken(token).then(data => {
         const todayDate = new Date().toISOString("fr-FR", { timeZone: "Europe/Paris" }).slice(0, 10)
         let numPlays = data.numPlays
         if (data.lastPlay != todayDate) {
@@ -495,9 +490,9 @@ app.post('/api/updateplays', async (req, res) => {
                 res.send(false)
             }
         })
-    } else {
+    }).catch(() => {
         res.send(false)
-    }
+    })
 })
 
 app.post('/api/stripe_data', async (req, res) => {
@@ -507,61 +502,57 @@ app.post('/api/stripe_data', async (req, res) => {
 
     const token = req.body.token
 
-    const data = await checkToken(token)
-    if (data !== false) {
-        getCustomer()
-        async function getCustomer() {
-            const temp_customer = await stripe.customers.search({
-                query: 'email:"' + data.email + '"'
-            });
+    checkToken(token).then(async data => {
+        const temp_customer = await stripe.customers.search({
+            query: 'email:"' + data.email + '"'
+        });
 
-            let _data = {
-                startDate: '',
-                endDate: '',
-                cancelWhenEnd: '',
-                subId: '',
-                cusId: '',
-                plan: 'basic'
-            }
-
-            const customer = temp_customer.data[0]
-            if (customer != undefined) {
-                const customerId = customer?.id
-                const search = await stripe.subscriptions.list({ customer: customerId });
-                const subId = search.data[0]?.id
-                const preEndDate = new Date(search.data[0]?.current_period_end * 1000).toISOString("fr-FR", { timeZone: "Europe/Paris" }).slice(0, 10)
-                _data = {
-                    startDate: inverseDate(new Date(search.data[0]?.current_period_start * 1000).toISOString("fr-FR", { timeZone: "Europe/Paris" }).slice(0, 10)),
-                    endDate: inverseDate(preEndDate),
-                    cancelWhenEnd: search.data[0]?.cancel_at_period_end,
-                    subId: subId,
-                    cusId: customerId
-                }
-                let plan;
-                if (new Date() < new Date(preEndDate)) {
-                    plan = 'premium'
-                } else {
-                    plan = 'basic'
-                }
-                _data.plan = plan
-                const sqlUpdate = 'UPDATE user_info SET endDate = (?), plan = (?) WHERE token = (?)'
-                db.query(sqlUpdate, [preEndDate, plan, token], (err, result) => {
-                    if (result !== undefined) {
-                        res.send(_data)
-                        return
-                    } else {
-                        res.send(false)
-                        return
-                    }
-                })
-                return
-            } else {
-                res.send(_data)
-            }
+        let _data = {
+            startDate: '',
+            endDate: '',
+            cancelWhenEnd: '',
+            subId: '',
+            cusId: '',
+            plan: 'basic'
         }
-    } else {
+
+        const customer = temp_customer.data[0]
+        if (customer != undefined) {
+            const customerId = customer?.id
+            const search = await stripe.subscriptions.list({ customer: customerId });
+            const subId = search.data[0]?.id
+            const preEndDate = new Date(search.data[0]?.current_period_end * 1000).toISOString("fr-FR", { timeZone: "Europe/Paris" }).slice(0, 10)
+            _data = {
+                startDate: inverseDate(new Date(search.data[0]?.current_period_start * 1000).toISOString("fr-FR", { timeZone: "Europe/Paris" }).slice(0, 10)),
+                endDate: inverseDate(preEndDate),
+                cancelWhenEnd: search.data[0]?.cancel_at_period_end,
+                subId: subId,
+                cusId: customerId
+            }
+            let plan;
+            if (new Date() < new Date(preEndDate)) {
+                plan = 'premium'
+            } else {
+                plan = 'basic'
+            }
+            _data.plan = plan
+            const sqlUpdate = 'UPDATE user_info SET endDate = (?), plan = (?) WHERE token = (?)'
+            db.query(sqlUpdate, [preEndDate, plan, token], (err, result) => {
+                if (result !== undefined) {
+                    res.send(_data)
+                    return
+                } else {
+                    res.send(false)
+                    return
+                }
+            })
+            return
+        } else {
+            res.send(_data)
+        }
+    }).catch(() => {
         res.send(false)
-    }
+    })
 })
 
 app.post('/api/stripe_cancel', (req, res) => {
@@ -586,8 +577,7 @@ app.post('/create-checkout-session', async (req, res) => {
     const token = req.body.token
     const url = req.body.url
 
-    const data = await checkToken(token)
-    if (data !== false) {
+    checkToken(token).then(async data => {
         if (data.confirm === 'confirmed') {
             const session = await stripe.checkout.sessions.create({
                 billing_address_collection: 'auto',
@@ -613,7 +603,9 @@ app.post('/create-checkout-session', async (req, res) => {
                 res.send('confirm')
             })
         }
-    }
+    }).catch(() => {
+        res.send(false)
+    })
 })
 
 app.use(express.static(path.join(__dirname, 'client/dist')))
