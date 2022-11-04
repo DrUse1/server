@@ -39,7 +39,6 @@ export default function Demo() {
     }
 
     function getItem() {
-        console.log(data)
         setGlobal('alreadyDone', [...global.alreadyDone, index() + 1])
         setIndex(prev => prev + 1)
         return (formatItem(JSON.parse(JSON.stringify(data))[index() - 1]))
