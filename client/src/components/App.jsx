@@ -61,7 +61,7 @@ export default function App() {
             }
         }
         setGlobal('alreadyDone', [...global.alreadyDone, index])
-        return (formatItem(Array.from(data)[index]))
+        return (formatItem(JSON.parse(JSON.stringify(data))[index]))
     }
 
     function formatItem(it) {

@@ -445,7 +445,7 @@ export default function Demo() {
     }
 
     function getQuestion(ask, elem) {
-        let _item = Array.from(data).find(__item => __item.id.toString() == elem.id.toString())
+        let _item = JSON.parse(JSON.stringify(data)).find(__item => __item.id.toString() == elem.id.toString())
         if (ask === 'question') {
             return _item.question
         } else if (ask === 'answers') {
