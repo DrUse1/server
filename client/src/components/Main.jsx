@@ -185,9 +185,6 @@ export default function Main() {
                                         <For each={Object.keys(subjects[subject])}>
                                             {chapter =>
                                                 <div className="chapter">
-                                                    {/* <div className={"subjectIcon"}>
-                                                        <img src={anatomieIcon} />
-                                                    </div> */}
                                                     <div className={"subjectName"} style={{ 'margin-left': '8px' }}>
                                                         <span>{chapter[0].toUpperCase() + chapter.slice(1)}</span>
                                                     </div>
@@ -359,10 +356,6 @@ export default function Main() {
                             </Show>
                         </Show>
                     </div>
-                    {/* <h2>Moyenne</h2>
-                    <div className={"averageWrapper"}>
-                        {Math.round(calculateAverage()*20*100)/100}/20
-                    </div> */}
                 </div>
                 <Footer />
             </div>

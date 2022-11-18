@@ -15,7 +15,7 @@ export const staticConst = {
 
 export const [global, setGlobal] = createStore({
     logged: false,
-    state: '',
+    state: 'train',
     round: 0,
     maxRound: 10,
     dailyLimit: 3,
