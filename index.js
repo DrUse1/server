@@ -620,23 +620,31 @@ app.listen(8080, () => {
 
 //sendReminder()
 function sendReminder() {
-    //sendMail({email:'opvxgame@gmail.com','prenom':'Mohamed'})
+    //sendMail({email:'opvxgame@gmail.com'})
+    // let emails = fs.readFileSync("./template/emails.txt", 'utf-8')
+    // emails = emails.split('\n')
+    // emails.forEach(email => {
+    //     sendMail({ email: email })
+    // })
     function sendMail(user) {
         (async function () {
             try {
 
                 //Load the template file
                 const templateFile = fs.readFileSync("./template/reminder.html");
+                //const templateFile = fs.readFileSync("./template/advert.html");
                 //Load and inline the style
                 const templateStyled = await inlineCss(templateFile.toString(), { url: 'file://' + __dirname + "/template/" });
                 //Inject the data in the template and compile the html
                 const templateCompiled = hogan.compile(templateStyled);
                 const templateRendered = templateCompiled.render({ prenom: [user.prenom] });
+                //const templateRendered = templateCompiled.render();
 
                 const emailData = {
                     to: user.email,
                     from: '"QCMed" support@qcmed.fr',
                     subject: `${user.prenom}, Commences tes Séries dès Aujourd'hui !`,
+                    //subject: `QCMED, Réussis ton Année grâce aux QCM !`,
                     html: templateRendered,
                     attachments: [{
                         filename: 'logo.png',
@@ -651,8 +659,10 @@ function sendReminder() {
                     (err, info) => {
                         if (info !== null) {
                             console.log('sent mail to ' + user.prenom + ' ' + user.email)
+                            //console.log('sent mail to ' + user.email)
                         } else {
                             console.log('error sending mail to ' + user.prenom + ' ' + user.email)
+                            //console.log('error sending mail to ' + user.email)
                         }
                     });
 
@@ -661,7 +671,7 @@ function sendReminder() {
             }
         })()
     }
-    //const sqlSelect = 'SELECT email, prenom FROM user_info WHERE history IS NULL'
+    // const sqlSelect = 'SELECT email, prenom FROM user_info WHERE history IS NULL'
     // db.query(sqlSelect, (err, result) => {
     //     if (result != null) {
     //         if (result[0] != undefined) {
