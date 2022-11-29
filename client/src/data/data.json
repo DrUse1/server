@@ -574,6 +574,396 @@
   {
     "id": "10045",
     "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos de l’introduction à la santé environnementale. Choisissez-la ou les proposition(s) exacte(s)",
+    "answer0": "Le Ministère de la Santé et de l’Environnement a déclaré lors de la conférence de l’OMS que « l’environnement est la clé d’une meilleure santé »---L’organisation mondiale de la santé (OMS) déclarait lors de la Conférence ministérielle Santé et environnement que « l’environnement est la clé d’une meilleure santé »",
+    "answer1": "La révolution industrielle est à l’origine du changement des paradoxe rendement/pollution, impactant l’environnement",
+    "answer2": "L’apogée de la révolution industrielle fut dans les années 1930-1970---1830-1870",
+    "answer3": "La révolution industrielle débuta avec des molécules telles que le dioxyde de soufre et les particules fines---Révolution chimique",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2"
+  },
+  {
+    "id": "10046",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos de la disparition des espaces verts et des facteurs de pollutions. Choisissez-la ou lesproposition(s) exacte(s)",
+    "answer0": "La disparition des espaces verts eut lieu dans les années 1850-1870---1950-70",
+    "answer1": "la disparition des espaces verts est dû à la bétonnisation avec une augmentation des gaz à effets de serre et doncune diminution des microparticules---Augmentation des microparticules",
+    "answer2": "Les facteurs de pollution les plus nombreux sont les facteurs chimiques---Dans le registre des molécules chimiques (CAS), il y a également tous les médicaments, car certain sont des perturbateurs endocriniens",
+    "answer3": "Dans le registre des molécules chimiques (CAS), il y a toutes les molécules chimiques et les médicaments qui sontdes perturbateurs endocriniens",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2"
+  },
+  {
+    "id": "10047",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos de la santé environnementale et des aspects qu’elle comprend. Choisissez-la ou lesproposition(s) exacte(s)",
+    "answer0": "La qualité de la vie",
+    "answer1": "Les facteurs esthétiques",
+    "answer2": "Les facteurs psychosociaux",
+    "answer3": "Les facteurs économiques",
+    "answer4": "L’habitat et le cadre de vie---C’est un facteur physique",
+    "answer": "0,1,2,4"
+  },
+  {
+    "id": "10048",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos des facteurs de pollutions. Choisissez-la ou les proposition(s) exacte(s)",
+    "answer0": "Les facteurs de pollution physique sont liés aux facteurs sociétaux et les phénomènes sociétaux sont liés auxfacteurs de stress",
+    "answer1": "Les pesticides organochlorés font partie de la famille des DDT---Les pesticides organochlorés ont comme chef de file le DDT (le DDT fait partie de la famille des pesticides organochlorés)",
+    "answer2": "Les pesticides phosphatés voient leur utilisation augmentée pour remplacer les organochlorées---Les pesticides phosphatés voient leur utilisation diminuée, ils étaient utilisés pour remplacer les organochlorés",
+    "answer3": "Un dérivé organochloré fut utilisé lors de la GM1 pour faire le gaz moutarde",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2"
+  },
+  {
+    "id": "10049",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos des facteurs de pollutions et de la population. Choisissez-la ou les proposition(s) exacte(s)",
+    "answer0": "Le plomb est à l’origine d’intoxication gravissime de nos jours",
+    "answer1": "Des anencéphalie chez le nouveau-né lié à l’exposition au plomb réapparaissent, alors que l’on ne voyait plus---Des encéphalopathies",
+    "answer2": "Le premier producteur de produit chimique est l’Angleterre avec BASF et Bayer qui sont les deux fleurons de l’industrie pétrochimique qui emploient le plus de personnes en Allemagne---Le premier producteur de produit chimique est l’Allemagne",
+    "answer3": "Les principaux effets sur l’homme de la pollution sont des pathologies carcinomateuses et cardiovasculaires",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,3"
+  },
+  {
+    "id": "10050",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "Quel(s) est(sont) le(s) paramètre(s) à prendre en compte pour calculer la dose délivrée à l'organe?",
+    "answer0": "La durée d'exposition",
+    "answer1": "La surface d'exposition",
+    "answer2": "La métabolisation du composé",
+    "answer3": "La voie d'exposition",
+    "answer4": "L'âge du patient",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10051",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "Quelle est la molécule associée à un surrisque de cancer de prostate aux Antilles ?",
+    "answer0": "Le bisphénol A",
+    "answer1": "Le kumquat",
+    "answer2": "Le chlordécone",
+    "answer3": "Le gaz moutarde",
+    "answer4": "Le méthylmercure",
+    "answer": "2"
+  },
+  {
+    "id": "10052",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "Parmi les surfaces d'échanges suivantes, la(les)quelle(s) est(sont) une source reconnue de contamination en agents chimiques en rapport avec l'eau ?",
+    "answer0": "Le poumon---Ça s'appelle la noyade",
+    "answer1": "La peau",
+    "answer2": "Le tube digestif",
+    "answer3": "L’œil",
+    "answer4": "L’oreille",
+    "answer": "1,2,4"
+  },
+  {
+    "id": "10053",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "Parmi les aliments suivants, le(s)quel(s) est(sont) à privilégier pour réduire l'impact climatique et la charge en PE ?",
+    "answer0": "Les légumes issus de l'agriculture biologique",
+    "answer1": "La viande rouge",
+    "answer2": "L'huile de colza",
+    "answer3": "L'allaitement maternel chez les enfants---Selon le prof c'est discutable puisqu'il existe de rares contamination toxicologiques",
+    "answer4": "L'eau en bouteille plastique",
+    "answer": "0,3"
+  },
+  {
+    "id": "10054",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "A partir de combien de degrés supplémentaires la vie est-elle considérée comme menacée ?",
+    "answer0": "2°",
+    "answer1": "3°",
+    "answer2": "4°",
+    "answer3": "5°",
+    "answer4": "6°",
+    "answer": "0,4"
+  },
+  {
+    "id": "10055",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "Quelle viande est à l'origine de la plus grande émission de CO*/2*/ par kilogramme??",
+    "answer0": "Le porc",
+    "answer1": "Le bœuf",
+    "answer2": "L'agneau",
+    "answer3": "Le poulet",
+    "answer4": "La dinde",
+    "answer": "2"
+  },
+  {
+    "id": "10056",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "Quelles sont les réponses vraies concernant les modifications épigénétiques liées aux perturbateurs endocriniens ?",
+    "answer0": "Elles ne sont transmises que par la mère---Aussi par le père (attention aux mots toujours/jamais/que etc ... )",
+    "answer1": "Elles impliquent une méthylation de l'ADN",
+    "answer2": "Elles impliquent une acétylation des histones",
+    "answer3": "Elles peuvent être transmises sur plusieurs générations",
+    "answer4": "Elles ont été décrites pour tous les PE---Que pour quelques PE dont le distilbène",
+    "answer": "1,2,3"
+  },
+  {
+    "id": "10057",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "Avec quelle hormone thyroïdienne le QI de l'enfant est-il corrélé ?",
+    "answer0": "La TSH",
+    "answer1": "L'iodurie",
+    "answer2": "La T4",
+    "answer3": "La T3",
+    "answer4": "La thyroglobuline",
+    "answer": "2"
+  },
+  {
+    "id": "10058",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "Parmi les molécules suivantes, la(es)quelle(s) a(ont) une action estrogénique démontrée ?",
+    "answer0": "Le distilbène (DES)",
+    "answer1": "Les phtalates---Activité antiandrogénique chez les rongeurs",
+    "answer2": "Le bisphénol A",
+    "answer3": "Le dioxyde de soufre",
+    "answer4": "Le dioxyde de titane---Colorant rouge des M&Ms, il a une activité de PE mais pas d'oestrogène",
+    "answer": "0,2"
+  },
+  {
+    "id": "10059",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "Quelle est la structure officielle en charge de la surveillance sanitaire des milieux en région PACA ?",
+    "answer0": "La DGS---Elle donne les directives au niveau national",
+    "answer1": "Santé Publique France",
+    "answer2": "L'ARS PACA",
+    "answer3": "L'ANSES-----Base d'expertise",
+    "answer4": "Institut national de l'environnement industriel et des risques (INERIS)",
+    "answer": "2"
+  },
+  {
+    "id": "10060",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos du risque et du danger. choisissez-la ou les proposition(s) exacte(s)",
+    "answer0": "La problématique de la santé environnementale est de savoir si une molécule est dangereuse ou pas et de l’interdireen fonction du risque porté par l’individu---Le risque porté par la population",
+    "answer1": "Le danger et le risque ce n’est pas la même chose",
+    "answer2": "Le management du risque fait partie des nombreux domaines de la science---Le domaine de la politique",
+    "answer3": "Pour catégoriser le risque te le danger il faut identifier le composé responsable, c’est-à-dire observé l’effet enfonction de la dose à laquelle on va être exposé au quotidien, et déterminer la relation dose/réponse, c’est-à-direidentifier la pathologie mise en évidence---Identifier le composé responsable = pathologie mise en évidence et déterminer la relation dose/réponse = l’effet observé en fonction de la dose à laquelle on va être exposé au quotidien",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10061",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos des domaines que couvre le management de risque. choisissez-la ou les proposition(s)exacte(s)",
+    "answer0": "La politique de santé à très long terme",
+    "answer1": "Les fonds économiques alloués",
+    "answer2": "Les politiques économiques, géographique et historique",
+    "answer3": "Les relations avec d’autres pays",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10062",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos de la dose-réponse. choisissez-la ou les proposition(s) exacte(s)",
+    "answer0": "Selon John Snow « la dose fait le poison »---Selon Paracelse",
+    "answer1": "En toxicologie classique la relation est linéaire",
+    "answer2": "Pour les agents physiques la relation peut être soit linéaire soit proportionnelle---C’est en toxicologie classique",
+    "answer3": "Pour les polluants et les PE les courbes sont monotones---Les courbes sont Non-monotone",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10063",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos de la courbe dose-réponse du graphique ci-dessous. choisissez-la ou les proposition(s)exacte(s)%%https://i.imgur.com/Lf1tfpN.png",
+    "answer0": "Il s’agit d’une courbe monotone---Non-monotone",
+    "answer1": "Il s’agit typiquement de la réponse des récepteurs adrénergiques",
+    "answer2": "Il une réponse à faible dose et à forte dose, mais entre les deux aucune réponse---Il y une réponse aussi à moyenne dose, mais plus faible",
+    "answer3": "C’est une courbe représentant une relation dose-réponse typique de polluant",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "3"
+  },
+  {
+    "id": "10064",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos de la dose-réponse en toxicologie classique. choisissez-la ou les proposition(s) exacte(s)",
+    "answer0": "Si une très forte dose est testé sur l’animal et qu’il ne meurt pas, alors la population ne va pas mourir puisqu’elleaura une plus faible dose de polluant",
+    "answer1": "En diminuant la dose on peut augmenter les effets néfastes---c’est le cas pour la toxicologie pas classique (pour les réponses non monotones)",
+    "answer2": "On utilise LOAEL et NOAEL---c’est le cas pour la toxicologie pas classique (pour les réponses non monotones)",
+    "answer3": "On n’utilise pas LOAEL et NOAEL pour des réponses monotones",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,3"
+  },
+  {
+    "id": "10065",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos de la dose-réponse. choisissez-la ou les proposition(s) exacte(s) :",
+    "answer0": "Pour appliquer des facteurs de sécurité, il faut augmenter encore la dose d’exposition, c’est la règlementation---Il faut réduire encore la dose d’exposition, c’est la règlementation",
+    "answer1": "Il est impossible que l’on ne puisse pas vraiment déterminer une dose en dessous de laquelle on n’a plus d’effet",
+    "answer2": "Le bisphénol A a une courbe en U",
+    "answer3": "Le bisphénol A a une courbe en U inversé",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2,3"
+  },
+  {
+    "id": "10066",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos du choléra, choisissez-la ou les proposition(s) exacte(s) :",
+    "answer0": "En 1955, John Snow a évoqué l’origine du choléra---1855",
+    "answer1": "Les gens ont très rapidement compris que la contamination du choléra se répandait par l’air et les contacts---La contaminatiion par l’air et les contacts concerne la peste",
+    "answer2": "John Snow a alors calculé l’incidence du choléra soit une étude transversale du taux d’incidence à un momentdonné sur un territoire",
+    "answer3": "Le choléra a été découvert en tant que bactérie seulement 30 ans après cette première observation de lien entre unepathologie et la pollution éventuelle de l’eau",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2,3"
+  },
+  {
+    "id": "10067",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos du « fog » au royaume-uni, choisissez-la ou les proposition(s) exacte(s) :",
+    "answer0": "Il était lié à une usine de production dont la fermeture a permis de le réduire---C’est pour le choléra",
+    "answer1": "Lors du pic, un brouillard noir extrêmement irritant a recouvert Londres pendant à peu près 3 mois et demi",
+    "answer2": "Le Fog, dû à la pollution au dioxyde de carbone, a duré un an---Pendant 2 ans, dû au dioxyde de souffre",
+    "answer3": "Après un pic de pollution arrive un pic de décès---Les pics de décès arrivent en même temps que les pics de pollution",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1"
+  },
+  {
+    "id": "10068",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos des épisodes spécifiques marquants, choisissez-la ou les proposition(s) exacte(s) :",
+    "answer0": "La contamination au mercure est aussi appelée hydrargyrisme",
+    "answer1": "L’accident de Minamata a causé des malformations---a causé des troubles neurologiques sévères et des troubles de la spasticité (et non pas des malformations !)",
+    "answer2": "Le 1er accident grave répertorié est l’accident de Hiroshima et Nagasaki---Non repértorié",
+    "answer3": "Le 2ème épisode de contamination aiguë répertorié est Minamata---1er répertorié",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0"
+  },
+  {
+    "id": "10069",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos des épisodes spécifiques marquants, choisissez-la ou les proposition(s) exacte(s) :",
+    "answer0": "Le 2nd accident rapporté est celui de Seveso",
+    "answer1": "Seveso est un accident qui a répandu des déchets de combustion avec de la dioxine",
+    "answer2": "La chloracné est une acné délabrante, les boutons font des cratères qui ne cicatrisent pas, la peau finit alors parressembler à une éponge",
+    "answer3": "La dioxine est responsable de leucémies aiguës et d‘anomalies rénales",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,2,3"
+  },
+  {
+    "id": "10070",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos des épisodes spécifiques marquants, choisissez-la ou les proposition(s) exacte(s) :",
+    "answer0": "Il y a eu le même style d’accident que Seveso dans l’usine AZF à Rouen ainsi que l’usine Lubrizol à Toulouse---L’usine AZF à Toulouse ainsi que l’usine Lubrizol à Rouen (oui je sais c’est méchant…)",
+    "answer1": "Les séquelles à long terme, dûes à l’explosion de l’usine italienne Seveso, sont différentes sortes de cancers---Les séquelles à long terme sont le diabète et l’obésité",
+    "answer2": "C’est à la suite d’une directive européenne, qu’un certain nombre de sites ont été classés Seveso, en référence àleur dangerosité",
+    "answer3": "En France, il y n’a que peu de sites classés Seveso, ce sont les sites qui relarguent de la dioxine---Il y a un certain nombre de sites classés Seveso, qui n’est pas anodin en termes de prévalence (il y en a tout de même beaucoup) de plus lorsqu’un site est classé Seveso cela ne signifie pas qu’il relargue de la dioxine mais qu’il contient suffisamment de produits chimiques toxiques qui pourraient entrainer un risque populationnel avéré",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "2"
+  },
+  {
+    "id": "10071",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos du thalidomide, choisissez-la ou les proposition(s) exacte(s) :",
+    "answer0": "Le Thalidomide est à l’origine de leucémie aiguë, cancer thyroïdien, fausses couches immédiates, malformationsextrêmement graves---C’est l’explosion de Tchernobyl et Fukushima qui sont à l’origine de cela",
+    "answer1": "Le Thalidomide qui est un médicament utilisé à la fin des années 50 en tant qu’anti-vomitif très puissant",
+    "answer2": "Le Thalidomide peut donner des malformations dont l’anomalie la plus grave est la phocomélie, agénésie dudéveloppement d’un ou plusieurs membres",
+    "answer3": "Ce médicament a été interdit en 1961 et n’est plus utilisé depuis---Toujours utilisé en médecine pour 2 pathologies hématologiques graves cancéreuses pour permettre de limiter la récidive",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "1,2"
+  },
+  {
+    "id": "10072",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos de tchernobyl et fukushima, choisissez-la ou les proposition(s) exacte(s) :",
+    "answer0": "Tchernobyl et Fukushima sont à l’origine de malformations chez le nouveau-né",
+    "answer1": "Lors de l’explosion de Tchernobyl et Fukushima, la population Française a été exposé au césium",
+    "answer2": "Il aurait été important de prendre de l’iode pour la population française---La population française qui est à distance de ces accidents n’a pas besoin d’iode",
+    "answer3": "L’exposition à du césium donne un risque de cancer à long terme que l’on ne peut pas prévenir",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,1,3"
+  },
+  {
+    "id": "10073",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos du distilbène, choisissez-la ou les proposition(s) exacte(s) :",
+    "answer0": "Le Distilbène prévenait le risque de fausse couche chez l’homme, dès lors qu’il y avait un petit saignement en débutde grossesse ou un risque de fausse couche---chez la femme",
+    "answer1": "Les petites filles nées de ses grossesses possédaient des malformations utérines ainsi que, plus tard, des cancersdu vagin jamais décrits au préalable",
+    "answer2": "L’adénocarcinome du vagin (lésion typique du distilbène) est ce qui a permis l’interdiction de ce médicament qui aété commercialisé de 1948 à 1972/73 en France",
+    "answer3": "Les petits garçons eux présentent des anomalies testiculaires (cryptorchidie) et des anomalies de l’abouchement del’urètre (hypospadias = l’urètre est sous la verge ce qui pose quelques problèmes pour uriner)",
+    "answer4": "Le problème est que ces anomalies sont transmissibles de façon héréditaire (même si les enfants qui ont étéexposés au distilbène n’ont pas développé de malformation eux-même, leur capital épigénétique a été modifié, ilspeuvent alors transmettre cette susceptibilité à leurs enfants ou petits-enfants)",
+    "answer": "1,2,3,4"
+  },
+  {
+    "id": "10074",
+    "spec": ".",
+    "matiere": "Santé Environnementale",
+    "chapitre": "Santé Env",
+    "question": "À propos du diabète, choisissez-la ou les proposition(s) exacte(s) :",
+    "answer0": "Diabète de type 2, est connu depuis plus de 3 000ans",
+    "answer1": "On sait que le diabète apparaît 1 à 5 ans après les premières manifestations physiologiques---10 à 15 ans",
+    "answer2": "On ne connait pas tous ces facteurs du diabète et on pourrait y ajouter n’importe quoi, c’est le principal biais de lasanté environnementale, il faut réussir à trouver le facteur de confusion",
+    "answer3": "Pour trouver le facteur de confusion il faut faire des études épidémiologiques. Dans ces études, il va falloir savoirrepérer la population, la pathologie et combien de temps on va les surveiller.",
+    "answer4": "Les propositions A, B, C et D sont fausses",
+    "answer": "0,2,3"
+  },
+  {
+    "id": "10045",
+    "spec": ".",
     "matiere": "Biologie Cellulaire",
     "chapitre": "Introduction / Méthodes d'Études & d'Analyse",
     "question": "À propos de la culture des cellules en laboratoire, indiquez la(les) proposition(s) exacte(s) :",
@@ -3005,7 +3395,7 @@
   {
     "id": "10232",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Pelletier et Caventou ont lu leurs memoires a l’academie des sciences en 1802",
@@ -3018,7 +3408,7 @@
   {
     "id": "10233",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Environ 3000 euros sont rembourses par an par Francais pour les medicaments",
@@ -3031,7 +3421,7 @@
   {
     "id": "10234",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Avicenne a ecrit des travaux visionnaires sur le diabete",
@@ -3044,7 +3434,7 @@
   {
     "id": "10235",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les plaquettes sumeriennes comportaient des substances animales, vegetales et minerales",
@@ -3057,7 +3447,7 @@
   {
     "id": "10236",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le medicament est l’unique element de prise en charge des maladies",
@@ -3070,7 +3460,7 @@
   {
     "id": "10237",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le medicament est le seul element de prise en charge des maladies",
@@ -3083,7 +3473,7 @@
   {
     "id": "10238",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les plaquettes sumeriennes ne font reference qu’a des substances vegetales",
@@ -3096,7 +3486,7 @@
   {
     "id": "10239",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la ou les proposition(s) exacte(s) :",
     "answer0": "Hippocrate est le pere de la medecine",
@@ -3109,7 +3499,7 @@
   {
     "id": "10240",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les monasteres font un releve systematique des remedes",
@@ -3122,7 +3512,7 @@
   {
     "id": "10241",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la ou les proposition(s) exacte(s) :",
     "answer0": "La morphine est extraite en 1833",
@@ -3135,7 +3525,7 @@
   {
     "id": "10242",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La variolisation avait une mortalite de 10 a 20%",
@@ -3148,7 +3538,7 @@
   {
     "id": "10243",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Paracelse est l’un des peres de la medecine experimentale et de la toxicologie",
@@ -3161,7 +3551,7 @@
   {
     "id": "10244",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le docteur Gomes isole la cinchonine du quinquina gris",
@@ -3174,7 +3564,7 @@
   {
     "id": "10245",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Histoire du médicament",
     "question": "A propos de l’histoire du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Galien a ete medecin de l’ecole des gladiateurs",
@@ -3187,7 +3577,7 @@
   {
     "id": "10246",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos de l ‘EMA, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Elle regroupe les agences nationales de 27 pays depuis le Brexit",
@@ -3200,7 +3590,7 @@
   {
     "id": "10247",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des comités scientifiques, indiquez la (les) proposition(s) exacte(s) : /!\\ ITEM E",
     "answer0": "Le CHMP s’occupe des medicaments orphelins",
@@ -3213,7 +3603,7 @@
   {
     "id": "10248",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des agences autours du ministère de la Santé et de la Solidarité, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’ABM est une agence sous tutelle directe de la DGS",
@@ -3226,7 +3616,7 @@
   {
     "id": "10249",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos de l’ANSM, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le 1er mai 2012, elle remplace l’AFSSAPS et est dotee de nouvelles responsabilites et missions",
@@ -3239,7 +3629,7 @@
   {
     "id": "10250",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des missions de l’ANSM, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’ANSM a deux missions principales dont la garantie de la securite des produits de sante a usage humain tout au long de leur cycle de vie",
@@ -3252,7 +3642,7 @@
   {
     "id": "10251",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des Autorisation Temporaire d’Utilisation (ATU), indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "C’est l’encadrement des prescriptions hors-AMM",
@@ -3265,7 +3655,7 @@
   {
     "id": "10252",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des ATU et RTU, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les ATU concernent les medicaments commercialises a l’etranger ou en cours de developpement pre-AMM",
@@ -3278,7 +3668,7 @@
   {
     "id": "10253",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos du dossier d’AMM, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il est harmonise et codifie au niveau national",
@@ -3291,7 +3681,7 @@
   {
     "id": "10254",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des AMM, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’AMM permet de determiner un rapport B/R qui doit etre defavorable pour le medicament avant toute commercialisation",
@@ -3304,7 +3694,7 @@
   {
     "id": "10255",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des procédures communautaires de demande d’AMM, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Concernant la procedure centralisee, le dossier est depose a l’EMA",
@@ -3317,7 +3707,7 @@
   {
     "id": "10256",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des missions de la HAS, indiquez la (les) proposition(s) exacte(s) : /!\\ ITEM E",
     "answer0": "Elle vise la validation et la promotion des bonnes pratiques et bon usage du soin",
@@ -3330,7 +3720,7 @@
   {
     "id": "10257",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos de la Commission de Transparence de la HAS, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Elle evalue les medicaments avant l’obtention de l’AMM",
@@ -3343,7 +3733,7 @@
   {
     "id": "10258",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos du SMR et de l’ASMR, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le SMR comprend 5 niveaux tandis que l’ASMR en comprend 4",
@@ -3356,7 +3746,7 @@
   {
     "id": "10259",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos de l’évaluation du prix et du taux de remboursement des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le prix est determine par le CEPS grace au SMR",
@@ -3369,7 +3759,7 @@
   {
     "id": "10260",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos de l’ANSES et de l’ANMV, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’ANMV est l’agence francaise competente en matiere d’evaluation et de gestion du risque pour les médicaments humains",
@@ -3382,7 +3772,7 @@
   {
     "id": "10261",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos de Santé Publique France, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "C’est un etablissement public administratif dont la mission principale est de proteger la sante des populations",
@@ -3395,7 +3785,7 @@
   {
     "id": "10262",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des structures de régulation en général, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’ANSM s’occupe uniquement du medicament humain tandis que l’EMA gere les medicaments humains et veterinaires",
@@ -3408,7 +3798,7 @@
   {
     "id": "10263",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des structures de régulation en général, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "C’est l’ANSM qui s’occupe des procedures centralisees",
@@ -3421,7 +3811,7 @@
   {
     "id": "10264",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "QCM19 : À propos de la réserve sanitaire, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Elle est constituee, animee et mobilisee par SPF",
@@ -3434,7 +3824,7 @@
   {
     "id": "10265",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos de l’ANSM, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Elle travaille independamment de tout autre agence",
@@ -3447,7 +3837,7 @@
   {
     "id": "10266",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "Le médicament « Gio2r » est utilisé contre le COVID-19 et commercialisé en Suisse, il se trouve être intéressant pour un groupe de patients domiciliés en France. À propos de ce médicament, qu’elle(s) est (sont) la (les) proposition(s) exacte(s) :",
     "answer0": "L’ANSM peut accorder une RTU",
@@ -3460,7 +3850,7 @@
   {
     "id": "10267",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des structures de régulation du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il existe que des structures de regulation nationales",
@@ -3473,7 +3863,7 @@
   {
     "id": "10268",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des Autorisations de Mise sur le Marché, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Quand une AMM a ete donnee elle est irrevocable, c’est a dire qu’elle ne pourra pas etre retiree meme si le rapport benefice/risque devient defavorable",
@@ -3486,7 +3876,7 @@
   {
     "id": "10269",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des structures de régulation du médicament indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’EMA est composee de 7 comites scientifiques dont le CHMP (= Comite des medicaments a usage humain) et le PRAC (Comite de pharmacovigilance)",
@@ -3499,7 +3889,7 @@
   {
     "id": "10270",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "Lors de la fixation du prix d’un médicament, on prend en compte : (indiquez la (les) proposition(s) exacte(s)) :",
     "answer0": "Le SMR",
@@ -3512,7 +3902,7 @@
   {
     "id": "10271",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Les structures de régulation des médicaments",
     "question": "À propos des structures de régulation du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’ANSM favorise un acces rapide a l’innovation avant l’obtention de l’AMM",
@@ -3525,7 +3915,7 @@
   {
     "id": "10272",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos du cours Aspects sociaux-économiques du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La pharmacologie clinique s’est developpee au XIX eme siecle",
@@ -3538,7 +3928,7 @@
   {
     "id": "10273",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "Quelles sont les définitions exactes concernant le cours Aspects sociaux-économique du médicament :",
     "answer0": "La pharmacocinetique sociale c’est l’etude des facteurs regulant la metabolisation du medicament par la societe",
@@ -3551,7 +3941,7 @@
   {
     "id": "10274",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos de l’influence des patients dans la pharmacologie sociale, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Ce n’est pas un des facteurs principaux influencant la pharmacologie sociale",
@@ -3564,7 +3954,7 @@
   {
     "id": "10275",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos des associations de malades, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Elles n’ont pas un role tres important",
@@ -3577,7 +3967,7 @@
   {
     "id": "10276",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos de l’observance, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Elle traduit le comportement du patient vis a vis de son traitement",
@@ -3590,7 +3980,7 @@
   {
     "id": "10277",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos des facteurs principaux influençant la pharmacologie sociale, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’industriel utilise le cybersquatting pour developper la consommation du medicament",
@@ -3603,7 +3993,7 @@
   {
     "id": "10278",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos des facteurs principaux influençant la pharmacologie sociale, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La religion influence la pharmacologie sociale (jeune du ramadan…)",
@@ -3616,7 +4006,7 @@
   {
     "id": "10279",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos de l’aspect économique du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La degradation de l’emploi n’influence en rien le financement de la securite sociale",
@@ -3629,7 +4019,7 @@
   {
     "id": "10280",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "Donnez les aires thérapeutiques majeures dans l’ordre décroissant (listes exhaustives) :",
     "answer0": "Oncologie, diabete, maladies auto-immunes, douleur, maladies cardiaques",
@@ -3642,7 +4032,7 @@
   {
     "id": "10281",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos des maladies rares et parasitaires, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les medicaments orphelins sont utilises pour le diagnostic, la prevention et le traitement des maladies rares et parasitaires",
@@ -3655,7 +4045,7 @@
   {
     "id": "10282",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos de l’aspect économique du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La reduction des depenses de sante est necessaire",
@@ -3668,7 +4058,7 @@
   {
     "id": "10283",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "Donnez la (les) cause(s) de surconsommation médicale :",
     "answer0": "90% des consultations aboutissent a une prescription",
@@ -3681,7 +4071,7 @@
   {
     "id": "10284",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos du coût et du prix des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La part du medicament dans les depenses de l’AM est de 16,3%",
@@ -3694,7 +4084,7 @@
   {
     "id": "10285",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos des génériques, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Ils peuvent avoir une forme galenique differente du princeps",
@@ -3707,7 +4097,7 @@
   {
     "id": "10286",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos des points communs entre génériques et biosimilaires, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Ils permettent d’augmenter le choix sur le marche et evitent les ruptures de stock",
@@ -3720,7 +4110,7 @@
   {
     "id": "10287",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos des biosimilaires, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Ce sont des medicaments qui ont la meme composition qualitative et quantitative en substance active que le princeps",
@@ -3733,7 +4123,7 @@
   {
     "id": "10288",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "A propos des aspects sociétaux du médicament en France, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "En France, la consommation d’anxiolytiques et d’ATB est parmi les plus elevees",
@@ -3746,7 +4136,7 @@
   {
     "id": "10289",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "Indiquez le (les) effet(s) bénéfique(s) de la pharmacologie sociale :",
     "answer0": "Inegalite des populations mondiales concernant l’acces aux medicaments",
@@ -3759,7 +4149,7 @@
   {
     "id": "10290",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos de l’aspect sociétal du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La pression de prescription interfere avec la strategie de prise en charge",
@@ -3772,7 +4162,7 @@
   {
     "id": "10291",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos de l’influence des nouvelles technologies dans la pharmacologie sociale, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les fakes news ne sont pas un probleme car personne n’y croit",
@@ -3785,7 +4175,7 @@
   {
     "id": "10292",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos de l’aspect social du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’industriel influence les recommandations, les universites, la formation initiale et continue et les associations d’usager de soins",
@@ -3798,7 +4188,7 @@
   {
     "id": "10293",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos de l’aspect social du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La pharmacologie sociale c’est l’evaluation des facteurs sociaux qui influencent l’utilisation des medicaments",
@@ -3811,7 +4201,7 @@
   {
     "id": "10294",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos de l’aspect social du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Tous les medicaments vendus sur internet sont une valeur sure",
@@ -3824,7 +4214,7 @@
   {
     "id": "10295",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Aspects sociétaux et économiques des médicaments",
     "question": "À propos de l’aspect social du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La pharmacocinetique sociale peut etre partagee en pharmacologie sociale et pharmacodynamie sociale",
@@ -3837,7 +4227,7 @@
   {
     "id": "10296",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "À propos de la production du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le salbutamol existe sous 3 formes galeniques differentes",
@@ -3850,7 +4240,7 @@
   {
     "id": "10297",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "À propos du contrôle de la production du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "On peut engager des actions preventives ou correctives comme le retrait des lots",
@@ -3863,7 +4253,7 @@
   {
     "id": "10298",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "Le laboratoire JUL a un chiffre d’affaires annuel de $70 milliards, environ quel pourcentage de ce montant va-t-il réinjecter en recherche et développement :",
     "answer0": "7 %",
@@ -3876,7 +4266,7 @@
   {
     "id": "10299",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos de la production d’un médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les excipients sont en principe a effet notoire mais peuvent parfois etre inertes",
@@ -3889,7 +4279,7 @@
   {
     "id": "10300",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos de la production du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La France connait une baisse de sa production de medicament depuis 2013",
@@ -3902,7 +4292,7 @@
   {
     "id": "10301",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos de la mise en forme galénique du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les solutions peuvent etre sous forme de capsules",
@@ -3915,7 +4305,7 @@
   {
     "id": "10302",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos de la production du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Un medicament blockbuster est un medicament possedant un chiffre d’affaires d’au moins 1 millions de dollars",
@@ -3928,7 +4318,7 @@
   {
     "id": "10303",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "LuciFair et Quentinfarctus décident de développer un nouveau médicament, quel(s) nom(s) de médicament(s) parmi les suivants peuvent-ils choisir :",
     "answer0": "Stop-Angor",
@@ -3941,7 +4331,7 @@
   {
     "id": "10304",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos de la production d’un médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’etape de pharmacovigilance correspond a la phase III du developpement",
@@ -3954,7 +4344,7 @@
   {
     "id": "10305",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos de la production d’un médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le scandale des protheses PIP correspond a un non-respect des GMP",
@@ -3967,7 +4357,7 @@
   {
     "id": "10306",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos de la production d’un médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "80% du marche mondial du medicament est concentre aux USA et au Canada",
@@ -3980,7 +4370,7 @@
   {
     "id": "10307",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos de la production des médicaments en France, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La France possede 17 sites de production du medicament",
@@ -3993,7 +4383,7 @@
   {
     "id": "10308",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos des médicaments blockbusters, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Ce sont des medicaments pour lesquels le chiffre d’affaires annuel mondial est superieur a $ 1 milliards.",
@@ -4006,7 +4396,7 @@
   {
     "id": "10309",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "Parmi les propositions suivantes, la (lesquelles) correspond(ent) à la définition d’un excipient :",
     "answer0": "Substance ajoutee au principe actif, a effet notoire mais pouvant parfois etre inerte",
@@ -4019,7 +4409,7 @@
   {
     "id": "10310",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos de la production des médicaments en France, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les pharmacies d’officine percoivent la majorite du prix d’un medicament",
@@ -4032,7 +4422,7 @@
   {
     "id": "10311",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "Parmi les propositions suivantes, la (lesquelles) correspond(ent) à une opération pharmaceutique :",
     "answer0": "Lyophilisation",
@@ -4045,7 +4435,7 @@
   {
     "id": "10312",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "Parmi les propositions suivantes, la (lesquelles) n’est (sont) pas un (des) rôles duVconditionnement :",
     "answer0": "Protection",
@@ -4058,7 +4448,7 @@
   {
     "id": "10313",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos de la production d’un médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Avant de determiner le nom d’un medicament, l’industriel doit verifier qu’il n’y ait aucune ressemblance avec un autre nom de medicament a la fois a l’ecrit et a l’oral",
@@ -4071,7 +4461,7 @@
   {
     "id": "10314",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos de la production d’un médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "On prescrit en France 2 fois moins d’antibiotiques ou de statines qu’en Allemagne",
@@ -4084,7 +4474,7 @@
   {
     "id": "10315",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "La ventoline Diskus, Spray, injectable et en sirop :",
     "answer0": "Sont des formes galeniques differentes pour un meme principe actif",
@@ -4097,7 +4487,7 @@
   {
     "id": "10316",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "Les pharmacies d’officine sont approvisionnées en médicaments:",
     "answer0": "En majeure partie par les grossistes, par l'intermediaire des fabricants",
@@ -4110,7 +4500,7 @@
   {
     "id": "10317",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "À propos de la production du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le brevet a une duree de validite de 20 ans a partir de la commercialisation du medicament",
@@ -4123,7 +4513,7 @@
   {
     "id": "10318",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "À propos de la production du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "En France, 75% des personnes agees consomment des psychotropes",
@@ -4136,7 +4526,7 @@
   {
     "id": "10319",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "À propos de la production du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’industrie pharmaceutique est une industrie philanthropique",
@@ -4149,7 +4539,7 @@
   {
     "id": "10320",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement et Production des médicaments",
     "question": "A propos de la production du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Un medicament blockbuster est un medicament possedant un chiffre d’affaires superieur a 1 millions de dollars",
@@ -4162,7 +4552,7 @@
   {
     "id": "10321",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du test d’Ames, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il evalue la cancerogenese d’un medicament",
@@ -4175,7 +4565,7 @@
   {
     "id": "10322",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement préclinique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le dossier preclinique est compose de 5 dossiers",
@@ -4188,7 +4578,7 @@
   {
     "id": "10323",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement clinique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "C’est une phase d’etudes comprenant 5 etapes",
@@ -4201,7 +4591,7 @@
   {
     "id": "10324",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement préclinique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le hamster Syrien permet d’etudier l’insuffisance cardiaque",
@@ -4214,7 +4604,7 @@
   {
     "id": "10325",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos de la méthodologie des essais cliniques, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le critere de jugement principal est toujours unique",
@@ -4227,7 +4617,7 @@
   {
     "id": "10326",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "Les bonnes pratiques de laboratoire ont été mis en place en :",
     "answer0": "1958",
@@ -4240,7 +4630,7 @@
   {
     "id": "10327",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement préclinique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La demi-vie d’elimination est une diminution de la concentration du medicament de moitie dans le foie",
@@ -4253,7 +4643,7 @@
   {
     "id": "10328",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement préclinique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La toxicite aigue est testee pendant 2 mois",
@@ -4266,7 +4656,7 @@
   {
     "id": "10329",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "Julia, pharmacologue dans une grosse industrie pharmaceutique développe un médicament destiné à traiter l’hypertension artérielle. Quel(s) est (sont) l’(ou les) animal (animaux) qu’elle utilisera pour tester l’efficacité de ce médicament :",
     "answer0": "Le Lapin Watanabe",
@@ -4279,7 +4669,7 @@
   {
     "id": "10330",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos des études pivots, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Elle constitue la phase 3 du developpement clinique",
@@ -4292,7 +4682,7 @@
   {
     "id": "10331",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement préclinique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La reprotoxicite evalue en 3 segments la fertilite, l’embryogenese et la mutagenese",
@@ -4305,7 +4695,7 @@
   {
     "id": "10332",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les etudes pilotes incluent une centaine de volontaires sains",
@@ -4318,7 +4708,7 @@
   {
     "id": "10333",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "Indiquez lors de laquelle (lesquelles) de ces phases a lieu l’évaluation de l’efficacité du médicament :",
     "answer0": "Phase I",
@@ -4331,7 +4721,7 @@
   {
     "id": "10334",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’autoradiobioluminographie peut etre utilise dans le dossier pharmacodynamique du developpement preclinique",
@@ -4344,7 +4734,7 @@
   {
     "id": "10335",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "Dans le développement du médicament, le Hamster Syrien et le lapin watanabe :",
     "answer0": "Sont utilises lors de la phase de developpement clinique du medicament",
@@ -4357,7 +4747,7 @@
   {
     "id": "10336",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "À propos du développement du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les procedes de fabrication sont encadres par les AMP",
@@ -4370,7 +4760,7 @@
   {
     "id": "10337",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "À propos du développement du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Dans le dossier analytique, on cherche doser, caracteriser et mesurer le medicament",
@@ -4383,7 +4773,7 @@
   {
     "id": "10338",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "À propos du développement du médicament, quelle phase compare l’efficacité et la tolérance à un médicament de référence :",
     "answer0": "La phase I",
@@ -4396,7 +4786,7 @@
   {
     "id": "10339",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "À propos du développement du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La toxicite subchronique a une duree de 0 a 1 mois",
@@ -4409,7 +4799,7 @@
   {
     "id": "10340",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "À propos du développement du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les etudes pivots correspondent a la phase 2 du developpement clinique",
@@ -4422,7 +4812,7 @@
   {
     "id": "10341",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement pré-clinique et clinique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il y aura une centaine de candidats medicaments qui entreront en developpement pre clinique",
@@ -4435,7 +4825,7 @@
   {
     "id": "10342",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement pré-clinique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il y a 5 dossiers pre-clinique",
@@ -4448,7 +4838,7 @@
   {
     "id": "10343",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement pré-clinique, indiquez la (les) proposition(s) exactes :",
     "answer0": "Le dossier galenique comportera le choix de la forme pharmaceutique finale",
@@ -4461,7 +4851,7 @@
   {
     "id": "10344",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement clinique, indiquez la (les) proposition(s) exactes :",
     "answer0": "La phase 4 du developpement clinique concerne ce qu’il se passe apres sa mise sur le marche",
@@ -4474,7 +4864,7 @@
   {
     "id": "10345",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Développement pré-clinique et clinique",
     "question": "A propos du développement clinique, indiquez la (les) proposition(s) exactes : (attention item",
     "answer0": "Au debut du developpement clinique, en phase 1, on etudie 10-100 patients",
@@ -4487,7 +4877,7 @@
   {
     "id": "10346",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Elle etudie le medicament durant les essais cliniques",
@@ -4500,7 +4890,7 @@
   {
     "id": "10347",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de ces définitions, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La pharmacovigilance c’est l’ensemble des activites qui visent a detecter, evaluer, comprendre et prevenir les effets indesirables des medicaments en phase 3",
@@ -4513,7 +4903,7 @@
   {
     "id": "10348",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos du cours sur la pharmacovigilance, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les effets indesirables sont obligatoirement graves",
@@ -4526,7 +4916,7 @@
   {
     "id": "10349",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos du cours sur la pharmacovigilance et la pharmaco-épidémiologie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La pharmacovigilance a pour objectif d’identifier qui prescrit ou utilise tel medicament",
@@ -4539,7 +4929,7 @@
   {
     "id": "10350",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos des CRPV (Centres Régionaux de Pharmacovigilanc, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il y a 11 centres en France",
@@ -4552,7 +4942,7 @@
   {
     "id": "10351",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les effets indesirables inattendus sont imprevisibles et non expliques par les proprietes pharmacologique du medicament",
@@ -4565,7 +4955,7 @@
   {
     "id": "10352",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance et de la pharmaco-épidémiologie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les resultats des etudes sur la population rejointe peuvent etre tres differents de ce qu’on a trouve dans les essais cliniques",
@@ -4578,7 +4968,7 @@
   {
     "id": "10353",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmaco-épidémiologie et des études de l’effectivité des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les etudes transversales consistent a faire un rapport de prevalence",
@@ -4591,7 +4981,7 @@
   {
     "id": "10354",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance et de la pharmacoépidémiologie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les essais cliniques sont indispensables et sont le ≪ gold standard ≫ apres l’AMM",
@@ -4604,7 +4994,7 @@
   {
     "id": "10355",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance et de la pharmaco-épidémiologie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’erreur medicamenteuse est uniquement due au patient (ex : femmes enceintes qui prennent des AINS)",
@@ -4617,7 +5007,7 @@
   {
     "id": "10356",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance et de la pharmaco-épidémiologie, indiquez (les) proposition(s) exacte(s) :",
     "answer0": "Seulement les medecins sont obliges de declarer les effets indesirables au CRPV",
@@ -4630,7 +5020,7 @@
   {
     "id": "10357",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos des études de pharmaco-épidémiologie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Pour mesurer l’exposition, on peut questionner le malade ou regarder son dossier medical",
@@ -4643,7 +5033,7 @@
   {
     "id": "10358",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos des études de pharmaco-épidémiologie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Dans une etude de prevalence on fait un rapport de prevalence",
@@ -4656,7 +5046,7 @@
   {
     "id": "10359",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance et de la pharmaco-épidémiologie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les patients pluripathologiques et les femmes enceintes sont souvent inclus dans les essais cliniques",
@@ -4669,7 +5059,7 @@
   {
     "id": "10360",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "Selon l’OMS, il existe cinq critères pour caractériser un effet indésirable de grave, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il entraine le deces",
@@ -4682,7 +5072,7 @@
   {
     "id": "10361",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance européenne, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "C’est la FDA qui s’en occupe et elle prend les decisions de polices sanitaires a l’echelon americain",
@@ -4695,7 +5085,7 @@
   {
     "id": "10362",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance et de l’iatrogénèse médicamenteuse, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Un effet indesirable est provoque par une utilisation non intentionnelle et inappropriee du medicament",
@@ -4708,7 +5098,7 @@
   {
     "id": "10363",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’imputabilite est l’evaluation de la relation causale entre prise de medicament et effet indesirable rapporte",
@@ -4721,7 +5111,7 @@
   {
     "id": "10364",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance et de l’iatrogénèse médicamenteuse, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les interactions pharmacodynamiques concernent l’effet pharmacologique du medicament, c’est a dire qu’elles entrainent une diminution de la concentration plasmatique",
@@ -4734,7 +5124,7 @@
   {
     "id": "10365",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance et de l’iatrogénèse médicamenteuse, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le surdosage ne survient jamais si le patient prend la dose normale et recommandee dans le RCP",
@@ -4747,7 +5137,7 @@
   {
     "id": "10366",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "A propos de la iatrogénèse médicamenteuse, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La Iatrogenese est un ensemble de consequences indesirables ou negatives sur l’etat de sante individuel ou collectif.",
@@ -4760,7 +5150,7 @@
   {
     "id": "10367",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos du cours sur la iatrogénèses, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La pharmacovigilance commence en phase 3 d’etude clinique",
@@ -4773,7 +5163,7 @@
   {
     "id": "10368",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos des essais cliniques, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les indications sont restreintes",
@@ -4786,7 +5176,7 @@
   {
     "id": "10369",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos du Thalidomide, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il etait prescrit comme anti-nauseeux chez les femmes enceintes",
@@ -4799,7 +5189,7 @@
   {
     "id": "10370",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos de la pharmacovigilance, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Suite au drame du Thalidomide, l’OMS a mis en place un systeme de surveillances des effets indesirables des medicaments apres l’AMM : la pharmacovigilance",
@@ -4812,7 +5202,7 @@
   {
     "id": "10371",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "La iatrogénèse médicamenteuse comprend : (indiquez la (les) proposition(s) exacte(s)) :",
     "answer0": "Les effets indesirables des medicaments",
@@ -4825,7 +5215,7 @@
   {
     "id": "10372",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos du cours sur la iatrogénèse donnez la (les) proposition(s) exacte(s) :",
     "answer0": "La iatrogenese medicamenteuse est toujours la consequence d’une mauvaise utilisation du medicament",
@@ -4838,7 +5228,7 @@
   {
     "id": "10373",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos du cours sur la iatrogénèse, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Un effet indesirable est une reaction nocive voulue en cas de prise d’un medicament en conditions normales d’utilisations ou en cas de mesusage, de surdosage, d’abus, d’interaction et d’erreur medicamenteuse",
@@ -4851,7 +5241,7 @@
   {
     "id": "10374",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos des effets indésirables de type A, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Leurs incidence est faible",
@@ -4864,7 +5254,7 @@
   {
     "id": "10375",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "Quelles sont les critères des effets indésirables graves, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Ils provoquent le deces",
@@ -4877,7 +5267,7 @@
   {
     "id": "10376",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos du cours sur la iatrogénèse, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "En pharmacologie on parle de doses therapeutiques",
@@ -4890,7 +5280,7 @@
   {
     "id": "10377",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "À propos du cours sur la iatrogénèse, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Une interaction medicamenteuse est un changement dans l'intensite ou la duree de reponse de l’organisme a un medicament en presence d’un autre medicament",
@@ -4903,7 +5293,7 @@
   {
     "id": "10378",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "A propos de des interactions médicamenteuses, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Une interaction pharmacodynamique entraine une baisse de la concentration plasmatique",
@@ -4916,7 +5306,7 @@
   {
     "id": "10379",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "Celeste (tutrice d’une matière éclaté prend tous les jours son médicament avec un grand verre de jus de pamplemousse, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La concentration du medicament dans le sang va augmenter",
@@ -4929,7 +5319,7 @@
   {
     "id": "10380",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Iatrogénie médicamenteuse",
     "question": "A propos de la iatrogénèse médicamenteuse, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’incidence des effets indesirables de type B est faible",
@@ -4942,7 +5332,7 @@
   {
     "id": "10381",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les recepteurs a activite tyrosine kinase sont la cible de l'erythropoietine",
@@ -4955,7 +5345,7 @@
   {
     "id": "10382",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Un ligand peut etre naturel (exogen ou bien etre un medicament (endogen",
@@ -4968,7 +5358,7 @@
   {
     "id": "10383",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les recepteurs couples aux proteines G possedent 3 domaines transmembranaires",
@@ -4981,7 +5371,7 @@
   {
     "id": "10384",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les recepteurs a activite tyrosine kinase sont la cible de l’insuline, des facteurs de croissances, des hormones de croissances et de l’erythropoietine",
@@ -4994,7 +5384,7 @@
   {
     "id": "10385",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le canal active par le GABA est permeable au Cl-",
@@ -5007,7 +5397,7 @@
   {
     "id": "10386",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les digitaliques cardiotoniques sont utilises dans l’insuffisance cardiaque en inhibant la pompe Na/K ATPase",
@@ -5020,7 +5410,7 @@
   {
     "id": "10387",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il existe 29000 cibles portees par des organismes pathogenes",
@@ -5033,7 +5423,7 @@
   {
     "id": "10388",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il existe 2 classes de RCPG",
@@ -5046,7 +5436,7 @@
   {
     "id": "10389",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "50% des medicaments ont pour cible des RCPG",
@@ -5059,7 +5449,7 @@
   {
     "id": "10390",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des RCPG, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Dans les RCPG la proteine G est a la face externe de la membrane",
@@ -5072,7 +5462,7 @@
   {
     "id": "10391",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’Infliximab agit dans la polyarthrite rhumatoide, la maladie de Crohn et dans le psoriasis",
@@ -5085,7 +5475,7 @@
   {
     "id": "10392",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exactes(s) :",
     "answer0": "Les noms de medicaments se terminant par -mab sont des anticorps",
@@ -5098,7 +5488,7 @@
   {
     "id": "10393",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le Cetuximab va inhiber les recepteurs a activite tyrosine kinase en intracellulaire",
@@ -5111,7 +5501,7 @@
   {
     "id": "10394",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le systeme de recapture regule la neurotransmission au niveau des synapses dans le systeme nerveux central",
@@ -5124,7 +5514,7 @@
   {
     "id": "10395",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "Quelles sont les caractéristiques d’une liaison ligand-récepteur, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’affinite du ligand pour la cible",
@@ -5137,7 +5527,7 @@
   {
     "id": "10396",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des récepteurs couplés aux protéines G, indiquez la ou les proposition(s) exacte(s) :",
     "answer0": "L’adenylate cyclase activee par la proteine Gs augmente la concentration en DAG",
@@ -5150,7 +5540,7 @@
   {
     "id": "10397",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les recepteurs a activite tyrosine kinase sont la cible de l’insuline",
@@ -5163,7 +5553,7 @@
   {
     "id": "10398",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des récepteurs canaux, indiquez la (les) proposition(s) exacte(s)",
     "answer0": "Le GABA est un antagoniste de ces recepteurs",
@@ -5176,7 +5566,7 @@
   {
     "id": "10399",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La vitamine A et D agissent sur des recepteurs nucleaires",
@@ -5189,7 +5579,7 @@
   {
     "id": "10400",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les inhibiteurs de la pompe a protons de l’estomac sont des antiulcereux",
@@ -5202,7 +5592,7 @@
   {
     "id": "10401",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il existe 35 cibles codees par le genome humain",
@@ -5215,7 +5605,7 @@
   {
     "id": "10402",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les recepteurs serine/tyrosine kinase sont des recepteurs a activite enzymatique",
@@ -5228,7 +5618,7 @@
   {
     "id": "10403",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Un antagoniste va stimuler un recepteur",
@@ -5241,7 +5631,7 @@
   {
     "id": "10404",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Un ligand de recepteur nucleaire doit etre hydrophile",
@@ -5254,7 +5644,7 @@
   {
     "id": "10405",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le glutamate et la serotonine sont des antagonistes des recepteurs canaux",
@@ -5267,7 +5657,7 @@
   {
     "id": "10406",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’imipramine agit sur la recapture de la serotonine",
@@ -5280,7 +5670,7 @@
   {
     "id": "10407",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La vitamine A et D agissent sur des recepteurs nucleaires",
@@ -5293,7 +5683,7 @@
   {
     "id": "10408",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Cibles et mécanismes d’action des médicaments",
     "question": "À propos des cibles et mécanismes d’action des médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "15% des medicaments ont pour cibles des canaux, des pompes ioniques et des transporteurs membranaires",
@@ -5306,7 +5696,7 @@
   {
     "id": "10409",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les etapes A, D, M et E sont successives",
@@ -5319,7 +5709,7 @@
   {
     "id": "10410",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La seule etape obligatoire est l’elimination",
@@ -5332,7 +5722,7 @@
   {
     "id": "10411",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "Vous êtes de garde au service des urgences de Pasteur (wow), quand vous recevez un certain Guillaume. Guigui a tenté de racheter un pull, et pour prouver qu’il le mérite a avalé 2 cachets de 15mg de paracétamol. Il arrive inconscient et vous lui mesurez une C0 à 7,5 mg/L, indiquez la (les) proposition(s) exacte(s) : Aide au calcul : - demi-vie paracétamol : 2h - ln(2) = 0,7",
     "answer0": "Le Vd du patient est de 8L",
@@ -5345,7 +5735,7 @@
   {
     "id": "10412",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le medicament est compose de principe actif et d’excipients",
@@ -5358,7 +5748,7 @@
   {
     "id": "10413",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La pharmacocinetique, c’est l’effet du medicament sur l’organisme",
@@ -5371,7 +5761,7 @@
   {
     "id": "10414",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos des transporteurs, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les transporteurs passifs peuvent etre de 2 types : influx ou efflux",
@@ -5384,7 +5774,7 @@
   {
     "id": "10415",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique en général, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le metabolisme est reversible",
@@ -5397,7 +5787,7 @@
   {
     "id": "10416",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "Vous êtes internes à l’hôpital et voyez arriver une jeune femme qui, après avoir eu des douleurs menstruelles la veille au soir, a ingéré 8 comprimés de 500mg de PERDOLAN®. Comme vous êtes accros à la pharmacocinétique (on vous compren, vous décidez de faire des calculs sur son cas pour l’aider. Aide au calcul : C0 = 40g/L ½ vie = 3h",
     "answer0": "Le volume de distribution est de 0,1L",
@@ -5410,7 +5800,7 @@
   {
     "id": "10417",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos des formules de la clairance, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La formule de la clairance est la suivante : 𝐶𝑙 = !\" #$",
@@ -5423,7 +5813,7 @@
   {
     "id": "10418",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La clairance determine la dose de medicament a administrer",
@@ -5436,7 +5826,7 @@
   {
     "id": "10419",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) propositions exacte(s) :",
     "answer0": "Les transports actifs suivent la loi de Fick",
@@ -5449,7 +5839,7 @@
   {
     "id": "10420",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "Vous êtes en stage avec le merveilleux professeur Drici, il décide de vous confier le cas qui vient d’arriver aux urgences à 8h. Le patient est inconscient et sa femme vous explique qu’il a ingéré 4 comprimés de 3,75mg d’IMOVANE® (somnifèr la veille à 22h, 4 fois plus que la dose recommandée. S’il a encore plus de 3,75 mg dans le sang maintenant, vous devez l’envoyer en réanimation. Aide au calcul : - C0 = 0,15 mg/L - LN2 = 0,7 - Cl = 14 L/h",
     "answer0": "Le volume de distribution est de 100L",
@@ -5462,7 +5852,7 @@
   {
     "id": "10421",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La phase biopharmaceutique est obligatoire pour tous les medicaments",
@@ -5475,7 +5865,7 @@
   {
     "id": "10422",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le transport actif est independant du gradient de concentration",
@@ -5488,7 +5878,7 @@
   {
     "id": "10423",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "Vous êtes au concert de votre amie Sophie, récemment devenue une immense rockstar (alcooluyque dans les bacs). A la fin du show, vous allez la rejoindre en coulisse pour l’after et découvrez son corps, au sol. Vous remarquez une seringue : du fentanyl (la célébrité ça rend fou). Vous essayez de trouver un maximum d’info à donner aux médecins, vous êtes prêts à tout, quitte à faire des calculs (oui oui c’est bien le moment oui) : Aide au calcul : - LN(2) = 0,7 - Vd = 5,5 L/kg - T1/2 = 7h",
     "answer0": "Sophie fait 50kg, son Vd est donc de 200L",
@@ -5501,7 +5891,7 @@
   {
     "id": "10424",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La voie orale a des contre-indications de type pharmacologiques (type vomissements, diarrhees…)",
@@ -5514,7 +5904,7 @@
   {
     "id": "10425",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Posologie = dose + rythme",
@@ -5527,7 +5917,7 @@
   {
     "id": "10426",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Dans certaines conditions, un medicament sous forme ionisee peut passer les barrieres intestinales",
@@ -5540,7 +5930,7 @@
   {
     "id": "10427",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "En dessous d’une biodisponibilite a 50%, on n’utilise pas la voie orale",
@@ -5553,7 +5943,7 @@
   {
     "id": "10428",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A l’annonce du confinement et l’approche des partiels de L2, Guillaume n’a pas supporté toutes ces mauvaises nouvelles. Il est donc allé voler du Prozac® à la pharmacie où il travaille (la hont pour en finir. Il a pris 4 cachets, et commence à avoir du mal à respirer. Vous cherchez à avoir le plus d’informations possible sur son intoxication. Données : - un cachet = 20mg - C0 = 2mg/L - T1/2 = 4j - LN(2) = 0,7",
     "answer0": "Il a consomme 80mg de ProzacR",
@@ -5566,7 +5956,7 @@
   {
     "id": "10429",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La phase biopharmaceutique est obligatoire pour tous les medicaments",
@@ -5579,7 +5969,7 @@
   {
     "id": "10430",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’etat d’equilibre dans la concentration d’un medicament est atteint au bout de 7 demi-vies",
@@ -5592,7 +5982,7 @@
   {
     "id": "10431",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la(les) proposition(s) exacte(s) :",
     "answer0": "Le transport actif est specifique, saturable et inhibable",
@@ -5605,7 +5995,7 @@
   {
     "id": "10432",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Une biodisponibilite a 20% est redhibitoire, on n’utilisera pas cette voie",
@@ -5618,7 +6008,7 @@
   {
     "id": "10433",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacocinétique",
     "question": "A propos de la pharmacocinétique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La voie inhalee est locale",
@@ -5631,7 +6021,7 @@
   {
     "id": "10434",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La pharmacodynamie c’est l’etude du devenir du medicament dans l’organisme",
@@ -5644,7 +6034,7 @@
   {
     "id": "10435",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Une liaison specifique est caracterisee par une forte affinite",
@@ -5657,7 +6047,7 @@
   {
     "id": "10436",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Un medicament agoniste provoque un effet qui sera le meme que celui du mediateur naturel du recepteur",
@@ -5670,7 +6060,7 @@
   {
     "id": "10437",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamique, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La pharmacodynamie est l’etude des effets du medicament et de son mecanisme d’action",
@@ -5683,7 +6073,7 @@
   {
     "id": "10438",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La down regulation est une modification dues a une desensibilisation",
@@ -5696,7 +6086,7 @@
   {
     "id": "10439",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie (et de l’imag, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Un medicament agoniste potentialise un phenomene biologique",
@@ -5709,7 +6099,7 @@
   {
     "id": "10440",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Un agoniste est a l’origine du declenchement, de la stimulation ou de la potentialisation d’un phenomene physiologique",
@@ -5722,7 +6112,7 @@
   {
     "id": "10441",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les hormones et les corticoides sont des exemples de substances agonistes",
@@ -5735,7 +6125,7 @@
   {
     "id": "10442",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Dans une population, tout le monde aura la meme reponse a un traitement",
@@ -5748,7 +6138,7 @@
   {
     "id": "10443",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La constante de dissociation KD est la concentration en ligand pour obtenir 50% de l’occupation des recepteurs",
@@ -5761,7 +6151,7 @@
   {
     "id": "10444",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos des courbes doses-réponses, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Elles permettent de quantifier l’effet pharmacologique",
@@ -5774,7 +6164,7 @@
   {
     "id": "10445",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos du graphique ci-contre, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "A et B sont tout aussi efficaces",
@@ -5787,7 +6177,7 @@
   {
     "id": "10446",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Un antagoniste non competitif se lie sur le meme site que le mediateur endogene",
@@ -5800,7 +6190,7 @@
   {
     "id": "10447",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Une liaison non specifique est de faible affinite (type albumin",
@@ -5813,7 +6203,7 @@
   {
     "id": "10448",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les courbes doses-reponses permettent de quantifier l’effet pharmacologique",
@@ -5826,7 +6216,7 @@
   {
     "id": "10449",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "A et B ont la meme efficacite",
@@ -5839,7 +6229,7 @@
   {
     "id": "10450",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la courbe ci-après, indiquez la ou les proposition(s) exacte(s) :",
     "answer0": "Dans l’ordre, du plus puissant au moins puissant : D > B > C > A",
@@ -5852,7 +6242,7 @@
   {
     "id": "10451",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La pharmacodynamie c’est l’etude des effets du medicament et de son mecanisme d’action",
@@ -5865,7 +6255,7 @@
   {
     "id": "10452",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les corticoides sont des medicaments antagonistes",
@@ -5878,7 +6268,7 @@
   {
     "id": "10453",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La pharmacodynamie suit le schema : Liaison → Effecteur → Amplificateur → Reponse biologique",
@@ -5891,7 +6281,7 @@
   {
     "id": "10454",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos des différents types de liaison, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Concernant la liaison specifique est de forte affinite, saturable et induit un effet biologique",
@@ -5904,7 +6294,7 @@
   {
     "id": "10455",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "KD est la concentration en ligand pour obtenir 50% de l’effet therapeutique",
@@ -5917,7 +6307,7 @@
   {
     "id": "10456",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos des agonistes/antagonistes, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les medicaments agonistes d’une meme molecule auront le meme effet",
@@ -5930,7 +6320,7 @@
   {
     "id": "10457",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la courbe ci-contre, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "X est plus puissant que Y",
@@ -5943,7 +6333,7 @@
   {
     "id": "10458",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propose de la courbe ci-contre, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La courbe rouge est un agoniste entier",
@@ -5956,7 +6346,7 @@
   {
     "id": "10459",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les medicaments a index therapeutique etroit sont ceux pour lesquels une petite augmentation de concentration change tres vite l’effet therapeutique en effet toxique",
@@ -5969,7 +6359,7 @@
   {
     "id": "10460",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "On contre un antagoniste competitif en augmentant les doses de ligand",
@@ -5982,7 +6372,7 @@
   {
     "id": "10461",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’objectif de la pharmacodynamie c’est de comprendre ce qu’il se passe entre la dose que l’on administre et la concentration dans le sang que l’on obtient",
@@ -5995,7 +6385,7 @@
   {
     "id": "10462",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Une liaison specifique est caracterisee par une faible affinite",
@@ -6008,7 +6398,7 @@
   {
     "id": "10463",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Pharmacodynamie",
     "question": "A propos de la pharmacodynamie, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les recepteurs peuvent etre β-adrenergiques ou dopaminergiques",
@@ -6021,7 +6411,7 @@
   {
     "id": "10464",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Bon usage du médicament",
     "question": "A propos du bon usage du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La prescription medicale a des implications medicales, sociales et juridiques",
@@ -6034,7 +6424,7 @@
   {
     "id": "10465",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Bon usage du médicament",
     "question": "A propos du bon usage du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les medicaments a usage hospitalier sont a prescription restreinte",
@@ -6047,7 +6437,7 @@
   {
     "id": "10466",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Bon usage du médicament",
     "question": "A propos du bon usage du médicament, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La prescription medicale est controlee et executee par le pharmacien",
@@ -6060,7 +6450,7 @@
   {
     "id": "10467",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il n’y a que le patient qui prend un risque lors d’une prescription",
@@ -6073,7 +6463,7 @@
   {
     "id": "10468",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il y a 120000 morts chaque annee en France par iatrogenie",
@@ -6086,7 +6476,7 @@
   {
     "id": "10469",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "AINS et EIC ne doivent pas etre associes car tous deux nephrotoxiques",
@@ -6099,7 +6489,7 @@
   {
     "id": "10470",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "On peut extrapoler les effets du medicament sur la population des essais cliniques au patient, puisque la plupart du temps le patient sera dans la moyenne des essais cliniques",
@@ -6112,7 +6502,7 @@
   {
     "id": "10471",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Une reaction allergique aux antibiotiques est une complication previsible",
@@ -6125,7 +6515,7 @@
   {
     "id": "10472",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos des objectifs de traitement, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le traitement symptomatique supprime la cause, la malade",
@@ -6138,7 +6528,7 @@
   {
     "id": "10473",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le medecin peut decider du traitement que le patient devra prendre",
@@ -6151,7 +6541,7 @@
   {
     "id": "10474",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos des règles d’or de la prescription, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il faut prescrire le moins possible",
@@ -6164,7 +6554,7 @@
   {
     "id": "10475",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le code de deontologie regit la juridiction que doit suivre le medecin envers la collectivite",
@@ -6177,7 +6567,7 @@
   {
     "id": "10476",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "30% des patients aux urgences viennent a cause de problemes avec des medicaments",
@@ -6190,7 +6580,7 @@
   {
     "id": "10477",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le prescripteur doit limiter le risque pour lui meme",
@@ -6203,7 +6593,7 @@
   {
     "id": "10478",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "On ne prescrit pas forcement des medicament eprouves",
@@ -6216,7 +6606,7 @@
   {
     "id": "10479",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il y a 8 regles d’or de la prescription",
@@ -6229,7 +6619,7 @@
   {
     "id": "10480",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le rapport benefice/risque se definit par les precautions a prendre pour etre sur que le patient va tirer un benefice du traitement et egard au risque que ce traitement et donc votre prescription lui fait courir",
@@ -6242,7 +6632,7 @@
   {
     "id": "10481",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les effets secondaires ou complications sont toujours de 2 types : soit previsibles soit imprevisibles",
@@ -6255,7 +6645,7 @@
   {
     "id": "10482",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "La chirurgie d’exerese d’un cancer est un exemple de traitement curatif",
@@ -6268,7 +6658,7 @@
   {
     "id": "10483",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Une hemorragie sous anticoagulant est un effet secondaire grave et donc imprevisible",
@@ -6281,7 +6671,7 @@
   {
     "id": "10484",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos des éléments à intégrer dans une prescription, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "On prend en compte la volonte du patient uniquement s’il est d’accord avec la prescription du medecin",
@@ -6294,7 +6684,7 @@
   {
     "id": "10485",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos des habitudes alimentaires interagissant avec les médicaments, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le millepertuis interagit avec la digoxine",
@@ -6307,7 +6697,7 @@
   {
     "id": "10486",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "L’etat d’hydratation n’est pas utile a prendre en compte avant de prescrire",
@@ -6320,7 +6710,7 @@
   {
     "id": "10487",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il est primordial de re-evaluer les traitements en cours chaque fois que vous voyez le patient",
@@ -6333,7 +6723,7 @@
   {
     "id": "10488",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos des règles d’or de la prescription, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Il y en a 10",
@@ -6346,7 +6736,7 @@
   {
     "id": "10489",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos des aspects juridiques de la prescription, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le prescripteur a des obligations au regard de la collectivite decrite dans le code de la deontologie",
@@ -6359,7 +6749,7 @@
   {
     "id": "10490",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Les vomissements sous AugmentinR sont des effets secondaires imprevisibles",
@@ -6372,7 +6762,7 @@
   {
     "id": "10491",
     "spec": ".",
-    "matiere": "Pharmaco",
+    "matiere": "Pharmacologie",
     "chapitre": "Rapport Bénéfice-Risque",
     "question": "A propos du rapport bénéfice/risque, indiquez la (les) proposition(s) exacte(s) :",
     "answer0": "Le jus de pamplemousse peut entrainer des grossesses non desirees",
@@ -20727,8 +21117,8 @@
     "matiere": "Chimie Général",
     "chapitre": "Solutions aqueuses",
     "question": "Soit la série des composés suivants de l'azote :_bN*/2*/, NO, HNO*/2*/ et NO//-/3//_bParmi les propositions suivantes donnant respectivement les nombres (ou degrés) d'oxydation de l'azote dans ces différentes espèces, indiquez la proposition correcte",
-    "answer0": "",
-    "answer1": "",
+    "answer0": "+I, +II, +III, +IV",
+    "answer1": "+I, +II, +III, +V",
     "answer2": "0, +II, +III, +V",
     "answer3": "0, +II, +IV, +V",
     "answer4": "0, +II, +III, +IV",

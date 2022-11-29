@@ -38,7 +38,6 @@ export default function Home() {
             return newObject;
         }
 
-
         let splitQCM = areaValue().split('QCM')
         let _temp = []
         splitQCM.forEach(e => {
@@ -55,10 +54,10 @@ export default function Home() {
             let obj = {}
             for (let i = 0; i < 5; i++) {
                 e = e.split(letters[i] + ') ')
-                obj['answer' + (4 - i)] = e[1]
+                obj['answer' + (4 - i)] = e[1][0].toUpperCase() + e[1].slice(1,e[1].length)
                 e = e[0]
             }
-            obj['question'] = e
+            obj['question'] = e[0].toUpperCase() + e.slice(1,e.length).toLowerCase()
             obj = preferredOrder(obj, ['question', 'answer0', 'answer1', 'answer2', 'answer3', 'answer4'])
             _temp = [..._temp, obj]
         })

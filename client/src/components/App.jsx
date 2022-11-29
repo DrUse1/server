@@ -114,6 +114,11 @@ export default function App() {
     function Question() {
         function FormatQuestion(props) {
             let q = props.question.toString()
+            let link = ''
+            if (q.split('%%').length > 1) {
+                link = q.split('%%')[1]
+                q = q.split('%%')[0]
+            }
             return (
                 <>
                     <span>
@@ -173,13 +178,18 @@ export default function App() {
                             </Show>
                         }</For>
                     </span>
+                    <Show when={link != ''}>
+                        <img onClick={() => window.open(link, '_blank')} style={{width:'100px'}} src={link} alt="img" />
+                    </Show>
                 </>
             )
         }
         return (
             <>
                 <For each={[item.question]}>{i =>
-                    <FormatQuestion question={i} />
+                    <>
+                        <FormatQuestion question={i} />
+                    </>
                 }</For>
             </>
         )
