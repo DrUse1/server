@@ -179,7 +179,7 @@ export default function App() {
                         }</For>
                     </span>
                     <Show when={link != ''}>
-                        <img onClick={() => window.open(link, '_blank')} style={{width:'100px'}} src={link} alt="img" />
+                        <img onClick={() => window.open(link, '_blank')} style={{height:'150px'}} src={link} alt="img" />
                     </Show>
                 </>
             )
@@ -276,7 +276,11 @@ export default function App() {
                             </button>
                             <Show when={answer.value.includes('---')}>
                                 <div className={"appAnswerItemExplanation"}>
-                                    <span>{answer.value.split('---')[1]}</span>
+                                    <Show when={answer.value.split('---')[1].includes('https')} fallback={
+                                        <span>{answer.value.split('---')[1]}</span>
+                                    }>
+                                        <img style={{width:'100%'}} src={answer.value.split('---')[1]} alt="" />
+                                    </Show>
                                 </div>
                             </Show>
                         </div>
