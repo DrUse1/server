@@ -13,6 +13,10 @@ import capsule from '../svg/subjects/capsule.png'
 import ssh from '../svg/subjects/ssh.png'
 import stats from '../svg/subjects/stats.png'
 import biophysique from '../svg/subjects/biophysique.png'
+import sante_env from '../svg/subjects/environnement.png'
+import sante_num from '../svg/subjects/sante-num.png'
+import genetic from '../svg/subjects/genetic.png'
+import ethic from '../svg/subjects/ethique.png'
 
 
 export function SubjectIcon(props) {
@@ -32,6 +36,10 @@ export function SubjectIcon(props) {
         'Biostatistique': <img src={stats} alt={props.subject} />,
         'Chimie': <img src={atom} alt={props.subject} />,
         'BioPhysique': <img src={biophysique} alt={props.subject} />,
+        'Santé Environnementale': <img src={sante_env} alt={props.subject} />,
+        'Santé Numérique': <img src={sante_num} alt={props.subject} />,
+        'Génétique': <img src={genetic} alt={props.subject} />,
+        'Ethique': <img src={ethic} alt={props.subject} />,
     }
     return (
         <>
