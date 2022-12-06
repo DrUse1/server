@@ -582,7 +582,7 @@
     "answer2": "L’apogée de la révolution industrielle fut dans les années 1930-1970---1830-1870",
     "answer3": "La révolution industrielle débuta avec des molécules telles que le dioxyde de soufre et les particules fines---Révolution chimique",
     "answer4": "Les propositions A, B, C et D sont fausses",
-    "answer": "1,2"
+    "answer": "1"
   },
   {
     "id": "10046",
@@ -591,9 +591,9 @@
     "chapitre": "DM 1",
     "question": "À propos de la disparition des espaces verts et des facteurs de pollutions. Choisissez-la ou lesproposition(s) exacte(s)",
     "answer0": "La disparition des espaces verts eut lieu dans les années 1850-1870---1950-70",
-    "answer1": "la disparition des espaces verts est dû à la bétonnisation avec une augmentation des gaz à effets de serre et doncune diminution des microparticules---Augmentation des microparticules",
+    "answer1": "la disparition des espaces verts est dû à la bétonnisation avec une augmentation des gaz à effets de serre et donc une diminution des microparticules la diminution des microparticules---Augmentation des microparticules",
     "answer2": "Les facteurs de pollution les plus nombreux sont les facteurs chimiques---Dans le registre des molécules chimiques (CAS), il y a également tous les médicaments, car certain sont des perturbateurs endocriniens",
-    "answer3": "Dans le registre des molécules chimiques (CAS), il y a toutes les molécules chimiques et les médicaments qui sontdes perturbateurs endocriniens",
+    "answer3": "Dans le registre des molécules chimiques (CAS), il y a toutes les molécules chimiques et les médicaments qui sont des perturbateurs endocriniens",
     "answer4": "Les propositions A, B, C et D sont fausses",
     "answer": "2"
   },
@@ -616,7 +616,7 @@
     "matiere": "Santé Environnementale",
     "chapitre": "DM 1",
     "question": "À propos des facteurs de pollutions. Choisissez-la ou les proposition(s) exacte(s)",
-    "answer0": "Les facteurs de pollution physique sont liés aux facteurs sociétaux et les phénomènes sociétaux sont liés auxfacteurs de stress",
+    "answer0": "Les facteurs de pollution physique sont liés aux facteurs sociétaux et les phénomènes sociétaux sont liés aux facteurs de stress",
     "answer1": "Les pesticides organochlorés font partie de la famille des DDT---Les pesticides organochlorés ont comme chef de file le DDT (le DDT fait partie de la famille des pesticides organochlorés)",
     "answer2": "Les pesticides phosphatés voient leur utilisation augmentée pour remplacer les organochlorées---Les pesticides phosphatés voient leur utilisation diminuée, ils étaient utilisés pour remplacer les organochlorés",
     "answer3": "Un dérivé organochloré fut utilisé lors de la GM1 pour faire le gaz moutarde",
