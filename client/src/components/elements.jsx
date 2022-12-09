@@ -40,6 +40,7 @@ export function SubjectIcon(props) {
         'Santé Numérique': <img src={sante_num} alt={props.subject} />,
         'Génétique': <img src={genetic} alt={props.subject} />,
         'Ethique': <img src={ethic} alt={props.subject} />,
+        'BDR': <img src={reproduction} alt={props.subject} />,
     }
     return (
         <>
