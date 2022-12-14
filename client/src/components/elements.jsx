@@ -22,7 +22,7 @@ import ethic from '../svg/subjects/ethique.png'
 export function SubjectIcon(props) {
     const map = {
         'Chimie Général': <img src={atom} alt={props.subject} />,
-        'Biochimie': <img src={chemistry} alt={props.subject} />,
+        'BioChimie': <img src={chemistry} alt={props.subject} />,
         'Biologie Moléculaire': <img src={dna} alt={props.subject} />,
         'Biologie Cellulaire': <img src={cells} alt={props.subject} />,
         'Histologie': <img src={cell} alt={props.subject} />,
