@@ -11,7 +11,7 @@ const nodemailer = require("nodemailer"),
     fs = require('fs'),
     hogan = require('hogan.js'),
     inlineCss = require('inline-css');
-//const data = require('./client/src/data/data.json')
+// const data = require('./client/src/data/data.json')
 
 let transporter = nodemailer.createTransport({
     pool: true,
